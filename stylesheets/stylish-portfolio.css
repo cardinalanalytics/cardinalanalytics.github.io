@@ -224,6 +224,7 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
+    background-color: #4d4f53;
 }
 
 .call-to-action .btn {
@@ -240,6 +241,10 @@ hr.small {
     .map {
         height: 75%;
     }
+}
+
+.fa-fw {
+    color: #8c1515;
 }
 
 /* Footer */
