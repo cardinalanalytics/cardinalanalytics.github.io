@@ -5,7 +5,7 @@
 	var template = Handlebars.compile(source);
 
 	var members = {
-		results: [
+		members: [
 			{
 				name: 'Scott Powers',
 				position: 'Co-President',
