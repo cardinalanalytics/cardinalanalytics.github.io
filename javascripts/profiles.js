@@ -10,7 +10,7 @@
 				name: 'Scott Powers',
 				position: 'Co-President',
 				joined: 2014,
-				image: 'portfolio-1.png',
+				image: 'portfolio-1.jpg',
 				description: 'Hi my name is Scott. I am describing myself.',
 				posts: [
 					{
@@ -27,7 +27,7 @@
 				name: 'Vihan Lakshman',
 				position: 'Co-President',
 				joined: 2014,
-				image: 'portfolio-2.png',
+				image: 'portfolio-2.jpg',
 				description: 'I was on the champion 2015 SABR Case Competition team!',
 				posts: [
 					{
@@ -40,7 +40,7 @@
 				name: 'Eli Shayer',
 				position: 'Technology Officer',
 				joined: 2014,
-				image: 'portfolio-3.png',
+				image: 'portfolio-3.jpg',
 				description: 'I like baseball and stuff',
 				posts: [
 					{
@@ -57,7 +57,7 @@
 				name: 'Sandy Huang',
 				position: 'Financial Officer',
 				joined: 2014,
-				image: 'portfolio-4.png',
+				image: 'portfolio-4.jpg',
 				description: 'I hold down all the finances',
 				posts: [
 					{
