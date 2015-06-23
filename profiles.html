@@ -34,6 +34,12 @@
 
         <div class="container">
 
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="http://stanfordsportsanalytics.com/"><img alt="Stanford Sports Analytics Club" src="images/ssac-logo.png"></a>
+                </div>
+            </div>
+
             <div class="blog-header">
                 <h1 class="blog-title">Stanford Sports Analytics Club: Member Profiles</h1>
                 <p class="lead blog-description">Get to know our members</p>
@@ -46,20 +52,14 @@
                     <!-- PROFILES -->
                     <div id="members"></div>
                     <script type="text/x-handlebars-template" id="members-template">
-                        {{#if results}}
-                            <ol class="list-unstyled">
-                                {{#each results}}
-                                    <li>
+                        {{#if members}}
+                            {{#each members}}
+                                <row>
+                                    <div class="col-sm-12">
                                         <h3>{{ name }}</h3>
-                                        {{#if position}}
-                                            <h4>{{ position }}</h4>
-                                        {{/if}}
-                                        {{#if joined}}
-                                            <h4>Member since {{ joined }}</h4>
-                                        {{/if}}
-                                        {{#if image}}
-                                            <img alt="{{ name }}" src="images/{{ image }}.jpg">
-                                        {{/if}}
+                                        {{#if position}} <h4>{{ position }}</h4> {{/if}}
+                                        {{#if joined}} <h4>Member since {{ joined }}</h4> {{/if}}
+                                        {{#if image}} <img alt={{name}} src="images/{{image}}"> {{/if}}
                                         <p>{{ description }}</h4>
                                         {{#if posts}}
                                             <h4>Blog posts:</h4>
@@ -69,10 +69,9 @@
                                                 {{/each}}
                                             </ul>
                                         {{/if}}
-                                    </li>
-                                <br>
-                                {{/each}}
-                            </ol>
+                                    </div>
+                                </row>
+                            {{/each}}
                         {{else}}
                             <span>No members found.</span>
                         {{/if}}
@@ -145,38 +144,6 @@
         <!-- Handlebars -->
         <script src="javascripts/handlebars.js"></script>
         <script src="javascripts/handlebars-helpers.js"></script>
-
-        <!-- Custom Theme JavaScript -->
-        <script>
-        // Closes the sidebar menu
-        $("#menu-close").click(function(e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("active");
-        });
-
-        // Opens the sidebar menu
-        $("#menu-toggle").click(function(e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("active");
-        });
-
-        // Scrolls to the selected menu item on the page
-        $(function() {
-            $('a[href*=#]:not([href=#])').click(function() {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
-            });
-        });
-        </script>
 
         <!-- Scripts -->
         <script src="javascripts/profiles.js"></script>
