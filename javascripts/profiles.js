@@ -58,7 +58,7 @@
 				position: 'Financial Officer',
 				joined: 2014,
 				image: 'portfolio-4',
-				description: 'I holds down all the finances',
+				description: 'I hold down all the finances',
 				posts: [
 					{
 						title: 'Why We Love Sports Analytics and Richard Sherman',
