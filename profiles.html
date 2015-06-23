@@ -54,12 +54,16 @@
                     <script type="text/x-handlebars-template" id="members-template">
                         {{#if members}}
                             {{#each members}}
-                                <row>
-                                    <div class="col-sm-12">
-                                        <h3>{{ name }}</h3>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <h3><b>{{ name }}</b></h3>
                                         {{#if position}} <h4>{{ position }}</h4> {{/if}}
                                         {{#if joined}} <h4>Member since {{ joined }}</h4> {{/if}}
-                                        {{#if image}} <img alt={{name}} src="images/{{image}}"> {{/if}}
+                                    </div>
+                                    <div class="col-sm-4">
+                                        {{#if image}} <img alt={{name}} src="images/{{image}}" height="120px"> {{/if}}
+                                    </div>
+                                    <div class="col-sm-4">
                                         <p>{{ description }}</h4>
                                         {{#if posts}}
                                             <h4>Blog posts:</h4>
@@ -70,7 +74,8 @@
                                             </ul>
                                         {{/if}}
                                     </div>
-                                </row>
+                                </div>
+                                <hr>
                             {{/each}}
                         {{else}}
                             <span>No members found.</span>
