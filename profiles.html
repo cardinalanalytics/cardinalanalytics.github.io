@@ -55,15 +55,15 @@
                         {{#if members}}
                             {{#each members}}
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
                                         <h3><b>{{ name }}</b></h3>
                                         {{#if position}} <h4>{{ position }}</h4> {{/if}}
                                         {{#if joined}} <h4>Member since {{ joined }}</h4> {{/if}}
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
                                         {{#if image}} <img alt={{name}} src="images/{{image}}" height="120px"> {{/if}}
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-6">
                                         <p>{{ description }}</h4>
                                         {{#if posts}}
                                             <h4>Blog posts:</h4>
