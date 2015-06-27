@@ -1,8 +1,7 @@
 (function(window, document, undefined) {
 
 	// Create handlebars template
-	var source = $('#members-template').html();
-	var template = Handlebars.compile(source);
+	var template = Handlebars.compile(Templates.members);
 
 	var members = {
 		members: [
