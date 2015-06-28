@@ -33,21 +33,9 @@
 
         <div class="container">
 
-            <div class="row">
-                <div class="col-xs-12 col-sm-3 col-md-3">
-                    <a href="http://stanfordsportsanalytics.com/"><img alt="Stanford Sports Analytics Club" src="https://lh3.googleusercontent.com/LzcHfBQXmDdcmpFcp59uA1SDpwOxPpIJmbKqcJO2L0Q=w182-h103-no"></a>
-                </div>
-                <div class="col-xs-12 col-sm-8 col-md-9">
-                    <a href="http://stanfordsportsanalytics.com" class="btn btn-lg btn-dark">Home</a>
-                    <a href="http://stanfordsportsanalytics.com/profiles" class="btn btn-lg btn-dark">Members</a>
-                    <a href="http://stanfordsportsanalytics.wordpress.com" class="btn btn-lg btn-dark" target="new">Blog</a>
-                </div>
-            </div>
+            <div class="row" id="banner"></div>
 
-            <div class="blog-header">
-                <h1 class="blog-title">Stanford Sports Analytics Club: Member Profiles</h1>
-                <p class="lead blog-description">Get to know our members</p>
-            </div>
+            <div class="page-header" id="title"></div>
 
             <div class="row">
 
@@ -56,7 +44,7 @@
                     <div id="members"></div>
                 </div>
 
-                <div class="col-sm-3 blog-sidebar">
+                <div class="col-sm-3 blog-sidebar" id="sidebar">
                     <div class="sidebar-module sidebar-module-inset">
                         <h4>About</h4>
                         <p>Stanford Sports Analytics Club is devoted to fostering a community of serious quantitative research into sports. If you are interested in joining, please add yourself to our mailing list below, or attend our weekly meetings.</p>
@@ -79,33 +67,11 @@
 
 
         <!-- Call to Action -->
-        <aside class="call-to-action bg-primary">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h3>Get Involved</h3>
-                        <a href="//mailman.stanford.edu/mailman/listinfo/sportsanalytics" class="btn btn-lg btn-light">Join our mailing list!</a>
-                    </div>
-                </div>
-            </div>
-        </aside>
+        <aside class="call-to-action bg-primary" id="call-to-action"></aside>
 
 
         <!-- Footer -->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1 text-center">
-                        <ul class="list-inline contact">
-                            <li><a href="https://www.facebook.com/stanfordsportsanalytics"><i class="fa fa-facebook fa-fw fa-3x"></i></a></li>
-                            <li><a href="http://twitter.com/stanfordsac"><i class="fa fa-twitter fa-fw fa-3x"></i></a></li>
-                        </ul>
-                        <hr class="small">
-                        <p class="text-muted">Copyright &copy; Stanford Sports Analytics Club 2015</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <footer id="footer" id="footer"></footer>
         <!-- Footer -->
      
         <!-- jQuery Version 1.11.0 -->
@@ -122,6 +88,7 @@
         <script src="javascripts/templates.js"></script>
 
         <!-- Scripts -->
+        <script src="javascripts/common.js"></script>
         <script src="javascripts/profiles.js"></script>
 
     </body>
