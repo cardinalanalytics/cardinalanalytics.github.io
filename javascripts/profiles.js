@@ -73,6 +73,6 @@
 		]
 	};
 
-	document.getElementById('members').innerHTML = template(members);
+	$('#members').html(template(members));
 
 })(this, this.document);
