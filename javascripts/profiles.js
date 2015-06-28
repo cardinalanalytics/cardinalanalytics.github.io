@@ -1,9 +1,7 @@
 (function(window, document, undefined) {
 
-	// Create handlebars template
-	var template = Handlebars.compile(Templates.members);
-
-	var members = {
+	// data specifically for the members page
+	var membersData = {
 		members: [
 			{
 				name: 'Scott Powers',
@@ -70,9 +68,12 @@
 				joined: 2015,
 				description: 'I like sports. My favorite team is the Stanford Cardinal.'
 			}
-		]
+		],
+		title: "Member Profiles",
+		description: "Get to know the contributors"
 	};
 
-	$('#members').html(template(members));
+	// populate page with the above data
+	populatePage(Templates.members, membersData, "#members");
 
 })(this, this.document);
