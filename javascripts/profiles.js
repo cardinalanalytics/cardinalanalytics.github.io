@@ -2,6 +2,9 @@
 
 	// data specifically for the members page
 	var membersData = {
+		title: "Member Profiles - Stanford Sports Analytics Club",
+		header: "Member Profiles",
+		description: "Get to know the contributors",
 		members: [
 			{
 				name: 'Scott Powers',
@@ -68,9 +71,7 @@
 				joined: 2015,
 				description: 'I like sports. My favorite team is the Stanford Cardinal.'
 			}
-		],
-		title: "Member Profiles",
-		description: "Get to know the contributors"
+		]
 	};
 
 	// populate page with the above data
