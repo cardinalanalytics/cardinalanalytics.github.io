@@ -2,7 +2,6 @@
 
 	// data specifically for the members page
 	var membersData = {
-		title: "Member Profiles - Stanford Sports Analytics Club",
 		header: "Member Profiles",
 		description: "Get to know the contributors",
 		members: [
