@@ -44,9 +44,9 @@ Templates.banner = [
 '</div>'
 ].join('\n');
 
-Templates.title = [
+Templates.header = [
 '{{#with pageData}}',
-'<h1 class="page-title">Stanford Sports Analytics Club: {{ title }}</h1>',
+'<h1 class="page-title">Stanford Sports Analytics Club: {{ header }}</h1>',
 '<p class="lead page-description">{{ description }}</p>',
 '{{/with}}'
 ].join('\n');
