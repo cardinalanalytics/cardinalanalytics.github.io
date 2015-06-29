@@ -4,7 +4,7 @@ populatePage = function(pageTemplate, pageData, divId) {
 	var templates = {};
 	templates.pageTemplate = Handlebars.compile(pageTemplate);
 	templates.banner = Handlebars.compile(Templates.banner);
-	templates.title = Handlebars.compile(Templates.title);
+	templates.header = Handlebars.compile(Templates.header);
 	templates.callToAction = Handlebars.compile(Templates.callToAction);
 	templates.footer = Handlebars.compile(Templates.footer);
 
@@ -18,7 +18,7 @@ populatePage = function(pageTemplate, pageData, divId) {
 	buttons.banner = [
 		{text: links.home.name, link: links.home.link, color: "dark"},
 		{text: "Profiles", link: "www.stanfordsportsanalytics.com/profiles", color: "dark"},
-		{text: "Blog", link: "http://stanfordsportsanalytics.wordpress.com", color: "dark", target: "new"}
+		{text: links.blog.name, link: links.blog.link, color: "dark", target: "new"}
 	];
 	buttons.mailList = {text: "Join our mailing list!", link: "//mailman.stanford.edu/mailman/listinfo/sportsanalytics", color: "light", target: "new"};
 
@@ -28,10 +28,17 @@ populatePage = function(pageTemplate, pageData, divId) {
 	data.year = new Date().getFullYear();
 	data.pageData = pageData
 
-	$("#banner").html(templates.banner(data));
-	$("#title").html(templates.title(data));
-	$("#call-to-action").html(templates.callToAction(data));
-	$("#footer").html(templates.footer(data));
-	$(divId).html(templates.pageTemplate(data));
+	populateElement = function(divId, template, data) {
+		var $element = $(divId);
+		if ($element.length) {
+			$element.html(template(data));
+		}
+	}
 
+	populateElement("#banner", templates.banner, data);
+	populateElement("#header", templates.header, data);
+	populateElement("#call-to-action", templates.callToAction, data);
+	populateElement("#footer", templates.footer, data);
+	populateElement(divId, templates.pageTemplate, data);
+	$("title").html(pageData.title);
 };
