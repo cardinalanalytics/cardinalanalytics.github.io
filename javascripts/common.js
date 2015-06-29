@@ -40,5 +40,4 @@ populatePage = function(pageTemplate, pageData, divId) {
 	populateElement("#call-to-action", templates.callToAction, data);
 	populateElement("#footer", templates.footer, data);
 	populateElement(divId, templates.pageTemplate, data);
-	$("#title").html(pageData.title);
 };
