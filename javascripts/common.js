@@ -5,6 +5,7 @@ populatePage = function(pageTemplate, pageData, divId) {
 	templates.pageTemplate = Handlebars.compile(pageTemplate);
 	templates.banner = Handlebars.compile(Templates.banner);
 	templates.header = Handlebars.compile(Templates.header);
+	templates.sidebar = Handlebars.compile(Templates.sidebar);
 	templates.callToAction = Handlebars.compile(Templates.callToAction);
 	templates.footer = Handlebars.compile(Templates.footer);
 
@@ -37,6 +38,7 @@ populatePage = function(pageTemplate, pageData, divId) {
 
 	populateElement("#banner", templates.banner, data);
 	populateElement("#header", templates.header, data);
+	populateElement("#sidebar", templates.sidebar, data);
 	populateElement("#call-to-action", templates.callToAction, data);
 	populateElement("#footer", templates.footer, data);
 	populateElement(divId, templates.pageTemplate, data);
