@@ -78,3 +78,18 @@ Templates.footer = [
     '</div>',
 '</div>'
 ].join('\n');
+
+Templates.sidebar = [
+'<div class="sidebar-module sidebar-module-inset">',
+    '<h4>About</h4>',
+    '<p>Stanford Sports Analytics Club is devoted to fostering a community of serious quantitative research into sports. If you are interested in joining, please add yourself to our mailing list below, or attend our weekly meetings.</p>',
+'</div>',
+'<div class="sidebar-module">',
+    '<h4>Elsewhere</h4>',
+    '<ol class="list-unstyled">',
+        '<li><a href="{{ links.twitter.link}}">{{ links.twitter.name}}</a></li>',
+        '<li><a href="{{ links.facebook.link }}">{{ links.facebook.name }}</a></li>',
+        '<li><a href="{{ links.blog.link }}">{{ links.blog.name }}</a></li>',
+    '</ol>',
+'</div>',
+].join('\n');
