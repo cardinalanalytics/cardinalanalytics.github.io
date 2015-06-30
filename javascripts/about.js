@@ -2,8 +2,8 @@
 
 	// data specifically for the about page
 	var aboutData = {
-		header: "Member Profiles",
-		description: "Get to know the contributors",
+		header: "About Us",
+		description: "Learn about the Stanford Sports Analytics Club",
 	};
 	
 	// Handlebars template for the about page
