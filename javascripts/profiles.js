@@ -73,7 +73,7 @@
 		]
 	};
 	
-	membersTemplate = [
+	var membersTemplate = [
 	'{{#with pageData}}',
 	    '{{#if members}}',
 	        '{{#each members}}',
