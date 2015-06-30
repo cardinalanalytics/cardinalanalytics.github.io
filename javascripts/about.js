@@ -8,7 +8,7 @@
 	
 	// Handlebars template for the about page
 	var aboutTemplate = [
-        '<h3>Content about SSAC</h3>
+        	'<h3>Content about SSAC</h3>'
 	].join('\n');
 
 	// populate page with the above data
