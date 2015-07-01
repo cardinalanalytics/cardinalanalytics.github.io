@@ -18,6 +18,7 @@ populatePage = function(pageTemplate, pageData, divId) {
 	var buttons = {};
 	buttons.banner = [
 		{text: links.home.name, link: links.home.link, color: "dark"},
+		{text: "About Us", link: "www.stanfordsportsanalytics.com/about", color: "dark"},
 		{text: "Profiles", link: "www.stanfordsportsanalytics.com/profiles", color: "dark"},
 		{text: links.blog.name, link: links.blog.link, color: "dark", target: "new"}
 	];
