@@ -10,16 +10,16 @@ populatePage = function(pageTemplate, pageData, divId) {
 	templates.footer = Handlebars.compile(Templates.footer);
 
 	var links = {};
-	links.home = { name: "Home", link: "www.stanfordsportsanalytics.com" };
-	links.twitter = { name: "Twitter", link: "www.twitter.com/stanfordsac" };
-	links.facebook = { name: "Facebook", link: "www.facebook.com/stanfordsportsanalytics" };
-	links.blog = { name: "Blog", link: "www.stanfordsportsanalytics.wordpress.com" };
+	links.home = { name: "Home", link: "http://www.stanfordsportsanalytics.com" };
+	links.twitter = { name: "Twitter", link: "http://www.twitter.com/stanfordsac" };
+	links.facebook = { name: "Facebook", link: "http://www.facebook.com/stanfordsportsanalytics" };
+	links.blog = { name: "Blog", link: "http://www.stanfordsportsanalytics.wordpress.com" };
 
 	var buttons = {};
 	buttons.banner = [
 		{text: links.home.name, link: links.home.link, color: "dark"},
-		{text: "About Us", link: "www.stanfordsportsanalytics.com/about", color: "dark"},
-		{text: "Profiles", link: "www.stanfordsportsanalytics.com/profiles", color: "dark"},
+		{text: "About Us", link: "http://www.stanfordsportsanalytics.com/about", color: "dark"},
+		{text: "Profiles", link: "http://www.stanfordsportsanalytics.com/profiles", color: "dark"},
 		{text: links.blog.name, link: links.blog.link, color: "dark", target: "new"}
 	];
 	buttons.mailList = {text: "Join our mailing list!", link: "//mailman.stanford.edu/mailman/listinfo/sportsanalytics", color: "light", target: "new"};
