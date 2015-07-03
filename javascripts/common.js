@@ -56,5 +56,9 @@ populatePage = function(pageTemplate, pageData, divId) {
 	populateElement("#footer", templates.footer, data);
 	populateElement(divId, templates.pageTemplate, data);
 	
-	console.log(document.getElementsByTagName("head"))
+	var head = document.getElementsByTagName("head")[0];
+	while (head != null) {
+		console.log(head);
+		head = head.parentNode;
+	}
 };
