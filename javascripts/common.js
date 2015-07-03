@@ -56,5 +56,5 @@ populatePage = function(pageTemplate, pageData, divId) {
 	populateElement("#footer", templates.footer, data);
 	populateElement(divId, templates.pageTemplate, data);
 	
-	console.log(document.getElementsByTagName("meta"))
+	console.log(document.getElementsByTagName("head"))
 };
