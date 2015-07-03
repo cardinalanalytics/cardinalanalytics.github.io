@@ -16,12 +16,14 @@ populatePage = function(pageTemplate, pageData, divId) {
 	templates.callToAction = Handlebars.compile(Templates.callToAction);
 	templates.footer = Handlebars.compile(Templates.footer);
 
+	// links common to the entire site
 	var links = {};
 	links.home = { name: "Home", link: "http://www.stanfordsportsanalytics.com" };
 	links.twitter = { name: "Twitter", link: "http://www.twitter.com/stanfordsac" };
 	links.facebook = { name: "Facebook", link: "http://www.facebook.com/stanfordsportsanalytics" };
 	links.blog = { name: "Blog", link: "http://www.stanfordsportsanalytics.wordpress.com" };
 
+	// buttons, split into buttons that belong on the banner and the rest
 	var buttons = {};
 	buttons.banner = [
 		{text: links.home.name, link: links.home.link, color: "dark"},
@@ -31,12 +33,14 @@ populatePage = function(pageTemplate, pageData, divId) {
 	];
 	buttons.mailList = {text: "Join our mailing list!", link: "//mailman.stanford.edu/mailman/listinfo/sportsanalytics", color: "light", target: "new"};
 
+	// move all of the sources of data into a single object for a standardized Handlebars call
 	var data = {};
 	data.links = links;
 	data.buttons = buttons;
 	data.year = new Date().getFullYear();
 	data.pageData = pageData
 
+	// function to render a Handlebars template with data, and place the result into the element with id divId
 	populateElement = function(divId, template, data) {
 		var $element = $(divId);
 		if ($element.length) {
@@ -44,10 +48,13 @@ populatePage = function(pageTemplate, pageData, divId) {
 		}
 	}
 
+	// populates each of the common elements and the element specified in the function call
 	populateElement("#banner", templates.banner, data);
 	populateElement("#header", templates.header, data);
 	populateElement("#sidebar", templates.sidebar, data);
 	populateElement("#call-to-action", templates.callToAction, data);
 	populateElement("#footer", templates.footer, data);
 	populateElement(divId, templates.pageTemplate, data);
+	
+	console.log(document.getElementsByTagName("meta"))
 };
