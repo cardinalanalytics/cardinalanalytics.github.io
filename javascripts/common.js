@@ -1,3 +1,10 @@
+// A script to automate the use of templates common to multiple web pages.
+// Used as a function into which the content specific to a page is passed
+// as a variable, as well as the corresponding data and ID of te HTML
+// element that will hold the content. Additionally compiles and renders
+// HTML for the banner, header, sidebar, call to action, and footer.
+// Also contains common data, such as the links.
+
 populatePage = function(pageTemplate, pageData, divId) {
 
 	// Create handlebars template
