@@ -84,7 +84,7 @@
 	                    '{{#if joined}} <h4>Member since {{ joined }}</h4> {{/if}}',
 	                '</div>',
 	                '<div class="col-xs-12 col-sm-6 col-md-3">',
-	                    '{{#if image}} <img alt={{name}} src="images/{{image}}" height="120px"> {{/if}}',
+	                    '{{#if image}} <img alt={{name}} src="{{image}}" height="120px"> {{/if}}',
 	                '</div>',
 	                '<div class="col-xs-12 col-md-6">',
 	                    '<p>{{ description }}</h4>',
