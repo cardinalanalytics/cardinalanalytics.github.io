@@ -9,8 +9,8 @@
 				name: 'Scott Powers',
 				position: 'Co-President',
 				joined: 2014,
-				image: 'portfolio-1.jpg',
-				description: 'Hi my name is Scott. I am describing myself.',
+				image: 'https://lh3.googleusercontent.com/bMun0W0Rf54Z9Nz48tkbaupLPe09EiJk-kegj5l9Grw=s623-no',
+				description: "Scott is a PhD student in statistics and an analytics consultant to the Oakland Athletics. In the 2016 spring quarter he will lecture Stanford's STATS 50: Analytic Methods in Sports. Outside of work, he is a catcher on the club baseball team and a setter on the club volleyball team.",
 				posts: [
 					{
 						title: 'The Frictional Cost of a Call to the Bullpen',
