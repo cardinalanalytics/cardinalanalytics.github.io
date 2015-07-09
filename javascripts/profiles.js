@@ -39,8 +39,8 @@
 				name: 'Eli Shayer',
 				position: 'Technology Officer',
 				joined: 2014,
-				image: 'images/portfolio-3.jpg',
-				description: 'I like baseball and stuff',
+				image: 'https://lh3.googleusercontent.com/sk9vV-gQD8HxJBt7Tqct1_9C1QhpQa6PywmvofyBV9I=s330-no',
+				description: "Eli is a undergraduate student in the class of 2018. His favorite sport is baseball, and he is an avid fan of the Saint Louis Cardinals. He was on one of Stanford's teams at the 2015 SABR Analytics Conference Case Competition. As the tech officer, he made a good portion of this website!",
 				posts: [
 					{
 						title: 'The Frictional Cost of a Call to the Bullpen',
@@ -66,9 +66,10 @@
 				]
 			},
 			{
-				name: 'General Member',
+				name: 'David Cameron',
 				joined: 2015,
-				description: 'I like sports. My favorite team is the Stanford Cardinal.'
+				image: 'https://lh3.googleusercontent.com/xptr1Ly-GJzjzltWSfxWvf-u0bsncrX31DO6C7vl2e0=w575-h623-no',
+				description: 'Dave is a post-doctoral scholar in the Energy Resources Engineering Department, whose research involves optimizing monitoring networks for carbon storage operations. Originally from Australia, he developed a taste for ice-hockey after marrying a Canadian. Eh? Dave is real excited about his stat, which applies the Chess-rating system to provide real-time unbiased NHL player ratings. Check out his website at <a href="http://www.hockeystatsrevolution.com">hockeystatsrevolution.com</a>.'
 			}
 		]
 	};
