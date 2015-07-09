@@ -69,7 +69,7 @@
 				name: 'David Cameron',
 				joined: 2015,
 				image: 'https://lh3.googleusercontent.com/xptr1Ly-GJzjzltWSfxWvf-u0bsncrX31DO6C7vl2e0=w575-h623-no',
-				description: 'Dave is a post-doctoral scholar in the Energy Resources Engineering Department, whose research involves optimizing monitoring networks for carbon storage operations. Originally from Australia, he developed a taste for ice-hockey after marrying a Canadian. Eh? Dave is real excited about his stat, which applies the Chess-rating system to provide real-time unbiased NHL player ratings. Check out his website at http://www.hockeystatsrevolution.com'
+				description: 'Dave is a post-doctoral scholar in the Energy Resources Engineering Department, whose research involves optimizing monitoring networks for carbon storage operations. Originally from Australia, he developed a taste for ice-hockey after marrying a Canadian. Eh? Dave is real excited about his stat, which applies the Chess-rating system to provide real-time unbiased NHL player ratings. Check out his website at www.hockeystatsrevolution.com'
 			}
 		]
 	};
