@@ -75,7 +75,7 @@
 				name: 'Konstantinos Balafas',
 				joined: 2014,
 				image: 'https://lh3.googleusercontent.com/ux6f6xVw5xYOQnn3S1fxHHPx0sNAHfTFHxFgtquxtTI=s240-no',
-				description: "Kostas grew up in Athens, Greece and just finished his PhD in civil engineering where he detected earthquake damage in buildings from acceleration measurements. He loves soccer and AC Milan, trusts in Arsene, yet misses not being at the office for Champions’ League games. That last part made basketball (Rock Chalk!) his go-to sport for watching and bringing up at SSAC meetings/presentations. Right now, he’s looking to “take his talents” to data science and will never say no to a pickup game of soccer of basketball."
+				description: "Kostas grew up in Athens, Greece and just finished his PhD in civil engineering where he detected earthquake damage in buildings from acceleration measurements. He loves soccer and AC Milan, trusts in Arsene, yet misses not being at the office for Champions’ League games. That last part made basketball (Rock Chalk!) his go-to sport for watching and bringing up at SSAC meetings/presentations. Right now, he’s looking to “take his talents” to data science and will never say no to a pickup game of soccer of basketball.",
 				posts: [
 					{
 						title: 'The Importance of Having a High NBA Draft Pick',
