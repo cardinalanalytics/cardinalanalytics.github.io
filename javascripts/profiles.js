@@ -71,6 +71,18 @@
 				image: 'https://lh3.googleusercontent.com/xptr1Ly-GJzjzltWSfxWvf-u0bsncrX31DO6C7vl2e0=w575-h623-no',
 				description: 'Dave is a post-doctoral scholar in the Energy Resources Engineering Department, whose research involves optimizing monitoring networks for carbon storage operations. Originally from Australia, he developed a taste for ice-hockey after marrying a Canadian. Eh? Dave is real excited about his stat, which applies the Chess-rating system to provide real-time unbiased NHL player ratings. Check out his website at <a href="http://www.hockeystatsrevolution.com">www.hockeystatsrevolution.com</a>'
 			}
+			{
+				name: 'Konstantinos Balafas',
+				joined: 2014,
+				image: 'https://lh3.googleusercontent.com/ux6f6xVw5xYOQnn3S1fxHHPx0sNAHfTFHxFgtquxtTI=s240-no',
+				description: "Kostas grew up in Athens, Greece and just finished his PhD in civil engineering where he detected earthquake damage in buildings from acceleration measurements. He loves soccer and AC Milan, trusts in Arsene, yet misses not being at the office for Champions’ League games. That last part made basketball (Rock Chalk!) his go-to sport for watching and bringing up at SSAC meetings/presentations. Right now, he’s looking to “take his talents” to data science and will never say no to a pickup game of soccer of basketball."
+				posts: [
+					{
+						title: 'The Importance of Having a High NBA Draft Pick',
+						link: 'https://stanfordsportsanalytics.wordpress.com/2014/11/30/the-importance-of-having-a-high-nba-draft-pick/'
+					}
+				]
+			}
 		]
 	};
 	
