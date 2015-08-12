@@ -56,8 +56,8 @@
 				name: 'Sandy Huang',
 				position: 'Financial Officer',
 				joined: 2014,
-				image: 'images/portfolio-4.jpg',
-				description: 'I hold down all the finances',
+				image: 'https://lh3.googleusercontent.com/bHZYk9YBCEWR9FvnMYcji_-RwFlIrhDUqRjDfceYhYk=w148-h225-no',
+				description: "Sandy is a coterminal master's student from Kentucky studying Management Science & Engineering (MS&E). His undergrad degree was in Philosophy where he wrote a thesis on Nietzsche. In his free time, he enjoys reading books, listening to hip-hop, and playing chess. He roots for the Kentucky Wildcats, the Warriors, the Raiders, and of course the Stanford Cardinal.",
 				posts: [
 					{
 						title: 'Why We Love Sports Analytics and Richard Sherman',
