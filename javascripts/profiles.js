@@ -26,8 +26,8 @@
 				name: 'Vihan Lakshman',
 				position: 'Co-President',
 				joined: 2014,
-				image: 'images/portfolio-2.jpg',
-				description: 'I was on the champion 2015 SABR Case Competition team!',
+				image: 'https://lh3.googleusercontent.com/23JoGnp-oc8lzAdP1ncRa3j9V3bArCbXNmyA96_ztTk=w1280-h849-no',
+				description: "Vihan Lakshman is a majoring in Math and Computational Science. He covers Cardinal football and basketball for The Stanford Daily and KZSU student radio, and was also a member of the winning undergraduate team at the 2015 SABR Diamond Dollars Case Competition. Originally from Savannah, GA, Vihan is an ardent supporter of the Falcons, Braves, and Hawks.",
 				posts: [
 					{
 						title: 'Examing MLB Postseason Cluster Luck: Or, Why the Playoffs Might Be a Crapshoot',
