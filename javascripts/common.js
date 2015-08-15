@@ -65,7 +65,7 @@ populatePage = function(pageTemplate, pageData, divId) {
 	populateElement(divId, templates.pageTemplate, data);
 
 	// set the active tab in the navbar
-	$.each($(".navbar-nav")[0].children, function(index, li) {
+	$.each($("#navbar-tabs")[0].children, function(index, li) {
 		// have to remove the final character from the li text
 		if (li.innerText.substring(0, li.innerText.length - 1) === data.pageData.navbarTitle) {
 			li.className += "active";
