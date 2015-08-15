@@ -7,14 +7,22 @@
 
 populatePage = function(pageTemplate, pageData, divId) {
 
+	function safeHandlebarsCompile(template) {
+		try {
+			return Handlebars.compile(template);
+		} catch(err) {
+			return null;
+		}
+	}
+
 	// Create handlebars template
 	var templates = {};
-	templates.pageTemplate = Handlebars.compile(pageTemplate);
-	templates.navbar = Handlebars.compile(Templates.navbar);
-	templates.header = Handlebars.compile(Templates.header);
-	templates.sidebar = Handlebars.compile(Templates.sidebar);
-	templates.callToAction = Handlebars.compile(Templates.callToAction);
-	templates.footer = Handlebars.compile(Templates.footer);
+	templates.pageTemplate = safeHandlebarsCompile(pageTemplate);
+	templates.navbar = safeHandlebarsCompile(Templates.navbar);
+	templates.header = safeHandlebarsCompile(Templates.header);
+	templates.sidebar = safeHandlebarsCompile(Templates.sidebar);
+	templates.callToAction = safeHandlebarsCompile(Templates.callToAction);
+	templates.footer = safeHandlebarsCompile(Templates.footer);
 
 	// links common to the entire site
 	var links = {};
@@ -40,12 +48,11 @@ populatePage = function(pageTemplate, pageData, divId) {
 	data.year = new Date().getFullYear();
 	data.pageData = pageData
 
-	console.log(data.pageData.header);
-
 	// function to render a Handlebars template with data, and place the result into the element with id divId
-	populateElement = function(divId, template, data) {
+	function populateElement(divId, template, data) {
 		var $element = $(divId);
-		if ($element.length) {
+		if ($element.length && template && data) {
+			console.log("Populating " + divId)
 			$element.html(template(data));
 		}
 	}
