@@ -1,16 +1,25 @@
+// The templates common to all pages
 var Templates = {};
 
+// The common banner
 Templates.banner = [
-'<div class="col-xs-12 col-sm-3 col-md-3">',
-    '<a href="http://stanfordsportsanalytics.com/" target="_parent"><img alt="Stanford Sports Analytics Club" src="https://lh3.googleusercontent.com/LzcHfBQXmDdcmpFcp59uA1SDpwOxPpIJmbKqcJO2L0Q=w182-h103-no"></a>',
-'</div>',
-'<div class="col-xs-12 col-sm-8 col-md-9">',
-    '{{#each buttons.banner}}',
-    '<a href="{{ link }}" class="btn btn-lg btn-{{ color }}" target="{{#if target}}new{{else}}_parent{{/if}}">{{ text }}</a>',
-    '{{/each}}',
+'<div class="row banner-background">',
+    '<div class="container">',
+        '<div class="row">',
+            '<div class="col-xs-12 banner-list">',
+                '<ul>',
+                    '<li><a href="http://stanfordsportsanalytics.com/" target="_parent"><img alt="Stanford Sports Analytics Club" src="https://lh3.googleusercontent.com/LzcHfBQXmDdcmpFcp59uA1SDpwOxPpIJmbKqcJO2L0Q=w182-h103-no"></a></li>',
+                    '{{#each buttons.banner}}',
+                    '<li><a href="{{ link }}" class="btn btn-lg btn-{{ color }}" target="{{#if target}}new{{else}}_parent{{/if}}">{{ text }}</a></li>',
+                    '{{/each}}',
+                '</ul>',
+            '</div>',
+        '</div>',
+    '</div>',
 '</div>'
 ].join('\n');
 
+// the header for pages including the title and subtitle
 Templates.header = [
 '{{#with pageData}}',
 '<h1 class="page-title">Stanford Sports Analytics Club: {{ header }}</h1>',
@@ -18,6 +27,7 @@ Templates.header = [
 '{{/with}}'
 ].join('\n');
 
+// The "callToAction," which includes the link to the mail list sign-up
 Templates.callToAction = [
 '<div class="container">',
     '<div class="row">',
@@ -31,6 +41,7 @@ Templates.callToAction = [
 '</div>'
 ].join('\n');
 
+// footer, which contains links to facebook and twitter, and a copyright
 Templates.footer = [
 '<div class="container">',
     '<div class="row">',
@@ -46,6 +57,7 @@ Templates.footer = [
 '</div>'
 ].join('\n');
 
+// the sidebar, with a short "About" and links to twitter, facebook, and the blog
 Templates.sidebar = [
 '<div class="sidebar-module sidebar-module-inset">',
     '<h4>About</h4>',

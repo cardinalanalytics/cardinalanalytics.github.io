@@ -1,0 +1,15 @@
+/* A general stylesheet for the SSAC website */
+
+/* Banner styles */
+
+.banner-background {
+	background-color: #a9a9a9;
+}
+
+.banner-list li {
+	list-style-type: none;
+	display: inline;
+	font-size: 24px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
