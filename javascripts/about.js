@@ -4,6 +4,7 @@
 	var aboutData = {
 		header: "About Us",
 		description: "Learn about the Stanford Sports Analytics Club",
+		navbarTitle: "About Us"
 	};
 	
 	// Handlebars template for the about page

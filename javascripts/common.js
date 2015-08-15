@@ -52,7 +52,6 @@ populatePage = function(pageTemplate, pageData, divId) {
 	function populateElement(divId, template, data) {
 		var $element = $(divId);
 		if ($element.length && template && data) {
-			console.log("Populating " + divId)
 			$element.html(template(data));
 		}
 	}
@@ -64,4 +63,13 @@ populatePage = function(pageTemplate, pageData, divId) {
 	populateElement("#call-to-action", templates.callToAction, data);
 	populateElement("#footer", templates.footer, data);
 	populateElement(divId, templates.pageTemplate, data);
+
+	// set the active tab in the navbar
+	$.each($(".navbar-nav")[0].children, function(index, li) {
+		// have to remove the final character from the li text
+		if (li.innerText.substring(0, li.innerText.length - 1) === data.pageData.navbarTitle) {
+			li.className += "active";
+			li.children[0].innerHTML += '<span class="sr-only"> (current)</span>';
+		}
+	});
 };

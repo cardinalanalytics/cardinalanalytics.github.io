@@ -4,6 +4,7 @@
 	var membersData = {
 		header: "Member Profiles",
 		description: "Get to know the contributors",
+		navbarTitle: "Profiles",
 		members: [
 			{
 				name: 'Scott Powers',

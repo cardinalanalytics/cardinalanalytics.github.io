@@ -1,5 +1,5 @@
 (function(window, document, undefined) {
 
-	populatePage();
+	populatePage(null, {navbarTitle: "Home"}, null);
 
 })(this, this.document);
