@@ -2,7 +2,7 @@
 // Used as a function into which the content specific to a page is passed
 // as a variable, as well as the corresponding data and ID of te HTML
 // element that will hold the content. Additionally compiles and renders
-// HTML for the banner, header, sidebar, call to action, and footer.
+// HTML for the navbar, header, sidebar, call to action, and footer.
 // Also contains common data, such as the links.
 
 populatePage = function(pageTemplate, pageData, divId) {
@@ -10,7 +10,7 @@ populatePage = function(pageTemplate, pageData, divId) {
 	// Create handlebars template
 	var templates = {};
 	templates.pageTemplate = Handlebars.compile(pageTemplate);
-	templates.banner = Handlebars.compile(Templates.banner);
+	templates.navbar = Handlebars.compile(Templates.navbar);
 	templates.header = Handlebars.compile(Templates.header);
 	templates.sidebar = Handlebars.compile(Templates.sidebar);
 	templates.callToAction = Handlebars.compile(Templates.callToAction);
@@ -25,11 +25,11 @@ populatePage = function(pageTemplate, pageData, divId) {
 
 	// buttons, split into buttons that belong on the banner and the rest
 	var buttons = {};
-	buttons.banner = [
-		{text: links.home.name, link: links.home.link, color: "dark"},
-		{text: "About Us", link: "http://www.stanfordsportsanalytics.com/about", color: "dark"},
-		{text: "Profiles", link: "http://www.stanfordsportsanalytics.com/profiles", color: "dark"},
-		{text: links.blog.name, link: links.blog.link, color: "dark", target: "new"}
+	buttons.navbar = [
+		{text: links.home.name, link: links.home.link},
+		{text: "About Us", link: links.home.link + "/about"},
+		{text: "Profiles", link: links.home.link + "/profiles"},
+		{text: links.blog.name, link: links.blog.link, target: "new"}
 	];
 	buttons.mailList = {text: "Join our mailing list!", link: "//mailman.stanford.edu/mailman/listinfo/sportsanalytics", color: "light", target: "new"};
 
@@ -40,6 +40,8 @@ populatePage = function(pageTemplate, pageData, divId) {
 	data.year = new Date().getFullYear();
 	data.pageData = pageData
 
+	console.log(data.pageData.header);
+
 	// function to render a Handlebars template with data, and place the result into the element with id divId
 	populateElement = function(divId, template, data) {
 		var $element = $(divId);
@@ -49,16 +51,10 @@ populatePage = function(pageTemplate, pageData, divId) {
 	}
 
 	// populates each of the common elements and the element specified in the function call
-	populateElement("#banner", templates.banner, data);
+	populateElement("#navbar", templates.navbar, data);
 	populateElement("#header", templates.header, data);
 	populateElement("#sidebar", templates.sidebar, data);
 	populateElement("#call-to-action", templates.callToAction, data);
 	populateElement("#footer", templates.footer, data);
 	populateElement(divId, templates.pageTemplate, data);
-	
-	var head = document.getElementsByTagName("head")[0];
-	while (head != null) {
-		console.log(head);
-		head = head.parentNode;
-	}
 };

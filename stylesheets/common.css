@@ -1,15 +1,15 @@
 /* A general stylesheet for the SSAC website */
 
-/* Banner styles */
+/* Navbar styles */
 
-.banner-background {
-	background-color: #a9a9a9;
+.navbar-brand {
+	padding-top: 0px;
 }
 
-.banner-list li {
-	list-style-type: none;
-	display: inline;
-	font-size: 24px;
-	margin-left: 2px;
-	margin-right: 2px;
+.navbar-brand img {
+	height: 50px;
+}
+
+.navbar-collapse {
+	font-size: 20px;
 }

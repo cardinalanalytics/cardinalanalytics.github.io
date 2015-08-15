@@ -2,28 +2,35 @@
 var Templates = {};
 
 // The common banner
-Templates.banner = [
-'<div class="row banner-background">',
+Templates.navbar = [
+'<nav class="navbar navbar-default navbar-ssac">',
     '<div class="container">',
-        '<div class="row">',
-            '<div class="col-xs-12 banner-list">',
-                '<ul>',
-                    '<li><a href="http://stanfordsportsanalytics.com/" target="_parent"><img alt="Stanford Sports Analytics Club" src="https://lh3.googleusercontent.com/LzcHfBQXmDdcmpFcp59uA1SDpwOxPpIJmbKqcJO2L0Q=w182-h103-no"></a></li>',
-                    '{{#each buttons.banner}}',
-                    '<li><a href="{{ link }}" class="btn btn-lg btn-{{ color }}" target="{{#if target}}new{{else}}_parent{{/if}}">{{ text }}</a></li>',
-                    '{{/each}}',
-                '</ul>',
-            '</div>',
+        '<div class="navbar-header">',
+            '<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ssac-navbar-collapse" aria-expanded="false">',
+                '<span class="sr-only">Toggle navigation</span>',
+                '<span class="icon-bar"></span>',
+                '<span class="icon-bar"></span>',
+                '<span class="icon-bar"></span>',
+            '</button>',
+            '<a class="navbar-brand" href="/"><img alt="Stanford Sports Analytics Club" src="https://lh3.googleusercontent.com/LzcHfBQXmDdcmpFcp59uA1SDpwOxPpIJmbKqcJO2L0Q=w182-h103-no" id="ssac-logo"></a>',
+        '</div>',
+        '<div class="collapse navbar-collapse">',
+            '<ul class="nav navbar-nav">',
+                '<li><a href="http://www.stanfordsportsanalytics.com">Home</a></li>',
+                '<li><a href="http://www.stanfordsportsanalytics.com/about.html">About Us</a></li>',
+                '<li><a href="http://www.stanfordsportsanalytics.com/profiles.html">Profiles</a></li>',
+                '<li><a href="www.stanfordsportsanalytics.wordpress.com">Blog</a></li>',
+            '</ul>',
         '</div>',
     '</div>',
-'</div>'
+'</nav>'
 ].join('\n');
 
 // the header for pages including the title and subtitle
 Templates.header = [
 '{{#with pageData}}',
 '<h1 class="page-title">Stanford Sports Analytics Club: {{ header }}</h1>',
-'<p class="lead page-description">{{ description }}</p>',
+'<h3 class="lead page-description">{{ description }}</h3>',
 '{{/with}}'
 ].join('\n');
 
