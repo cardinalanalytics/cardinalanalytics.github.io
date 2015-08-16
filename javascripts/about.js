@@ -4,7 +4,7 @@
 	var aboutData = {
 		header: "About Us",
 		description: "Learn about the Stanford Sports Analytics Club",
-		navbarTitle: "About Us"
+		navbarTitle: "About"
 	};
 	
 	// Handlebars template for the about page
@@ -14,6 +14,6 @@
 	].join('\n');
 
 	// populate page with the above data
-	populatePage(aboutTemplate, aboutData, "#about");
+	populatePage(aboutTemplate, aboutData);
 
 })(this, this.document);

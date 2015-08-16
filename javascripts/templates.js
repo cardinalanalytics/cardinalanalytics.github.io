@@ -22,8 +22,8 @@ Templates.navbar = [
                 '<li><a href="http://www.stanfordsportsanalytics.wordpress.com" target="new">Blog</a></li>',
             '</ul>',
             '<ul class="nav navbar-nav navbar-right">',
-                '<li><a href="{{ links.facebook.link }}" target="_parent"><i class="fa fa-facebook fa-fw fa-1x"></i></a></li>',
-                '<li><a href="{{ links.twitter.link }}" target="_parent"><i class="fa fa-twitter fa-fw fa-1x"></i></a></li>',
+                '<li><a href="{{ links.facebook.link }}" target="new"><i class="fa fa-facebook fa-fw fa-1x"></i></a></li>',
+                '<li><a href="{{ links.twitter.link }}" target="new"><i class="fa fa-twitter fa-fw fa-1x"></i></a></li>',
             '</ul>',
         '</div>',
     '</div>',
@@ -33,7 +33,7 @@ Templates.navbar = [
 // the header for pages including the title and subtitle
 Templates.header = [
 '{{#with pageData}}',
-'<h1 class="page-title">Stanford Sports Analytics Club: {{ header }}</h1>',
+'<h1 class="page-title">{{ header }}</h1>',
 '<h3 class="lead page-description">{{ description }}</h3>',
 '{{/with}}'
 ].join('\n');
@@ -45,7 +45,7 @@ Templates.callToAction = [
         '<div class="col-xs-12 text-center">',
             '<h3>Get Involved</h3>',
             '{{#with buttons.mailList}}',
-            '<a href="{{ link }}" class="btn btn-lg btn-{{ color }}" target="{{#if target}}new{{else}}_parent{{/if}}">{{ text }}</a>',
+            '<a href="{{ link }}" class="btn btn-lg btn-{{ color }} btn-mailing-list" target="{{#if target}}new{{else}}_parent{{/if}}">{{ text }}</a>',
             '{{/with}}',
         '</div>',
     '</div>',
@@ -58,8 +58,8 @@ Templates.footer = [
     '<div class="row">',
         '<div class="col-xs-12 text-center">',
             '<ul class="list-inline contact">',
-                '<li><a href="{{ links.facebook.link }}" target="_parent"><i class="fa fa-facebook fa-fw fa-3x"></i></a></li>',
-                '<li><a href="{{ links.twitter.link }}" target="_parent"><i class="fa fa-twitter fa-fw fa-3x"></i></a></li>',
+                '<li><a href="{{ links.facebook.link }}" target="new"><i class="fa fa-facebook fa-fw fa-3x"></i></a></li>',
+                '<li><a href="{{ links.twitter.link }}" target="new"><i class="fa fa-twitter fa-fw fa-3x"></i></a></li>',
             '</ul>',
             '<hr class="small">',
             '<p class="text-muted">Copyright &copy; Stanford Sports Analytics Club {{ year }}</p>',

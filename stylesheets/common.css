@@ -17,3 +17,13 @@ body {
 .navbar-collapse {
 	font-size: 20px;
 }
+
+/* Additional padding to the bottom of the main content */
+#content {
+	padding-bottom: 2em;
+}
+
+/* Styles for the mailing list button */
+.btn-mailing-list {
+	border-radius: 0.5em;
+}

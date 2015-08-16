@@ -121,6 +121,6 @@
 	].join('\n');
 
 	// populate page with the above data
-	populatePage(membersTemplate, membersData, "#members");
+	populatePage(membersTemplate, membersData);
 
 })(this, this.document);

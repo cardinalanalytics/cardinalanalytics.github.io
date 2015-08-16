@@ -5,8 +5,8 @@
 // HTML for the navbar, header, sidebar, call to action, and footer.
 // Also contains common data, such as the links.
 
-populatePage = function(pageTemplate, pageData, divId) {
-
+populatePage = function(pageTemplate, pageData) {
+	console.log(pageTemplate);
 	function safeHandlebarsCompile(template) {
 		try {
 			return Handlebars.compile(template);
@@ -35,7 +35,7 @@ populatePage = function(pageTemplate, pageData, divId) {
 	var buttons = {};
 	buttons.navbar = [
 		{text: links.home.name, link: links.home.link},
-		{text: "About Us", link: links.home.link + "/about"},
+		{text: "About", link: links.home.link + "/about"},
 		{text: "Profiles", link: links.home.link + "/profiles"},
 		{text: links.blog.name, link: links.blog.link, target: "new"}
 	];
@@ -62,7 +62,7 @@ populatePage = function(pageTemplate, pageData, divId) {
 	populateElement("#sidebar", templates.sidebar, data);
 	populateElement("#call-to-action", templates.callToAction, data);
 	populateElement("#footer", templates.footer, data);
-	populateElement(divId, templates.pageTemplate, data);
+	populateElement("#content", templates.pageTemplate, data);
 
 	// set the active tab in the navbar
 	$.each($("#navbar-tabs")[0].children, function(index, li) {
