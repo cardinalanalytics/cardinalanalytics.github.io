@@ -45,7 +45,7 @@ Templates.callToAction = [
         '<div class="col-xs-12 text-center">',
             '<h3>Get Involved</h3>',
             '{{#with buttons.mailList}}',
-            '<a href="{{ link }}" class="btn btn-lg btn-{{ color }} btn-mailing-list" target="{{#if target}}new{{else}}_parent{{/if}}">{{ text }}</a>',
+            '<a href="{{ link }}" class="btn btn-lg btn-{{ color }} btn-round" target="{{#if target}}new{{else}}_parent{{/if}}">{{ text }}</a>',
             '{{/with}}',
         '</div>',
     '</div>',

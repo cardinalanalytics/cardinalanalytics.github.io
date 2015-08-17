@@ -23,8 +23,8 @@ body {
 	padding-bottom: 2em;
 }
 
-/* Styles for the mailing list button */
-.btn-mailing-list {
+/* Styles for rounded buttons */
+.btn-round {
 	border-radius: 0.5em;
 }
 

@@ -6,7 +6,6 @@
 // Also contains common data, such as the links.
 
 populatePage = function(pageTemplate, pageData) {
-	console.log(pageTemplate);
 	function safeHandlebarsCompile(template) {
 		try {
 			return Handlebars.compile(template);
@@ -31,13 +30,13 @@ populatePage = function(pageTemplate, pageData) {
 	links.facebook = { name: "Facebook", link: "http://www.facebook.com/stanfordsportsanalytics" };
 	links.blog = { name: "Blog", link: "http://www.stanfordsportsanalytics.wordpress.com" };
 
-	// buttons, split into buttons that belong on the banner and the rest
+	// buttons, split into buttons that belong on the navbar and the rest
 	var buttons = {};
 	buttons.navbar = [
-		{text: links.home.name, link: links.home.link},
-		{text: "About", link: links.home.link + "/about"},
-		{text: "Profiles", link: links.home.link + "/profiles"},
-		{text: links.blog.name, link: links.blog.link, target: "new"}
+		{text: links.home.name, link: "index.html"},
+		{text: "About", link: "about.html"},
+		{text: "Profiles", link: "profiles.html"},
+		{text: links.blog.name, link: "http://www.stanfordsportsanalytics.wordpress.com", target: "new"}
 	];
 	buttons.mailList = {text: "Join our mailing list!", link: "//mailman.stanford.edu/mailman/listinfo/sportsanalytics", color: "light", target: "new"};
 
@@ -46,7 +45,7 @@ populatePage = function(pageTemplate, pageData) {
 	data.links = links;
 	data.buttons = buttons;
 	data.year = new Date().getFullYear();
-	data.pageData = pageData
+	data.pageData = pageData;
 
 	// function to render a Handlebars template with data, and place the result into the element with id divId
 	function populateElement(divId, template, data) {

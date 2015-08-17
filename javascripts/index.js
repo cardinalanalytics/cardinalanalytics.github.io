@@ -55,4 +55,13 @@
 
 	populatePage(indexTemplate, indexData);
 
+	// set the minimum height of the service items to the same value based
+	// on the largest initial height
+	var maxHeight = 0;
+	var $serviceItems = $(".service-item");
+	$.each($serviceItems, function(index, item) {
+		maxHeight = item.offsetHeight > maxHeight ? item.offsetHeight : maxHeight;
+	});
+	$serviceItems.css("min-height", maxHeight);
+
 })(this, this.document);
