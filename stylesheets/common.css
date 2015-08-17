@@ -27,3 +27,10 @@ body {
 .btn-mailing-list {
 	border-radius: 0.5em;
 }
+
+/* Home page officers list */
+.officers-list {
+	padding-left: 0px;
+	list-style-type: none;
+	text-align: center;
+}

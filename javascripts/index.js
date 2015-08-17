@@ -21,7 +21,7 @@
 			{
 				image: "shield",
 				title: "Officers",
-				content: "Vihan Lakshman, Scott Powers, Sandy Huang, Eli Shayer"
+				content: '<ul class="officers-list"><li>Vihan Lakshman</li><li>Scott Powers</li><li>Sandy Huang</li><li>Eli Shayer</li></ul>'
 			}
 		]
 	};
@@ -30,7 +30,7 @@
 		'{{#with pageData}}',
         '<div class="container">',
             '<div class="row text-center">',
-                '<div class="col-lg-10 col-lg-offset-1">',
+                '<div class="col-lg-12">',
                     '<h2>Additional Information</h2>',
                     '<hr class="small">',
                     '<div class="row">',
@@ -42,7 +42,7 @@
                                 	'<i class="fa fa-{{image}} fa-stack-1x text-primary"></i>',
                             	'</span>',
                                 '<h4><strong>{{title}}</strong></h4>',
-                                '<p>{{content}}</p>',
+                                '<p>{{{content}}}</p>',
                             '</div>',
                         '</div>',
                         '{{/each}}',
