@@ -33,9 +33,9 @@ populatePage = function(pageTemplate, pageData) {
 	// buttons, split into buttons that belong on the navbar and the rest
 	var buttons = {};
 	buttons.navbar = [
-		{text: links.home.name, link: "index.html"},
-		{text: "About", link: "about.html"},
-		{text: "Profiles", link: "profiles.html"},
+		{text: links.home.name, link: "index.html", target: "_parent"},
+		{text: "About", link: "about.html", target: "_parent"},
+		{text: "Profiles", link: "profiles.html", target: "_parent"},
 		{text: links.blog.name, link: "http://www.stanfordsportsanalytics.wordpress.com", target: "new"}
 	];
 	buttons.mailList = {text: "Join our mailing list!", link: "//mailman.stanford.edu/mailman/listinfo/sportsanalytics", color: "light", target: "new"};

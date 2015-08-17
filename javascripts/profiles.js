@@ -104,7 +104,7 @@
 	                    '<p>{{{ description }}}</h4>',
 	                    '{{#if posts}}',
 	                        '<h4>Blog posts:</h4>',
-	                        '<ul style="list-style-type:disc">',
+	                        '<ul class="members-list">',
 	                            '{{#each posts}}',
 	                                '<li><a href="{{link}}">{{title}}</a></li>',
 	                            '{{/each}}',

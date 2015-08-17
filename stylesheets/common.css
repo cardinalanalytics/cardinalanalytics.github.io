@@ -34,3 +34,8 @@ body {
 	list-style-type: none;
 	text-align: center;
 }
+
+/* Member profiles bullet list */
+.members-list {
+	list-style-type: disc;
+}
