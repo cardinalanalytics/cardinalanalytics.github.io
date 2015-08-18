@@ -5,7 +5,7 @@
 // HTML for the navbar, header, sidebar, call to action, and footer.
 // Also contains common data, such as the links.
 
-populatePage = function(pageTemplate, pageData) {
+populatePage = function(pageTemplate, pageData, pathLevel) {
 	function safeHandlebarsCompile(template) {
 		try {
 			return Handlebars.compile(template);
@@ -46,6 +46,7 @@ populatePage = function(pageTemplate, pageData) {
 	data.buttons = buttons;
 	data.year = new Date().getFullYear();
 	data.pageData = pageData;
+	data.path = "../".repeat(pathLevel ? pathLevel : 0);
 
 	// function to render a Handlebars template with data, and place the result into the element with id divId
 	function populateElement(divId, template, data) {
