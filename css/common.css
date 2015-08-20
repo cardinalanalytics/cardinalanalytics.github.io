@@ -41,8 +41,9 @@ body {
 }
 
 /* File link for data challenges */
-.title {
+.download-title {
 	text-decoration: underline;
+	margin-top: 0px;
 }
 
 .file-link {

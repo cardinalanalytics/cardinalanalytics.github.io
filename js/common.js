@@ -29,6 +29,7 @@ populatePage = function(pageTemplate, pageData, pathLevel) {
 	links.twitter = { name: "Twitter", link: "http://www.twitter.com/stanfordsac" };
 	links.facebook = { name: "Facebook", link: "http://www.facebook.com/stanfordsportsanalytics" };
 	links.blog = { name: "Blog", link: "http://www.stanfordsportsanalytics.wordpress.com" };
+	links.email = { name: "Email", link: "mailto:stanfordsportsanalytics@gmail.com" };
 
 	// buttons, split into buttons that belong on the navbar and the rest
 	var buttons = {};

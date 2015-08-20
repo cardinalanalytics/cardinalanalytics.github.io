@@ -5,6 +5,10 @@
 		header: "Data Challenges",
 		description: "Data challenges to get you started!",
 		navbarTitle: "Challenges",
+		overview: [
+			'Our data challenges are a great way to get started on a low-commitment sports analytics project! We supply the question and the cleaned data set. All you have to do is the analysis. This gives you a chance to focus on the most rewarding and enjoyable part of a sports analytics project.',
+			'The data challenges below were posed to the SSAC membership. We hope you enjoy the challenges. Feel free to contact us with comments about the data, suggestions for future data challenges, or you personal findings! Our email is <a href="mailto:stanfordsportsanalytics@gmail.com">stanfordsportsanalytics@gmail.com</a>. You can also reach us at the Facebook and Twitter accounts linked below.'
+		],
 		challenges: [
 			{
 				title: "All-Star Mistakes",
@@ -17,6 +21,7 @@
 				],
 				downloads: {
 					path: "challenges/1/",
+					numFiles: 3,
 					files: [
 						{
 							type: "csv",
@@ -29,7 +34,7 @@
 							description: "All-Star Pitchers",
 						},
 						{
-							type: "R",
+							type: "r",
 							name: "create_dataset.R",
 							description: "Create datasets",
 						},
@@ -37,37 +42,64 @@
 				},
 				author: "John Sears",
 				date: "January 13, 2015",
+			},
+			{
+				title: "Sample Title",
+				description: [
+					'Content paragraph 1 about this made up data challenge that did not really happen but is serving as an example for the format of the data challenge template',
+					'Content paragraph 2',
+					'Content paragraph 3'
+				],
+				downloads: {
+					path: "challenges/2/",
+					numFiles: 1,
+					files: [
+						{
+							type: "csv",
+							name: "sample.csv",
+							description: "A file to download"
+						}
+					]
+				},
+				author: "SSAC Member",
+				date: "The date"
 			}
 		]
 	};
 	
 	// Handlebars template for the about page
 	var challengesTemplate = [
-		'{{#each pageData.challenges}}',
-		'<h2>{{title}}</h2>',
-		'<h3>By {{author}}</h3>',
-		'<h4>{{date}}</h4>',
-			'<div class="row">',
-				'<div class="col-xs-8">',
-					'{{#each description}}',
-					'<p>{{{this}}}</p>',
-					'{{/each}}',
+		'{{#with pageData}}',
+			'<h2>Overview</h2>',
+			'{{#each overview}}',
+			'<p>{{{this}}}</p>',
+			'{{/each}}',
+			'{{#each challenges}}',
+			'<h2>{{title}}</h2>',
+			'<h3>By {{author}}</h3>',
+			'<h4>{{date}}</h4>',
+				'<div class="row">',
+					'<div class="col-xs-8">',
+						'{{#each description}}',
+						'<p>{{{this}}}</p>',
+						'{{/each}}',
+					'</div>',
+					'<div class="col-xs-3 col-xs-offset-1">',
+						'{{#if downloads}}',
+						'{{#with downloads}}',
+						'<h3 class="download-title">Downloads ({{numFiles}})</h3>',
+						'{{#each files}}',
+						'<a href="{{../path}}{{name}}" class="btn file-link" download="{{name}}">',
+							'{{#if type}}<img src="images/icons/{{type}}.png" alt="{{name}}"/> {{/if}}{{description}} (.{{type}})',
+						'</a>',
+						'{{/each}}',
+						'{{/with}}',
+						'{{/if}}',
+					'</div>',
 				'</div>',
-				'<div class="col-xs-3 col-xs-offset-1">',
-					'{{#if downloads}}',
-					'<h3 class="title">Downloads</h3>',
-					'{{#with downloads}}',
-					'{{#each files}}',
-					'<a href="{{../path}}{{name}}" class="btn file-link" download="{{name}}">',
-						'{{#if type}}<img src="images/icons/{{type}}.png" alt="{{name}}"/> {{/if}}{{description}} (.{{type}})',
-					'</a>',
-					'{{/each}}',
-					'{{/with}}',
-					'{{/if}}',
-				'</div>',
-			'</div>',
-		'<hr/>',
-		'{{/each}}',
+			'<hr/>',
+			'{{/each}}',
+		'{{/with}}'
 	].join('\n');
 
 	// populate page with the above data
