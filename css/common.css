@@ -54,6 +54,7 @@ body {
 
 .file-link:hover {
 	color: #bd2031;
+	background-color: #eeeeee
 }
 
 .file-link img {

@@ -16,22 +16,22 @@
 					'Your analysis can be as simple or complex as you want. Things like visualizations or graphics are great. Feel free to pull in more advanced or derived statistics. This should be fun! At our 1/26 meeting we&#39;ll all take a minute or two to run through our approach and the team we&#39;ve come up with. We may put a few of these up on the blog.',
 				],
 				downloads: {
-					path: "challenges/1/"
+					path: "challenges/1/",
 					files: [
 						{
 							type: "csv",
-							link: "challenges/batting.csv",
-							name: "All-Star Position Players",
+							name: "batting.csv",
+							description: "All-Star Position Players",
 						},
 						{
 							type: "csv",
-							link: "challenges/pitching.csv",
-							name: "All-Star Pitchers",
+							name: "pitching.csv",
+							description: "All-Star Pitchers",
 						},
 						{
 							type: "R",
-							link: "challenges/create_dataset.R",
-							name: "Create datasets",
+							name: "create_dataset.R",
+							description: "Create datasets",
 						},
 					]
 				},
@@ -43,7 +43,6 @@
 	
 	// Handlebars template for the about page
 	var challengesTemplate = [
-	'<div class="container">',
 		'{{#each pageData.challenges}}',
 		'<h2>{{title}}</h2>',
 		'<h3>By {{author}}</h3>',
@@ -57,15 +56,18 @@
 				'<div class="col-xs-3 col-xs-offset-1">',
 					'{{#if downloads}}',
 					'<h3 class="title">Downloads</h3>',
-					'{{#each downloads}}',
-					'<a href="{{link}}" class="btn file-link">{{#if type}}<img src="images/icons/{{type}}.png" alt="{{name}}"/> {{/if}}{{name}} (.{{type}})</a>',
+					'{{#with downloads}}',
+					'{{#each files}}',
+					'<a href="{{../path}}{{name}}" class="btn file-link" download="{{name}}">',
+						'{{#if type}}<img src="images/icons/{{type}}.png" alt="{{name}}"/> {{/if}}{{description}} (.{{type}})',
+					'</a>',
 					'{{/each}}',
+					'{{/with}}',
 					'{{/if}}',
 				'</div>',
 			'</div>',
 		'<hr/>',
 		'{{/each}}',
-	'</div>'
 	].join('\n');
 
 	// populate page with the above data
