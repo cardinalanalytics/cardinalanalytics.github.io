@@ -7,7 +7,7 @@
 		navbarTitle: "Challenges",
 		overview: [
 			'Our data challenges are a great way to get started on a low-commitment sports analytics project! We supply the question and the cleaned data set. All you have to do is the analysis. This gives you a chance to focus on the most rewarding and enjoyable part of a sports analytics project.',
-			'The data challenges below were posed to the SSAC membership. We hope you enjoy the challenges. Feel free to contact us with comments about the data, suggestions for future data challenges, or you personal findings! Our email is <a href="mailto:stanfordsportsanalytics@gmail.com">stanfordsportsanalytics@gmail.com</a>. You can also reach us at the Facebook and Twitter accounts linked below.'
+			'The data challenges below were posed to the SSAC membership. We hope you enjoy the challenges. Feel free to contact us with comments about the data, suggestions for future data challenges, or you personal findings! Our contact information is <a href="#footer">below</a>'
 		],
 		challenges: [
 			{
