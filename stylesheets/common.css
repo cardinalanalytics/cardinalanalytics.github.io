@@ -39,3 +39,24 @@ body {
 .members-list {
 	list-style-type: disc;
 }
+
+/* File link for data challenges */
+.title {
+	text-decoration: underline;
+}
+
+.file-link {
+	margin: 2px;
+	border-color: #bd2031;
+	border-style: solid;
+	color: #000000;
+}
+
+.file-link:hover {
+	color: #bd2031;
+}
+
+.file-link img {
+	height: 16px;
+	width: 16px;
+}
