@@ -15,23 +15,26 @@
 					'We&#39;ve also provided the R source code used to produce this file. All data is from the <b>Lahman</b> database, accessed via the R package of the same name.',
 					'Your analysis can be as simple or complex as you want. Things like visualizations or graphics are great. Feel free to pull in more advanced or derived statistics. This should be fun! At our 1/26 meeting we&#39;ll all take a minute or two to run through our approach and the team we&#39;ve come up with. We may put a few of these up on the blog.',
 				],
-				downloads: [
-					{
-						type: "csv",
-						link: "challenges/batting.csv",
-						name: "All-Star Position Players",
-					},
-					{
-						type: "csv",
-						link: "challenges/pitching.csv",
-						name: "All-Star Pitchers",
-					},
-					{
-						type: "R",
-						link: "challenges/create_dataset.R",
-						name: "Create datasets",
-					},
-				],
+				downloads: {
+					path: "challenges/1/"
+					files: [
+						{
+							type: "csv",
+							link: "challenges/batting.csv",
+							name: "All-Star Position Players",
+						},
+						{
+							type: "csv",
+							link: "challenges/pitching.csv",
+							name: "All-Star Pitchers",
+						},
+						{
+							type: "R",
+							link: "challenges/create_dataset.R",
+							name: "Create datasets",
+						},
+					]
+				},
 				author: "John Sears",
 				date: "January 13, 2015",
 			}
@@ -54,7 +57,7 @@
 				'<div class="col-xs-3 col-xs-offset-1">',
 					'{{#if downloads}}',
 					'<h3 class="title">Downloads</h3>',
-					'{{#each files}}',
+					'{{#each downloads}}',
 					'<a href="{{link}}" class="btn file-link">{{#if type}}<img src="images/icons/{{type}}.png" alt="{{name}}"/> {{/if}}{{name}} (.{{type}})</a>',
 					'{{/each}}',
 					'{{/if}}',

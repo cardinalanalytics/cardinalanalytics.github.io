@@ -57,6 +57,6 @@ body {
 }
 
 .file-link img {
-	height: 16px;
-	width: 16px;
+	max-height: 16px;
+	max-width: 16px;
 }
