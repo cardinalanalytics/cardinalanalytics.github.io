@@ -37,6 +37,7 @@ populatePage = function(pageTemplate, pageData, pathLevel) {
 		{text: links.home.name, link: "index.html", target: "_parent"},
 		{text: "About", link: "about.html", target: "_parent"},
 		{text: "Profiles", link: "profiles.html", target: "_parent"},
+		{text: "Challenges", link: "challenges.html", target: "_parent"},
 		{text: links.blog.name, link: "http://www.stanfordsportsanalytics.wordpress.com", target: "new"}
 	];
 	buttons.mailList = {text: "Join our mailing list!", link: "//mailman.stanford.edu/mailman/listinfo/sportsanalytics", color: "light", target: "new"};
