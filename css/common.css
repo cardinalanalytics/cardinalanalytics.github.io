@@ -18,6 +18,11 @@ body {
 	font-size: 20px;
 }
 
+#navbar-tabs>li>a {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 /* Additional padding to the bottom of the main content */
 #content {
 	padding-bottom: 2em;
@@ -36,11 +41,44 @@ body {
 }
 
 /* Member profiles bullet list */
-.members-list {
+.profile-name {
+	margin-top: 0px;
+}
+
+.post-list {
 	list-style-type: disc;
 }
 
-/* File link for data challenges */
+.members-list {
+	list-style-type: none;
+}
+
+.members-list>li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+.members-list>li>a {
+	margin-top: 20px;
+	color: #000000;
+}
+
+.selected-member {
+	border-left-color: #000000;
+	border-left-style: solid;
+	border-left-width: 2px;
+}
+
+.selected-member>a {
+	font-weight: bold;
+}
+
+/* Styles for data challenges */
+.challenge-title {
+	margin-top: 0px;
+}
+
 .download-title {
 	text-decoration: underline;
 	margin-top: 0px;
@@ -61,4 +99,10 @@ body {
 .file-link img {
 	max-height: 16px;
 	max-width: 16px;
+}
+
+/* Contact page styles */
+.contact-listing {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }

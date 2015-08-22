@@ -21,7 +21,8 @@
 						title: 'A Fresh Take on Batting the Pitcher Eighth',
 						link: 'https://stanfordsportsanalytics.wordpress.com/2015/05/06/a-fresh-take-on-batting-the-pitcher-eighth/'
 					}
-				]
+				],
+				id: "scott"
 			},
 			{
 				name: 'Vihan Lakshman',
@@ -34,7 +35,8 @@
 						title: 'Examing MLB Postseason Cluster Luck: Or, Why the Playoffs Might Be a Crapshoot',
 						link: 'https://stanfordsportsanalytics.wordpress.com/2015/03/24/examining-mlb-postseason-cluster-luck-or-why-the-playoffs-might-be-a-crapshoot/'
 					}
-				]
+				],
+				id: "vihan",
 			},
 			{
 				name: 'Eli Shayer',
@@ -51,7 +53,8 @@
 						title: 'A Fresh Take on Batting the Pitcher Eighth',
 						link: 'https://stanfordsportsanalytics.wordpress.com/2015/05/06/a-fresh-take-on-batting-the-pitcher-eighth/'
 					}
-				]
+				],
+				id: "eli",
 			},
 			{
 				name: 'Sandy Huang',
@@ -64,13 +67,15 @@
 						title: 'Why We Love Sports Analytics and Richard Sherman',
 						link: 'https://stanfordsportsanalytics.wordpress.com/2014/10/08/why-we-love-sports-analytics-and-richard-sherman/'
 					}
-				]
+				],
+				id: "sandy",
 			},
 			{
 				name: 'David Cameron',
 				joined: 2015,
 				image: 'images/david-cameron.jpg',
-				description: 'Dave is a post-doctoral scholar in the Energy Resources Engineering Department, whose research involves optimizing monitoring networks for carbon storage operations. Originally from Australia, he developed a taste for ice-hockey after marrying a Canadian. Eh? Dave is real excited about his stat, which applies the Chess-rating system to provide real-time unbiased NHL player ratings. Check out his website at <a href="http://www.hockeystatsrevolution.com">www.hockeystatsrevolution.com</a>'
+				description: 'Dave is a post-doctoral scholar in the Energy Resources Engineering Department, whose research involves optimizing monitoring networks for carbon storage operations. Originally from Australia, he developed a taste for ice-hockey after marrying a Canadian. Eh? Dave is real excited about his stat, which applies the Chess-rating system to provide real-time unbiased NHL player ratings. Check out his website at <a href="http://www.hockeystatsrevolution.com">www.hockeystatsrevolution.com</a>',
+				id: "david",
 			},
 			{
 				name: 'Konstantinos Balafas',
@@ -82,41 +87,49 @@
 						title: 'The Importance of Having a High NBA Draft Pick',
 						link: 'https://stanfordsportsanalytics.wordpress.com/2014/11/30/the-importance-of-having-a-high-nba-draft-pick/'
 					}
-				]
+				],
+				id: "konstantinos",
 			}
 		]
 	};
 	
 	var membersTemplate = [
 	'{{#with pageData}}',
-	    '{{#if members}}',
-	        '{{#each members}}',
-	            '<div class="row">',
-	                '<div class="col-xs-12 col-sm-6 col-md-3">',
-	                    '<h3><b>{{ name }}</b></h3>',
-	                    '{{#if position}} <h4>{{ position }}</h4> {{/if}}',
-	                    '{{#if joined}} <h4>Member since {{ joined }}</h4> {{/if}}',
-	                '</div>',
-	                '<div class="col-xs-12 col-sm-6 col-md-3">',
-	                    '{{#if image}} <img alt={{name}} src="{{image}}" height="120px"> {{/if}}',
-	                '</div>',
-	                '<div class="col-xs-12 col-md-6">',
-	                    '<p>{{{ description }}}</h4>',
-	                    '{{#if posts}}',
-	                        '<h4>Blog posts:</h4>',
-	                        '<ul class="members-list">',
-	                            '{{#each posts}}',
-	                                '<li><a href="{{link}}">{{title}}</a></li>',
-	                            '{{/each}}',
-	                        '</ul>',
-	                    '{{/if}}',
-	                '</div>',
-	            '</div>',
-	            '<hr>',
-	        '{{/each}}',
-	    '{{else}}',
-	        '<span>No members found.</span>',
-	    '{{/if}}',
+		'<div class="row">',
+			'<div class="col-xs-9">',
+		        '{{#each members}}',
+		            '<div class="row" id="{{ id }}">',
+		                '<div class="col-xs-12 col-sm-6 col-md-3">',
+		                    '<h3 class="profile-name"><b>{{ name }}</b></h3>',
+		                    '{{#if position}} <h4>{{ position }}</h4> {{/if}}',
+		                    '{{#if joined}} <h4>Member since {{ joined }}</h4> {{/if}}',
+		                '</div>',
+		                '<div class="col-xs-12 col-sm-6 col-md-3">',
+		                    '{{#if image}} <img alt={{ name }} src="{{ image }}" height="120px"> {{/if}}',
+		                '</div>',
+		                '<div class="col-xs-12 col-md-6">',
+		                    '<p>{{{ description }}}</h4>',
+		                    '{{#if posts}}',
+		                        '<h4>Blog posts:</h4>',
+		                        '<ul class="post-list">',
+		                            '{{#each posts}}',
+		                                '<li><a href="{{ link }}">{{ title }}</a></li>',
+		                            '{{/each}}',
+		                        '</ul>',
+		                    '{{/if}}',
+		                '</div>',
+		            '</div>',
+		            '<hr>',
+		        '{{/each}}',
+		    '</div>',
+		    '<div class="col-xs-3">',
+		    	'<ul class="members-list">',
+		    		'{{#each members}}',
+		    			'<li id="{{ id }}-li"><a href="#{{ id }}">{{ name }}</a></li>',
+		    		'{{/each}}',
+		    	'</ul>',
+		    '</div>',
+	    '</div>',
 	'{{/with}}'
 	].join('\n');
 
