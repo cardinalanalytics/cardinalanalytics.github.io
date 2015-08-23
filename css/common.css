@@ -19,8 +19,8 @@ body {
 }
 
 #navbar-tabs>li>a {
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /* Additional padding to the bottom of the main content */
@@ -41,12 +41,24 @@ body {
 }
 
 /* Member profiles bullet list */
+.profiles-overview {
+	margin-top: 0px;
+}
+
 .profile-name {
 	margin-top: 0px;
 }
 
 .post-list {
 	list-style-type: disc;
+}
+
+/* only show member list for small or larger
+   767 is one less than the 768 break point between xs and small */
+@media (max-width: 767px) {
+    .members-list {
+        visibility: hidden;
+    }
 }
 
 .members-list {
@@ -64,8 +76,12 @@ body {
 	color: #000000;
 }
 
+.members-list>li>a:hover {
+	color: #bd2031;
+}
+
 .selected-member {
-	border-left-color: #000000;
+	border-left-color: #bd2031;
 	border-left-style: solid;
 	border-left-width: 2px;
 }

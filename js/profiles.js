@@ -5,6 +5,10 @@
 		header: "Member Profiles",
 		description: "Get to know the contributors",
 		navbarTitle: "Profiles",
+		overview: [
+			"These are some of our most active members, who have given a presentation to the club on their own sports analytics research. Many of them have also written up their work in a blog post. You can peruse those blog posts in the links below.",
+			"If you want to work on a project, each of these members is a great resource to help get you started! They have the experience and the knowledge to give you a head start. And once you present, you can appear here too!"
+		],
 		members: [
 			{
 				name: 'Scott Powers',
@@ -43,7 +47,7 @@
 				position: 'Technology Officer',
 				joined: 2014,
 				image: 'images/eli-shayer.jpg',
-				description: "Eli is a undergraduate student in the class of 2018. His favorite sport is baseball, and he is an avid fan of the Saint Louis Cardinals. He was on one of Stanford's teams at the 2015 SABR Analytics Conference Case Competition. As the tech officer, he made a good portion of this website!",
+				description: "Eli is an undergraduate student in the class of 2018 from Anchorage, Alaska. His favorite sport is baseball, and he is an avid fan of the Saint Louis Cardinals. He was on one of Stanford's teams at the 2015 SABR Analytics Conference Case Competition. As the tech officer, he made a good portion of this website!",
 				posts: [
 					{
 						title: 'The Frictional Cost of a Call to the Bullpen',
@@ -96,40 +100,50 @@
 	var membersTemplate = [
 	'{{#with pageData}}',
 		'<div class="row">',
-			'<div class="col-xs-9">',
-		        '{{#each members}}',
-		            '<div class="row" id="{{ id }}">',
-		                '<div class="col-xs-12 col-sm-6 col-md-3">',
-		                    '<h3 class="profile-name"><b>{{ name }}</b></h3>',
-		                    '{{#if position}} <h4>{{ position }}</h4> {{/if}}',
-		                    '{{#if joined}} <h4>Member since {{ joined }}</h4> {{/if}}',
-		                '</div>',
-		                '<div class="col-xs-12 col-sm-6 col-md-3">',
-		                    '{{#if image}} <img alt={{ name }} src="{{ image }}" height="120px"> {{/if}}',
-		                '</div>',
-		                '<div class="col-xs-12 col-md-6">',
-		                    '<p>{{{ description }}}</h4>',
-		                    '{{#if posts}}',
-		                        '<h4>Blog posts:</h4>',
-		                        '<ul class="post-list">',
-		                            '{{#each posts}}',
-		                                '<li><a href="{{ link }}">{{ title }}</a></li>',
-		                            '{{/each}}',
-		                        '</ul>',
-		                    '{{/if}}',
-		                '</div>',
-		            '</div>',
-		            '<hr>',
-		        '{{/each}}',
-		    '</div>',
-		    '<div class="col-xs-3">',
-		    	'<ul class="members-list">',
-		    		'{{#each members}}',
-		    			'<li id="{{ id }}-li"><a href="#{{ id }}">{{ name }}</a></li>',
-		    		'{{/each}}',
-		    	'</ul>',
-		    '</div>',
-	    '</div>',
+			'<div class="col-xs-12 col-sm-9">',
+				'<div class="row" id="overview">',
+					'<div class="col-xs-12">',
+						'<h2 class="profiles-overview">Overview</h2>',
+						'{{#each overview}}',
+						'<p>{{{this}}}</p>',
+						'{{/each}}',
+						'<hr/>',
+					'</div>',
+				'</div>',
+				'{{#each members}}',
+					'<div class="row ssac-profile" id="{{ id }}">',
+						'<div class="col-xs-6 col-md-3">',
+							'<h3 class="profile-name"><b>{{ name }}</b></h3>',
+							'{{#if position}} <h4>{{ position }}</h4> {{/if}}',
+							'{{#if joined}} <h4>Member since {{ joined }}</h4> {{/if}}',
+						'</div>',
+						'<div class="col-xs-6 col-md-3">',
+							'{{#if image}} <img alt={{ name }} src="{{ image }}" height="120px"> {{/if}}',
+						'</div>',
+						'<div class="col-xs-12 col-md-6">',
+							'<p>{{{ description }}}</h4>',
+							'{{#if posts}}',
+								'<h4>Blog posts:</h4>',
+									'<ul class="post-list">',
+									'{{#each posts}}',
+										'<li><a href="{{ link }}">{{ title }}</a></li>',
+									'{{/each}}',
+								'</ul>',
+							'{{/if}}',
+						'</div>',
+					'</div>',
+					'<hr>',
+				'{{/each}}',
+			'</div>',
+			'<div class="col-xs-3">',
+				'<ul class="members-list">',
+					'<li id="overview-li"><a href="#overview">Overview</a></li>',
+					'{{#each members}}',
+						'<li id="{{ id }}-li"><a href="#{{ id }}">{{ name }}</a></li>',
+					'{{/each}}',
+				'</ul>',
+			'</div>',
+		'</div>',
 	'{{/with}}'
 	].join('\n');
 
@@ -137,3 +151,87 @@
 	populatePage(membersTemplate, membersData);
 
 })(this, this.document);
+
+// navbar height in pixels with a small buffer
+var NAVBAR_HEIGHT = 51;
+var BUFFER = 10;
+
+// selected class name
+var selectedClass = "selected-member";
+
+// find the top and bottom profiles for members-list display manipulation
+var $allProfiles = $(".ssac-profile");
+var $firstProfile = $($allProfiles[0]);
+var $lastProfile = $($allProfiles[$allProfiles.length - 1]);
+
+// use those two profiles and the overview to get breakpoints
+var overviewBreakpoint, topBreakpoint, bottomBreakpoint;
+setBreakpoints = function() {
+	overviewBreakpoint = $("#overview").offset().top;
+	topBreakpoint = $firstProfile.offset().top;
+	bottomBreakpoint = $lastProfile.offset().top;
+};
+setBreakpoints();
+
+// resets the breakpoints upon resize of the window
+$(window).resize(setBreakpoints);
+
+// cache jQuery objects for efficiency
+var $membersList = $(".members-list");
+var $window = $(window);
+
+// respond every time a scroll occurs
+$window.scroll(function () {
+	// position the members list on the screen based on the scroll location
+	var screenTop = $window.scrollTop() + NAVBAR_HEIGHT + BUFFER;
+	// if above all profiles, normaml position and no members are selected
+	if (screenTop < overviewBreakpoint) {
+		$membersList.css({
+			position: "relative",
+			top: ""
+		});
+		$("." + selectedClass).toggleClass(selectedClass, false);
+	// if below the entire member list, lock it into place at the bottom
+	} else if (screenTop > $lastProfile.offset().top) {
+		$membersList.css({
+			position: "relative",
+			top: bottomBreakpoint - overviewBreakpoint
+		});
+	} else { // if viewing, keep the position fixed and set one member as active
+		$membersList.css({
+			position: "fixed",
+			top: NAVBAR_HEIGHT + BUFFER
+		});
+		// if screen is at the bottom, set the last member to active
+		// buffer of 1 pixel for rounding
+		if($(document).height() - $window.scrollTop() - $window.height() <= 1) {
+			$("." + selectedClass).toggleClass(selectedClass, false);
+			$("#" + $lastProfile[0].id + "-li").toggleClass(selectedClass, true);
+		}
+		// if above all profiles, the overview is active
+		else if (screenTop < topBreakpoint) {
+			$("." + selectedClass).toggleClass(selectedClass, false);
+			$("#overview-li").toggleClass(selectedClass, true);
+		} else {
+			// if not the overview, set the active member
+			var activeMemberSet = false;
+			$allProfiles.each(function() {
+				var $profile = $(this);
+				var id = $profile.attr('id');
+				// protect against setting the active member again after it has been set
+				if (!activeMemberSet) {
+					// if the current profile is the viewed profile
+					if ($profile.offset().top + $profile.outerHeight() > screenTop) {
+						var listId = "#" + id + "-li";
+						// protect against setting the current member when it would result in no change
+						if (!$(listId).hasClass(selectedClass)) {
+							$("." + selectedClass).toggleClass(selectedClass, false);
+							$(listId).toggleClass(selectedClass, true);
+						}
+						activeMemberSet = true;	
+					}
+				}
+			});
+		}
+	}
+});
