@@ -54,7 +54,7 @@ body {
 }
 
 /* only show member list for small or larger
-   767 is one less than the 768 break point between xs and small */
+   767 is one less than the 768 break point between xs and small from core bootstrap */
 @media (max-width: 767px) {
     .members-list {
         visibility: hidden;
