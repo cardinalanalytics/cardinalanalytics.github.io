@@ -27,13 +27,13 @@
 						lastName: "Powers"
 					}
 				],
-				banner: {
-					type: "image",
-					link: "tbd",
-					alt: "Joe Maddon",
-					caption: "Joe Maddon, manager of the Chicago Cubs"
-				},
 				content: [
+					{
+						type: "image",
+						link: "tbd",
+						alt: "Joe Maddon",
+						caption: "Joe Maddon, manager of the Chicago Cubs"
+					},
 					{
 						type: "paragraph",
 						text: "First-year Cubs manager Joe Maddon made headlines shortly after joining his new team this offseason when he asked Chicago’s analytics staff to investigate the effect of batting the pitcher eighth in the lineup[1], rather than in the standard nine-hole. Maddon had demonstrated an affinity for batting the pitcher eighth in the past when his Tampa Bay Rays played interleague games in National League ballparks, requiring that the pitcher be included in the batting order."
@@ -79,19 +79,19 @@
 						references: [
 							{
 								num: 1,
-								text: "Neil Finnell. Cubs researching benefits of batting the pitcher eighth in the lineup. Chicago Cubs Online. December 3, 2014."
+								text: "Neil Finnell. Cubs researching benefits of batting the pitcher eighth in the lineup. <em>Chicago Cubs Online</em>. December 3, 2014."
 							},
 							{
 								num: 2,
-								text: "J.G. Preston. A history of pitchers not batting ninth, and the managers who did it most often. The J.G. Preston Experience. Accessed April 28, 2015."
+								text: "J.G. Preston. A history of pitchers not batting ninth, and the managers who did it most often. <em>The J.G. Preston Experience</em>. Accessed April 28, 2015."
 							},
 							{
 								num: 3,
-								text: "Richard Bergstrom. Baseball rarity: Cubs, Rockies hit pitchers in eighth slot. ESPN. April 10, 2015."
+								text: "Richard Bergstrom. Baseball rarity: Cubs, Rockies hit pitchers in eighth slot. <em>ESPN</em>. April 10, 2015."
 							},
 							{
 								num: 4,
-								text: "John Beamer. Is LaRussa right to bat his pitcher in the eight slot? The Hardball Times. October 1, 2007."
+								text: "John Beamer. Is LaRussa right to bat his pitcher in the eight slot? <em>The Hardball Times</em>. October 1, 2007."
 							},
 						]
 					}
@@ -100,6 +100,16 @@
 		]
 	};
 
+	/* Converts a numerical date into a textual date in a Handlebars helper
+	 * Assumes the following date object format, with the example textually
+	 * being "August 26, 2015":
+	 *
+	 * date: {
+	 *     day: 26,
+	 *     month: 8,
+	 *     year: 2015
+	 * }
+	 */
 	Handlebars.registerHelper("textualDate", function(date) {
 		return new Handlebars.SafeString(
 			(function(month) {
@@ -126,8 +136,72 @@
 		);
 	});
 
-	Handlebars.registerHelper("blogContent", function(content) {
-		return new Handlebars.SafeString("<p>ABCD</p>");
+	/* Writes a byline for any length of an authors array. Assumes the names
+	 * are contained in an array, with each name as an object with the first and
+	 * last name seperated. Example:
+	 * name: {
+	 *     firstName: "Eli",
+	 *     lastName: "Shayer"
+	 * }
+	 */
+	Handlebars.registerHelper("byline", function(authors) {
+		// helper function to write a full name
+		function fullName(name) {
+			return name.firstName + " " + name.lastName;
+		}
+
+		// forms byline with the one author, two authors, and three or more authors cases
+		var result = "";
+		if (authors.length === 1) {
+			result += fullName(authors[0]);
+		} else if (authors.length === 2) {
+			result += fullName(authors[0]) + " and " + fullName(authors[1]);
+		} else {
+			for (var i = 0; i < authors.length; i++) {
+				result += fullName(authors[i]);
+				if (i + 1 < authors.length) {
+					result += ", ";
+				}
+				if (i + 2 === authors.length) {
+					result += "and ";
+				}
+			}
+		}
+		return new Handlebars.SafeString(result);
+	});
+
+	/* Handlebars helper to deal with any type of post content. Accepts paragraphs,
+	 * tables, images, and references. Relies on the type key of the content object.
+	 */
+
+	Handlebars.registerHelper("postContent", function(content) {
+		var result = "";
+		if (content.type === "paragraph") {
+			result += "<p>" + content.text + "</p>";
+		} else if (content.type === "table") {
+			result += '<table class="blog-table">';
+			$.each(content.rows, function(index, row) {
+				result += "<tr>";
+				$.each(row, function(index, data) {
+					result += "<td>" + data + "</td>";
+				});
+				result += "</tr>";
+			});
+			result += "</table>";
+		} else if (content.type === "references") {
+			$.each(content.references, function(index, reference) {
+				result += "<p>";
+				result += "[" + reference.num + "] ";
+				result += reference.text;
+				result += "</p>";
+			});
+		} else if (content.type === "image") {
+			result += '<img src="' + content.link + '" ';
+			result += 'alt="' + content.alt + '" ';
+			result += 'class="blog-image" ';
+			result += '</img>';
+		}
+		return new Handlebars.SafeString(result);
 	});
 	
 	var blogTemplate = [
@@ -145,9 +219,12 @@
 				'</div>',
 				'<div class="post">',
 					'{{#each posts}}',
-						'<h2 class="post-title">{{ title }}</h2>',
-						'<h3>Posted on {{textualDate date}}',
-						'{{blogContent this}}',
+						'<h3 class="post-title">{{ title }}</h3>',
+						'<h4>Posted on {{textualDate date}}</h4>',
+						'<h4 class="post-byline">{{byline authors}}</h4>',
+						'{{#each content}}',
+							'{{postContent this}}',
+						'{{/each}}',
 					'{{/each}}',
 				'</div>',
 			'</div>',
