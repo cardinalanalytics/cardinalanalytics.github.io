@@ -7,7 +7,7 @@
 		navbarTitle: "Blog",
 		overview: [
 			"This is the SSAC Blog",
-			"We are testing out a on-site implementation",
+			"We are testing out an on-site implementation",
 		],
 		posts: [
 			{
@@ -100,18 +100,34 @@
 		]
 	};
 
-	Handlebars.registerHelper("blogContent", function(options) {
-		if (options.type === "paragraph") {
-			console.log("paragraph");
-			return new Handlebars.SafeString(
-				"<p>" +
-				options.fn(this) +
-				"</p>"
-			);
-		} else {
-			console.log("other");
-			return new Handlebars.SafeString("<div>TBA</div>");
-		}
+	Handlebars.registerHelper("textualDate", function(date) {
+		return new Handlebars.SafeString(
+			(function(month) {
+				switch (month) {
+					case 1: return "January";
+					case 2: return "February";
+					case 3: return "March";
+					case 4: return "April";
+					case 5: return "May";
+					case 6: return "June";
+					case 7: return "July";
+					case 8: return "August";
+					case 9: return "September";
+					case 10: return "October";
+					case 11: return "November";
+					case 12: return "December";
+					default: "Error"
+				}
+			})(date.month) +
+			" " +
+			date.day +
+			", " +
+			date.year
+		);
+	});
+
+	Handlebars.registerHelper("blogContent", function(content) {
+		return new Handlebars.SafeString("<p>ABCD</p>");
 	});
 	
 	var blogTemplate = [
@@ -127,11 +143,13 @@
 						'<hr/>',
 					'</div>',
 				'</div>',
-				'{{#each posts}}',
-					'{{#blogContent}}',
-						'{{this}}',
-					'{{/blogContent}}',
-				'{{/each}}',
+				'<div class="post">',
+					'{{#each posts}}',
+						'<h2 class="post-title">{{ title }}</h2>',
+						'<h3>Posted on {{textualDate date}}',
+						'{{blogContent this}}',
+					'{{/each}}',
+				'</div>',
 			'</div>',
 		'</div>',
 	'{{/with}}'
