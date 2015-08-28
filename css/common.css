@@ -122,3 +122,31 @@ body {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+/* Blog styles */
+.post-title {
+	text-transform: uppercase;
+	color: #990000;
+}
+
+.post-byline {
+	font-style: italic;
+}
+
+.blog-image {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-height: 350px;
+}
+
+.blog-subtitle {
+	font-weight: bold;
+}
+
+.blog-image-caption {
+	font-style: italic;
+}
+
+.caption-header {
+	font-weight: bold;
+}
