@@ -14,7 +14,7 @@
 				name: 'Scott Powers',
 				position: 'Co-President',
 				joined: 2014,
-				image: 'images/scott-powers.jpg',
+				image: 'images/profiles/scott-powers.jpg',
 				description: "Scott is a PhD student in statistics and an analytics consultant to the Oakland Athletics. In the 2016 spring quarter he will lecture Stanford's STATS 50: Analytic Methods in Sports. Outside of work, he is a catcher on the club baseball team and a setter on the club volleyball team.",
 				posts: [
 					{
@@ -32,7 +32,7 @@
 				name: 'Vihan Lakshman',
 				position: 'Co-President',
 				joined: 2014,
-				image: 'images/vihan-lakshman.jpg',
+				image: 'images/profiles/vihan-lakshman.jpg',
 				description: "Vihan Lakshman is a majoring in Math and Computational Science. He covers Cardinal football and basketball for The Stanford Daily and KZSU student radio, and was also a member of the winning undergraduate team at the 2015 SABR Diamond Dollars Case Competition. Originally from Savannah, GA, Vihan is an ardent supporter of the Falcons, Braves, and Hawks.",
 				posts: [
 					{
@@ -46,7 +46,7 @@
 				name: 'Eli Shayer',
 				position: 'Technology Officer',
 				joined: 2014,
-				image: 'images/eli-shayer.jpg',
+				image: 'images/profiles/eli-shayer.jpg',
 				description: "Eli is an undergraduate student in the class of 2018 from Anchorage, Alaska. His favorite sport is baseball, and he is an avid fan of the Saint Louis Cardinals. He was on one of Stanford's teams at the 2015 SABR Analytics Conference Case Competition. As the tech officer, he made a good portion of this website!",
 				posts: [
 					{
@@ -64,7 +64,7 @@
 				name: 'Sandy Huang',
 				position: 'Financial Officer',
 				joined: 2014,
-				image: 'images/sandy-huang.jpg',
+				image: 'images/profiles/sandy-huang.jpg',
 				description: "Sandy is a coterminal master's student from Kentucky studying Management Science & Engineering (MS&E). His undergrad degree was in Philosophy where he wrote a thesis on Nietzsche. In his free time, he enjoys reading books, listening to hip-hop, and playing chess. He roots for the Kentucky Wildcats, the Warriors, the Raiders, and of course the Stanford Cardinal.",
 				posts: [
 					{
@@ -77,14 +77,14 @@
 			{
 				name: 'David Cameron',
 				joined: 2015,
-				image: 'images/david-cameron.jpg',
+				image: 'images/profiles/david-cameron.jpg',
 				description: 'Dave is a post-doctoral scholar in the Energy Resources Engineering Department, whose research involves optimizing monitoring networks for carbon storage operations. Originally from Australia, he developed a taste for ice-hockey after marrying a Canadian. Eh? Dave is real excited about his stat, which applies the Chess-rating system to provide real-time unbiased NHL player ratings. Check out his website at <a href="http://www.hockeystatsrevolution.com">www.hockeystatsrevolution.com</a>',
 				id: "david",
 			},
 			{
 				name: 'Konstantinos Balafas',
 				joined: 2014,
-				image: 'images/konstantinos-balafas.jpg',
+				image: 'images/profiles/konstantinos-balafas.jpg',
 				description: "Kostas grew up in Athens, Greece and just finished his PhD in civil engineering where he detected earthquake damage in buildings from acceleration measurements. He loves soccer and AC Milan, trusts in Arsene, yet misses not being at the office for Champions’ League games. That last part made basketball (Rock Chalk!) his go-to sport for watching and bringing up at SSAC meetings/presentations. Right now, he’s looking to “take his talents” to data science and will never say no to a pickup game of soccer of basketball.",
 				posts: [
 					{
