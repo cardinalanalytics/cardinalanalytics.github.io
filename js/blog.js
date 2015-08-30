@@ -4,16 +4,16 @@
 	var MAX_RECENT_POSTS = 5
 	var FA_EXPAND = "fa-plus";
 	var FA_SHRINK = "fa-minus";
-	var FILTER_OPTIONS = [
-		{
-			title: "Sport",
-			options: ["Baseball", "Basketball"],
-			textualize: function(sport) {
-				return sport;
+	var FILTER_OPTIONS = {
+		subject: {
+			title: "subject",
+			options: ["Baseball", "Basketball", "Football", "Other"],
+			textualize: function(subject) {
+				return subject;
 			}
 		},
-		{
-			title: "Date",
+		/*date: {
+			title: "date",
 			options: [
 				{
 					year: 2015,
@@ -39,9 +39,9 @@
 			textualize: function(date) {
 				return getTextualDate(date);
 			}
-		},
-		{
-			title: "Author",
+		},*/
+		author: {
+			title: "author",
 			options: [
 				{
 					firstName: "Eli",
@@ -58,13 +58,17 @@
 				{
 					firstName: "Konstantinos",
 					lastName: "Balafas"
+				},
+				{
+					firstName: "Sandy",
+					lastName: "Huang"
 				}
 			],
 			textualize: function(name) {
 				return fullName(name);
 			}
 		}
-	]
+	};
 
 	// data specifically for the blog page
 	var blogData = {
@@ -90,7 +94,7 @@
 						lastName: "Powers"
 					}
 				],
-				sports: [
+				subjects: [
 					"Baseball"
 				],
 				content: [
@@ -157,10 +161,15 @@
 					month: 4,
 					day: 29
 				},
-				authors: {
-					firstName: "Eli",
-					lastName: "Shayer"
-				},
+				authors: [
+					{
+						firstName: "Eli",
+						lastName: "Shayer"
+					}
+				],
+				subjects: [
+					"Other"
+				],
 				content: [
 					{
 						type: "text",
@@ -189,7 +198,7 @@
 						lastName: "Powers"
 					}
 				],
-				sports: [
+				subjects: [
 					"Baseball"
 				],
 				content: [
@@ -283,19 +292,12 @@
 					},
 					{
 						type: "text",
-						text: "We have shown that relievers struggle against the first batter they face, relative to expectation. Data were insufficient to identify which types of relievers suffered from this effect most, but we were able to identify that the reason for the increase wOBA of the first batter faced is an increase in power numbers. That is, the proportion of doubles, triples, and home runs against the first BF is higher than would otherwise be expected when relievers enter a ballgame."
-					},
-					{
-						type: "text",
-						text: 'Intuitively, these results make sense. A reliever who has just entered the game could not be described as being “in rhythm.” These results suggest that there is an increased risk of such a reliever throwing a mistake pitch, resulting in extra bases. Perhaps, on average, the time spent warming up in the bullpen is insufficient for a reliever to be “game ready.”'
-					},
-					{
-						type: "text",
-						text: "The frictional cost we observed is the equivalent of a difference of about 0.37 runs in ERA. So while much has been made of the value of using relievers, this effect is something that managers need to take into account when they are managing their bullpens."
-					},
-					{
-						type: "text",
-						text: "Something that we did not explore is whether relievers struggle more against the first batter face when they have more or less forewarning that they will enter the game. This preparedness may be difficult to measure, but a possible surrogate would be an indicator of whether the reliever entered mid-inning. We leave this to future work."
+						text: [
+							"We have shown that relievers struggle against the first batter they face, relative to expectation. Data were insufficient to identify which types of relievers suffered from this effect most, but we were able to identify that the reason for the increase wOBA of the first batter faced is an increase in power numbers. That is, the proportion of doubles, triples, and home runs against the first BF is higher than would otherwise be expected when relievers enter a ballgame.",
+							'Intuitively, these results make sense. A reliever who has just entered the game could not be described as being “in rhythm.” These results suggest that there is an increased risk of such a reliever throwing a mistake pitch, resulting in extra bases. Perhaps, on average, the time spent warming up in the bullpen is insufficient for a reliever to be “game ready.”',
+							"The frictional cost we observed is the equivalent of a difference of about 0.37 runs in ERA. So while much has been made of the value of using relievers, this effect is something that managers need to take into account when they are managing their bullpens.",
+							"Something that we did not explore is whether relievers struggle more against the first batter face when they have more or less forewarning that they will enter the game. This preparedness may be difficult to measure, but a possible surrogate would be an indicator of whether the reliever entered mid-inning. We leave this to future work."
+						]
 					},
 					{
 						type: "author-note",
@@ -319,11 +321,13 @@
 					month: 3,
 					day: 24
 				},
-				authors: {
-					firstName: "Vihan",
-					lastName: "Lakshman"
-				},
-				sports: [
+				authors: [
+					{
+						firstName: "Vihan",
+						lastName: "Lakshman"
+					}
+				],
+				subjects: [
 					"Baseball"
 				],
 				content: [
@@ -421,11 +425,13 @@
 					month: 11,
 					day: 30
 				},
-				authors: {
-					firstName: "Konstantinos",
-					lastName: "Balafas"
-				},
-				sports: [
+				authors: [
+					{
+						firstName: "Konstantinos",
+						lastName: "Balafas"
+					}
+				],
+				subjects: [
 					"Basketball"
 				],
 				content: [
@@ -588,6 +594,15 @@
 					month: 10,
 					day: 31
 				},
+				authors: [
+					{
+						firstName: "Sandy",
+						lastName: "Huang"
+					}
+				],
+				subjects: [
+					"Other"
+				],
 				content: [
 					{
 						type: "image",
@@ -613,6 +628,15 @@
 					month: 10,
 					day: 8
 				},
+				authors: [
+					{
+						firstName: "Sandy",
+						lastName: "Huang"
+					}
+				],
+				subjects: [
+					"Football"
+				],
 				content: [
 					{
 						type: "image",
@@ -803,9 +827,7 @@
 		result += '<h3>Recent Posts<i class="fa fa-fw fa-minus toggle-button" id="recent-posts-toggle"></i></h3>';
 		result += '<ul id="recent-posts-list">';
 		$.each(posts, function(index, post) {
-			if (index < MAX_RECENT_POSTS) {
-				result += '<a href="#' + post.id + '" class="post-link"><li>' + post.title + '</li></a>';
-			}
+			result += '<a href="#' + post.id + '" class="post-link"><li>' + post.title + '</li></a>';
 		});
 		result += '</ul></div>';
 		return new Handlebars.SafeString(result);
@@ -819,14 +841,15 @@
 		$.each(FILTER_OPTIONS, function(index, filterOption) {
 			result += '<h4 class="filter-option">' + filterOption.title + '</h4>';
 			result += '<form>';
-			$.each(filterOption.options, function(index, option) {
-				result += '<label class="checkbox-inline"><input type="checkbox">' + filterOption.textualize(option) + '</input></label>';
+			$.each(filterOption.options, function(optionNum, option) {
+				result += '<label class="checkbox-inline filter-checkbox" id="' + filterOption.title + '-' + optionNum + '">'
+				result += '<input type="checkbox">' + filterOption.textualize(option) + '</input></label>';
 			});
 			result += '</form>';
 		});
 		result += '</div></div>';
 		return new Handlebars.SafeString(result);
-	})
+	});
 
 	var blogTemplate = [
 	'{{#with pageData}}',
@@ -878,5 +901,55 @@
 			menu.contents.toggle(menu.isShowing);
 		});
 	});
+
+	// ---------------- filter tool -------------------
+
+	// initialize all filter options to selected
+	$(".filter-checkbox > input").prop('checked', true);
+
+	// utility function for customizable array searching
+	function arrayContains(array, searchTerm, callback) {
+		var i, l;
+		for (i = 0, l = array.length; i < l; i++) {
+			if (callback(array[i], searchTerm)) {
+				return i;
+			}
+		}
+		return -1;
+	}
+
+	// helper function to filter by subject
+	function filterSports(subjects) {
+		for (var i = 0, l = subjects.length; i < l; i++) {
+			if($("#subject-" + arrayContains(FILTER_OPTIONS.subject.options, subjects[i], function(a, b) {
+				return a === b;
+			}) + " > input").prop("checked")) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	// helper function to filter authors
+	function filterAuthors(authors) {
+		for (var i = 0, l = authors.length; i < l; i++) {
+			if($("#author-" + arrayContains(FILTER_OPTIONS.author.options, authors[i], function(a, b) {
+				return a.firstName === b.firstName && a.lastName === b.lastName;
+			}) + " > input").prop("checked")) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	// toggle posts as visible or hidden based on filtering of the sport,
+	// date, and author
+	function filterPosts() {
+		$.each(blogData.posts, function(index, post) {
+			$("#" + post.id).toggle(filterSports(post.subjects) && filterAuthors(post.authors));
+		});
+	}
+
+	$(".filter-checkbox").on("click", filterPosts);
 
 })(this, this.document);

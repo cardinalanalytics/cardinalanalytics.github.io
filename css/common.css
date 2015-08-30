@@ -173,6 +173,7 @@ body {
 	border-style: solid;
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-bottom: 5px;
 	margin-bottom: 20px;
 }
 
@@ -210,4 +211,8 @@ body {
 
 .toggle-button:hover {
 	cursor: pointer;
+}
+
+.filter-option {
+	color: #990000;
 }
