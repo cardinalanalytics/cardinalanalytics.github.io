@@ -640,7 +640,7 @@
 				content: [
 					{
 						type: "image",
-						link: "images/blog/sherman-stanford.png",
+						link: "images/blog/sherman-stanford.jpg",
 						alt: "Richard Sherman",
 						caption: "Richard Sherman during his playing career at Stanford (Photo by John Todd via The Stanford Daily)"
 					},
@@ -726,6 +726,10 @@
 		return name.firstName + " " + name.lastName;
 	}
 
+	function writeHtml(tag, text, className, id) {
+		return '<' + tag + (className ? ' class="' + className + '"' : "") + (id ? ' id="' + id + '"' : "") + '>' + text + '</' + tag + '>';
+	}
+
 	/* Writes a byline for any length of an authors array. Assumes the names
 	 * are contained in an array, with each name as an object with the first and
 	 * last name seperated. Example:
@@ -771,10 +775,10 @@
 		if (content.type === "text") {
 			if ($.isArray(content.text)) {
 				$.each(content.text, function(index, paragraph) {
-					result += "<p>" + paragraph + "</p>";
+					result += writeHtml("p", paragraph);
 				});
 			} else {
-				result += "<p>" + content.text + "</p>";
+				result += writeHtml("p", content.text);
 			}
 
 		// table content
@@ -783,7 +787,7 @@
 			$.each(content.rows, function(index, row) {
 				result += "<tr>";
 				$.each(row, function(index, data) {
-					result += "<td>" + data + "</td>";
+					result += writeHtml("td", data);
 				});
 				result += "</tr>";
 			});
@@ -793,7 +797,7 @@
 		} else if (content.type === "references") {
 			result += '<hr class="small"/>';
 			$.each(content.references, function(index, reference) {
-				result += "<p>" + "[" + reference.num + "] " + reference.text + "</p>";
+				result += writeHtml("p", "[" + reference.num + "] " + reference.text);
 			});
 
 		// images content
@@ -801,17 +805,17 @@
 			result += '<div class="blog-image-wrapper">';
 			result += '<img src="' + content.link + '" alt="' + content.alt + '" class="blog-image" </img>';
 			if (content.caption) {
-				result += '<p class="blog-image-caption">' + '<span class="caption-header">Caption: </span>' + content.caption + '</p>';
+				result += writeHtml("p", writeHtml("span", "Caption: ", "caption-header") + content.caption, "blog-image-caption");
 			}
 			result += '</div>';
 
 		// subtitle content
 		} else if (content.type === "subtitle") {
-			result += '<p class="blog-subtitle">' + content.text + '</p>';
+			result += writeHtml("p", content.text, "blog-subtitle");
 
 		// author-note content
 		} else if (content.type === "author-note") {
-			result += '<p class="blog-author-note">' + content.text + '</p>';
+			result += writeHtml("p", content.text, "blog-author-note");
 
 		// video content
 		} else if (content.type === "video") {
@@ -824,10 +828,10 @@
 	Handlebars.registerHelper("recentPosts", function(posts) {
 		var result = "";
 		result += '<div class="recent-posts noSelect">';
-		result += '<h3>Recent Posts<i class="fa fa-fw fa-minus toggle-button" id="recent-posts-toggle"></i></h3>';
+		result += writeHtml("h3", "Recent Posts" + writeHtml("i", "", "fa fa-fw fa-minus toggle-button", "recent-posts-toggle"));
 		result += '<ul id="recent-posts-list">';
 		$.each(posts, function(index, post) {
-			result += '<a href="#' + post.id + '" class="post-link"><li>' + post.title + '</li></a>';
+			result += '<a href="#' + post.id + '" class="post-link">' + writeHtml("li", post.title) + '</a>';
 		});
 		result += '</ul></div>';
 		return new Handlebars.SafeString(result);
@@ -836,10 +840,10 @@
 	Handlebars.registerHelper("filterTool", function(posts) {
 		var result = "";
 		result += '<div class="filter-tool noSelect">';
-		result += '<h3>Filter Tool<i class="fa fa-fw fa-minus toggle-button" id="filter-tool-toggle"></i></h3>';
+		result += writeHtml("h3", "Filter Tool" + writeHtml("i", "", "fa fa-fw fa-minus toggle-button", "filter-tool-toggle"));
 		result += '<div id="filter-tool-contents">';
 		$.each(FILTER_OPTIONS, function(index, filterOption) {
-			result += '<h4 class="filter-option">' + filterOption.title + '</h4>';
+			result += writeHtml("h4", filterOption.title, "filter-option");
 			result += '<form>';
 			$.each(filterOption.options, function(optionNum, option) {
 				result += '<label class="checkbox-inline filter-checkbox" id="' + filterOption.title + '-' + optionNum + '">'
