@@ -202,6 +202,7 @@ body {
 .recent-posts>ul>a:hover {
 	color: #990000;
 	text-decoration: none;
+	font-style: italic;
 }
 
 .toggle-button {
@@ -215,4 +216,12 @@ body {
 
 .filter-option {
 	color: #990000;
+}
+
+.filter-checkbox>input {
+	background-color: #ab84e1;
+}
+
+.unselected-label {
+	text-decoration: line-through;
 }

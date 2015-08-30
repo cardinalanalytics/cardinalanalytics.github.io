@@ -12,7 +12,7 @@
 				return subject;
 			}
 		},
-		/*date: {
+		date: {
 			title: "date",
 			options: [
 				{
@@ -39,7 +39,7 @@
 			textualize: function(date) {
 				return getTextualDate(date);
 			}
-		},*/
+		},
 		author: {
 			title: "author",
 			options: [
@@ -828,7 +828,7 @@
 	Handlebars.registerHelper("recentPosts", function(posts) {
 		var result = "";
 		result += '<div class="recent-posts noSelect">';
-		result += writeHtml("h3", "Recent Posts" + writeHtml("i", "", "fa fa-fw fa-minus toggle-button", "recent-posts-toggle"));
+		result += writeHtml("h3", "Recent Posts" + writeHtml("i", "", "fa fa-fw fa-minus toggle-button", "recent-posts-toggle"), "recent-posts-header");
 		result += '<ul id="recent-posts-list">';
 		$.each(posts, function(index, post) {
 			result += '<a href="#' + post.id + '" class="post-link">' + writeHtml("li", post.title) + '</a>';
@@ -840,7 +840,8 @@
 	Handlebars.registerHelper("filterTool", function(posts) {
 		var result = "";
 		result += '<div class="filter-tool noSelect">';
-		result += writeHtml("h3", "Filter Tool" + writeHtml("i", "", "fa fa-fw fa-minus toggle-button", "filter-tool-toggle"));
+		result += writeHtml("h3", "Filter Tool " + writeHtml("span", "(" + posts.length + "/" + posts.length + ")", null, "filter-tool-num")
+			+ writeHtml("i", "", "fa fa-fw fa-minus toggle-button", "filter-tool-toggle"));
 		result += '<div id="filter-tool-contents">';
 		$.each(FILTER_OPTIONS, function(index, filterOption) {
 			result += writeHtml("h4", filterOption.title, "filter-option");
@@ -858,7 +859,11 @@
 	var blogTemplate = [
 	'{{#with pageData}}',
 		'<div class="row">',
-			'<div class="col-xs-12 col-sm-8" id="blog">',
+			'<div class="col-xs-12 col-sm-4 col-sm-push-8" id="blog-sidebar">',
+				'{{recentPosts posts}}',
+				'{{filterTool posts}}',
+			'</div>',
+			'<div class="col-xs-12 col-sm-8 col-sm-pull-4" id="blog">',
 				'{{#each posts}}',
 					'<div class="post" id="{{id}}">',
 						'<h3 class="blog-post-title">{{ title }}</h3>',
@@ -870,10 +875,6 @@
 						'<hr/>',
 					'</div>',
 				'{{/each}}',
-			'</div>',
-			'<div class="col-xs-12 col-sm-4" id="blog-sidebar">',
-				'{{recentPosts posts}}',
-				'{{filterTool posts}}',
 			'</div>',
 		'</div>',
 	'{{/with}}'
@@ -946,14 +947,44 @@
 		return false;
 	}
 
+	// helper function to filter the date
+	function filterDate(date) {
+		return $("#date-" + arrayContains(FILTER_OPTIONS.date.options, date, function(a, b) {
+			return a.year === b.year && a.month === b.month;
+		}) + " > input").prop("checked");
+	}
+
 	// toggle posts as visible or hidden based on filtering of the sport,
 	// date, and author
 	function filterPosts() {
+		var numVisible = 0, numHidden = 0;
 		$.each(blogData.posts, function(index, post) {
-			$("#" + post.id).toggle(filterSports(post.subjects) && filterAuthors(post.authors));
+			var show = filterSports(post.subjects) && filterDate(post.date) && filterAuthors(post.authors);
+			show ? numVisible++ : numHidden++;
+			$("#" + post.id).toggle(show);
 		});
+
+		// show the number that are filter
+		$("#filter-tool-num").text("(" + numVisible + "/" + blogData.posts.length + ")");
+
+		// if there are no visible, then explain in the document
+		if (!!numVisible) {
+
+		}
 	}
 
-	$(".filter-checkbox").on("click", filterPosts);
+	// upon click of a filter checkbox, strike out unselected and filter posts
+	$(".filter-checkbox").on("click", function(event) {
+		// cache jQuery object
+		var $eventTarget = $(event.target);
+		// only the INPUT is consistently clicked, so use the input to
+		// go up the DOM to the LABEL and add the unselected-label class
+		if ($eventTarget.prop('tagName') === "INPUT") {
+			$($eventTarget[0].parentNode).toggleClass("unselected-label");
+
+			// inside the if to only call once per click at most
+			filterPosts();
+		}
+	});
 
 })(this, this.document);
