@@ -7,16 +7,44 @@
 		navbarTitle: "Events",
 		events: [
 			{
-				title: "Visit with the Golden State Warriors"
+				title: "A conversation with Billy Beane of the Oakland Athletics",
+				date: {
+					year: 2015,
+					month: 4,
+					day: 23
+				}
 			},
 			{
-				title: "A conversation with Billy Beane of the Oakland Athletics"
+				title: "SSAC competes at the SABR Analytics Conference Case Competition",
+				date: {
+					year: 2015,
+					month: 3,
+					day: 12
+				}
 			},
 			{
-				title: "SSAC competes at the SABR Analytics Conference Case Competition"
+				title: "The sports applications of virtual reality",
+				date: {
+					year: 2015,
+					month: 2,
+					day: 2
+				}
 			},
 			{
-				title: "The sports applications of virtual reality"
+				title: "A conversation with Doug Wilson, Jr. of the San Jose Sharks",
+				date: {
+					year: 2015,
+					month: 1,
+					day: 26
+				}
+			},
+			{
+				title: "Visit with the Golden State Warriors",
+				date: {
+					year: 2015,
+					month: 1,
+					day: 14
+				}
 			}
 		]
 	};
