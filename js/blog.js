@@ -875,6 +875,7 @@
 						'<hr/>',
 					'</div>',
 				'{{/each}}',
+				'<div><span id="empty-note"></span></div>',
 			'</div>',
 		'</div>',
 	'{{/with}}'
@@ -968,8 +969,10 @@
 		$("#filter-tool-num").text("(" + numVisible + "/" + blogData.posts.length + ")");
 
 		// if there are no visible, then explain in the document
-		if (!!numVisible) {
-
+		if (numVisible === 0) {
+			$("#empty-note").text("The current filter settings do not return any posts");
+		} else {
+			$("#empty-note").text("");
 		}
 	}
 

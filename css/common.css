@@ -225,3 +225,10 @@ body {
 .unselected-label {
 	text-decoration: line-through;
 }
+
+#empty-note {
+	background-color: #ffcccb;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
