@@ -75,3 +75,88 @@ populatePage = function(pageTemplate, pageData, pathLevel) {
 		}
 	});
 };
+
+// common handlebars helpers and associated helper functions
+
+// helper function to turn a month into text
+function getTextualMonth(month) {
+	switch (month) {
+		case 1: return "January";
+		case 2: return "February";
+		case 3: return "March";
+		case 4: return "April";
+		case 5: return "May";
+		case 6: return "June";
+		case 7: return "July";
+		case 8: return "August";
+		case 9: return "September";
+		case 10: return "October";
+		case 11: return "November";
+		case 12: return "December";
+		default: return "Error"
+	}
+}
+
+// helper function to turn a date into text
+function getTextualDate(date) {
+	var result = "";
+	result += getTextualMonth(date.month) + " ";
+	if (date.day) {
+		result += date.day + ", ";
+	}
+	result += date.year;
+	return result;
+}
+
+/* Converts a numerical date into a textual date in a Handlebars helper
+ * Assumes the following date object format, with the example textually
+ * being "August 26, 2015." Does not require a specific day:
+ *
+ * date: {
+ *     day: 26,
+ *     month: 8,
+ *     year: 2015
+ * }
+ */
+Handlebars.registerHelper("textualDate", function(date) {
+	return new Handlebars.SafeString(getTextualDate(date));
+});
+
+// helper function to write a full name
+function fullName(name) {
+	return name.firstName + " " + name.lastName;
+}
+
+/* Writes a byline for any length of an authors array. Accepts either a single
+ * name or names in an array, with each name as an object with the first and
+ * last name seperated. Example:
+ * name: {
+ *     firstName: "Eli",
+ *     lastName: "Shayer"
+ * }
+ */
+ 
+Handlebars.registerHelper("byline", function(authors) {
+	// forms byline with the one author, two authors, and three or more authors cases
+	var result = "";
+	if ($.isArray(authors)) {
+		if (authors.length === 1) {
+			result += fullName(authors[0]);
+		} else if (authors.length === 2) {
+			result += fullName(authors[0]) + " and " + fullName(authors[1]);
+		} else {
+			for (var i = 0; i < authors.length; i++) {
+				result += fullName(authors[i]);
+				if (i + 1 < authors.length) {
+					result += ", ";
+				}
+				if (i + 2 === authors.length) {
+					result += "and ";
+				}
+			}
+		}
+	} else {
+		result += fullName(authors);
+	}
+	return new Handlebars.SafeString(result);
+});
