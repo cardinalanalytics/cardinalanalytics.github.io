@@ -3,7 +3,7 @@
 	// data specifically for the events page
 	var eventsData = {
 		header: "Events",
-		description: "See what the Stanford Sports Analytics Club is up to",
+		description: "See what the Stanford Sports Analytics Club is doing",
 		navbarTitle: "Events",
 		events: [
 			{
@@ -31,7 +31,7 @@
 				}
 			},
 			{
-				title: "A conversation with Doug Wilson, Jr. of the San Jose Sharks",
+				title: "A discussion with Doug Wilson, Jr. of the San Jose Sharks",
 				date: {
 					year: 2015,
 					month: 1,
@@ -52,7 +52,9 @@
 	// Handlebars template for the events page
 	eventsTemplate = [
 		'{{#each pageData.events}}',
-			'<h3>{{{ title }}}</h3>',
+			'<h3>{{ title }}</h3>',
+			'{{#if date}}<h4>{{textualDate date}}</h4>{{/if}}',
+			'{{#if author}}<h5>{{byline author}}</h5>{{/if}}',
 			'<hr/>',
 		'{{/each}}'
 	].join('\n');
