@@ -232,3 +232,22 @@ body {
 	font-size: 2em;
 	font-weight: bold;
 }
+
+/* Styles for the collaborations page */
+.collaboration-tiles>h3 {
+	text-align: center;
+}
+
+.collaboration-tiles>img {
+	max-height: 250px;
+	padding-bottom: 30px;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.collaboration-tiles>hr {
+	border-color: #bbbbbb;
+	border-top-width: 2px;
+}
