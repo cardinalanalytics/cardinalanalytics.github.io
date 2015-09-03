@@ -159,6 +159,12 @@ body {
 	font-weight: bold;
 }
 
+.blog-table>thead {
+	border-bottom-width: 2px;
+	border-bottom-color: #aaaaaa;
+	border-bottom-style: solid;
+}
+
 .noSelect {
 	-moz-user-select: none;
   	-khtml-user-select: none;
@@ -205,6 +211,25 @@ body {
 	font-style: italic;
 }
 
+.recent-post-disabled {
+	text-decoration: line-through;
+	cursor: not-allowed;
+}
+
+.recent-post-disabled:hover {
+	/* important to set precedent over the text-decoration: none;
+	 in .recent-posts>ul>a:hover, which was for general link usage.
+	 This is specifically for disabled, in which the line-through
+	 is desired to be maintained upon hover
+	 TODO: do this without using !important*/
+	text-decoration: line-through !important;
+}
+
+/* Bright red to denote that a post is not clickable */
+.recent-post-disabled>li {
+	color: #ff0000;
+}
+
 .toggle-button {
 	position: absolute;
 	right: 30px;
@@ -215,6 +240,7 @@ body {
 }
 
 .filter-option {
+	display: inline;
 	color: #990000;
 }
 
@@ -224,6 +250,11 @@ body {
 
 .unselected-label {
 	text-decoration: line-through;
+}
+
+.filter-button {
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 #empty-note {

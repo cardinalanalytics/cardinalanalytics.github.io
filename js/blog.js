@@ -677,6 +677,7 @@
 		]
 	};
 
+	// helper to write a closed html element with the possibilty of innerText, a class, and an id
 	function writeHtml(tag, text, className, id) {
 		return '<' + tag + (className ? ' class="' + className + '"' : "") + (id ? ' id="' + id + '"' : "") + '>' + text + '</' + tag + '>';
 	}
@@ -701,13 +702,17 @@
 
 		// table content
 		} else if (content.type === "table") {
-			result += '<table class="table">';
+			result += '<table class="table blog-table">';
+			result += '<thead>';
 			$.each(content.rows, function(index, row) {
 				result += "<tr>";
 				$.each(row, function(index, data) {
 					result += writeHtml("td", data);
 				});
 				result += "</tr>";
+				if (index === 0) {
+					result += '</thead>';
+				}
 			});
 			result += "</table>";
 
@@ -749,7 +754,7 @@
 		result += writeHtml("h3", "Recent Posts" + writeHtml("i", "", "fa fa-fw fa-minus toggle-button", "recent-posts-toggle"), "recent-posts-header");
 		result += '<ul id="recent-posts-list">';
 		$.each(posts, function(index, post) {
-			result += '<a href="#' + post.id + '" class="post-link">' + writeHtml("li", post.title) + '</a>';
+			result += '<a href="#' + post.id + '" class="post-link" id="' + post.id + '-recent">' + writeHtml("li", post.title) + '</a>';
 		});
 		result += '</ul></div>';
 		return new Handlebars.SafeString(result);
@@ -762,13 +767,16 @@
 			+ writeHtml("i", "", "fa fa-fw fa-minus toggle-button", "filter-tool-toggle"));
 		result += '<div id="filter-tool-contents">';
 		$.each(FILTER_OPTIONS, function(index, filterOption) {
-			result += writeHtml("h4", filterOption.title, "filter-option");
+			result += writeHtml("span", writeHtml("h4", filterOption.title, "filter-option") 
+				+ writeHtml("span", writeHtml("button", "Select All", "button filter-button", filterOption.title + "-sa")
+				+ writeHtml("button", "Clear All", "button filter-button", filterOption.title + "-ca")));
 			result += '<form>';
 			$.each(filterOption.options, function(optionNum, option) {
 				result += '<label class="checkbox-inline filter-checkbox" id="' + filterOption.title + '-' + optionNum + '">'
 				result += '<input type="checkbox">' + filterOption.textualize(option) + '</input></label>';
 			});
 			result += '</form>';
+			result += '<br/>';
 		});
 		result += '</div></div>';
 		return new Handlebars.SafeString(result);
@@ -881,6 +889,7 @@
 			var show = filterSports(post.subjects) && filterDate(post.date) && filterAuthors(post.authors);
 			show ? numVisible++ : numHidden++;
 			$("#" + post.id).toggle(show);
+			$("#" + post.id + "-recent").toggleClass("recent-post-disabled", !show);
 		});
 
 		// show the number that are filter
@@ -894,6 +903,7 @@
 		}
 	}
 
+
 	// upon click of a filter checkbox, strike out unselected and filter posts
 	$(".filter-checkbox").on("click", function(event) {
 		// cache jQuery object
@@ -906,6 +916,32 @@
 			// inside the if to only call once per click at most
 			filterPosts();
 		}
+	});
+
+	/* ------------------ buttons on the filter tool --------------------------- */
+
+	// sets all filter checkboxes to the 
+	function setAllFilterCheckboxes(category, count, isChecked) {
+		var i, l;
+		for (i = 0, l = count; i < l; i++) {
+			var $parent = $('#' + category + '-' + i);
+			var $elem = $($parent[0].children[0]);
+			$parent.toggleClass("unselected-label", !isChecked);
+			$elem.prop('checked', isChecked);
+		}
+		filterPosts();
+	}
+
+	$.each(FILTER_OPTIONS, function(index, filterOption) {
+		// select all button
+		$('#' + filterOption.title + '-sa').click(function() {
+			setAllFilterCheckboxes(filterOption.title, filterOption.options.length, true);
+		});
+
+		// clear all button
+		$('#' + filterOption.title + '-ca').click(function() {
+			setAllFilterCheckboxes(filterOption.title, filterOption.options.length, false);
+		});
 	});
 
 })(this, this.document);
