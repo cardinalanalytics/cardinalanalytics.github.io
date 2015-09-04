@@ -3,7 +3,7 @@
 	// data specifically for the collaboration page
 	var collaborationsData = {
 		header: "Collaborations",
-		description: "Providing analytic consulting to collegiate and professional sports teams",
+		description: "Providing analytic consulting to collegiate and professional sports teams. Our partners:",
 		navbarTitle: "Collaborations",
 		collaborations: [
 			{

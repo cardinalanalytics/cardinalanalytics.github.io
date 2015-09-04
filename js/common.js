@@ -160,3 +160,36 @@ Handlebars.registerHelper("byline", function(authors) {
 	}
 	return new Handlebars.SafeString(result);
 });
+
+// helper function to form a date object
+function writeDate(year, month, day) {
+	return {
+		year: year,
+		month: month,
+		day: day
+	}
+}
+
+// names array as constants
+var NAMES = {
+	ELI: {
+		firstName: "Eli",
+		lastName: "Shayer"
+	},
+	SCOTT: {
+		firstName: "Scott",
+		lastName: "Powers"
+	},
+	VIHAN: {
+		firstName: "Vihan",
+		lastName: "Lakshman"
+	},
+	KONSTANTINOS: {
+		firstName: "Konstantinos",
+		lastName: "Balafas"
+	},
+	SANDY: {
+		firstName: "Sandy",
+		lastName: "Huang"
+	}
+};

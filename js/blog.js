@@ -43,26 +43,11 @@
 		author: {
 			title: "author",
 			options: [
-				{
-					firstName: "Eli",
-					lastName: "Shayer"
-				},
-				{
-					firstName: "Scott",
-					lastName: "Powers"
-				},
-				{
-					firstName: "Vihan",
-					lastName: "Lakshman"
-				},
-				{
-					firstName: "Konstantinos",
-					lastName: "Balafas"
-				},
-				{
-					firstName: "Sandy",
-					lastName: "Huang"
-				}
+				NAMES.ELI,
+				NAMES.SCOTT,
+				NAMES.VIHAN,
+				NAMES.KONSTANTINOS,
+				NAMES.SANDY
 			],
 			textualize: function(name) {
 				return fullName(name);
@@ -79,20 +64,10 @@
 			{
 				title: "A Fresh Take on Batting the Pitcher Eighth",
 				id: "batter-eighth",
-				date: {
-					year: 2015,
-					month: 5,
-					day: 6
-				},
+				date: writeDate(2015, 5, 6),
 				authors: [
-					{
-						firstName: "Eli",
-						lastName: "Shayer"
-					},
-					{
-						firstName: "Scott",
-						lastName: "Powers"
-					}
+					NAMES.ELI,
+					NAMES.SCOTT
 				],
 				subjects: [
 					"Baseball"
@@ -156,16 +131,9 @@
 			{
 				title: "New Leadership Elected",
 				id: "new-leadership",
-				date: {
-					year: 2015,
-					month: 4,
-					day: 29
-				},
+				date: writeDate(2015, 4, 29),
 				authors: [
-					{
-						firstName: "Eli",
-						lastName: "Shayer"
-					}
+					NAMES.ELI
 				],
 				subjects: [
 					"Other"
@@ -183,20 +151,10 @@
 			{
 				title: "The Frictional Cost of a Call to the Bullpen",
 				id: "frictional-cost",
-				date: {
-					year: 2015,
-					month: 3,
-					day: 24
-				},
+				date: writeDate(2015, 3, 24),
 				authors: [
-					{
-						firstName: "Eli",
-						lastName: "Shayer"
-					},
-					{
-						firstName: "Scott",
-						lastName: "Powers"
-					}
+					NAMES.ELI,
+					NAMES.SCOTT
 				],
 				subjects: [
 					"Baseball"
@@ -316,16 +274,9 @@
 			{
 				title: "Examining MLB Postseason Cluster Luck: Or, Why the Playoffs Might be a Crapshot",
 				id: "custerluck",
-				date: {
-					year: 2015,
-					month: 3,
-					day: 24
-				},
+				date: writeDate(2015, 3, 24),
 				authors: [
-					{
-						firstName: "Vihan",
-						lastName: "Lakshman"
-					}
+					NAMES.VIHAN
 				],
 				subjects: [
 					"Baseball"
@@ -420,16 +371,9 @@
 			{
 				title: "The Importance of Having a High NBA Draft Pick",
 				id: "nba-draft",
-				date: {
-					year: 2014,
-					month: 11,
-					day: 30
-				},
+				date: writeDate(2014, 11, 30),
 				authors: [
-					{
-						firstName: "Konstantinos",
-						lastName: "Balafas"
-					}
+					NAMES.KONSTANTINOS
 				],
 				subjects: [
 					"Basketball"
@@ -589,16 +533,9 @@
 			{
 				title: "Stanford Economist Roger Noll on Sports Analytics",
 				id: "roger-noll",
-				date: {
-					year: 2014,
-					month: 10,
-					day: 31
-				},
+				date: writeDate(2014, 10, 31),
 				authors: [
-					{
-						firstName: "Sandy",
-						lastName: "Huang"
-					}
+					NAMES.SANDY
 				],
 				subjects: [
 					"Other"
@@ -623,16 +560,9 @@
 			{
 				title: "Why We Love Sports Analytics and Richard Sherman",
 				id: "intro",
-				date: {
-					year: 2014,
-					month: 10,
-					day: 8
-				},
+				date: writeDate(2014, 10, 8),
 				authors: [
-					{
-						firstName: "Sandy",
-						lastName: "Huang"
-					}
+					NAMES.SANDY
 				],
 				subjects: [
 					"Football"
@@ -694,10 +624,10 @@
 		if (content.type === "text") {
 			if ($.isArray(content.text)) {
 				$.each(content.text, function(index, paragraph) {
-					result += writeHtml("p", paragraph);
+					result += writeHtml("p", paragraph, content.class);
 				});
 			} else {
-				result += writeHtml("p", content.text);
+				result += writeHtml("p", content.text, content.class);
 			}
 
 		// table content
