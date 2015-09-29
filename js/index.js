@@ -11,7 +11,7 @@
 			{
 				image: "calendar",
 				title: "Upcoming Meetings",
-				content: "2015-2016 meeting times will be announced in September"
+				content: "The first SSAC meeting of the school year will be Sunday, October 4th at 9pm in Old Union 200. We hope to see you there!"
 			},
 			{
 				image: "comments",
