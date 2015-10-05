@@ -11,12 +11,12 @@
 			{
 				image: "calendar",
 				title: "Upcoming Meetings",
-				content: "The first SSAC meeting of the school year will be Sunday, October 4th at 9pm in Old Union 200. We hope to see you there!"
+				content: "Our next full group meeting will be the week of October 18-24, exact date and time TBA. We will also be having sport-specific subgroup meetings in the coming weeks!"
 			},
 			{
 				image: "comments",
 				title: "Announcements",
-				content: "Make sure you're on the mailing list to stay up-to-date."
+				content: 'The first meeting of the school year is complete! Thanks to everyone who showed up. We look forward to a great year. <img src="./images/first-meeting.jpg" class="home-page-image"/>'
 			},
 			{
 				image: "shield",

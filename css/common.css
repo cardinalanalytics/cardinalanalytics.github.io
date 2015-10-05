@@ -282,3 +282,7 @@ body {
 	border-color: #bbbbbb;
 	border-top-width: 2px;
 }
+
+.home-page-image {
+	width: 100%;
+}
