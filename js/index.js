@@ -16,7 +16,7 @@
 			{
 				image: "comments",
 				title: "Announcements",
-				content: 'The first meeting of the school year is complete! Thanks to everyone who showed up. We look forward to a great year. <img src="./images/first-meeting.jpg" class="home-page-image"/>'
+				content: "Look forward to the sport-specific subgroups that will bring together members with common interests. We will also have workshops to help people get started!"
 			},
 			{
 				image: "shield",
