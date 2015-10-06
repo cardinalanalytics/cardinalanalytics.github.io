@@ -286,3 +286,7 @@ body {
 .home-page-image {
 	width: 100%;
 }
+
+.job-posting>a>h3 {
+	color: #990000;
+}
