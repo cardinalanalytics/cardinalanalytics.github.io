@@ -47,7 +47,7 @@
 					'Stanford also competed in the graduate division of the competition with a team including two SSAC members: Scott Powers and Eli Shayer. But that team, consisting of one grad student and four undergrads, did not place in the graduate division.'
 				],
 				image: {
-					link: 'images/events/diamonddollars.jpg',
+					link: 'images/events/diamonddollars.png',
 					source: 'http://sabr.org/analytics/case'
 				},
 				done: true
