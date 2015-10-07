@@ -283,10 +283,20 @@ body {
 	border-top-width: 2px;
 }
 
-.home-page-image {
-	width: 100%;
+/* Styles for the job posting page */
+
+.job-posting {
+	border-width: 1px;
+	border-color: #777777;
+	border-style: solid;
+	border-radius: 5px;
+	margin: 20px;
 }
 
-.job-posting>a>h3 {
+.job-posting>div>a>h3 {
 	color: #990000;
+}
+
+.job-posting>div>img {
+	width: 100%;
 }
