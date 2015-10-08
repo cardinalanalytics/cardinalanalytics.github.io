@@ -290,6 +290,7 @@ body {
 	border-color: #777777;
 	border-style: solid;
 	border-radius: 5px;
+	padding: 5px;
 	margin: 20px;
 }
 
@@ -297,6 +298,10 @@ body {
 	color: #990000;
 }
 
-.job-posting>div>img {
+.job-posting>div>a>img {
 	width: 100%;
+}
+
+.job-posting>div>h3 {
+	margin-top: 0px; 
 }
