@@ -16,11 +16,31 @@
 				author: NAMES.ELI,
 				text: [
 					"Our second year on campus began with a meeting on the evening of October 4th, 2015. We are looking forward to a great second year on campus!",
-					"Check out the image below, which was taken at the meeting."
+					"The 2015-2016 school year will see SSAC slightly changing the structure of the club in an effort to make research projects more accessible to all members. We will have biweekly general meetings at which there will be presentations, updates, and the like. Outside of the general meetings there will also be sport-specific subgroups, which will be a space where new members will have a chance to get involved and receive support from others interested in the same sport.",
+					"These meetings will be supplemented by guest speakers, data challenges, and workshops as in the previous year.",
+					"If you are a student we hope to see you at these meetings and work with you to help you achieve your research goals. Otherwise, we hope to present meaningful sports analytics research on our blog, and we hope you will continue to follow us throughout the year!"
 				],
 				image: {
 					link: 'images/events/first-meeting.jpg',
 					alt: 'The first meeting of the 2015-2015 school year',
+				},
+				done: true
+			},
+			{
+				title: "A meeting with Keith Woolner",
+				date: {
+					year: 2015,
+					month: 9,
+					day: 7
+				},
+				author: NAMES.SCOTT,
+				text: [
+					'In an event that was attended by more than two club members, the Sports Analytics Club kicked off the 2015-16 academic year by meeting with Keith Woolner, director of baseball analytics for the Cleveland Indians. Woolner, who earned a masters in decision sciences from Stanford in 1996, was in the Bay Area for the Sports Analytics Innovation Summit in San Francisco.',
+					'Because the meeting happened two weeks before the start of the school year, the few club members in attendance were able to get deep into conversation with the Indians executive. The biggest topic of conversation was the win-dollar tradeoff for Cleveland and other teams, as it relates to the mission of a baseball operations department. This relates to creating a framework for evaluating trades and was motivated by Woolner&#39;s article "Baseball&#39;s Hilbert Problems" in Baseball Prospectus 2000.'
+				],
+				image: {
+					link: 'images/events/woolner.jpg',
+					alt: 'A meeting with Keith Woolner',
 				},
 				done: true
 			},
@@ -84,22 +104,23 @@
 	
 	// Handlebars template for the events page
 	eventsTemplate = [
-		'{{#each pageData.events}}',
-			'{{#if done }}',
-				'<div class="col-md-6 col-xs-12 collaboration-tiles">',
-					'<h3>{{ title }}</h3>',
-					'{{#if date}}<h4>{{textualDate date}}</h4>{{/if}}',
-					'{{#if author}}<h5>{{byline author}}</h5>{{/if}}',
-					'{{#each text}}',
-						'<p>{{{ this }}}</p>',
-					'{{/each}}',
-					'{{#if image}}',
-						'<img src="{{ image.link }}" alt="{{ alt }}"/>',
-					'{{/if}}',
-					'<hr/>',
-				'</div>',
-			'{{/if}}',
-		'{{/each}}'
+		'<div class="row">',
+			'{{#each pageData.events}}',
+				'{{#if done }}',
+					'<div class="col-xs-12 ssac-tile">',
+						'<div class="col-xs-3"><h3>{{ title }}</h3>',
+							'{{#if date}}<h4>{{textualDate date}}</h4>{{/if}}',
+							'{{#if author}}<h5>Written by {{byline author}}</h5>{{/if}}',
+						'</div>',
+						'<div class="col-xs-9">',
+							'{{#if image}}<img src="{{ image.link }}" {{#if alt}}alt="{{ alt }}{{/if}}"/>{{/if}}',
+							'{{#each text}}<p>{{{ this }}}</p>{{/each}}',
+						'</div>',
+						'<hr/>',
+					'</div>',
+				'{{/if}}',
+			'{{/each}}',
+		'</div>'
 	].join('\n');
 
 	// populate page with the above data

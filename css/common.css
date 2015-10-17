@@ -264,12 +264,13 @@ body {
 	font-weight: bold;
 }
 
-/* Styles for the collaborations page */
-.collaboration-tiles>h3 {
+/* Styles for the collaborations page and events page */
+.ssac-tile>h3 {
 	text-align: center;
 }
 
-.collaboration-tiles>img {
+/* collaborations */
+.ssac-tile>img {
 	max-height: 250px;
 	padding-bottom: 30px;
 	max-width: 100%;
@@ -278,9 +279,27 @@ body {
 	margin-right: auto;
 }
 
-.collaboration-tiles>hr {
+/* events */
+.ssac-tile>div>img {
+	max-height: 250px;
+	padding-bottom: 30px;
+	max-width: 100%;
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+
+/* collaborations */
+.ssac-tile>hr {
 	border-color: #bbbbbb;
 	border-top-width: 2px;
+	width: 100%;
+}
+
+/* events */
+.ssac-tile>div>hr {
+	border-color: #bbbbbb;
+	border-top-width: 2px;
+
 }
 
 /* Styles for the job posting page */

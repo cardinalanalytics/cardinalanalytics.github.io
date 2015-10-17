@@ -20,9 +20,9 @@
 	// Handlebars template for the collaborations page
 	var collaborationsTemplate = [
 		'{{#each pageData.collaborations}}',
-			'<div class="col-md-6 col-xs-12 collaboration-tiles">',
+			'<div class="col-md-6 col-xs-12 ssac-tile">',
 				'<h3>{{ partner }}</h3>',
-				'<img src="{{ image }}" alt="{{{ partner }}}" class="collaboration-image"/>',
+				'<img src="{{ image }}" alt="{{{ partner }}}"/>',
 				'<hr/>',
 			'</div>',
 		'{{/each}}'
