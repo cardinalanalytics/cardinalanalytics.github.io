@@ -37,10 +37,13 @@ populatePage = function(pageTemplate, pageData, pathLevel) {
 		{text: links.home.name, link: "index.html", target: "_parent"},
 		{text: "About", link: "about.html", target: "_parent"},
 		{text: "Profiles", link: "profiles.html", target: "_parent"},
+		{text: links.blog.name, link: links.blog.link, target: "new"}
+	];
+	buttons.dropdown = [
 		{text: "Challenges", link: "challenges.html", target: "_parent"},
 		{text: "Events", link: "events.html", target: "_parent"},
 		{text: "Collaborations", link: "collaborations.html", target: "_parent"},
-		{text: links.blog.name, link: links.blog.link, target: "new"}
+		{text: "Job Postings", link: "jobs.html", target: "_parent"},
 	];
 	buttons.mailList = {text: "Join our mailing list!", link: "//mailman.stanford.edu/mailman/listinfo/sportsanalytics", color: "light", target: "new"};
 
@@ -69,13 +72,22 @@ populatePage = function(pageTemplate, pageData, pathLevel) {
 	populateElement("#content", templates.pageTemplate, data);
 
 	// set the active tab in the navbar
-	$.each($("#navbar-tabs")[0].children, function(index, li) {
-		// have to remove the final character from the li text
-		if (li.innerText.substring(0, li.innerText.length - 1) === data.pageData.navbarTitle) {
-			li.className += "active";
-			li.children[0].innerHTML += '<span class="sr-only"> (current)</span>';
-		}
-	});
+	function setActive(selector, dropdown) {
+		$.each($(selector)[0].children, function(index, li) {
+			// have to remove the final character from the li text
+			if (li.innerText === data.pageData.navbarTitle ||
+					li.innerText.substring(0, li.innerText.length - 1) === data.pageData.navbarTitle) {	
+				li.className += "active";
+				li.children[0].innerHTML += '<span class="sr-only"> (current)</span>';
+				if (dropdown) {
+					$('.dropdown').addClass("active");
+				}
+			}
+		});
+	}
+
+	setActive("#navbar-tabs", false);
+	setActive(".dropdown-menu", true);
 };
 
 // common handlebars helpers and associated helper functions
