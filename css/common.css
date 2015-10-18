@@ -313,6 +313,10 @@ body {
 	margin: 20px;
 }
 
+.center {
+	text-align: center;
+}
+
 .job-posting>div>a>h3 {
 	color: #990000;
 }
