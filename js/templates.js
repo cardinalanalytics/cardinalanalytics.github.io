@@ -12,7 +12,7 @@ Templates.navbar = [
                 '<span class="icon-bar"></span>',
                 '<span class="icon-bar"></span>',
             '</button>',
-            '<a class="navbar-brand" href="index.html"><img alt="Stanford Sports Analytics Club" src="{{path}}images/logo/horizontal.png" id="ssac-logo"></a>',
+            '<a class="navbar-brand" href="index.html"><img alt="Stanford Sports Analytics Club" src="{{path}}images/logo/cardinal-on-transparent-background.png" id="ssac-logo"></a>',
         '</div>',
         '<div class="collapse navbar-collapse" id="ssac-navbar-collapse">',
             '<ul class="nav navbar-nav" id="navbar-tabs">',
