@@ -24,7 +24,24 @@
 							year: 2015,
 							month: 10
 						}
-					}
+					},
+					active: true
+				},
+				{
+					company: "TruMedia Networks",
+					title: "Principal / Senior / QA Software",
+					location: "Boston, MA (remote possible)",
+					description: "TruMedia is looking for Principal, Senior and QA Software Engineers to help build tier one sports analytics and scouting solutions. The ideal candidates will be passionate sports fans, have a strong interest in data science and have the ability to work on the full software stack with a focus on web development and user interface design. Interfaces will be needed for web based solutions as well as mobile platforms.",
+					link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-trumedia-networks-principal-senior-qa-software-engineer/",
+					logo: "trumedia.jpg",
+					date: {
+						posted: {
+							year: 2015,
+							month: 10,
+							day: 14
+						}
+					},
+					active: true
 				},
 				{
 					company: "Charlotte Hornets",
@@ -39,7 +56,8 @@
 							month: 10,
 							day: 5
 						}
-					}
+					},
+					active: true
 				},
 				{
 					company: "San Francisco 49ers",
@@ -53,7 +71,8 @@
 							year: 2015,
 							month: 9,
 						}
-					}
+					},
+					active: true
 				},
 				{
 					company: "Columbus Crew SC",
@@ -68,7 +87,40 @@
 							month: 9,
 							day: 28
 						}
-					}
+					},
+					active: true
+				},
+				{
+					company: "Baseball Info Solutions",
+					title: "Research & Development Associate",
+					location: "Allentown, PA",
+					description: "Baseball Info Solutions (BIS) is looking for candidates to fill a full-time position in our R&D Department. The R&D Associate will work out of our office near Allentown, Pa., and will contribute as a member of our R&D team, supporting research for publications and future products.",
+					link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-baseball-info-solutions-research-development-associate/",
+					logo: "bis.gif",
+					date: {
+						posted: {
+							year: 2015,
+							month: 9,
+							day: 28
+						}
+					},
+					active: true
+				},
+				{
+					company: "Atlanta Braves",
+					title: "Baseball Operations Analyst",
+					location: "Atlanta, GA",
+					description: "Responsibilities: Oversee the in-house technological efforts associated with the development of Braves’ new internal player evaluation application, Development and on-going adjustment of proprietary statistics and systems, etc.",
+					link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-atlanta-braves-baseball-operations-analyst/",
+					logo: "braves.gif",
+					date: {
+						posted: {
+							year: 2015,
+							month: 7,
+							day: 23
+						}
+					},
+					active: true
 				}
 			],
 			closed: [
@@ -84,8 +136,41 @@
 							year: 2015,
 							month: 9,
 						}
-					}
-				}
+					},
+					active: false
+				},
+				{
+					company: "St. Louis Cardinals",
+					title: "Analyst, Baseball Development",
+					location: "St. Louis, MO",
+					description: "This position is responsible for conducting quantitative research to provide timely recommendations to decision makers within Baseball Operations.",
+					link: "http://www.fangraphs.com/blogs/jop-posting-cardinals-openings/",
+					logo: "cardinals.gif",
+					date: {
+						posted: {
+							year: 2015,
+							month: 1,
+							day: 14
+						}
+					},
+					active: false
+				},
+				{
+					company: "St. Louis Cardinals",
+					title: "Developer, Baseball Development",
+					location: "St. Louis, MO",
+					description: "This position is responsible for designing, implementing and maintaining analytic and technical systems to provide timely, baseball-related information to decision makers within Baseball Operations.",
+					link: "http://www.fangraphs.com/blogs/jop-posting-cardinals-openings/",
+					logo: "cardinals.gif",
+					date: {
+						posted: {
+							year: 2015,
+							month: 1,
+							day: 14
+						}
+					},
+					active: false
+				},
 			]
 		}
 	};
@@ -104,7 +189,7 @@
 		result += '<h3>' + job.company + '</h3>';
 		result += '<h4>' + job.location + '</h4>';
 		result += '<h4>' + job.title + '</h4>';
-		result += '<h5>' + Handlebars.helpers.textualDate(job.date.posted) + '</h5>';
+		result += '<h5>Posted ' + Handlebars.helpers.textualDate(job.date.posted) + '</h5>';
 		result += '</div>';
 
 		// add the description and link
