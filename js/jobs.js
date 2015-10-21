@@ -16,7 +16,8 @@
 				date: {
 					posted: {
 						year: 2015,
-						month: 10
+						month: 10,
+						day: 20
 					}
 				},
 				active: true
@@ -101,6 +102,21 @@
 				active: true
 			},
 			{
+				company: "Carolina Hurricanes",
+				title: "Java Developer/Database Administrator",
+				location: "Raleigh, NC",
+				description: "The Carolina Hurricanes and PNC Arena are seeking a Java Developer to continue development of existing systems and write new applications as needed.",
+				link: "http://hockeyjobs.nhl.com/teamwork/r.cfm?i=85191",
+				logo: "hurricanes.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 9,
+					}
+				},
+				active: false
+			},
+			{
 				company: "Atlanta Braves",
 				title: "Baseball Operations Analyst",
 				location: "Atlanta, GA",
@@ -112,21 +128,6 @@
 						year: 2015,
 						month: 7,
 						day: 23
-					}
-				},
-				active: true
-			},
-			{
-				company: "Carolina Hurricanes",
-				title: "Java Developer/Database Administrator",
-				location: "Raleigh, NC",
-				description: "The Carolina Hurricanes and PNC Arena are seeking a Java Developer to continue development of existing systems and write new applications as needed.",
-				link: "http://hockeyjobs.nhl.com/teamwork/r.cfm?i=85191",
-				logo: "hurricanes.gif",
-				date: {
-					posted: {
-						year: 2015,
-						month: 9,
 					}
 				},
 				active: false
