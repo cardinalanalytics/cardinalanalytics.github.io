@@ -13,6 +13,20 @@
 		jobs: {
 			active: [
 				{
+					company: "Los Angeles Angels of Anaheim",
+					title: "Director, Quantitative Analysis",
+					location: "Anaheim, CA",
+					description: "Responsible for developing and overseeing the research and analytics initiative within Baseball Operations, reporting to the General Manager and Assistant General Manager.",
+					link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=88100",
+					logo: "angels.gif",
+					date: {
+						posted: {
+							year: 2015,
+							month: 10
+						}
+					}
+				},
+				{
 					company: "Charlotte Hornets",
 					title: "Business Analytics Internship",
 					location: "Charlotte, NC",
@@ -100,7 +114,6 @@
 		result += '</div>';
 
 		result += '</div>'; // / JOB POSTING
-		console.log();
 		return new Handlebars.SafeString(result);
 	});
 	
