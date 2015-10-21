@@ -5,11 +5,6 @@
 		header: "Job Postings",
 		description: "Opportunities to work in sports analytics",
 		navbarTitle: "Job Postings",
-		overview: [
-			"These job listings are maintained for your convenience.",
-			"If you have found a job listing that would fit on this page, please submit the link here: ",
-			'<input type="text" id="jobLink" placeholder="Job Link">'
-		],
 		jobs: [
 			{
 				company: "Los Angeles Angels of Anaheim",
@@ -222,26 +217,35 @@
 
 		return new Handlebars.SafeString(result);
 	});
+
+	Handlebars.registerHelper('job-overview', function() {
+		result = "";
+		result += '<p>If you have found a job listing that would fit on this page, please submit the link here:</p>';
+		result += '<form class="form-inline job-link-form">';
+    	result +=     '<div class="col-xs-11"><input type="text" class="form-control" id="jobLinkInput" placeholder="Job Link"></div>';
+    	result +=     '<div class="col-xs-1"><a href="mailto:stanfordsportsanalytics@gmail.com&amp;A%20New%20SSAC%20Job%20Posting&amp;Here%20is%20a%20job%20listing%20that%20would%20fit%20well%20on%20the%20SSAC%20job%20postings%3A" target="_new" class="btn btn-default" id="btn-job">Send</a></div>';
+    	result += '</form>';
+    	result += '<br/>';
+
+    	return new Handlebars.SafeString(result);
+	});
 	
 	// Handlebars template for the jobs page
 	jobsTemplate = [
-	//	'{{#each pageData.overview}}',
-	//		'<p>{{{ this }}}</p>',
-	//	'{{/each}}',
-		'{{job-listings pageData.jobs}}',/*
-		'<div class="row">',
-			'<h2 class="center">Active Jobs</h2>',
-			'{{#each pageData.jobs.active}}',
-				'{{job this}}',
-			'{{/each}}',
-			'<h2 class="center">Closed Jobs</h2>',
-			'{{#each pageData.jobs.closed}}',
-				'{{job this}}',
-			'{{/each}}',
-		'</div>'*/
+		'{{job-overview}}',
+		'{{job-listings pageData.jobs}}'
 	].join('\n');
 
 	// populate page with the above data
 	populatePage(jobsTemplate, jobsData);
+
+	// update the mailto link based on the contents in the 
+	$("#jobLinkInput").keydown(function(event) {
+		var mailto = "mailto:stanfordsportsanalytics@gmail.com";
+		var subject = "A New SSAC Job Posting";
+		var body = "Here is a job listing that would fit well on the SSAC job postings: " + $(this).val();
+		var href = mailto + "&" + encodeURIComponent(subject) + "&" + encodeURIComponent(body);
+		$('#btn-job').attr('href', href);
+	});
 
 })(this, this.document);

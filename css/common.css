@@ -310,7 +310,7 @@ body {
 	border-style: solid;
 	border-radius: 5px;
 	padding: 5px;
-	margin: 20px;
+	margin: 15px;
 }
 
 .job-closed {
@@ -319,6 +319,20 @@ body {
 
 .job-closed-text {
 	color: #ff0000;
+}
+
+.job-link-form>div {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.job-link-form>div>a {
+	float: right;
+}
+
+#jobLinkInput {
+	margin-right: 20px;
+	width: 100%;
 }
 
 .center {
