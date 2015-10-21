@@ -241,11 +241,11 @@
 	populatePage(jobsTemplate, jobsData);
 
 	// update the mailto link based on the contents in the 
-	$("#jobLinkInput").keydown(function(event) {
+	$("#jobLinkInput").keyup(function(event) {
 		var mailto = "mailto:stanfordsportsanalytics@gmail.com";
 		var subject = "A New SSAC Job Posting";
 		var body = "Here is a job listing that would fit well on the SSAC job postings: " + $(this).val();
-		var href = mailto + "&" + encodeURIComponent(subject) + "&" + encodeURIComponent(body);
+		var href = mailto + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
 		$('#btn-job').attr('href', href);
 	});
 
