@@ -224,7 +224,7 @@
 		result += '<p>If you have found a job listing that would fit on this page, please submit the link here:</p>';
 		result += '<form class="form-inline job-link-form">';
     	result +=     '<div class="col-xs-11"><input type="text" class="form-control" id="jobLinkInput" placeholder="Job Link"></div>';
-    	result +=     '<div class="col-xs-1"><a href="mailto:stanfordsportsanalytics@gmail.com&amp;A%20New%20SSAC%20Job%20Posting&amp;Here%20is%20a%20job%20listing%20that%20would%20fit%20well%20on%20the%20SSAC%20job%20postings%3A" target="_new" class="btn btn-default" id="btn-job">Send</a></div>';
+    	result +=     '<div class="col-xs-1"><a href="mailto:stanfordsportsanalytics@gmail.com?subject=A%20New%20SSAC%20Job%20Posting&amp;body=Here%20is%20a%20job%20listing%20that%20would%20fit%20well%20on%20the%20SSAC%20job%20postings%3A" target="_new" class="btn btn-default" id="btn-job">Send</a></div>';
     	result += '</form>';
     	result += '<br/>';
 
