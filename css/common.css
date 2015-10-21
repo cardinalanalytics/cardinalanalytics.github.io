@@ -313,6 +313,14 @@ body {
 	margin: 20px;
 }
 
+.job-closed {
+	border-color: #ff0000;
+}
+
+.job-closed-text {
+	color: #ff0000;
+}
+
 .center {
 	text-align: center;
 }
