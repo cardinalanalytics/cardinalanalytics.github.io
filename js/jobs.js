@@ -7,6 +7,43 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Los Angeles Dodgers",
+				title: "Analysis Associate",
+				location: "Los Angeles, CA",
+				description: "The Los Angeles Dodgers are seeking an Analysis Associate to join the team's Baseball Operations group starting in the fall of 2015. We consider our internship program to be a critical pipeline for recruiting full-time employees, though there is no guarantee of receiving a full-time offer after the internship is completed. Our current focus is on identifying highly-talented, mathematically-oriented candidates as we seek to build and develop our baseball analytics team.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=88159",
+				logo: "dodgers.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 10,
+						day: 21
+					},
+					due: {
+						year: 2015,
+						month: 11,
+						day: 13
+					}
+				},
+				active: true
+			},
+			{
+				company: "Boston Red Sox",
+				title: "Software Engineer",
+				location: "Boston, MA",
+				description: "The software engineer will be a member of the Application Development team involved in all aspects of the application development process.  This individual will work closely with team members to understand business requirements that drive the analysis, design and coding of quality business and baseball applications that meet our customer’s needs.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=88111",
+				logo: "redsox.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 10,
+						day: 21
+					}
+				},
+				active: true
+			},
+			{
 				company: "Los Angeles Angels of Anaheim",
 				title: "Director, Quantitative Analysis",
 				location: "Anaheim, CA",
