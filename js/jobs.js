@@ -25,7 +25,8 @@
 						day: 13
 					}
 				},
-				active: true
+				active: true,
+				isTeam: true
 			},
 			{
 				company: "Boston Red Sox",
@@ -41,7 +42,8 @@
 						day: 21
 					}
 				},
-				active: true
+				active: true,
+				isTeam: true
 			},
 			{
 				company: "Los Angeles Angels of Anaheim",
@@ -57,7 +59,8 @@
 						day: 20
 					}
 				},
-				active: true
+				active: true,
+				isTeam: true
 			},
 			{
 				company: "TruMedia Networks",
@@ -73,7 +76,8 @@
 						day: 14
 					}
 				},
-				active: true
+				active: true,
+				isTeam: false
 			},
 			{
 				company: "Charlotte Hornets",
@@ -89,7 +93,8 @@
 						day: 5
 					}
 				},
-				active: true
+				active: true,
+				isTeam: true
 			},
 			{
 				company: "San Francisco 49ers",
@@ -104,7 +109,8 @@
 						month: 9,
 					}
 				},
-				active: true
+				active: true,
+				isTeam: true
 			},
 			{
 				company: "Columbus Crew SC",
@@ -120,7 +126,8 @@
 						day: 28
 					}
 				},
-				active: true
+				active: true,
+				isTeam: true
 			},
 			{
 				company: "Baseball Info Solutions",
@@ -136,7 +143,8 @@
 						day: 28
 					}
 				},
-				active: true
+				active: true,
+				isTeam: false
 			},
 			{
 				company: "Carolina Hurricanes",
@@ -151,7 +159,8 @@
 						month: 9,
 					}
 				},
-				active: false
+				active: false,
+				isTeam: true
 			},
 			{
 				company: "Atlanta Braves",
@@ -167,7 +176,8 @@
 						day: 23
 					}
 				},
-				active: false
+				active: false,
+				isTeam: true
 			},
 			{
 				company: "St. Louis Cardinals",
@@ -183,7 +193,8 @@
 						day: 14
 					}
 				},
-				active: false
+				active: false,
+				isTeam: true
 			},
 			{
 				company: "St. Louis Cardinals",
@@ -199,7 +210,8 @@
 						day: 14
 					}
 				},
-				active: false
+				active: false,
+				isTeam: true
 			},
 		]
 	};
@@ -229,7 +241,7 @@
 		// add the description and link
 		result += '<div class="col-sm-7 col-xs-12">';
 		result += '<p>' + job.description + '</p>';
-		result += '<a href="' + job.link + '" target="_new">Link to the ' + job.title + ' job with the ' + job.company + '</a>';
+		result += '<a href="' + job.link + '" target="_new">Link to the ' + job.title + ' job with ' + (job.isTeam ? 'the ' : '') + job.company + '</a>';
 		if (!active) {
 			result += '<p class="job-closed-text">Please note that this job is now closed.</p>';
 		}
@@ -266,6 +278,7 @@
 		var email = 'stanfordsportsanalytics@gmail.com';
 		var subject = 'A New SSAC Job Posting';
 		var body = 'Here is a job listing that would fit well on the SSAC job postings: ';
+		
 		var result = '';
 
 		result += '<p>';
