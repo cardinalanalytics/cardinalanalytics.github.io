@@ -7,6 +7,28 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Second Specturm",
+				title: "Machine Learning Engineer",
+				location: "Los Angeles, CA or Boston, MA",
+				description: "Second Spectrum is seeking a Machine Learning Software Engineer to join our Data team.  At Second Spectrum the machine understanding of sports forms the foundation of all the products we deliver.  Machine Learning engineers have the opportunity to develop state of the art models whose results are used by coaches, broadcasters, and fans throughout the world.",
+				link: "http://www.secondspectrum.com/careers-ml",
+				logo: "second-spectrum.jpg",
+				date: {},
+				active: true,
+				isTeam: false
+			},
+			{
+				company: "Second Specturm",
+				title: "Full-Stack Software Engineer",
+				location: "Los Angeles, CA or Shanghai",
+				description: "Second Spectrum is seeking solid full-stack engineers to join our team and help build out infrastructure to support highly interactive applications. Full-stack engineers can range from specializing at systems engineering to UI/UX development.",
+				link: "http://www.secondspectrum.com/careers-full-stack",
+				logo: "second-spectrum.jpg",
+				date: {},
+				active: true,
+				isTeam: false
+			},
+			{
 				company: "Los Angeles Dodgers",
 				title: "Analysis Associate",
 				location: "Los Angeles, CA",
