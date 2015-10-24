@@ -218,7 +218,12 @@
 		result += '<h3>' + job.company + '</h3>';
 		result += '<h4>' + job.location + '</h4>';
 		result += '<h4>' + job.title + '</h4>';
-		result += '<h5>Posted ' + Handlebars.helpers.textualDate(job.date.posted) + '</h5>';
+		if (job.date.posted) {
+			result += '<h5>Posted ' + Handlebars.helpers.textualDate(job.date.posted) + '</h5>';		
+		}
+		if (job.date.due) {
+			result += '<h5>Due ' + Handlebars.helpers.textualDate(job.date.due) + '</h5>';		
+		}
 		result += '</div>';
 
 		// add the description and link
@@ -257,13 +262,18 @@
 	});
 
 	Handlebars.registerHelper('job-overview', function() {
-		result = "";
-		result += '<p>If you have found a job listing that would fit on this page, please submit the link here:</p>';
-		result += '<form class="form-inline job-link-form">';
-    	result +=     '<div class="col-xs-11"><input type="text" class="form-control" id="jobLinkInput" placeholder="Job Link"></div>';
-    	result +=     '<div class="col-xs-1"><a href="mailto:stanfordsportsanalytics@gmail.com?subject=A%20New%20SSAC%20Job%20Posting&amp;body=Here%20is%20a%20job%20listing%20that%20would%20fit%20well%20on%20the%20SSAC%20job%20postings%3A" target="_new" class="btn btn-default" id="btn-job">Send</a></div>';
-    	result += '</form>';
-    	result += '<br/>';
+		var overview = 'If you have found a job listing that would fit on this page, please send it to ';
+		var email = 'stanfordsportsanalytics@gmail.com';
+		var subject = 'A New SSAC Job Posting';
+		var body = 'Here is a job listing that would fit well on the SSAC job postings: ';
+		var result = '';
+
+		result += '<p>';
+		result += overview;
+		result += '<a href="mailto:' + email + '?subject=' + encodeURIComponent(subject)
+				+ '&body=' + encodeURIComponent(body)
+				+ '" target="_ new">' + email + '</a>';
+		result += '!</p>';
 
     	return new Handlebars.SafeString(result);
 	});
@@ -276,14 +286,5 @@
 
 	// populate page with the above data
 	populatePage(jobsTemplate, jobsData);
-
-	// update the mailto link based on the contents in the 
-	$("#jobLinkInput").keyup(function(event) {
-		var mailto = "mailto:stanfordsportsanalytics@gmail.com";
-		var subject = "A New SSAC Job Posting";
-		var body = "Here is a job listing that would fit well on the SSAC job postings: " + $(this).val();
-		var href = mailto + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
-		$('#btn-job').attr('href', href);
-	});
 
 })(this, this.document);
