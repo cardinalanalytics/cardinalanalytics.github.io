@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Houston Astros",
+				title: "Analyst, Baseball Research and Development",
+				location: "Houston, TX",
+				description: "The Houston Astros are seeking an Analyst for the team's Baseball Research and Development group. The Analyst will work closely with the Director of R&D and the analytics team to conduct research and develop methods that encourage the effective understanding and application of information throughout Baseball Operations.",
+				link: "http://www.baseballprospectus.com/article.php?articleid=27776",
+				logo: "astros.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 10,
+						day: 28
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Second Spectrum",
 				title: "Machine Learning Engineer",
 				location: "Los Angeles, CA or Boston, MA",
