@@ -11,7 +11,7 @@
 			{
 				image: "calendar",
 				title: "Upcoming Meetings",
-				content: "The next general meeting will be October 18th at 8 pm in School of Education 210. We will also be having sport-specific subgroup meetings in the coming weeks!"
+				content: "The next general meeting will be November 1st at 8 pm in School of Education 210. We will also be having sport-specific subgroup meetings in the coming weeks!"
 			},
 			{
 				image: "comments",
