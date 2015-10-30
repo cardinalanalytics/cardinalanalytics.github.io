@@ -7,6 +7,28 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Toronto Blue Jays",
+				title: "Baseball Operations Analytics Intern",
+				location: "Toronto, ON, CA",
+				description: "A Baseball Operations Analytics Intern is primarily responsible for assisting with day-to-day tasks within Baseball Operations.  Responsibilities vary dependent on the baseball calendar and internal sub-department needs (Amateur Scouting, Player Development, Pro Scouting and Baseball Information), with a heavy focus on analytics and research.",
+				link: "https://jobs.rogers.com/job/Toronto-Baseball-Operations-Analytics-Intern-ON/302799300/",
+				logo: "bluejays.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 10,
+						day: 30
+					},
+					due   : {
+						year: 2015,
+						month: 11,
+						day: 13
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Houston Astros",
 				title: "Analyst, Baseball Research and Development",
 				location: "Houston, TX",
