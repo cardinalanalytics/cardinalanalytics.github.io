@@ -46,28 +46,6 @@
 				isTeam: true
 			},
 			{
-				company: "Second Spectrum",
-				title: "Machine Learning Engineer",
-				location: "Los Angeles, CA or Boston, MA",
-				description: "Second Spectrum is seeking a Machine Learning Software Engineer to join our Data team.  At Second Spectrum the machine understanding of sports forms the foundation of all the products we deliver.  Machine Learning engineers have the opportunity to develop state of the art models whose results are used by coaches, broadcasters, and fans throughout the world.",
-				link: "http://www.secondspectrum.com/careers-ml",
-				logo: "second-spectrum.jpg",
-				date: {},
-				active: true,
-				isTeam: false
-			},
-			{
-				company: "Second Spectrum",
-				title: "Full-Stack Software Engineer",
-				location: "Los Angeles, CA or Shanghai",
-				description: "Second Spectrum is seeking solid full-stack engineers to join our team and help build out infrastructure to support highly interactive applications. Full-stack engineers can range from specializing at systems engineering to UI/UX development.",
-				link: "http://www.secondspectrum.com/careers-full-stack",
-				logo: "second-spectrum.jpg",
-				date: {},
-				active: true,
-				isTeam: false
-			},
-			{
 				company: "Los Angeles Dodgers",
 				title: "Analysis Associate",
 				location: "Los Angeles, CA",
@@ -124,23 +102,6 @@
 				isTeam: true
 			},
 			{
-				company: "TruMedia Networks",
-				title: "Principal / Senior / QA Software",
-				location: "Boston, MA (remote possible)",
-				description: "TruMedia is looking for Principal, Senior and QA Software Engineers to help build tier one sports analytics and scouting solutions. The ideal candidates will be passionate sports fans, have a strong interest in data science and have the ability to work on the full software stack with a focus on web development and user interface design. Interfaces will be needed for web based solutions as well as mobile platforms.",
-				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-trumedia-networks-principal-senior-qa-software-engineer/",
-				logo: "trumedia.jpg",
-				date: {
-					posted: {
-						year: 2015,
-						month: 10,
-						day: 14
-					}
-				},
-				active: true,
-				isTeam: false
-			},
-			{
 				company: "Charlotte Hornets",
 				title: "Business Analytics Internship",
 				location: "Charlotte, NC",
@@ -189,6 +150,45 @@
 				},
 				active: true,
 				isTeam: true
+			},
+			{
+				company: "Second Spectrum",
+				title: "Machine Learning Engineer",
+				location: "Los Angeles, CA or Boston, MA",
+				description: "Second Spectrum is seeking a Machine Learning Software Engineer to join our Data team.  At Second Spectrum the machine understanding of sports forms the foundation of all the products we deliver.  Machine Learning engineers have the opportunity to develop state of the art models whose results are used by coaches, broadcasters, and fans throughout the world.",
+				link: "http://www.secondspectrum.com/careers-ml",
+				logo: "second-spectrum.jpg",
+				date: {},
+				active: true,
+				isTeam: false
+			},
+			{
+				company: "Second Spectrum",
+				title: "Full-Stack Software Engineer",
+				location: "Los Angeles, CA or Shanghai",
+				description: "Second Spectrum is seeking solid full-stack engineers to join our team and help build out infrastructure to support highly interactive applications. Full-stack engineers can range from specializing at systems engineering to UI/UX development.",
+				link: "http://www.secondspectrum.com/careers-full-stack",
+				logo: "second-spectrum.jpg",
+				date: {},
+				active: true,
+				isTeam: false
+			},
+			{
+				company: "TruMedia Networks",
+				title: "Principal / Senior / QA Software",
+				location: "Boston, MA (remote possible)",
+				description: "TruMedia is looking for Principal, Senior and QA Software Engineers to help build tier one sports analytics and scouting solutions. The ideal candidates will be passionate sports fans, have a strong interest in data science and have the ability to work on the full software stack with a focus on web development and user interface design. Interfaces will be needed for web based solutions as well as mobile platforms.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-trumedia-networks-principal-senior-qa-software-engineer/",
+				logo: "trumedia.jpg",
+				date: {
+					posted: {
+						year: 2015,
+						month: 10,
+						day: 14
+					}
+				},
+				active: true,
+				isTeam: false
 			},
 			{
 				company: "Baseball Info Solutions",
