@@ -58,7 +58,7 @@
 						month: 10,
 						day: 21
 					},
-					due: {
+					due   : {
 						year: 2015,
 						month: 11,
 						day: 13
@@ -96,6 +96,23 @@
 						year: 2015,
 						month: 10,
 						day: 20
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Indiana Pacers",
+				title: "Baseball Operations Analytics Intern",
+				location: "Indianapolis, IN",
+				description: "The Basketball Analytics Intern will work directly with the Indiana Pacers analytics team in support of the front office, training staff, and coaching staff. The overall focus will be on helping develop internal software tools and maintaining current analytics infrastructure. Experience in the sports industry is not required, but applicants must be passionate about basketball.",
+				link: "http://pacers.teamworkonline.com/teamwork/jobs/jobs.cfm/Internships?supcat=3342#88002",
+				logo: "pacers.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 10,
+						day: 19
 					}
 				},
 				active: true,
