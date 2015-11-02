@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Washington Nationals",
+				title: "Intern, Baseball Research & Development",
+				location: "Washington D.C.",
+				description: "Contribute to Washington Nationals Baseball Operations for the 2016 season as one of our highly valued interns. The Research & Development focus includes an emphasis on computer programming and data analysis.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=88614",
+				logo: "nationals.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 11,
+						day: 2
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Toronto Blue Jays",
 				title: "Baseball Operations Analytics Intern",
 				location: "Toronto, ON, CA",
