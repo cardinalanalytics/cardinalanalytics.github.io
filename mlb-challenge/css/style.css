@@ -1,0 +1,160 @@
+/* style.css
+ * Eli Shayer
+ * ----------
+ * Stylesheet for the visualization contest at
+ * majorleaguedatachallenge.com
+ */
+
+/* Player category */
+.player-category {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* Player title */
+.player-title {
+    text-align: left;
+}
+
+/* Styles for the .axis class */
+.axis path, .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.horizontal-axis {
+    stroke-width: 2px;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+/* Styles for textual titles: .chart-title .axis-title .vert-text */
+.chart-title {
+    font-family: sans-serif;
+    font-size: 20px; /* If changed, make corresponding change to js constant */
+}
+
+.axis-title {
+    font-family: sans-serif;
+    font-size: 15px; /* If changed, make corresponding change to js constant */
+}
+
+.vert-text {
+    -ms-transform: rotate(270deg);     /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+
+/* Champion notes */
+.champ-note {
+    font-family: courier;
+    font-weight: bold;
+    font-size: 7px; /* If changed, make corresponding change to js constant */
+    fill: #000000;
+}
+
+/* year lines */
+.year-line {
+    stroke: #222222;
+    stroke-width: 1px;
+}
+
+/* Career WAR text */
+.war-text {
+    font-family: sans-serif;
+    font-size: 10px; /* If changed, make corresponding change to js constant */
+}
+
+/* Award styles */
+.award-text {
+    font-family: sans-serif;
+    font-size: 10px; /* If changed, make corresponding change to js constant */
+}
+
+/* legend styles */
+.legend-svg {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+.legend-title {
+    font-family: sans-serif;
+    font-size: 15px; /* If changed, make corresponding change to js constant */
+}
+
+.legend-content {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+/* Polygon styles */
+.polygon-title {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.polygon-label {
+    font-family: sans-serif;
+    font-size: 15px; /* If changed, make corresponding change to js constant */
+}
+
+/* Navigation styles */
+.players-list {
+    list-style-type: none;
+}
+
+.players-list>.nav-category {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    text-transform: capitalize;
+}
+
+.players-list>.nav-player {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+}
+
+.players-list>li>a:hover {
+    text-decoration: none;
+}
+
+.players-list>.active-li {
+    font-weight: bold;
+    color: #bd2031;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #bd2031;
+    -ms-transform: translateX(-2px); /* IE 9 */
+    -webkit-transform: translateX(-2px); /* Chrome, Safari, Opera */
+    transform: translateX(-2px);
+}
+
+.players-list>.nav-player:hover, .players-list>.nav-category:hover {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #bd2031;
+    -ms-transform: translateX(-1px); /* IE 9 */
+    -webkit-transform: translateX(-1px); /* Chrome, Safari, Opera */
+    transform: translateX(-1px);
+}
+
+.players-list>li>a {
+    color: #000000;
+}
+
+.players-list>li>a:hover {
+    color: #bd2031;
+}
