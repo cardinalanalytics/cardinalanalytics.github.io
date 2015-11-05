@@ -209,11 +209,11 @@ var mainRow = d3.select('body')
 				.attr('class', 'container')
 				.append('div')
 				.attr('class', 'row');
-
+/*
 // Overview for the project
 mainRow.append('h1').text('Title');
 mainRow.append('p').text('This is where we explain the entry');
-
+*/
 // create two children from the main row: visualizations and navigation
 var visCol = mainRow.append('div').attr('class', 'col-sm-10').attr('id', 'vis');
 var navCol = mainRow.append('div').attr('class', 'col-sm-2').attr('id', 'nav');
@@ -665,7 +665,7 @@ function visualizeCareers(processedData, playerType, war, champ, age, awards, ba
 
 		// initialize a div to hold the interaction form
 		// export responsibility to make the form to the controller
-		row.append('div').attr('class', 'col-sm-4 col-md-2 vis-form-wrapper');
+		//row.append('div').attr('class', 'col-sm-4 col-md-2 vis-form-wrapper');
 		row.append('div').attr('class', 'col-xs-12').append('hr');
 
 	});

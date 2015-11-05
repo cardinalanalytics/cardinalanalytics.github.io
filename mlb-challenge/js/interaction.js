@@ -44,7 +44,7 @@ var RADIO_OPTIONS = [
 		label: 'Advanced Stats'
 	}
 ];
-
+/*
 // for each player's form-wrapper, create a form
 $.each($('.vis-form-wrapper'), function(index, formWrapper) {
 	// add a title to the form wrapper
@@ -74,7 +74,7 @@ $.each($('.vis-form-wrapper'), function(index, formWrapper) {
 
 	// add a seperator
 	$('<hr>').appendTo(formWrapper);
-});
+});*/
 
 // ======================================== Form Event Listeners
 // radio button listener
