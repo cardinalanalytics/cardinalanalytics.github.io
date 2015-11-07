@@ -93,6 +93,13 @@
 					}
 				],
 				id: "konstantinos",
+			},
+			{
+				name: 'Glenn Baxter',
+				joined: 2015,
+				image: 'images/profiles/glenn-baxter.jpg',
+				description: "Glenn is a third-year undergraduate majoring in Economics and minoring in Computer Science. In the classroom, he loves statistics and learning about the global economy, but outside, in his free time, Glenn enjoys everything Sports. You can find him playing pickup basketball or soccer, tossing the pigskin, and (as his fraternity's Athletic Chair) immersing himself in Stanford's intramural sports. A Bay Area native, Glenn passionately roots for the Giants, Niners, Sharks, and Warriors. ",
+				id: "glenn",
 			}
 		]
 	};
