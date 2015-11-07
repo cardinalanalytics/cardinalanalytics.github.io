@@ -59,7 +59,7 @@ line {
 .champ-note {
     font-family: courier;
     font-weight: bold;
-    font-size: 7px; /* If changed, make corresponding change to js constant */
+    font-size: 8px; /* If changed, make corresponding change to js constant */
     fill: #000000;
 }
 
@@ -98,6 +98,10 @@ line {
     font-size: 12px;
 }
 
+.legend-subtitle {
+    font-weight: bold;
+}
+
 /* Polygon styles */
 .polygon-title {
     font-family: sans-serif;
@@ -112,6 +116,7 @@ line {
 /* Navigation styles */
 .players-list {
     list-style-type: none;
+    padding-left: 0px;
 }
 
 .players-list>.nav-category {
@@ -119,7 +124,7 @@ line {
 }
 
 .players-list>.nav-player {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .players-list>li>a:hover {

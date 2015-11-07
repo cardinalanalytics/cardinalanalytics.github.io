@@ -110,8 +110,11 @@ $.each($('.vis-form-wrapper'), function(index, formWrapper) {
 	var maxSelect = $('<select>').attr('type', 'max').attr('id', playerId + '-end').appendTo(formWrapper);
 	for (var year = playerData.minYear; year <= playerData.maxYear; year++) {
 		$('<option>').attr('value', year).text(year).appendTo(minSelect);
-		$('<option>').attr('value', year).text(year).prependTo(maxSelect);
+		$('<option>').attr('value', year).text(year).appendTo(maxSelect);
 	}
+
+	// initialize the selected option for maxSelect to maxYear
+	maxSelect.val(playerData.maxYear);
 
 	// add a seperator
 	$('<hr>').attr('class', 'small').appendTo(formWrapper);
@@ -127,16 +130,14 @@ $('input').change(function(event) {
 });
 
 $('select').change(function(event) {
+	// collect event data
 	var $this = $(this);
-	var type = $this.attr('type');
-
 	var year = $this.val();
-
+	var type = $this.attr('type');
 	var otherType = type === 'max' ? 'min' : 'max';
-	$this.parent().find('select[type="' + otherType + '"] option').attr('disabled', function(i, val) {
-		return (type === 'min' && $(this).val() < year) || (type === 'max' && $(this).val() > year);
-	});
 
+	// call event listener functions
+	setDisabeled($this.parent(), year, otherType, type);
 	polyListener($this.parents('.player-vis'));
 });
 
@@ -159,6 +160,14 @@ $('button').click(function(event) {
 	polyListener($parent);
 });
 
+// sets the disabeled options
+function setDisabeled($parent, year, otherType, type) {
+	$parent.find('select[type="' + otherType + '"] option').attr('disabled', function(i, val) {
+		return (type === 'min' && $(this).val() < year) || (type === 'max' && $(this).val() > year);
+	});
+}
+
+// sets the 
 function polyListener($parent) {
 	// collect event information
 	var name = $parent.attr('name');
@@ -177,6 +186,8 @@ function polyListener($parent) {
 	// get the indices in the records, with startIndex not found resulting in 0
 	var startIndex = Math.max(getIndexByYear(playerData.records, minYear), 0);
 	var finalIndex = getIndexByYear(playerData.records, maxYear);
+	console.log([minYear, maxYear]);
+	console.log([startIndex, finalIndex]);
 
 	// if finalIndex isn't found or is the highest index, take records through the end
 	var records = finalIndex !== NOT_FOUND_SENTINEL && maxYear !== playerData.maxYear ?
@@ -185,7 +196,7 @@ function polyListener($parent) {
 		playerData.records.slice(startIndex);
 
 	// get the d attribute for the skills polygon
-	var d = getPolygonPath(skills, records);
+	var d = getPolygonPath(skills, records, minYear, maxYear);
 
 	// get the logo and color
 	var logoAndColor = chooseLogoAndColor(records, war);
@@ -200,7 +211,7 @@ function polyListener($parent) {
 	skillPolygons[name].image.attr('xlink:href', logoAndColor.logo);
 
 	// update the skill polygon title and adjust back to the middle
-	var titleText = 'Skills Polygon: ';
+	var titleText = 'Skills: ';
 	if (minYear === playerData.minYear && maxYear === playerData.maxYear) {
 		titleText += 'Career';
 	} else {
@@ -215,6 +226,48 @@ function polyListener($parent) {
 								.attr('y', getY(NUM_POLY * POLY_D_RADIUS, label.attr('angle')))
 				.text(skills[index].name), label.attr('angle'));
 	});
+}
+
+// ======================================== Polygon Editing Functions
+function getIndexByYear(records, year) {
+	for (var i = 0; i < records.length; i++) {
+		if (records[i].year === year) {
+			return i;
+		}
+	}
+	return NOT_FOUND_SENTINEL;
+}
+
+function getPolygonPath(skills, records, minYear, maxYear) {
+	var path = '';
+	var dRadians = 2 * Math.PI / POLY_SIDES;
+
+	// straight upwards
+	var angle = -Math.PI / 2;
+
+	// maximum radius, to edge of polygon
+	var maxR = NUM_POLY * POLY_D_RADIUS;
+	//console.log(records);
+	//console.log(records[0].name + ' from ' + minYear + ' to ' + maxYear);
+	// for each skill
+	$.each(skills, function(index, skill) {
+		//console.log(skill.name + ': [' + d3.mean(records, function(d) { return d[skill.key + 'mean']; }) + ', ' + d3.mean(records, function(d) { return d[skill.key]; }) + ', ' + d3.mean(records, function(d) { return d[skill.key + 'best']; }) + ']');
+		var scale = d3.scale.linear()
+							// average all means and bests in the records
+							.domain([d3.mean(records, function(d) { return d[skill.key + 'mean']; }),
+								d3.mean(records, function(d) { return d[skill.key + 'best']; })])
+							.range([maxR / 2, maxR]);
+
+		// insure that all radii are in the range [0, maxR]
+		// take the average over the career
+		path += pathPt(Math.min(Math.max(0, scale(
+			d3.mean(records, function(d) { return d[skill.key]; }))), maxR), angle);
+
+		// update the angle for the next skill
+		angle += dRadians;
+	});
+
+	return 'M' + path.substring(1) + 'Z';
 }
 
 // ======================================== Player List Interaction
@@ -332,43 +385,3 @@ $window.scroll(function () {
 		}
 	}
 });
-
-// ======================================== Polygon Editing Functions
-function getIndexByYear(records, year) {
-	for (var i = 0; i < records.length; i++) {
-		if (records[i].year === year) {
-			return i;
-		}
-	}
-	return NOT_FOUND_SENTINEL;
-}
-
-function getPolygonPath(skills, records, minYear, maxYear) {
-	var path = '';
-	var dRadians = 2 * Math.PI / POLY_SIDES;
-
-	// straight upwards
-	var angle = -Math.PI / 2;
-
-	// maximum radius, to edge of polygon
-	var maxR = NUM_POLY * POLY_D_RADIUS;
-
-	// for each skill
-	$.each(skills, function(index, skill) {
-		var scale = d3.scale.linear()
-							// average all means and bests in the records
-							.domain([d3.mean(records, function(d) { return d[skill.key + 'mean']; }),
-								d3.mean(records, function(d) { return d[skill.key + 'best']; })])
-							.range([maxR / 2, maxR]);
-
-		// insure that all radii are in the range [0, maxR]
-		// take the average over the career
-		path += pathPt(Math.min(Math.max(0, scale(
-			d3.mean(records, function(d) { return d[skill.key]; }))), maxR), angle);
-
-		// update the angle for the next skill
-		angle += dRadians;
-	});
-
-	return 'M' + path.substring(1) + 'Z';
-}

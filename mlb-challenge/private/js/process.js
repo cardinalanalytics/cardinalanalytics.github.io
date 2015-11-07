@@ -175,9 +175,9 @@ var TEAM_IMAGES = {
     ],
     LOU: [
         {
-            minYear: 1800,
-            maxYear: 2000,
-            file: 'TODO'
+            minYear: 1892,
+            maxYear: 1899,
+            file: 'louisvillecolonels'
         }
     ],
     NYG: [
@@ -550,7 +550,7 @@ function processData(dataset, key, ageBounds, warStats) {
         }
     });
 
-    // add in zeroed data for all ages if no record exists
+    // for each player add in zeroed data for all ages that have no corresponding record
     for (var i = 0; i < processed[key].length; i++) {
         // for each possible age
         for (var age = ageBounds.min; age <= ageBounds.max; age++) {
@@ -566,6 +566,9 @@ function processData(dataset, key, ageBounds, warStats) {
             return d3.ascending(a.age, b.age);
         });
     }
+
+    // sort within player type by first year in the majors
+    processed[key] = processed[key].sort(function(a, b) { return d3.ascending(a.minYear, b.minYear); });
 }
 
 // process each dataset
@@ -575,6 +578,8 @@ processData(hitterData, 'hitters', HITTER_AGE_BOUNDS, HITTER_WAR_STATS);
 // convert runs to WAR for hitter data for the following fields
 var conversionStats = ['Batting', 'Running', 'Fielding'];
 
+
+// convert from "value" to WAR
 // for each hitter
 $.each(processed.hitters, function(index, hitter) {
     // for each year
@@ -582,7 +587,6 @@ $.each(processed.hitters, function(index, hitter) {
         // sum the total value
         var totalValue = 0;
 
-        // TODO: clean this process
         // for each stat add in that component value to the sum
         $.each(conversionStats, function(index, stat) {
             totalValue += record['Value ' + stat];
@@ -597,5 +601,12 @@ $.each(processed.hitters, function(index, hitter) {
         $.each(conversionStats, function(index, stat) {
             record['Value ' + stat] = (record['Value ' + stat] + replacementValue / 3) / rarPerWar;
         });
-    })
+    });
 });
+
+// sort hitters for correct year order
+for (var i = 0; i < processed.hitters.length; i++) {
+    processed.hitters[i].records = processed.hitters[i].records.sort(function(a, b) {
+        return d3.descending(a.age, b.age);
+    });
+}
