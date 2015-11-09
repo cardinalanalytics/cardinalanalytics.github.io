@@ -16,7 +16,7 @@
     text-align: left;
 }
 
-/* Styles for the .axis class */
+/* Styles for axes and lines */
 .axis path, .axis line {
     fill: none;
     stroke: black;
@@ -36,6 +36,10 @@ line {
 .axis text {
     font-family: sans-serif;
     font-size: 11px;
+}
+
+.selection-line {
+    stroke: #ff0000;
 }
 
 /* Styles for textual titles: .chart-title .axis-title .vert-text */
@@ -59,7 +63,7 @@ line {
 .champ-note {
     font-family: courier;
     font-weight: bold;
-    font-size: 7px; /* If changed, make corresponding change to js constant */
+    font-size: 8px; /* If changed, make corresponding change to js constant */
     fill: #000000;
 }
 
@@ -69,8 +73,14 @@ line {
     stroke-width: 1px;
 }
 
-/* Career WAR text */
-.war-text {
+/* Position text */
+.position-text {
+    font-family: sans-serif;
+    font-size: 12px; /* If changed, make corresponding change to js constant */
+}
+
+/* Team logo text */
+.logo-text {
     font-family: sans-serif;
     font-size: 10px; /* If changed, make corresponding change to js constant */
 }
@@ -98,6 +108,10 @@ line {
     font-size: 12px;
 }
 
+.legend-subtitle {
+    font-weight: bold;
+}
+
 /* Polygon styles */
 .polygon-title {
     font-family: sans-serif;
@@ -111,29 +125,30 @@ line {
 
 /* Navigation styles */
 .players-list {
+    padding-left: 0px;
+}
+
+.players-list, .players-list>li>ul {
     list-style-type: none;
+    padding-left: 0px;
+    margin-left: 5px;
+}
+
+.players-list>li>ul>li {
+    padding-left: 20px;
 }
 
 .players-list>.nav-category {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 0px;
     text-transform: capitalize;
 }
 
-.players-list>.nav-player {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 10px;
-}
-
-.players-list>li>a:hover {
+.players-list>li>a:hover, .players-list>li>ul>li>a:hover {
     text-decoration: none;
 }
 
-.players-list>.active-li {
+.players-list>.active-li>a {
     font-weight: bold;
-    color: #bd2031;
+    color: #000000;
     border-left-style: solid;
     border-left-width: 2px;
     border-left-color: #bd2031;
@@ -142,7 +157,18 @@ line {
     transform: translateX(-2px);
 }
 
-.players-list>.nav-player:hover, .players-list>.nav-category:hover {
+.players-list>.active-li>ul>.active-li>a {
+    font-weight: bold;
+    color: #000000;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #bd2031;
+    -ms-transform: translateX(-2px); /* IE 9 */
+    -webkit-transform: translateX(-2px); /* Chrome, Safari, Opera */
+    transform: translateX(-2px);
+}
+
+.players-list>li>a:hover, .players-list>li>ul>li>a:hover {
     border-left-style: solid;
     border-left-width: 1px;
     border-left-color: #bd2031;
@@ -151,10 +177,27 @@ line {
     transform: translateX(-1px);
 }
 
-.players-list>li>a {
+.players-list>li>a, .players-list>li>ul>li>a {
     color: #000000;
 }
 
-.players-list>li>a:hover {
-    color: #bd2031;
+/* tabs styles */
+.nav-pills>li>a {
+    color: #000000;
+}
+
+/* Reduced size hr */
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* modal styles */
+.modal-ssac {
+    width: 1200px;
+}
+
+#modal-form>label, #modal-form>select {
+    margin-left: 5px;
+    margin-right: 5px;
 }

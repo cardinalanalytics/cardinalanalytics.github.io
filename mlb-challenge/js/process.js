@@ -175,9 +175,9 @@ var TEAM_IMAGES = {
     ],
     LOU: [
         {
-            minYear: 1800,
-            maxYear: 2000,
-            file: 'TODO'
+            minYear: 1892,
+            maxYear: 1899,
+            file: 'louisvillecolonels'
         }
     ],
     NYG: [
@@ -341,14 +341,14 @@ var TEAM_IMAGES = {
         {
             minYear: 2000,
             maxYear: PRESENT_YEAR,
-            file: 'giants2000-present'
+            file: 'giants2000-pres'
         }
     ],
     SLB: [
         {
             minYear: 1916,
             maxYear: 1935,
-            file: 'stlouisbrowns1916-1635'
+            file: 'stlouisbrowns1916-1935'
         }
     ],
     SLM: [
@@ -443,8 +443,44 @@ function getTeamColor(team) {
         case 'STL': return '#c41e3a';
         case 'TOR': return '#003da5';
         case 'WSH': return '#ba122b';
-        default: return '#ffffff';
+        default: return '#0000ff'; // blue as default
     }
+}
+
+// helper function to ensure that NYG and SFG go to the same logo
+function getTeamName(teamName) {
+    return teamName.substring(0, 3) === 'NYG' ? 'SFG' : teamName.substring(0, 3);
+}
+
+// get a map from team team (file name) to years
+function getTeamYearMap(records) {
+    var map = {};
+    $.each(records, function(index, record) {
+        if (record.team && map.hasOwnProperty(getTeamName(record.team))) {
+            map[getTeamName(record.team)].years.push(record.year);
+        } else if (record.team) {
+            // an array for the years for which the team applies
+            map[getTeamName(record.team)] = {
+                years     : [record.year],
+                team      : getTeamName(record.team),
+                lastIndex : index
+            }
+        }
+    });
+    
+    for (team in map) {
+        // sort each individual set of years within a team
+        map[team].years = map[team].years.sort(function(a, b) { return d3.ascending(a, b); });
+
+        // mark the minYear and maxYear for each team
+        map[team].minYear = map[team].years[0];
+        map[team].maxYear = map[team].years[map[team].years.length - 1];
+
+        // set the logo based on the last year with the team
+        map[team].logo = records[map[team].lastIndex].teamImage;
+        map[team].color = getTeamColor(team);
+    }
+    return map;
 }
 
 // helper function to get the name of the team image for a record
@@ -462,7 +498,7 @@ function getTeamImage(team, year) {
 }
 
 // helper function to get the index of a name
-// assumes unique names -- safe assumption for this
+// assumes unique names -- safe assumption for this project
 function getNameIndex(key, name) {
     for (var i = 0; i < processed[key].length; i++) {
         if (processed[key][i].name === name) {
@@ -479,7 +515,7 @@ var PITCHER_AGE_BOUNDS = {
 }
 var HITTER_AGE_BOUNDS = {
     min: 18,
-    max: 43
+    max: 44
 }
 
 var PITCHER_WAR_STATS = ['WARra9', 'WARfip'];
@@ -550,7 +586,8 @@ function processData(dataset, key, ageBounds, warStats) {
         }
     });
 
-    // add in zeroed data for all ages if no record exists
+    // for each player add in zeroed data for all ages that have no corresponding record
+    // also had a team-year map for logo choice
     for (var i = 0; i < processed[key].length; i++) {
         // for each possible age
         for (var age = ageBounds.min; age <= ageBounds.max; age++) {
@@ -565,7 +602,13 @@ function processData(dataset, key, ageBounds, warStats) {
         processed[key][i].records = processed[key][i].records.sort(function(a, b) {
             return d3.ascending(a.age, b.age);
         });
+
+        // get a map from team to years
+        processed[key][i].teamYearMap = getTeamYearMap(processed[key][i].records);
     }
+
+    // sort within player type by first year in the majors
+    processed[key] = processed[key].sort(function(a, b) { return d3.ascending(a.minYear, b.minYear); });
 }
 
 // process each dataset
@@ -575,6 +618,7 @@ processData(hitterData, 'hitters', HITTER_AGE_BOUNDS, HITTER_WAR_STATS);
 // convert runs to WAR for hitter data for the following fields
 var conversionStats = ['Batting', 'Running', 'Fielding'];
 
+// convert from "value" to WAR
 // for each hitter
 $.each(processed.hitters, function(index, hitter) {
     // for each year
@@ -582,7 +626,6 @@ $.each(processed.hitters, function(index, hitter) {
         // sum the total value
         var totalValue = 0;
 
-        // TODO: clean this process
         // for each stat add in that component value to the sum
         $.each(conversionStats, function(index, stat) {
             totalValue += record['Value ' + stat];
@@ -597,5 +640,12 @@ $.each(processed.hitters, function(index, hitter) {
         $.each(conversionStats, function(index, stat) {
             record['Value ' + stat] = (record['Value ' + stat] + replacementValue / 3) / rarPerWar;
         });
-    })
+    });
 });
+
+// sort hitters for correct year order
+for (var i = 0; i < processed.hitters.length; i++) {
+    processed.hitters[i].records = processed.hitters[i].records.sort(function(a, b) {
+        return d3.descending(a.age, b.age);
+    });
+}
