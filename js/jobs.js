@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "New York Yankees",
+				title: "Statistical Analysis Intern, Baseball Operations",
+				location: "Bronx, New York",
+				description: "Responsibilities include following: assist in research and analysis of various baseball topics; design, test and implement predictive models using advanced statistical techniques; responsibilities may also include data collection and entry, running database queries and administrative tasks.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=89029",
+				logo: "yankees.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 11,
+						day: 10
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Washington Nationals",
 				title: "Intern, Baseball Research & Development",
 				location: "Washington D.C.",
