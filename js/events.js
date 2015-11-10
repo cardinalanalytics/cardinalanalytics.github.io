@@ -7,6 +7,26 @@
 		navbarTitle: "Events",
 		events: [
 			{
+				title: "A Meeting with the Founders of TeamRankings",
+				date: {
+					year: 2015,
+					month: 11,
+					day: 4
+				},
+				author: NAMES.SCOTT,
+				text: [
+					'On Wednesday, November 4th, the Stanford Sports Analytics Club hosted <a href="https://www.teamrankings.com/", target="_new">TeamRankings</a> founders and Stanford alumni Tom Federico and Mike Greenfield. Tom and Mike talked about the challenges of starting a business based on selling sports predictions and about how to maximize your chances of winning a March Madness bracket pool by picking teams that are underrated in terms of how the population vote. The thought exercise on this topic proposed by Tom and Mike goes as follows:',
+					'"Imagine you stepped back into a time machine, and it was the day before the 2015 NCAA tournament started. You cruised by this great site called TeamRankings and found this <a href="https://www.teamrankings.com/blog/ncaa-basketball/2015-tournament-survival-odds-comparison" target="_new">post</a> which listed our round by round survival odds of every team in the tournament (the big table at the very bottom).',
+					'Then, you went to ESPN, where you saw a <a href="http://games.espn.go.com/tournament-challenge-bracket/2015/en/whopickedwhom", target="_new">page</a> listing how many brackets entered into their Tournament Challenge game picked every team to survive each successive tournament round.',
+					'Given that information (assuming the TeamRankings survival odds are accurate, and erasing any memory you may have of who actually won this March), who &#39;should&#39; you have picked as your NCAA tournament champion to maximize your odds of winning your bracket pool?"'
+				],
+				image: {
+					link: 'images/events/teamrankings.jpg',
+					alt: 'TeamRankings meeting',
+				},
+				done: true
+			},
+			{
 				title: "Kickoff meeting of the 2015-2016 school year",
 				date: {
 					year: 2015,
