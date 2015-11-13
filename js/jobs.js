@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Detroit Tigers",
+				title: "Baseball Analytics & Operations Internship",
+				location: "Detroit, Michigan",
+				description: "The Detroit Tigers are looking for a Baseball Analytics & Operations Intern who will be primarily responsible for assisting with day-to-day tasks in the front office. Responsibilities will focus on database design and maintenance, systems development and baseball research.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-detroit-tigers-baseball-analytics-operations-internship/",
+				logo: "tigers.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 11,
+						day: 12
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "New York Yankees",
 				title: "Statistical Analysis Intern, Baseball Operations",
 				location: "Bronx, New York",
