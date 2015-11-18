@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Kansas City Royals",
+				title: "Baseball Analytics Intern",
+				location: "Kansas City, Missouri",
+				description: "The Kansas City Royals are looking to add a creative and hard-working Intern to the Baseball Analytics Department. The Intern will work closely with Baseball Analytics to conduct research and develop tools for use by all areas of Baseball Operations (Amateur/Pro Scouting, Advance Scouting, and Player Development).  The position will run from February 2016 through the end of the 2016 MLB baseball season.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=89384",
+				logo: "royals.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 11,
+						day: 18
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Chicago Cubs",
 				title: "Analyst (Pitching Evaluation), Research & Development",
 				location: "Chicago, Illinois",
