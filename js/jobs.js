@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Chicago Cubs",
+				title: "Analyst (Pitching Evaluation), Research & Development",
+				location: "Chicago, Illinois",
+				description: "The Chicago Cubs are seeking an Analyst for the team’s Baseball Research and Development group.  The role will focus primarily on using an analytical approach for the evaluation and projection of pitcher performance. The analyst will work closely with the R&D team to develop methods to improve the effective understanding and application of in-game pitch data throughout Baseball Operations.",
+				link: "https://chc.tbe.taleo.net/chc04/ats/careers/requisition.jsp?org=CHICAGOCUBS&cws=1&rid=237",
+				logo: "cubs.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 11,
+						day: 17
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Detroit Tigers",
 				title: "Baseball Analytics & Operations Internship",
 				location: "Detroit, Michigan",
