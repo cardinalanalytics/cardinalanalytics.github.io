@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Cincinnati Reds",
+				title: "Baseball Operations Analyst",
+				location: "Cincinnati, Ohio",
+				description: "The Cincinnati Reds are seeking an Analyst for the team's Baseball Analytics department.  The Analyst will work closely with the Senior Director of Baseball Analytics to enhance the department’s research and development efforts with respect to statistical models and applications.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=89485",
+				logo: "reds.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 11,
+						day: 20
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Kansas City Royals",
 				title: "Baseball Analytics Intern",
 				location: "Kansas City, Missouri",
