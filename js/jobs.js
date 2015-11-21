@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Tampa Bay Rays",
+				title: "Internship (Baseball Research and Development)",
+				location: "St. Petersburg, Florida",
+				description: "We are seeking interns with a passion for winning through mathematics, data analysis, and computation. The internship positions will be with the team’s Baseball Research and Development group in the Baseball Operations department. Start and end dates are flexible, and we will consider applicants who are available for only the summer.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=89503",
+				logo: "rays.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 11,
+						day: 20
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Cincinnati Reds",
 				title: "Baseball Operations Analyst",
 				location: "Cincinnati, Ohio",
