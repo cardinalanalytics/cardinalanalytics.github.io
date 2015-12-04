@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Los Angeles Angels of Anaheim",
+				title: "Baseball Systems Developer",
+				location: "Anaheim, CA",
+				description: "The Los Angeles Angels are hiring an experienced software developer to build and maintain an aggregated player information and tracking system to help in the decision making process of the Baseball Operations Department.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-los-angeles-angels-of-anaheim-baseball-systems-developer/",
+				logo: "angels.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 12,
+						day: 3
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Texas Rangers",
 				title: "Baseball Operations Intern",
 				location: "Arlington, Texas",
@@ -28,7 +45,7 @@
 				title: "Internship (Baseball Research and Development)",
 				location: "St. Petersburg, Florida",
 				description: "We are seeking interns with a passion for winning through mathematics, data analysis, and computation. The internship positions will be with the team’s Baseball Research and Development group in the Baseball Operations department. Start and end dates are flexible, and we will consider applicants who are available for only the summer.",
-				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=89503",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-tampa-bay-rays-baseball-research-development-intern/",
 				logo: "rays.gif",
 				date: {
 					posted: {
@@ -88,7 +105,7 @@
 						day: 17
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -217,7 +234,7 @@
 						day: 21
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -234,7 +251,7 @@
 						day: 20
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -268,7 +285,7 @@
 						day: 5
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
