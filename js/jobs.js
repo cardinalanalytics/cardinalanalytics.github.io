@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Milwaukee Brewers",
+				title: "Intern, Baseball Research & Development",
+				location: "Milwaukee, WI",
+				description: "The Milwaukee Brewers are currently seeking an Intern in the Baseball Research and Development Department. The Intern will work with the Baseball R&D, Baseball Systems departments and the entire Baseball Operations Department to deliver research and tools to improve decision making.  The position requires a person who has intellectual curiosity, is a self-starter and can communicate technical and analytical concepts effectively to non-technical people.  Being passionate about using data, analysis and technology to improve decision making processes is also a key differentiator.",
+				link: "https://careers-brewers.icims.com/jobs/1226/intern---baseball-research-%26-development/job?mobile=false&width=942&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420",
+				logo: "brewers.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 12,
+						day: 4
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Los Angeles Angels of Anaheim",
 				title: "Baseball Systems Developer",
 				location: "Anaheim, CA",
