@@ -7,6 +7,28 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Los Angeles Dodgers",
+				title: "Research and Development Analyst",
+				location: "Los Angeles, CA",
+				description: "The Los Angeles Dodgers are seeking an entry-level analyst for the team's Baseball Research and Development (R&D) group. Our current focus is on identifying highly-talented, mathematically-oriented candidates as we seek to build an industry-leading analytics team.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=90096",
+				logo: "dodgers.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 12,
+						day: 9
+					},
+					due   : {
+						year: 2016,
+						month: 1,
+						day: 15
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Milwaukee Brewers",
 				title: "Intern, Baseball Research & Development",
 				location: "Milwaukee, WI",
