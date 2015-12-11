@@ -67,7 +67,7 @@
 				title: "Baseball Operations Intern",
 				location: "Arlington, Texas",
 				description: "Interns assist in the day to day operation of the Baseball Operations department. Duties will include some of the following (depending on background): compiling and maintaining data, writing reports, developing visualizations, SQL queries, player evaluations, independent research. We’re looking for unique profiles and perspectives – how can your strengths complement our organization?",
-				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-texas-rangers-baseball-operations-intern/",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=90216",
 				logo: "rangers.gif",
 				date: {
 					posted: {
