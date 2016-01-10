@@ -110,7 +110,7 @@
 						day: 20
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -127,7 +127,7 @@
 						day: 18
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
