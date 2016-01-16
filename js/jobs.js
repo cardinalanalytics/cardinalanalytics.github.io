@@ -361,6 +361,23 @@
 				isTeam: true
 			},
 			{
+				company: "FiveThirtyEight",
+				title: "Sports Reporter Internship",
+				location: "New York, NY",
+				description: "FiveThirtyEight is is looking for a summer sports intern. The internship will be a mix of writing, research and contributing to short blog posts and longer features. You’ll be learning the precepts of sports journalism in general, and data-based sports coverage in particular.",
+				link: "http://fivethirtyeight.com/features/were-hiring-a-summer-intern-for-sports-coverage/",
+				logo: "538.jpg",
+				date: {
+					posted: {
+						year: 2015,
+						month: 12,
+						day: 25
+					}
+				},
+				active: true,
+				isTeam: false
+			},
+			{
 				company: "Second Spectrum",
 				title: "Machine Learning Engineer",
 				location: "Los Angeles, CA or Boston, MA",
