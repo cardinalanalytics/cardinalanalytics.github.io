@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Los Angeles Angels of Anaheim",
+				title: "Quantitative Information Analyst Intern",
+				location: "Anaheim, CA",
+				description: "The Los Angeles Angels are looking to hire a Quantitative Information Analyst intern.  The compensated intern position requires availability from March 14, 2016 to approximately October 31, 2016.  The internship will provide exposure to all departments within baseball operations and will report to the Director of Quantitative Analysis.  Candidates must have a passion for baseball, independent thought, strong work ethic, and self-motivation.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=91425",
+				logo: "angels.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 1,
+						day: 13
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Los Angeles Dodgers",
 				title: "Research and Development Analyst",
 				location: "Los Angeles, CA",
