@@ -100,6 +100,13 @@
 				image: 'images/profiles/glenn-baxter.jpg',
 				description: "Glenn is a third-year undergraduate majoring in Economics and minoring in Computer Science. In the classroom, he loves statistics and learning about the global economy, but outside, in his free time, Glenn enjoys everything Sports. You can find him playing pickup basketball or soccer, tossing the pigskin, and (as his fraternity's Athletic Chair) immersing himself in Stanford's intramural sports. A Bay Area native, Glenn passionately roots for the Giants, Niners, Sharks, and Warriors. ",
 				id: "glenn",
+			},
+			{
+				name: 'Travis Chen',
+				joined: 2015,
+				image: 'images/profiles/travis-chen.png',
+				description: "Travis is an second-year undergrad in the class of 2018 studying Computer Science. His favorite sports are basketball and football, and he roots for the Spurs, the Sacramento Kings, and the Seahawks despite his Bay Area roots.",
+				id: "travis",
 			}
 		]
 	};
