@@ -105,7 +105,7 @@
 				name: 'Travis Chen',
 				joined: 2015,
 				image: 'images/profiles/travis-chen.png',
-				description: "Travis is an second-year undergrad in the class of 2018 studying Computer Science. His favorite sports are basketball and football, and he roots for the Spurs, the Sacramento Kings, and the Seahawks despite his Bay Area roots.",
+				description: "Travis is a second-year undergrad in the class of 2018 studying Computer Science. His favorite sports are basketball and football, and he roots for the Spurs, the Sacramento Kings, and the Seahawks despite his Bay Area roots.",
 				id: "travis",
 			}
 		]
