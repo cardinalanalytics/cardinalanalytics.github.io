@@ -205,5 +205,9 @@ var NAMES = {
 	SANDY: {
 		firstName: "Sandy",
 		lastName: "Huang"
+	},
+	RYAN: {
+		firstName: "Ryan",
+		lastName: "Chen"
 	}
 };

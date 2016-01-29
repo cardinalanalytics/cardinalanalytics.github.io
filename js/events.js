@@ -7,6 +7,25 @@
 		navbarTitle: "Events",
 		events: [
 			{
+				title: "A Presentation to d3.bayarea on the Graphicacy Major League Data Challenge",
+				date: {
+					year: 2016,
+					month: 1,
+					day: 20
+				},
+				author: NAMES.RYAN,
+				text: [
+					'On January 20, 2016, Eli Shayer, Scott Powers, and I gave a presentation to the <a href="http://www.meetup.com/Bay-Area-d3-User-Group/">Bay Area d3 User Group</a> about the Stanford Sports Analytics Club’s data visualization submission to <a href="http://graphicacy.com/">Graphicacy</a>’s <a href="http://www.majorleaguedatachallenge.com/">Major League Data Challenge</a> (view our submission <a href="http://cardinalanalytics.github.io/mlb-challenge/">here</a>), which won runner-up in the competition. The challenge was to “visualize the careers of the top 20 baseball players (10 hitters, 10 pitchers) of all-time as high-density small-multiple graphics (like extended spark-lines), or some other graphic form that presents a summary of individual performance data in a simple, highly condensed, easy to compare way.”',
+					'We presented our data visualization, discussed the nuts and bolts of creating the visualization in d3, described the teamwork process of creating it from scratch (including no prior d3 experience!) in the span of 3 weeks, and fielded questions from the audience on topics varying from particulars of the functionality to issues of contention within the team to the merits and disadvantages of various baseball statistics.',
+					'Daniel Alvarado and Stephen Spears also contributed to this project, but were not able to join in the presentation.'
+				],
+				image: {
+					link: 'images/events/graphicacy.png',
+					alt: 'd3.bayarea Presentation',
+				},
+				done: true
+			},
+			{
 				title: "A Meeting with the Founders of TeamRankings",
 				date: {
 					year: 2015,
