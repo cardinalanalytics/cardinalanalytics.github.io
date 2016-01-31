@@ -11,7 +11,7 @@
 			{
 				image: "calendar",
 				title: "Upcoming Meetings",
-				content: "The next general meeting will be January 24th at 8pm in Education 210."
+				content: "The next general meeting will be February 7th at 8pm in Education 210."
 			},
 			{
 				image: "comments",
