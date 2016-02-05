@@ -7,6 +7,45 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Toronto Blue Jays",
+				title: "Manager of Baseball Analytics",
+				location: "Toronto, ON",
+				description: "The primary focus of this position will be to learn how decisions are made in all areas of Baseball Operations, develop a familiarity with those processes and then develop tools and conduct research to incorporate data into the decision making process.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-toronto-blue-jays-manager-of-baseball-analytics/",
+				logo: "bluejays.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 2,
+						day: 2
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "New York Mets",
+				title: "Analyst, Baseball Research & Development",
+				location: "New York",
+				description: "The New York Mets are seeking a Data Analyst to work its Research and Development team. The employee will analyze baseball data in order to build and maintain predictive models that support the decision-making processes within Baseball Operations. The Analyst will report to the Manager, Baseball Research and Development.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=92337",
+				logo: "mets.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 2,
+						day: 1
+					},
+					due   : {
+						year: 2016,
+						month: 2,
+						day: 7
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Los Angeles Angels of Anaheim",
 				title: "Quantitative Information Analyst Intern",
 				location: "Anaheim, CA",
