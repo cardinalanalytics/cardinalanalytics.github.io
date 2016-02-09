@@ -107,6 +107,13 @@
 				image: 'images/profiles/travis-chen.png',
 				description: "Travis is a second-year undergrad in the class of 2018 studying Computer Science. His favorite sports are basketball and football, and he roots for the Spurs, the Sacramento Kings, and the Seahawks despite his Bay Area roots.",
 				id: "travis",
+			},
+			{
+				name: 'Peter Lee',
+				joined: 2015,
+				image: 'images/profiles/peter-lee.jpg',
+				description: "Peter is a MS student in Statistics, and a graduate analytics assistant with Stanford's women's basketball team. His favorite sport is basketball, and favorite basketball writer Zach Lowe. Peter also has an economics degree from Vassar, where he was also captain of the Quidditch team, and played well enough to make it on to Team USA. Originally from LA, he's a huge fan of the Lakers, Dodgers, and is especially excited for the Rams to come back to LA!",
+				id: "peter",
 			}
 		]
 	};
