@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Miami Marlins",
+				title: "Baseball Analytics Intern",
+				location: "Miami, FL",
+				description: "The Baseball Analytics Intern will assist Baseball Operations decision-making through the analysis and research of baseball information. The specific day-to-day responsibilities of this position will vary depending on the baseball calendar, but it requires a general knowledge of how to use objective data to answer baseball-related questions, with a strong preference for a candidate possessing an established foundation of statistical and database management skills. Interested applicants can email their materials to <a href='mailto:marlinsinternships@gmail.com'>marlinsinternships@gmail.com</a>.",
+				link: "http://miamibaseball.teamworkonline.com/teamwork/r.cfm?i=92858",
+				logo: "marlins.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 2,
+						day: 11
+					}
+				},
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Toronto Blue Jays",
 				title: "Manager of Baseball Analytics",
 				location: "Toronto, ON",

@@ -142,7 +142,7 @@
 							'{{#if image}} <img alt={{ name }} src="{{ image }}" height="120px"> {{/if}}',
 						'</div>',
 						'<div class="col-xs-12 col-md-6">',
-							'<p>{{{ description }}}</h4>',
+							'<p>{{{ description }}}</p>',
 							'{{#if posts}}',
 								'<h4>Blog posts:</h4>',
 									'<ul class="post-list">',
