@@ -76,7 +76,7 @@
 						day: 13
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -98,7 +98,7 @@
 						day: 15
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -115,7 +115,7 @@
 						day: 4
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -149,7 +149,7 @@
 						day: 24
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -166,7 +166,7 @@
 						day: 20
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -217,7 +217,7 @@
 						day: 17
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -234,7 +234,7 @@
 						day: 12
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -251,7 +251,7 @@
 						day: 10
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -413,7 +413,7 @@
 						month: 9,
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -615,7 +615,11 @@
 		var result = "";
 
 		activeJobs = '<h2 class="center">Active Jobs</h2>';
-		closedJobs = '<h2 class="center job-closed-text">Closed Jobs</h2>';
+		closedJobs = '<h2 class="center job-closed-text">Closed Jobs</h2>' +
+			'<p>The following jobs were previously posted, but are no longer active. The contents here ' +
+			'are provided as a reference for the types of jobs that may be available in the future. ' +
+			'Please note that applications are no longer being accepted for these jobs, and many of the ' +
+			'websites that are linked are no longer maintained.</p>';
 
 		$.each(jobs, function(index, job) {
 			if (job.active) {
