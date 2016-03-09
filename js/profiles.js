@@ -114,6 +114,19 @@
 				image: 'images/profiles/peter-lee.jpg',
 				description: "Peter is a MS student in Statistics, and a graduate analytics assistant with Stanford's women's basketball team. His favorite sport is basketball, and favorite basketball writer Zach Lowe. Peter also has an economics degree from Vassar, where he was also captain of the Quidditch team, and played well enough to make it on to Team USA. Originally from LA, he's a huge fan of the Lakers, Dodgers, and is especially excited for the Rams to come back to LA!",
 				id: "peter",
+			},
+			{
+				name: 'Ryan Chen',
+				joined: 2015,
+				image: 'images/profiles/ryan-chen.png',
+				description: "Ryan is a first-year PhD student in Management Science & Engineering. He holds bachelor's degrees in Industrial & Operations Engineering and Music Performance from the University of Michigan. Due to being born in New Jersey, growing up in Florida, and going to college in Michigan, his sports rooting interests make almost no sense: Michigan Wolverines football, basketball, and hockey, Orlando Magic, Detroit Tigers, New York Jets, Manchester City, Orlando City SC, & Detroit Red Wings. Check out his personal website " + '<a href="http://www.ryandchen.net/">here</a>.',
+				id: "ryan",
+			},
+			{
+				name: 'Alec Powell',
+				joined: 2014,
+				description: "Alec is a senior majoring in Computer Science. Throughout his Stanford career, he has been involved with athletics, whether through KZSU Sports radio, Club Baseball, or several CS projects involving sports analytics - the most successful of which was for the winning team at the 2015 SABR Diamond Dollars Case Competition. A baseball fanatic hailing from Oakton, VA, Alec is a lifelong Baltimore Orioles fan.",
+				id: "alec",
 			}
 		]
 	};
