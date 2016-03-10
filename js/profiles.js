@@ -125,6 +125,7 @@
 			{
 				name: 'Alec Powell',
 				joined: 2014,
+				image: 'images/profiles/alec-powell.jpg',
 				description: "Alec is a senior majoring in Computer Science. Throughout his Stanford career, he has been involved with athletics, whether through KZSU Sports radio, Club Baseball, or several CS projects involving sports analytics - the most successful of which was for the winning team at the 2015 SABR Diamond Dollars Case Competition. A baseball fanatic hailing from Oakton, VA, Alec is a lifelong Baltimore Orioles fan.",
 				id: "alec",
 			}
