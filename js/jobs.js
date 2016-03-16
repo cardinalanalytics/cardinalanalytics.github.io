@@ -7,6 +7,42 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Los Angeles Angels of Anaheim",
+				title: "Quantitative Analyst",
+				location: "Anaheim, CA",
+				description: "Los Angeles Angels are seeking a Data Scientist for the team’s Baseball Analytics group. The Baseball Information Analyst will work closely with the Director, Quantitative Analysis and our analytics team to research, develop, and test predictive models to support Baseball Operations.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=94287",
+				logo: "angels.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 3,
+						day: 7
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Wasserman Media Group",
+				title: "Baseball Analytics Intern",
+				location: "Los Angeles, CA",
+				description: "Wasserman Media Group is a global sports, entertainment, marketing and management company with expertise in media rights, corporate consulting, athlete management and partnerships. We represent the world’s most talented, committed athletes and provide them with the individual attention needed for them to garner success in all areas of their lives. Our Baseball division represents many of the biggest stars in the game today. The baseball analytics intern position begins in October 2015 and has a flexible end date. An in-person interview is preferred.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-wasserman-media-group-baseball-analytics-intern/",
+				logo: "wasserman.png",
+				date: {
+					posted: {
+						year: 2015,
+						month: 9,
+						day: 24
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: false
+			},
+			{
 				company: "Miami Marlins",
 				title: "Baseball Analytics Intern",
 				location: "Miami, FL",
@@ -20,7 +56,8 @@
 						day: 11
 					}
 				},
-				active: true,
+				show: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -37,7 +74,8 @@
 						day: 2
 					}
 				},
-				active: true,
+				show: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -59,7 +97,8 @@
 						day: 7
 					}
 				},
-				active: true,
+				show: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -76,6 +115,7 @@
 						day: 13
 					}
 				},
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -98,6 +138,7 @@
 						day: 15
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -115,6 +156,7 @@
 						day: 4
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -132,7 +174,7 @@
 						day: 3
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -149,6 +191,7 @@
 						day: 24
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -166,6 +209,7 @@
 						day: 20
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -183,6 +227,7 @@
 						day: 20
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -200,6 +245,7 @@
 						day: 18
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -217,6 +263,7 @@
 						day: 17
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -234,6 +281,7 @@
 						day: 12
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -251,6 +299,7 @@
 						day: 10
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -268,7 +317,8 @@
 						day: 2
 					}
 				},
-				active: true,
+				show: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -307,6 +357,7 @@
 						day: 28
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -346,6 +397,7 @@
 						day: 21
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -380,7 +432,8 @@
 						day: 19
 					}
 				},
-				active: true,
+				show: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -397,6 +450,7 @@
 						day: 5
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -413,6 +467,7 @@
 						month: 9,
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -430,6 +485,7 @@
 						day: 28
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -447,7 +503,8 @@
 						day: 25
 					}
 				},
-				active: true,
+				show: true,
+				active: false,
 				isTeam: false
 			},
 			{
@@ -458,7 +515,8 @@
 				link: "http://www.secondspectrum.com/careers-ml",
 				logo: "second-spectrum.jpg",
 				date: {},
-				active: true,
+				show: true,
+				active: false,
 				isTeam: false
 			},
 			{
@@ -486,7 +544,7 @@
 						day: 14
 					}
 				},
-				active: true,
+				active: false,
 				isTeam: false
 			},
 			{
@@ -503,6 +561,7 @@
 						day: 28
 					}
 				},
+				show: true,
 				active: true,
 				isTeam: false
 			},
@@ -519,6 +578,7 @@
 						month: 9,
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -536,6 +596,7 @@
 						day: 23
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -553,6 +614,7 @@
 						day: 14
 					}
 				},
+				show: true,
 				active: false,
 				isTeam: true
 			},
@@ -622,10 +684,12 @@
 			'websites that are linked are no longer maintained.</p>';
 
 		$.each(jobs, function(index, job) {
-			if (job.active) {
-				activeJobs += Handlebars.helpers.job(job, true);
-			} else {
-				closedJobs += Handlebars.helpers.job(job, false);
+			if (job.show) {
+				if (job.active) {
+					activeJobs += Handlebars.helpers.job(job, true);
+				} else {
+					closedJobs += Handlebars.helpers.job(job, false);
+				}
 			}
 		});
 
