@@ -11,7 +11,7 @@
 			{
 				image: "calendar",
 				title: "Upcoming Meetings",
-				content: "The next general meeting will be February 7th at 8pm in Education 210."
+				content: "The next general meeting will be held in early spring quarter. Stay tuned for the time and place."
 			},
 			{
 				image: "comments",
