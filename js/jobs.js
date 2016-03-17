@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Houston Astros",
+				title: "Analytics Developer",
+				location: "Houston, TX",
+				description: "Reporting to the Director of Strategy & Analytics, the Analytics Developer will be primarily responsible for developing the tools and capabilities for data-driven insight into the business. This position will work with cross-functional teams developing the data extraction, modeling, and reporting capabilities across ticketing, retail, marketing, concessions and other sources as needed.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=93479",
+				logo: "astros.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 3,
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Los Angeles Angels of Anaheim",
 				title: "Quantitative Analyst",
 				location: "Anaheim, CA",
@@ -357,7 +374,7 @@
 						day: 28
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
