@@ -11,7 +11,7 @@
 			{
 				image: "calendar",
 				title: "Upcoming Meetings",
-				content: "The next general meeting will be held in early spring quarter. Stay tuned for the time and place."
+				content: "We look forward to meeting again in the 2016-2017 school year. Stay tuned for more details."
 			},
 			{
 				image: "comments",
@@ -21,7 +21,7 @@
 			{
 				image: "shield",
 				title: "Officers",
-				content: '<ul class="officers-list"><li>Vihan Lakshman</li><li>Scott Powers</li><li>Sandy Huang</li><li>Eli Shayer</li></ul>'
+				content: '<ul class="officers-list"><li>Eli Shayer</li><li>Travis Chen</li><li>Nick Canova</li><li>Peter Lee</li></ul>'
 			}
 		]
 	};
