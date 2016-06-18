@@ -12,7 +12,6 @@
 		members: [
 			{
 				name: 'Scott Powers',
-				position: 'Co-President',
 				joined: 2014,
 				image: 'images/profiles/scott-powers.jpg',
 				description: "Scott is a PhD student in statistics and an analytics consultant to the Oakland Athletics. In the 2016 spring quarter he will lecture Stanford's STATS 50: Analytic Methods in Sports. Outside of work, he is a catcher on the club baseball team and a setter on the club volleyball team.",
@@ -30,7 +29,6 @@
 			},
 			{
 				name: 'Vihan Lakshman',
-				position: 'Co-President',
 				joined: 2014,
 				image: 'images/profiles/vihan-lakshman.jpg',
 				description: "Vihan Lakshman is a majoring in Math and Computational Science. He covers Cardinal football and basketball for The Stanford Daily and KZSU student radio, and was also a member of the winning undergraduate team at the 2015 SABR Diamond Dollars Case Competition. Originally from Savannah, GA, Vihan is an ardent supporter of the Falcons, Braves, and Hawks.",
@@ -44,7 +42,7 @@
 			},
 			{
 				name: 'Eli Shayer',
-				position: 'Technology Officer',
+				position: 'President',
 				joined: 2014,
 				image: 'images/profiles/eli-shayer.jpg',
 				description: "Eli is an undergraduate student in the class of 2018 from Anchorage, Alaska. His favorite sport is baseball, and he is an avid fan of the Saint Louis Cardinals. He was on one of Stanford's teams at the 2015 SABR Analytics Conference Case Competition. As the tech officer, he made a good portion of this website!",
@@ -62,7 +60,6 @@
 			},
 			{
 				name: 'Sandy Huang',
-				position: 'Financial Officer',
 				joined: 2014,
 				image: 'images/profiles/sandy-huang.jpg',
 				description: "Sandy is a coterminal master's student from Kentucky studying Management Science & Engineering (MS&E). His undergrad degree was in Philosophy where he wrote a thesis on Nietzsche. In his free time, he enjoys reading books, listening to hip-hop, and playing chess. He roots for the Kentucky Wildcats, the Warriors, the Raiders, and of course the Stanford Cardinal.",
@@ -103,6 +100,7 @@
 			},
 			{
 				name: 'Travis Chen',
+				position: 'Vice President',
 				joined: 2015,
 				image: 'images/profiles/travis-chen.png',
 				description: "Travis is a second-year undergrad in the class of 2018 studying Computer Science. His favorite sports are basketball and football, and he roots for the Spurs, the Sacramento Kings, and the Seahawks despite his Bay Area roots.",
@@ -110,6 +108,7 @@
 			},
 			{
 				name: 'Peter Lee',
+				position: 'Financial Officer',
 				joined: 2015,
 				image: 'images/profiles/peter-lee.jpg',
 				description: "Peter is a MS student in Statistics, and a graduate analytics assistant with Stanford's women's basketball team. His favorite sport is basketball, and favorite basketball writer Zach Lowe. Peter also has an economics degree from Vassar, where he was also captain of the Quidditch team, and played well enough to make it on to Team USA. Originally from LA, he's a huge fan of the Lakers, Dodgers, and is especially excited for the Rams to come back to LA!",

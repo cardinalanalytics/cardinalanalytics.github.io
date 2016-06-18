@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Philadelphia Eagles",
+				title: "Senior Analytics - Football Operations",
+				location: "Philadelphia, PA",
+				description: "The Senior Analytics role is responsible for helping apply analytics to units across the football operation. A successful candidate will be equipped to work with football data to draw insights and improve decision-making. Candidates should have the quantitative skills to analyze complex problems and the technical ability to implement their ideas effectively. Candidates will be exposed to all parts of the modern NFL front office, including player evaluation, game preparation, resource allocation, sports science, and player development.",
+				link: "http://footballjobs.teamworkonline.com/teamwork/r.cfm?i=97942",
+				logo: "eagles.png",
+				date: {
+					posted: {
+						year: 2016,
+						month: 6,
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Houston Astros",
 				title: "Analytics Developer",
 				location: "Houston, TX",
@@ -20,7 +37,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -38,7 +55,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -56,7 +73,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: false
 			},
 			{
@@ -579,7 +596,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: false
 			},
 			{
