@@ -7,6 +7,209 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Philadelphia Phillies",
+				title: "Senior Quantitative Analyst, Baseball Research & Development",
+				location: "Philadelphia, PA",
+				description: "As a Senior Quantitative Analyst (QA), you help shape the Phillies Baseball Operations strategies by processing, analyzing, and interpreting large and complex data. You do more than just crunch the numbers; you serve as a lead and mentor to a growing team of analysts. You carefully plan the design of your own studies by asking and answering the right questions, while also providing guidance on statistical methods and techniques to make sure that other analysts can do the same.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=103331",
+				logo: "phillies.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 10,
+						day: 7
+					},
+					due: {
+						year: 2016,
+						month: 10,
+						day: 31
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Tampa Bay Rays",
+				title: "Baseball Operations Data Engineer",
+				location: "St. Petersburg, FL",
+				description: "The Tampa Bay Rays are a professional baseball team looking for a Data Engineer to join our Baseball Operations team. This position will be responsible for ensuring that our database meets the highest standards of accuracy and integrity. This includes designing and implementing data import procedures, performing quality assurance checks, and finding and fixing data errors. This person will work closely with our Baseball Research & Development and Baseball Systems groups.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-tampa-bay-rays-baseball-operations-data-engineer/",
+				logo: "rays.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 10,
+						day: 3
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Colorado Rockies",
+				title: "Analyst – Baseball Research & Development",
+				location: "Denver, CO",
+				description: "This individual will collaborate with the Research and Development team and will assist in the development and maintenance of a player information and projection system along with other statistical analysis and on field strategy. This position requires strong statistical development skills and experience as well as a demonstrated ability for independent curiosity and a commitment to excellence while working within a team framework.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-postings-colorado-rockies-baseball-research-development-analyst-systems-developer-web-developer/",
+				logo: "rockies.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 10,
+						day: 3
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Kansas City Royals",
+				title: "Developer, Baseball Systems",
+				location: "Kansas City, MO",
+				description: "The Kansas City Royals Baseball Club is seeking a highly motivated developer to support baseball operations.  The ideal applicant will be able to manage multiple concurrent projects that facilitate enhanced communications, reporting, and other interactions between teams internal to the organization.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=102404",
+				logo: "royals.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 9,
+						day: 20
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Los Angeles Angels",
+				title: "Baseball Operations – Quantitative Analysis (Analytics) Internship",
+				location: "Anaheim, CA",
+				description: "The Los Angeles Angels are looking to hire a Quantitative Analysis Intern for the 2017 season.  This is a compensated position that will provide exposure to multiple departments within baseball operations.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=103089",
+				logo: "angels.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 10,
+						day: 1
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Los Angeles Angels",
+				title: "Baseball Operations Intern",
+				location: "Anaheim, CA",
+				description: "The Los Angeles Angels are looking to hire a Baseball Operations Intern for the 2017 season.  This is a compensated position (CA Min. Wage) that will provide exposure to multiple departments within baseball operations.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=103084",
+				logo: "angels.gif",
+				date: {},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Indiana Pacers",
+				title: "Basketball Analytics Internship",
+				location: "Indianapolis, IN",
+				description: "The Basketball Analytics Intern will work directly with the Indiana Pacers analytics team in support of the front office, performance staff, and coaching staff. The overall focus will be on helping develop internal software tools/metrics and maintaining current analytics infrastructure. Experience in the sports industry is not required, but applicants must be passionate about basketball.",
+				link: "http://pacers.teamworkonline.com/teamwork/r.cfm?i=102885",
+				logo: "pacers.gif",
+				date: {},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Philadelphia Eagles",
+				title: "Analytics Intern - Football Operations",
+				location: "Philadelphia, PA",
+				description: "The Analytics Intern will work with the football operations staff on a wide range of analytical topics. Candidates will primarily assist in managing and analyzing data. Successful candidates will have strong quantitative skills and the technical ability to implement ideas. The internship will expose candidates to the day-to-day work of a modern NFL front office.",
+				link: "http://footballjobs.teamworkonline.com/teamwork/r.cfm?i=102137",
+				logo: "eagles.png",
+				date: {},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Jacksonville Jaguars",
+				title: "Advanced Analytics Coordinator",
+				location: "Jacksonville, FL",
+				description: "The Advanced Analytics Coordinator will work in the Analytics department, focusing on data analysis through reporting, model building, and development of tools to convey results. The Analytics team is responsible for analyzing, interpreting, presenting, and communicating data to enhance processes, decision-making, and outcomes for the Jacksonville Jaguars.",
+				link: "http://footballjobs.teamworkonline.com/teamwork/r.cfm?i=100005",
+				logo: "jaguars.gif",
+				date: {},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Cincinnati Reds",
+				title: "Baseball Operations Intern",
+				location: "Cincinnati, OH",
+				description: "The Cincinnati Reds are seeking a Baseball Operations Intern. This individual will provide daily support to all members of the Baseball Operations Department through a wide range of administrative tasks and projects.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=103203",
+				logo: "reds.gif",
+				date: {},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Cincinnati Reds",
+				title: "Data Scientist",
+				location: "Cincinnati, OH",
+				description: "Work with the Manager of Baseball Analytics to implement the department’s research and development efforts within new and existing applications. We envision the person in this position to play a major role in the creation of new baseball analytics concepts with the ultimate goal of enhancing on-field performance.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=103051",
+				logo: "reds.gif",
+				date: {},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Houston Rockets",
+				title: "Basketball Operations Analyst",
+				location: "Houston, TX",
+				description: "The Houston Rockets front office is looking to add a talented new member to the team. This person will work intimately with the entire front office, including GM Daryl Morey, to organize basketball data, build software tools, and analyze basketball games.",
+				link: "http://nbateamjobs.teamworkonline.com/teamwork/r.cfm?i=101677",
+				logo: "rockets.gif",
+				date: {},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Washington Nationals",
+				title: "2017 Internship - Major League Operations",
+				location: "Washington, DC",
+				description: "Contribute to Washington Nationals Baseball Operations for the 2017 season as one of our highly valued interns. The Major League Operations internship includes assisting the Baseball Operations Department with day-to-day assignments along with long term projects centered on roster management, salary arbitration, transactions, and the economics of baseball.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=98561",
+				logo: "nationals.gif",
+				date: {},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Washington Nationals",
+				title: "Analyst, Baseball Research & Development",
+				location: "Washington, DC",
+				description: "The Washington Nationals are seeking a data analyst to join the organization’s Baseball Research and Development team. This role will focus on using data science to support Baseball Operations in player evaluation, roster construction and in-game tactics. This includes using machine learning techniques and predictive modeling to draw insights from our in house baseball datasets. The analyst will work closely with the existing R&D team including other analysts and developers to design and build decision-support systems and tools for use throughout the organization.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=100880",
+				logo: "nationals.gif",
+				date: {},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Philadelphia Eagles",
 				title: "Senior Analytics - Football Operations",
 				location: "Philadelphia, PA",
@@ -19,7 +222,7 @@
 						month: 6,
 					}
 				},
-				show: true,
+				show: false,
 				active: true,
 				isTeam: true
 			},
@@ -36,7 +239,7 @@
 						month: 3,
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -54,7 +257,7 @@
 						day: 7
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -72,7 +275,7 @@
 						day: 24
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: false
 			},
@@ -90,7 +293,7 @@
 						day: 11
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -108,7 +311,7 @@
 						day: 2
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -131,7 +334,7 @@
 						day: 7
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -190,7 +393,7 @@
 						day: 4
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -225,7 +428,7 @@
 						day: 24
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -243,7 +446,7 @@
 						day: 20
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -261,7 +464,7 @@
 						day: 20
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -279,7 +482,7 @@
 						day: 18
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -315,7 +518,7 @@
 						day: 12
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -333,7 +536,7 @@
 						day: 10
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -351,7 +554,7 @@
 						day: 2
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -431,7 +634,7 @@
 						day: 21
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -466,7 +669,7 @@
 						day: 19
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -484,7 +687,7 @@
 						day: 5
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -501,7 +704,7 @@
 						month: 9,
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -517,6 +720,23 @@
 						year: 2015,
 						month: 9,
 						day: 28
+					}
+				},
+				show: false,
+				active: false,
+				isTeam: true
+			},
+			{
+				company: "Carolina Hurricanes",
+				title: "Java Developer/Database Administrator",
+				location: "Raleigh, NC",
+				description: "The Carolina Hurricanes and PNC Arena are seeking a Java Developer to continue development of existing systems and write new applications as needed.",
+				link: "http://hockeyjobs.nhl.com/teamwork/r.cfm?i=85191",
+				logo: "hurricanes.gif",
+				date: {
+					posted: {
+						year: 2015,
+						month: 9,
 					}
 				},
 				show: true,
@@ -595,26 +815,9 @@
 						day: 28
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: false
-			},
-			{
-				company: "Carolina Hurricanes",
-				title: "Java Developer/Database Administrator",
-				location: "Raleigh, NC",
-				description: "The Carolina Hurricanes and PNC Arena are seeking a Java Developer to continue development of existing systems and write new applications as needed.",
-				link: "http://hockeyjobs.nhl.com/teamwork/r.cfm?i=85191",
-				logo: "hurricanes.gif",
-				date: {
-					posted: {
-						year: 2015,
-						month: 9,
-					}
-				},
-				show: true,
-				active: false,
-				isTeam: true
 			},
 			{
 				company: "Atlanta Braves",
@@ -630,7 +833,7 @@
 						day: 23
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -648,7 +851,7 @@
 						day: 14
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
