@@ -11,7 +11,7 @@
 			{
 				image: "calendar",
 				title: "Upcoming Meetings",
-				content: "We look forward to meeting again in the 2016-2017 school year. Stay tuned for more details."
+				content: "Our meetings in autumn quarter 2016 will be weekly on Sundays at 8pm in Old Union 200."
 			},
 			{
 				image: "comments",
