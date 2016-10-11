@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Miami Marlins",
+				title: "Miami Marlins Baseball Analytics Intern",
+				location: "Miami, FL",
+				description: "The Baseball Analytics Intern will assist Baseball Operations decision-making through the analysis and research of baseball information. The specific day-to-day responsibilities of this position will vary depending on the baseball calendar, but will revolve around using objective data to answer baseball-related questions, with a strong preference for a candidate possessing an established foundation of statistical, programming, and database management skills. The Marlins are accepting both full year (January-December) and summer candidates at this time.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-miami-marlins-baseball-analytics-intern-2/",
+				logo: "marlins.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 10,
+						day: 11
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Philadelphia Phillies",
 				title: "Senior Quantitative Analyst, Baseball Research & Development",
 				location: "Philadelphia, PA",
