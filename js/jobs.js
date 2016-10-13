@@ -176,7 +176,7 @@
 				logo: "reds.gif",
 				date: {},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
