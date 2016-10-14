@@ -7,8 +7,26 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Seattle Mariners",
+				title: "Baseball Analytics Intern",
+				location: "Seattle, WA",
+				description: "We are seeking interns with a passion for baseball and statistical analysis. The position will work directly alongside the analytics team on a wide range of projects. Start and end dates are flexible, and we will consider applicants who are available for only the summer of 2017. While many candidates are no doubt capable, we desire a unique skillset that can impact, innovate and add value immediately.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-seattle-mariners-baseball-analytics-intern/",
+				logo: "mariners.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 10,
+						day: 14
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Miami Marlins",
-				title: "Miami Marlins Baseball Analytics Intern",
+				title: "Baseball Analytics Intern",
 				location: "Miami, FL",
 				description: "The Baseball Analytics Intern will assist Baseball Operations decision-making through the analysis and research of baseball information. The specific day-to-day responsibilities of this position will vary depending on the baseball calendar, but will revolve around using objective data to answer baseball-related questions, with a strong preference for a candidate possessing an established foundation of statistical, programming, and database management skills. The Marlins are accepting both full year (January-December) and summer candidates at this time.",
 				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-miami-marlins-baseball-analytics-intern-2/",
