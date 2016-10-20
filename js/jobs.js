@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Houston Astros",
+				title: "Baseball Research & Development Analyst",
+				location: "Houston, TX",
+				description: "The Houston Astros are seeking an Analyst for the team’s Baseball Research and Development group. The Analyst will work closely with the Director of R&D and the analytics team to conduct research and develop methods that encourage the effective understanding and application of information throughout Baseball Operations.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-houston-astros-baseball-research-development-analyst/",
+				logo: "astros.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 10,
+						day: 20
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Seattle Mariners",
 				title: "Baseball Analytics Intern",
 				location: "Seattle, WA",
@@ -98,7 +116,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -241,6 +259,24 @@
 				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=100880",
 				logo: "nationals.gif",
 				date: {},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Sports Info Solutions",
+				title: "Research & Development Associate",
+				location: "Coplay, PA",
+				description: "Sports Info Solutions (SIS) is looking for candidates to fill a full-time position in our R&D Department. The R&D Associate will work out of our office near Allentown, PA and will contribute as a member of our R&D team, supporting research for publications and future products.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-sports-info-solutions-research-development-associate/",
+				logo: "bis.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 10,
+						day: 18
+					}
+				},
 				show: true,
 				active: true,
 				isTeam: true
@@ -775,7 +811,7 @@
 						month: 9,
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
