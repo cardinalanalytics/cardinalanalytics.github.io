@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Detroit Tigers",
+				title: "Intern, Baseball Analytics",
+				location: "Detroit, MI",
+				description: "The Detroit Tigers are looking for Baseball Analytics Interns who will assist with the day to day operations.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-postings-detroit-tigers-baseball-analytics-manager-data-architect-and-intern/",
+				logo: "tigers.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 10,
+						day: 21
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Houston Astros",
 				title: "Baseball Research & Development Analyst",
 				location: "Houston, TX",
