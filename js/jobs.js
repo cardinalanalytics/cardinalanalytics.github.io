@@ -7,6 +7,23 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Minnesota Twins",
+				title: "Intern, Baseball Research",
+				location: "Minneapolis, MN",
+				description: "Assist in the day-to-day administrative operations of the Baseball Department, focusing on baseball research and advance scouting.",
+				link: "https://recruiting.adp.com/srccar/RTI.home?c=1080741&d=External&r=5000137803306",
+				logo: "twins.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 10
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Detroit Tigers",
 				title: "Intern, Baseball Analytics",
 				location: "Detroit, MI",
