@@ -45,7 +45,7 @@
 				position: 'President',
 				joined: 2014,
 				image: 'images/profiles/eli-shayer.jpg',
-				description: "Eli is an undergraduate student in the class of 2018 from Anchorage, Alaska. His favorite sport is baseball, and he is an avid fan of the Saint Louis Cardinals. He was on one of Stanford's teams at the 2015 SABR Analytics Conference Case Competition. As the tech officer, he made a good portion of this website!",
+				description: "Eli is a Mathematical and Computational Science major in the class of 2018 from Anchorage, Alaska. He works for the (World Series Champion!) Chicago Cubs as a Research & Developmemt Intern. He was on one of Stanford's teams at the 2015 SABR Analytics Conference Case Competition. He also made a good portion of this website!",
 				posts: [
 					{
 						title: 'The Frictional Cost of a Call to the Bullpen',
