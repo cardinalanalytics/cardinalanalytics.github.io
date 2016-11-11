@@ -7,6 +7,42 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Pittsburgh Pirates",
+				title: "Baseball Informatics Internship",
+				location: "Pittsburgh, PA",
+				description: "This position consists of a variety of data and analytical tasks within the Baseball Operations department. Under the direction of the Baseball Informatics group, this position is responsible for the daily operation of several processes and various data maintenance and analytical projects including but not limited to operating and extending processes for data extraction, transformation, cleansing, and loading to and from internal and external data sources, both structured and unstructured data. Additionally, this position is responsible for other duties as assigned by the Baseball Informatics group.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-postings-pittsburgh-pirates-baseball-informatics-internships/",
+				logo: "pirates.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 11,
+						day: 11
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Tampa Bay Rays",
+				title: "Baseball Research & Development Intern",
+				location: "St. Petersburg, FA",
+				description: "We are seeking interns with a passion for winning through mathematics, data analysis, and computation. The internship positions will be with the Baseball Research and Development team in the Baseball Operations department. Start and end dates are flexible, and we will consider applicants who are available for only the summer of 2017. Please note that these positions have the potential to lead to a full-time employment offer, but such an offer is not guaranteed.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-tampa-bay-rays-baseball-research-development-intern-2/",
+				logo: "rays.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 11,
+						day: 11
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Minnesota Twins",
 				title: "Intern, Baseball Research",
 				location: "Minneapolis, MN",
@@ -132,7 +168,7 @@
 						day: 3
 					}
 				},
-				show: true,
+				show: false,
 				active: true,
 				isTeam: true
 			},
