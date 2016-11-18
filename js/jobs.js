@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Oakland Athletics",
+				title: "Baseball Informatics Internship",
+				location: "Oakland, CA",
+				description: "The Oakland Athletics are currently seeking a Full-Time Baseball Operations Analyst. This position will report directly to the General Manager. The Baseball Operations Analyst will have responsibilities ranging from performing ad-hoc analysis, querying the team’s proprietary database, as well as in assisting in the creation of new analytical tools to support baseball operations.  This position will work with members of the front office to provide analysis and create reports for use across all areas of baseball operations.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=105287",
+				logo: "athletics.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 11,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Pittsburgh Pirates",
 				title: "Baseball Informatics Internship",
 				location: "Pittsburgh, PA",
