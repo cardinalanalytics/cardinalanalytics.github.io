@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Boston Red Sox",
+				title: "Baseball Operations Analyst",
+				location: "Boston, MA",
+				description: "The Boston Red Sox are seeking an Analyst for the team’s Pitching Development and Baseball Research & Development groups. The role will focus primarily on using an analytical approach to evaluate pitcher performance and provide support to development staff in the field. The analyst will work closely with VP, Pitching Development and the R&D team to develop methods to improve the effective understanding and application of pitch tracking data throughout Baseball Operations.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-boston-red-sox-baseball-operations-analyst/",
+				logo: "redsox.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 11,
+						day: 28
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Oakland Athletics",
 				title: "Baseball Operations Analyst",
 				location: "Oakland, CA",
