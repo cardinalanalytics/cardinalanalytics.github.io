@@ -7,6 +7,42 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Milwaukee Brewers",
+				title: "Baseball Operations Analyst",
+				location: "Milwaukee, WI",
+				description: "The Milwaukee Brewers are currently seeking an Intern in the Baseball Research and Development Department. The Intern will work with the Baseball R&D, Baseball Systems departments and the entire Baseball Operations Department to deliver research and tools to improve decision making. The position requires a person who has intellectual curiosity, is a self-starter and can communicate technical and analytical concepts effectively to non-technical people. Being passionate about using data, analysis and technology to improve decision making processes is also a key differentiator.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-milwaukee-brewers-baseball-research-development-senior-analyst-intern/",
+				logo: "brewers.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 12,
+						day: 1
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "St. Louis Cardinals",
+				title: "Baseball Operations Fellowship",
+				location: "St. Louis, MO",
+				description: "This position is responsible for conducting quantitative research to provide timely recommendations to decision makers within Baseball Operations.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-st-louis-cardinals-baseball-operations-fellowship-2/",
+				logo: "cardinals.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 11,
+						day: 30
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Boston Red Sox",
 				title: "Baseball Operations Analyst",
 				location: "Boston, MA",
