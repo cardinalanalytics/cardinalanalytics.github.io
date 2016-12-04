@@ -7,6 +7,42 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Phoenix Suns",
+				title: "Basketball Operations Intern",
+				location: "Phoenix, AZ",
+				description: "Assist the Phoenix Suns front office staff with day-to-day operations including scouting credential requests, maintaining basketball operations databases, background research and player analysis, tracking Suns’ draft right’s held prospects, updating player magnets, providing transportation for players, scouting small college and under the radar prospects, and assisting with administrative needs. Additionally, assist in salary cap management and planning, player and team statistical analysis and various projects as assigned.",
+				link: "http://nbateamjobs.teamworkonline.com/teamwork/r.cfm?i=105827",
+				logo: "suns.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 12,
+						day: 2
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Oklahoma City Thunder",
+				title: "Data Scientist Intern",
+				location: "Oklahoma City, OK",
+				description: "As a data scientist intern, your work is critical to uncovering valuable insights that help shape the organization’s future - influencing strategic planning, decision-making, and performance to create the optimal conditions for talent to thrive. Working with colleagues, external suppliers, and internal and external data sources, you will work on every aspect of the data pipeline - from the building and maintaining information systems to research, analysis, and presentation. You will leverage data to impact the organization’s most significant decisions, supporting areas like strategic planning, evaluation, coaching, and physical science.",
+				link: "http://nbateamjobs.teamworkonline.com/teamwork/r.cfm?i=105799",
+				logo: "thunder.gif",
+				date: {
+					posted: {
+						year: 2016,
+						month: 12,
+						day: 1
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Milwaukee Brewers",
 				title: "Baseball Operations Analyst",
 				location: "Milwaukee, WI",
