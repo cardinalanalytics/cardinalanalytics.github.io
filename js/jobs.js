@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Washington Nationals",
+				title: "Research & Development Internship",
+				location: "Washington DC",
+				description: "The Washington Nationals are seeking a motivated intern to join the organization’s Baseball Research and Development team for the upcoming season. The Research & Development internship includes an emphasis on computer programming and data analysis. The intern’s main responsibility will be to assist the R&D department with input, cleaning, and processing of baseball data into proprietary databases. There will also be assignments that require statistical analysis on large volumes of baseball-related data. Candidates must have significant experience with R and SQL, as well as an interest in publicly available sabermetrics research and data science.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-washington-nationals-research-development-internship/",
+				logo: "nationals.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 2,
+						day: 9
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Phoenix Suns",
 				title: "Basketball Operations Intern",
 				location: "Phoenix, AZ",
@@ -21,7 +39,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -39,7 +57,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -57,7 +75,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -75,7 +93,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -111,7 +129,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -147,7 +165,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -164,7 +182,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -182,7 +200,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -200,7 +218,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -218,7 +236,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -313,7 +331,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -331,7 +349,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -342,8 +360,8 @@
 				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=103084",
 				logo: "angels.gif",
 				date: {},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -355,7 +373,7 @@
 				logo: "pacers.gif",
 				date: {},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -367,7 +385,7 @@
 				logo: "eagles.png",
 				date: {},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -379,7 +397,7 @@
 				logo: "jaguars.gif",
 				date: {},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -402,8 +420,8 @@
 				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=103051",
 				logo: "reds.gif",
 				date: {},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -426,8 +444,8 @@
 				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=98561",
 				logo: "nationals.gif",
 				date: {},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -438,8 +456,8 @@
 				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=100880",
 				logo: "nationals.gif",
 				date: {},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
