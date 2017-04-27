@@ -11,12 +11,12 @@
 			{
 				image: "calendar",
 				title: "Upcoming Meetings",
-				content: "Our meetings in autumn quarter 2016 will be weekly on Sundays at 8pm in Old Union 200."
+				content: "Our meetings in spring quarter of the 2016-2017 school year will be weekly on Sundays at 8pm in Old Union 200."
 			},
 			{
 				image: "comments",
 				title: "Announcements",
-				content: "Look forward to the sport-specific subgroups that will bring together members with common interests. We will also have workshops to help people get started!"
+				content: "On April 27th we will host Dr. Dave Schrader as a guest speaker! Join us in Old Union 200 starting at 8pm for this exciting guest presentation."
 			},
 			{
 				image: "shield",
