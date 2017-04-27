@@ -7,6 +7,78 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Chicago Cubs",
+				title: "Baseball Systems Web Developer",
+				location: "Chicago, IL",
+				description: "This role will primarily focus on the development and maintenance of the Cubs internal baseball information system, including creating web interfaces and web tools for the user interface; building ETL processes; maintaining back-end databases; and troubleshooting data sources issues as needed.",
+				link: "https://cubs.hirecentric.com/jobs/117478.html",
+				logo: "cubs.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 4,
+						day: 21
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Sacremento Kings",
+				title: "Basketball Analytics Intern",
+				location: "Sacremento, CA",
+				description: "The Sacramento Kings seek a Basketball Analytics Intern who will contribute to the development of cutting-edge basketball analytics systems. The Basketball Analytics Intern will assist the Kings analytics group through the analysis and research of basketball information. The specific day-to-day responsibilities of this position will vary depending on the basketball calendar, but it requires a general knowledge of how to use objective data to answer basketball-related questions, with a strong preference for a candidate possessing an established foundation of statistical and database management skills. The position will require collaboration with the entire analytics group, including the VP of Strategy and Analytics.",
+				link: "http://nbateamjobs.teamworkonline.com/teamwork/r.cfm?i=112711",
+				logo: "kings.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 4,
+						day: 25
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Houston Rockets",
+				title: "Strategy & Analytics Summer Intern",
+				location: "Houston, TX",
+				description: "Responsibilities include but are not limited to: - Prepare research for customer experience, marketing, and sponsorship programs - Collect data from surveys, databases, and external sources - Analyze data and summarize key findings - Support sales, service, and marketing operations - Build and load prospect lists for call and email campaigns - Develop reports and dashboards to monitor campaign performance - Assist with business process improvement and data management - Perform data hygiene and ETL tasks between various systems - Prepare documentation of changes to business processes and data models - General support of the Strategy & Analytics department",
+				link: "http://nbateamjobs.teamworkonline.com/teamwork/r.cfm?i=112231",
+				logo: "rockets.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 4,
+						day: 13
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Inside Edge",
+				title: "Software/Analytics Engineer I",
+				location: "Bloomington, MN",
+				description: "Dream job with a successful sports analytics company!  Works with the Inside Edge technology team to develop data processing software, primarily using Python, to query and process SQL sports databases into sorted lists of stats/splits for use with Inside Edge's patented Remarkable tool.  May also develop Predictive Analytics related to sports data, for use in Fantasy and Daily Fantasy businesses.",
+				link: "http://liveeventjobs.m.teamworkonline.com/Jobdetail.aspx?j=112584",
+				logo: "inside-edge.jpg",
+				date: {
+					posted: {
+						year: 2017,
+						month: 4,
+						day: 21
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Washington Nationals",
 				title: "Research & Development Internship",
 				location: "Washington DC",
@@ -21,7 +93,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -111,7 +183,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -147,7 +219,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -254,7 +326,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -295,7 +367,7 @@
 					}
 				},
 				show: false,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -433,7 +505,7 @@
 				logo: "rockets.gif",
 				date: {},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -492,7 +564,7 @@
 					}
 				},
 				show: false,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
