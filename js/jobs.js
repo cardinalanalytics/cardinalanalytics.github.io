@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Seattle Mariners",
+				title: "Sports Science/Performance Analytics Intern",
+				location: "Seattle, WA",
+				description: "We are seeking an individual with a passion for baseball and statistical analysis. The position will work directly alongside the analytics team with an emphasis on sports science. There will be ample opportunity to impact decision-making. Start and end dates are flexible with a preference towards immediate availability.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-seattle-mariners-sports-scienceperformance-analytics-intern/",
+				logo: "mariners.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 5,
+						day: 19
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Chicago Cubs",
 				title: "Baseball Systems Web Developer",
 				location: "Chicago, IL",
@@ -307,7 +325,7 @@
 						day: 14
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
