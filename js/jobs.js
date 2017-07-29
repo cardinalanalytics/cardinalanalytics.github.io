@@ -8,6 +8,18 @@
 		jobs: [
 			{
 				company: "Philadelphia Eagles",
+				title: "Analyst - Football Operations",
+				location: "Philadelphia, PA",
+				description: "The Analyst position will help apply analytics within football operations. A successful candidate will be equipped to work with football data to draw insights and improve decision-making. Candidates should have the quantitative skills to analyze complex problems and the technical ability to implement their ideas effectively.",
+				link: "http://footballjobs.teamworkonline.com/teamwork/r.cfm?i=115220",
+				logo: "eagles.png",
+				date: {},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Philadelphia Eagles",
 				title: "Analytics Intern - Football Operations",
 				location: "Philadelphia, PA",
 				description: "The Analytics Intern will work with the football operations staff on a wide range of analytical topics. Candidates will primarily assist in managing and analyzing data. Successful candidates will have strong quantitative skills and the technical ability to implement ideas. The internship will expose candidates to the day-to-day work of a modern NFL front office.",
