@@ -31,6 +31,18 @@
 				isTeam: true
 			},
 			{
+				company: "Indiana Pacers",
+				title: "Senior Manager, Business Intelligence & Analytics",
+				location: "Indianapolis, IN",
+				description: "This position is responsible for partnering with organizational leaders across all business functions to understand key challenges and opportunities, structure problems, collect data, apply appropriate quantitative and qualitative research methods, and turn insights into recommendations to increase operational efficiency, improve the fan experience, and build PS&E’s brands. We are seeking a data practitioner who is passionate about enabling our business teams to maximize our research, data collection and analysis to drive our business forward.",
+				link: "http://pacers.teamworkonline.com/teamwork/r.cfm?i=117138",
+				logo: "pacers.gif",
+				date: {},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Seattle Mariners",
 				title: "Sports Science/Performance Analytics Intern",
 				location: "Seattle, WA",
@@ -486,7 +498,7 @@
 				link: "http://pacers.teamworkonline.com/teamwork/r.cfm?i=102885",
 				logo: "pacers.gif",
 				date: {},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
