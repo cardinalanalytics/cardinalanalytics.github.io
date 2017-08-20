@@ -7,6 +7,18 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Los Angeles Dodgers",
+				title: "Data Engineer",
+				location: "Los Angeles, CA",
+				description: "As the scope and quantity of data in baseball continue to rapidly increase, we need a highly-talented individual to manage the computational and informational complexity associated with that growth. The Data Engineer will work closely with our baseball systems and analytics teams to design, build, and maintain a database and computational platform for leading-edge baseball research.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=116288",
+				logo: "dodgers.gif",
+				date: {},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Philadelphia Eagles",
 				title: "Analyst - Football Operations",
 				location: "Philadelphia, PA",
@@ -758,7 +770,7 @@
 						day: 15
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
