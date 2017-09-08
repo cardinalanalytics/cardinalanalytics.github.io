@@ -7,6 +7,29 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "San Francisco Giants",
+				title: "Baseball Operations Analyst",
+				location: "San Francisco, CA",
+				description: "The San Francisco Giants are seeking an Analyst to join the Baseball Operations department. This individual will be part of the analytics team and provide research and analysis to support front office, player development, and scouting staffs. This position will also work closely with the application development team to design and develop statistical models and tools using advanced data sources within new and existing applications. The ideal candidate will possess strong analytical skills, the ability to communicate effectively to non-technical people, and both passion and intellectual curiosity for the game of baseball.",
+				link: "./docs/FBO44524%20–%20Baseball%20Operations%20Analyst.pdf",
+				logo: "giants.png",
+				date: {
+					posted: {
+						year: 2017,
+						month: 9,
+						day: 7
+					},
+					due: {
+						year: 2017,
+						month: 9,
+						day: 22
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Los Angeles Dodgers",
 				title: "Data Engineer",
 				location: "Los Angeles, CA",
