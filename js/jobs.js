@@ -7,6 +7,42 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Detroit Tigers",
+				title: "Baseball Analytics Internship",
+				location: "Detroit, Michigan",
+				description: "The Detroit Tigers are seeking a baseball analytics intern for the 2018 season. The position can run from Jan. or May 2018 through Dec. 2018. Multiple people will be hired for this internship. Some evening, weekend, and holiday hours will be required.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-posting-detroit-tigers-baseball-analytics-internship/",
+				logo: "tigers.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 9,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Philadelphia Phillies",
+				title: "Baseball Research & Development Quantitative Analyst",
+				location: "Philadelphia, PA",
+				description: "As a Quantitative Analyst (QA) or QA intern, you help shape the Phillies Baseball Operations strategies by processing, analyzing, and interpreting large and complex data. You do more than just crunch the numbers; you carefully plan the design of your own studies by asking and answering the right questions, while also working collaboratively with other analysts and software engineers on larger projects.",
+				link: "http://www.fangraphs.com/blogs/instagraphs/job-postings-philadelphia-phillies-software-engineers-quantitative-analysts/",
+				logo: "phillies.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 7,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "San Francisco Giants",
 				title: "Baseball Operations Analyst",
 				location: "San Francisco, CA",
@@ -73,8 +109,8 @@
 				link: "http://pacers.teamworkonline.com/teamwork/r.cfm?i=117138",
 				logo: "pacers.gif",
 				date: {},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -110,7 +146,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -128,7 +164,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -146,7 +182,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -360,7 +396,7 @@
 						day: 21
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -437,7 +473,7 @@
 						day: 31
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -581,7 +617,7 @@
 				link: "http://nbateamjobs.teamworkonline.com/teamwork/r.cfm?i=101677",
 				logo: "rockets.gif",
 				date: {},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -918,7 +954,7 @@
 						day: 17
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
