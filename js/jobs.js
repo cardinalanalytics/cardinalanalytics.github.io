@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Milwaukee Bucks",
+				title: "Basketball Analytics Manager",
+				location: "Milwaukee, WI",
+				description: "A skilled data analyst responsible for continuing development and maintenance of a basketball information system and database architecture as well as performing model building and other analysis of the data housed within the architecture. Extensive experience in and expertise with a scripting language such as R is a requirement. A successful candidate will also be conversant in SQL and comfortable with a range of statistical and model-building techniques. Ability to work in a fast-paced, team-oriented, competitive environment is a must.",
+				link: "http://nbateamjobs.teamworkonline.com/teamwork/r.cfm?i=119181",
+				logo: "bucks.png",
+				date: {
+					posted: {
+						year: 2017,
+						month: 9,
+						day: 22
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Washington Nationals",
 				title: "Baseball Operations Analyst",
 				location: "Washington DC",
