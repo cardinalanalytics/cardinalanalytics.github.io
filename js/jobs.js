@@ -7,6 +7,42 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Washington Nationals",
+				title: "Baseball Operations Analyst",
+				location: "Washington DC",
+				description: "The Washington Nationals are seeking a full-time Baseball Operations Analyst. The role’s responsibilities include designing and developing analytical tools to aid baseball operations, salary arbitration research and preparation, and ad-hoc research projects to support baseball operations. The ideal candidate will have strong analytical and mathematical skills, excellent verbal and written communication skills, be well-versed in publicly available Sabermetric research, and have a demonstrated passion for working in baseball. The position will report to the Director, Baseball Operations.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-washington-nationals-baseball-operations-analyst/",
+				logo: "nationals.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 9,
+						day: 21
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Miami Marlins",
+				title: "Baseball Analytics Internship",
+				location: "Miami, FL",
+				description: "The Baseball Analytics Intern will assist Baseball Operations decision-making through the analysis and research of baseball information. The specific day-to-day responsibilities of this position will vary depending on the baseball calendar, but will revolve around using data analysis to answer baseball-related questions, with a strong preference for a candidate possessing an established foundation of statistical, programming, and database skills. We are accepting both full year (January-December) and summer candidates at this time.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-miami-marlins-baseball-analytics-internship/",
+				logo: "marlins.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 9,
+						day: 21
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Detroit Tigers",
 				title: "Baseball Analytics Internship",
 				location: "Detroit, Michigan",
@@ -217,7 +253,7 @@
 						day: 9
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -450,7 +486,7 @@
 						day: 11
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
