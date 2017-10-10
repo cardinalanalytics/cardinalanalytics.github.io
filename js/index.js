@@ -11,17 +11,17 @@
 			{
 				image: "calendar",
 				title: "Upcoming Meetings",
-				content: "Our meetings in spring quarter of the 2016-2017 school year will be weekly on Sundays at 8pm in Old Union 200."
+				content: "Our meetings in autumn quarter of the 2017-2018 school year will be weekly on Sundays at 8pm in Old Union 200."
 			},
 			{
 				image: "comments",
 				title: "Announcements",
-				content: "On April 27th we will host Dr. Dave Schrader as a guest speaker! Join us in Old Union 200 starting at 8pm for this exciting guest presentation."
+				content: "We're excited for a new school year of Stanford Sports Analytics Club, the fourth year on campus. The best way to get involved is to come to meetings!"
 			},
 			{
 				image: "shield",
 				title: "Officers",
-				content: '<ul class="officers-list"><li>Eli Shayer</li><li>Travis Chen</li><li>Nick Canova</li><li>Peter Lee</li></ul>'
+				content: '<ul class="officers-list"><li>Eli Shayer</li><li>Travis Chen</li><li>Alexander Stroud</li><li>Ryan Chen</li><li>Jerold Yu</li></ul>'
 			}
 		]
 	};
