@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "St. Louis Cardinals",
+				title: "Baseball Development Analyst",
+				location: "St. Louis, MO",
+				description: "The St. Louis Cardinals are seeking candidates for a new Analyst position in the Baseball Development department. An Analyst in the Baseball Development department will work closely with the rest of Baseball Development and all of Baseball Operations in conducting research and creating tools to improve decision making, player performance, and overall institutional knowledge. Problems can range from valuing amateur player performance to making suggestions on optimal in-game strategy, to visualizing new and complex information. Though this position is targeted toward entry level candidates in the beginning of their career, candidates with all levels of education and experience will be considered. ",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-postings-st-louis-cardinals-baseball-development-application-developer-analyst/",
+				logo: "cardinals.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 10,
+						day: 9
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Milwaukee Bucks",
 				title: "Basketball Analytics Manager",
 				location: "Milwaukee, WI",
@@ -343,7 +361,7 @@
 						day: 30
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
