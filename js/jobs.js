@@ -7,6 +7,42 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Houston Astros",
+				title: "Baseball Operations Apprentice",
+				location: "Houston, TX",
+				description: "The Houston Astros are seeking a Baseball Operations Apprentice for the 2018 season to assist with the department’s day-to-day responsibilities. Apprentices will perform analysis and modeling to support one or more research projects, and collect data and perform ad hoc projects to support Baseball Operations.",
+				link: "http://baseballjobs.m.teamworkonline.com/Jobdetail.aspx?j=120212",
+				logo: "astros.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 10,
+						day: 13
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Tampa Bay Rays",
+				title: "Baseball Research and Development Analyst",
+				location: "St. Petersburg, FL",
+				description: "The Tampa Bay Rays are seeking Research and Development analysts and interns with a passion for winning through mathematics, data analysis and computation. Its R&D group helps shape its Baseball Operations decision making processes through the analysis and interpretation of data. Its analysts and interns work both individually and collaboratively, coming up with interesting research questions to tackle, finding ways to answer those questions with the data at our disposal, communicating the results of their research to decision makers and other staff, and working to apply the results of its research to improve how the organization operates.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-postings-tampa-bay-rays-baseball-research-and-development-positions/",
+				logo: "rays.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 10,
+						day: 13
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Toronto Blue Jays",
 				title: "Baseball Operations Analytics Intern",
 				location: "Toronto or Dunedin, FL",
@@ -451,7 +487,7 @@
 						day: 11
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
