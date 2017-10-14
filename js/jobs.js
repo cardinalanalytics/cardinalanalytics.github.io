@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Toronto Blue Jays",
+				title: "Baseball Operations Analytics Intern",
+				location: "Toronto or Dunedin, FL",
+				description: "This position will be based in Toronto, ON or Dunedin, FL for the 2018 season and will assist with day-to-day tasks within the Baseball Operations department, specifically focused toward the Analytics Department. This position will run from January–November.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-postings-toronto-blue-jays-baseball-operations-internships/",
+				logo: "bluejays.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 10,
+						day: 13
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "St. Louis Cardinals",
 				title: "Baseball Development Analyst",
 				location: "St. Louis, MO",
