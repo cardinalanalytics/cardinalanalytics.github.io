@@ -28,7 +28,7 @@
 				company: "Milwaukee Brewers",
 				title: "Research and Development Analyst",
 				location: "Milwaukee, WI",
-				description: "",
+				description: "The Milwaukee Brewers are currently seeking an Analyst in the Baseball Research and Development Department. The Analyst will deliver research and tools to improve decision making working with the Baseball R&D, Baseball Systems departments and the entire Baseball Operations Department.",
 				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=115322",
 				logo: "brewers.gif",
 				date: {
