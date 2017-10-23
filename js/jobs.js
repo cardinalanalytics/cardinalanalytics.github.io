@@ -7,6 +7,114 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "New York Yankees",
+				title: "Summer Intern, Quantitative Analysis",
+				location: "Bronx, NY",
+				description: "The New York Yankees are hosting a summer internship geared to introduce current students or recent graduates to Quantitative Analysis within Baseball Operations. Interns will assist in research and analysis of various baseball topics, and design, test and implement predictive models using advanced statistical techniques.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=119506",
+				logo: "yankees.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 10,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
+				company: "Milwaukee Brewers",
+				title: "Research and Development Analyst",
+				location: "Milwaukee, WI",
+				description: "",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=115322",
+				logo: "brewers.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 10,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
+				company: "Los Angeles Angels",
+				title: "Baseball Operations Quantitative Analysis Intern",
+				location: "Anaheim, CA",
+				description: "The Los Angeles Angels Quantitative Analysis department is seeking passionate individuals to join their team for the 2018 season. Quantitative Analysis Interns will process, analyze, and interpret large and complex data, working side-by-side with analysts to develop and answer pertinent research questions.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=119556",
+				logo: "angels.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 10,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
+				company: "Arizona Diamondbacks",
+				title: "Research & Development Baseball Systems Intern",
+				location: "Phoenix, AZ",
+				description: "The Arizona Diamondbacks are looking for a Baseball Systems Intern to assist and support the Diamondback’s Research & Development group in the maintenance and support of hardware, software and other systems.",
+				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=119041",
+				logo: "dbacks.png",
+				date: {
+					posted: {
+						year: 2017,
+						month: 10,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Chicago White Sox",
+				title: "Baseball Analytics Fellowship",
+				location: "Chicago, IL",
+				description: "The Chicago White Sox seek a passionate, knowledgeable, and dedicated individual with a desire to work in Baseball Operations. The fellowship will focus primarily on the numerical methods that drive Baseball Analytics, however there will be additional exposure to all facets of baseball operations.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-chicago-white-sox-baseball-analytics-fellowship/",
+				logo: "whitesox.png",
+				date: {
+					posted: {
+						year: 2017,
+						month: 10,
+						day: 16
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
+				company: "Cincinnati Reds",
+				title: "Baseball Operations Data Scientist",
+				location: "Cincinnati, OH",
+				description: "The Cincinnati Reds are looking for a Baseball Operations Data Scientist to work with the Manager of Baseball Analytics to implement the department’s research and development efforts within new and existing applications. This position will play a major role in the creation of new baseball analytics concepts with the ultimate goal of enhancing on-field performance.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-cincinnati-reds-baseball-operations-data-scientist/",
+				logo: "reds.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 10,
+						day: 16
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
 				company: "Houston Astros",
 				title: "Baseball Operations Apprentice",
 				location: "Houston, TX",
@@ -397,7 +505,7 @@
 						day: 1
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -671,7 +779,7 @@
 						day: 1
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -719,7 +827,7 @@
 				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=103203",
 				logo: "reds.gif",
 				date: {},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
