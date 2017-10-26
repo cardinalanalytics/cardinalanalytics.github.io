@@ -5,7 +5,43 @@
 		header: "Job Postings",
 		description: "Opportunities to work in sports analytics",
 		navbarTitle: "Job Postings",
-		jobs: [
+		jobs: [	
+			{
+				company: "Colorado Rockies",
+				title: "Baseball Research & Development Full Stack Developer",
+				location: "Denver, CO",
+				description: "The Colorado Rockies are currently seeking a full-time Full Stack Developer within the Baseball Research and Development Department. This individual will be a member of the Baseball Research and Development team and will assist in the continued development of the Rockies’ proprietary Web Application along with the maintenance and development of proprietary databases and APIs.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-colorado-rockies-baseball-research-development-full-stack-developer/",
+				logo: "rockies.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 10,
+						day: 25
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
+				company: "Minnesota Twins",
+				title: "Baseball Operations Internship",
+				location: "Minneapolis, MN",
+				description: "The Minnesota Twins are looking for Baseball Operations interns to support the Research and Development Department by delivering tools and research that improve decision-making processes for the breadth of Baseball Operations personnel. Interns will also evaluate and build statistically rigorous models to aid and inform in a variety of areas of baseball operations, including: amateur scouting, advance scouting, player development, and player acquisition.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-postings-minnesota-twins-baseball-operations-internships/",
+				logo: "twins.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 10,
+						day: 25
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
 			{
 				company: "New York Yankees",
 				title: "Summer Intern, Quantitative Analysis",
@@ -612,7 +648,7 @@
 						month: 10
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -743,7 +779,7 @@
 						day: 3
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
