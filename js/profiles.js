@@ -11,6 +11,62 @@
 		],
 		members: [
 			{
+				name: 'Eli Shayer',
+				position: 'Co-President',
+				joined: 2014,
+				image: 'images/profiles/eli-shayer2017.jpg',
+				description: "Eli is a senior from Anchorage, Alaska majoring in mathematical and computational science, minoring in history, and pursuing a master's in statistics. He joined SSAC his freshman year in its first year on campus after seeing their table at the activities fair. He is currently a co-president of the club, following stints as the president and tech officer of the club in previous years. He works in the sports analytics world for the research and development team of the Chicago Cubs and for AZ Alkmaar.",
+				posts: [
+					{
+						title: 'The Frictional Cost of a Call to the Bullpen',
+						link: 'https://stanfordsportsanalytics.wordpress.com/2015/03/24/the-frictional-cost-of-a-call-to-the-bullpen/'
+					},
+					{
+						title: 'A Fresh Take on Batting the Pitcher Eighth',
+						link: 'https://stanfordsportsanalytics.wordpress.com/2015/05/06/a-fresh-take-on-batting-the-pitcher-eighth/'
+					}
+				],
+				id: "eli",
+			},
+			{
+				name: 'Travis Chen',
+				position: 'Co-President',
+				joined: 2015,
+				image: 'images/profiles/travis-chen.jpg',
+				description: "Travis is a senior (class of 2018) studying Computer Science. His favorite sports are basketball and football, and he roots for the Spurs, the Raiders, and the Seahawks. In his free time he plays the cello, basketball, ultimate frisbee, and occasionally forays into the realm sports betting.",
+				id: "travis",
+			},
+			{
+				name: 'Alexander Stroud',
+				position: 'Vice President',
+				joined: 2016,
+				image: 'images/profiles/alexander-stroud.jpg',
+				description: "Zander is a junior studying Math and Computational Science. His favorite sports are basketball and baseball, and he is interested in analytical problems like predicting the future performance of teams and individual players. Having grown up in the Bay Area, you'll often find him cheering on the Giants, Sharks, Warriors, Earthquakes, or any Stanford team!",
+				posts: [
+					{
+						title: "In Search of a Winning Strategy: Comparing FiveThirtyEight.com's CARM-ELO Predictions to Las Vegas Point Spreads"
+						link: 'https://stanfordsportsanalytics.wordpress.com/2017/06/18/in-search-of-a-winning-strategy-comparing-fivethirtyeight-coms-carm-elo-predictions-to-las-vegas-point-spreads/'
+					}
+				]
+				id: "zander",
+			},											
+			{
+				name: 'Ryan Chen',
+				position: 'Financial Officer',
+				joined: 2015,
+				image: 'images/profiles/ryan-chen.png',
+				description: "Ryan is a 3rd-year doctoral student in Management Science & Engineering and holds bachelor's degrees in Industrial & Operations Engineering and Music Performance from the University of Michigan. He has been part of three prize-winning SSAC competition teams (2017 NBA Hackathon, 2016 UNC Basketball Analytics Summit Case Competition, 2015 Graphicacy Major League Data Challenge) and is a contributor for the NBA blog 16 Wins A Ring. In 2018, Ryan will be taking leave from Stanford to pursue graduate degrees in music performance.",
+				id: "ryan",
+			},			
+			{
+				name: 'Jerold Yu',
+				position: 'Technology Officer',
+				joined: 2016,
+				image: 'images/profiles/jerold-yu.jpg',
+				description: "Jerold is a third-year undergraduate studying Mathematical and Computational Science. Raised in San Francisco, he grew up rooting for the Giants and Warriors, and hopes to one day contribute to a franchise's success through sports analytics. In his free time, Jerold likes to rock climb, run, do yoga, bake/cook, and try new things.",
+				id: "jerold",
+			},				
+			{
 				name: 'Scott Powers',
 				joined: 2014,
 				image: 'images/profiles/scott-powers.jpg',
@@ -39,24 +95,6 @@
 					}
 				],
 				id: "vihan",
-			},
-			{
-				name: 'Eli Shayer',
-				position: 'President',
-				joined: 2014,
-				image: 'images/profiles/eli-shayer.jpg',
-				description: "Eli is a Mathematical and Computational Science major in the class of 2018 from Anchorage, Alaska. He works for the (World Series Champion!) Chicago Cubs as a Research & Developmemt Intern. He was on one of Stanford's teams at the 2015 SABR Analytics Conference Case Competition. He also made a good portion of this website!",
-				posts: [
-					{
-						title: 'The Frictional Cost of a Call to the Bullpen',
-						link: 'https://stanfordsportsanalytics.wordpress.com/2015/03/24/the-frictional-cost-of-a-call-to-the-bullpen/'
-					},
-					{
-						title: 'A Fresh Take on Batting the Pitcher Eighth',
-						link: 'https://stanfordsportsanalytics.wordpress.com/2015/05/06/a-fresh-take-on-batting-the-pitcher-eighth/'
-					}
-				],
-				id: "eli",
 			},
 			{
 				name: 'Sandy Huang',
@@ -99,27 +137,11 @@
 				id: "glenn",
 			},
 			{
-				name: 'Travis Chen',
-				position: 'Vice President',
-				joined: 2015,
-				image: 'images/profiles/travis-chen.png',
-				description: "Travis is a second-year undergrad in the class of 2018 studying Computer Science. His favorite sports are basketball and football, and he roots for the Spurs, the Sacramento Kings, and the Seahawks despite his Bay Area roots.",
-				id: "travis",
-			},
-			{
 				name: 'Peter Lee',
-				position: 'Financial Officer',
 				joined: 2015,
 				image: 'images/profiles/peter-lee.jpg',
 				description: "Peter is a MS student in Statistics, and a graduate analytics assistant with Stanford's women's basketball team. His favorite sport is basketball, and favorite basketball writer Zach Lowe. Peter also has an economics degree from Vassar, where he was also captain of the Quidditch team, and played well enough to make it on to Team USA. Originally from LA, he's a huge fan of the Lakers, Dodgers, and is especially excited for the Rams to come back to LA!",
 				id: "peter",
-			},
-			{
-				name: 'Ryan Chen',
-				joined: 2015,
-				image: 'images/profiles/ryan-chen.png',
-				description: "Ryan is a first-year PhD student in Management Science & Engineering. He holds bachelor's degrees in Industrial & Operations Engineering and Music Performance from the University of Michigan. Due to being born in New Jersey, growing up in Florida, and going to college in Michigan, his sports rooting interests make almost no sense: Michigan Wolverines football, basketball, and hockey, Orlando Magic, Detroit Tigers, New York Jets, Manchester City, Orlando City SC, & Detroit Red Wings. Check out his personal website " + '<a href="http://www.ryandchen.net/">here</a>.',
-				id: "ryan",
 			},
 			{
 				name: 'Alec Powell',
