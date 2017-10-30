@@ -44,11 +44,11 @@
 				description: "Zander is a junior studying Math and Computational Science. His favorite sports are basketball and baseball, and he is interested in analytical problems like predicting the future performance of teams and individual players. Having grown up in the Bay Area, you'll often find him cheering on the Giants, Sharks, Warriors, Earthquakes, or any Stanford team!",
 				posts: [
 					{
-						title: "In Search of a Winning Strategy: Comparing FiveThirtyEight.com's CARM-ELO Predictions to Las Vegas Point Spreads"
-						//link: 'https://stanfordsportsanalytics.wordpress.com/2017/06/18/in-search-of-a-winning-strategy-comparing-fivethirtyeight-coms-carm-elo-predictions-to-las-vegas-point-spreads/'
+						title: "In Search of a Winning Strategy: Comparing FiveThirtyEight.com's CARM-ELO Predictions to Las Vegas Point Spreads",
+						link: 'https://stanfordsportsanalytics.wordpress.com/2017/06/18/in-search-of-a-winning-strategy-comparing-fivethirtyeight-coms-carm-elo-predictions-to-las-vegas-point-spreads/'
 					}
 				],
-				//id: "zander",
+				id: "zander",
 			},										
 			{
 				name: 'Ryan Chen',
@@ -64,7 +64,7 @@
 				joined: 2016,
 				image: 'images/profiles/jerold-yu.jpg',
 				description: "Jerold is a third-year undergraduate studying Mathematical and Computational Science. Raised in San Francisco, he grew up rooting for the Giants and Warriors, and hopes to one day contribute to a franchise's success through sports analytics. In his free time, Jerold likes to rock climb, run, do yoga, bake/cook, and try new things.",
-				//id: "jerold",
+				id: "jerold",
 			},		
 			{
 				name: 'Scott Powers',
