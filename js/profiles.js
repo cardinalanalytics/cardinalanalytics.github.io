@@ -47,7 +47,7 @@
 						title: "In Search of a Winning Strategy: Comparing FiveThirtyEight.com's CARM-ELO Predictions to Las Vegas Point Spreads"
 						//link: 'https://stanfordsportsanalytics.wordpress.com/2017/06/18/in-search-of-a-winning-strategy-comparing-fivethirtyeight-coms-carm-elo-predictions-to-las-vegas-point-spreads/'
 					}
-				]
+				],
 				//id: "zander",
 			},										
 			{
@@ -81,7 +81,7 @@
 						link: 'https://stanfordsportsanalytics.wordpress.com/2015/05/06/a-fresh-take-on-batting-the-pitcher-eighth/'
 					}
 				],
-				id: "scott"
+				id: "scott",
 			},
 			{
 				name: 'Vihan Lakshman',
