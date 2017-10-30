@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [	
 			{
+				company: "Los Angeles Lakers",
+				title: "Data Engineer, Basketball Analytics",
+				location: "El Segundo, CA",
+				description: "The Data Engineer, Basketball Analytics will be a critical member of the Basketball Analytics team, managing the continuously growing volume and complexity of basketball data.  Supporting the Director, Basketball Analytics, he or she will process the team's data feeds from multiple sources, and help design and build the team’s proprietary basketball data warehouse.  The Data Engineer, Basketball Analytics will also automate reports to be distributed to key stakeholders including coaches and the front office, and build systems to serve data to the team’s proprietary mobile and web apps.",
+				link: "http://nbateamjobs.teamworkonline.com/teamwork/r.cfm?i=120825",
+				logo: "lakers.png",
+				date: {
+					posted: {
+						year: 2017,
+						month: 10,
+						day: 28
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Colorado Rockies",
 				title: "Baseball Research & Development Full Stack Developer",
 				location: "Denver, CO",
