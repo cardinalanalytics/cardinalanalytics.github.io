@@ -14,7 +14,7 @@
 				name: 'Eli Shayer',
 				position: 'Co-President',
 				joined: 2014,
-				image: 'images/profiles/eli-shayer2017.jpg',
+				image: 'images/profiles/eli-shayer-2017.jpg',
 				description: "Eli is a senior from Anchorage, Alaska majoring in mathematical and computational science, minoring in history, and pursuing a master's in statistics. He joined SSAC his freshman year in its first year on campus after seeing their table at the activities fair. He is currently a co-president of the club, following stints as the president and tech officer of the club in previous years. He works in the sports analytics world for the research and development team of the Chicago Cubs and for AZ Alkmaar.",
 				posts: [
 					{
@@ -45,11 +45,11 @@
 				posts: [
 					{
 						title: "In Search of a Winning Strategy: Comparing FiveThirtyEight.com's CARM-ELO Predictions to Las Vegas Point Spreads"
-						link: 'https://stanfordsportsanalytics.wordpress.com/2017/06/18/in-search-of-a-winning-strategy-comparing-fivethirtyeight-coms-carm-elo-predictions-to-las-vegas-point-spreads/'
+						//link: 'https://stanfordsportsanalytics.wordpress.com/2017/06/18/in-search-of-a-winning-strategy-comparing-fivethirtyeight-coms-carm-elo-predictions-to-las-vegas-point-spreads/'
 					}
 				]
-				id: "zander",
-			},											
+				//id: "zander",
+			},										
 			{
 				name: 'Ryan Chen',
 				position: 'Financial Officer',
@@ -57,15 +57,15 @@
 				image: 'images/profiles/ryan-chen.png',
 				description: "Ryan is a 3rd-year doctoral student in Management Science & Engineering and holds bachelor's degrees in Industrial & Operations Engineering and Music Performance from the University of Michigan. He has been part of three prize-winning SSAC competition teams (2017 NBA Hackathon, 2016 UNC Basketball Analytics Summit Case Competition, 2015 Graphicacy Major League Data Challenge) and is a contributor for the NBA blog 16 Wins A Ring. In 2018, Ryan will be taking leave from Stanford to pursue graduate degrees in music performance.",
 				id: "ryan",
-			},			
+			},	
 			{
 				name: 'Jerold Yu',
 				position: 'Technology Officer',
 				joined: 2016,
 				image: 'images/profiles/jerold-yu.jpg',
 				description: "Jerold is a third-year undergraduate studying Mathematical and Computational Science. Raised in San Francisco, he grew up rooting for the Giants and Warriors, and hopes to one day contribute to a franchise's success through sports analytics. In his free time, Jerold likes to rock climb, run, do yoga, bake/cook, and try new things.",
-				id: "jerold",
-			},				
+				//id: "jerold",
+			},		
 			{
 				name: 'Scott Powers',
 				joined: 2014,
