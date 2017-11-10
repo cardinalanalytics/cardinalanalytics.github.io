@@ -5,25 +5,7 @@
 		header: "Job Postings",
 		description: "Opportunities to work in sports analytics",
 		navbarTitle: "Job Postings",
-		jobs: [	
-			{
-				company: "Seattle Mariners",
-				title: "Baseball Analytics Intern",
-				location: "Seattle, WA",
-				description: "The Seattle Mariners are seeking an individual with a background in statistical analysis and a passion for baseball. The position will work directly alongside the analytics team on a wide range of projects, providing ample opportunity to directly impact front office decision-making.",
-				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-seattle-mariners-baseball-analytics-intern-2/",
-				logo: "mariners.gif",
-				date: {
-					posted: {
-						year: 2017,
-						month: 11,
-						day: 07
-					}
-				},
-				show: true,
-				active: true,
-				isTeam: true
-			},		
+		jobs: [		
 			{
 				company: "Seattle Mariners",
 				title: "Baseball Analytics Intern",
