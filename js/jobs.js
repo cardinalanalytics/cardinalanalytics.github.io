@@ -7,6 +7,60 @@
 		navbarTitle: "Job Postings",
 		jobs: [	
 			{
+				company: "Seattle Mariners",
+				title: "Baseball Analytics Intern",
+				location: "Seattle, WA",
+				description: "The Seattle Mariners are seeking an individual with a background in statistical analysis and a passion for baseball. The position will work directly alongside the analytics team on a wide range of projects, providing ample opportunity to directly impact front office decision-making.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-seattle-mariners-baseball-analytics-intern-2/",
+				logo: "mariners.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 11,
+						day: 07
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
+				company: "Seattle Mariners",
+				title: "Baseball Analytics Intern",
+				location: "Seattle, WA",
+				description: "The Seattle Mariners are seeking an individual with a background in statistical analysis and a passion for baseball. The position will work directly alongside the analytics team on a wide range of projects, providing ample opportunity to directly impact front office decision-making.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-seattle-mariners-baseball-analytics-intern-2/",
+				logo: "mariners.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 11,
+						day: 07
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
+				company: "St. Louis Cardinals",
+				title: "Baseball Operations Fellowship",
+				location: "Jupiter, FL",
+				description: "The St. Louis Cardinals baseball club is seeking candidates for a Baseball Operations Fellowship position that is designed to provide entry-level baseball executives with an opportunity to gain experience mainly in the International and Player Development departments at the home of the Cardinals’ Spring Training, Extended Spring Training, Gulf Coast, Florida State, and Instructional Leagues. While working at the direction of the Jupiter-based Directors of the International/Player Development departments, the Fellow will also provide occasional support to the St. Louis front office.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-st-louis-cardinals-baseball-operations-fellowship-3/",
+				logo: "cardinals.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 11,
+						day: 07
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
 				company: "Los Angeles Lakers",
 				title: "Data Engineer, Basketball Analytics",
 				location: "El Segundo, CA",
@@ -236,8 +290,8 @@
 						day: 9
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -415,8 +469,8 @@
 						day: 19
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
