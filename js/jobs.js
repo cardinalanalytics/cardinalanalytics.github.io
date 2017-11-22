@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [		
 			{
+				company: "San Diego Padres",
+				title: "Baseball Systems Developer",
+				location: "San Diego, CA",
+				description: "The San Diego Padres are looking for a Baseball Systems Developer to help design and implement user interfaces across multiple platforms for different audiences. Responsibilities include creating responsive design visualizations, ensuring data integrity and database availability, and assessing and implementing database design decisions to handle large data sets.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-san-diego-padres-baseball-systems-developer/",
+				logo: "padres.png",
+				date: {
+					posted: {
+						year: 2017,
+						month: 11,
+						day: 21
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
 				company: "Seattle Mariners",
 				title: "Baseball Analytics Intern",
 				location: "Seattle, WA",
