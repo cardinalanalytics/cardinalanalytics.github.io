@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [		
 			{
+				company: "Texas Rangers",
+				title: "Baseball Systems Developer",
+				location: "Arlington, TX",
+				description: "The Texas Rangers are looking for a developer who will support, maintain and expand its baseball operations software systems. Responsibilities include web development design and testing, database queries, and updating and maintaining internal system documentation.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-texas-rangers-baseball-systems-developer/",
+				logo: "rangers.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 11,
+						day: 27
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
 				company: "San Diego Padres",
 				title: "Baseball Systems Developer",
 				location: "San Diego, CA",
