@@ -5,7 +5,79 @@
 		header: "Job Postings",
 		description: "Opportunities to work in sports analytics",
 		navbarTitle: "Job Postings",
-		jobs: [		
+		jobs: [			
+			{
+				company: "Cleveland Indians",
+				title: "Baseball Operations Intern",
+				location: "Cleveland, OH",
+				description: "The Cleveland Indians are looking for a Baseball Operations intern to assist with virtually all facets of the Baseball Operations department while gaining exposure to the day-to-day operations of a Major League Baseball front office. Interns will gather and coordinate information for baseball planning and decision-making, perform analytical, scouting, financial and/or statistical studies as assigned or as interest dictates, and coordinate, collect and analyze video for studies and potential player acquisitions throughout the season (at the Trade Deadline, in the offseason, etc.).",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-cleveland-indians-baseball-operations-intern-2/",
+				logo: "indians.png",
+				date: {
+					posted: {
+						year: 2017,
+						month: 12,
+						day: 05
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
+				company: "Cincinnati Reds",
+				title: "Baseball Analytics Trainee",
+				location: "Cincinnati, OH",
+				description: "The Cincinnati Reds are looking for a Baseball Operations Trainee to assist the Baseball Analytics department’s research and development efforts within new and existing applications. Responsibilities include collaborating with Major League Operations and Player Development departments to design and implement statistical analyses, and assisting Analytics and Baseball Operations staff with data analysis, preparation, maintenance and collection.",
+				link: "https://www.teamworkonline.com/employment_opportunities/1929170?utm_source=dlvr.it&utm_medium=twitter",
+				logo: "reds.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 12,
+						day: 05
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
+				company: "Detroit Tigers",
+				title: "Baseball Operations Senior Analyst",
+				location: "Detroit, Michigan",
+				description: "The Detroit Tigers are currently seeking a full-time Sr. Analyst in the Baseball Operations Department. This role will be responsible for conducting advanced analytics and research within Baseball Operations.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-detroit-tigers-baseball-operations-senior-analyst/",
+				logo: "tigers.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 12,
+						day: 04
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
+				company: "Detroit Tigers",
+				title: "Baseball Operations Senior Analyst",
+				location: "Detroit, Michigan",
+				description: "The Detroit Tigers are currently seeking a full-time Sr. Analyst in the Baseball Operations Department. This role will be responsible for conducting advanced analytics and research within Baseball Operations.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-detroit-tigers-baseball-operations-senior-analyst/",
+				logo: "tigers.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 12,
+						day: 04
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},					
 			{
 				company: "Texas Rangers",
 				title: "Baseball Systems Developer",
@@ -236,8 +308,8 @@
 						day: 16
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -327,7 +399,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -380,8 +452,8 @@
 						day: 18
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -399,7 +471,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -434,7 +506,7 @@
 				logo: "dodgers.gif",
 				date: {},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -446,7 +518,7 @@
 				logo: "eagles.png",
 				date: {},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -458,7 +530,7 @@
 				logo: "eagles.png",
 				date: {},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
