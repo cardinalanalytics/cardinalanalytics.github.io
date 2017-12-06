@@ -41,24 +41,6 @@
 				show: true,
 				active: true,
 				isTeam: true
-			},		
-			{
-				company: "Detroit Tigers",
-				title: "Baseball Operations Senior Analyst",
-				location: "Detroit, Michigan",
-				description: "The Detroit Tigers are currently seeking a full-time Sr. Analyst in the Baseball Operations Department. This role will be responsible for conducting advanced analytics and research within Baseball Operations.",
-				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-detroit-tigers-baseball-operations-senior-analyst/",
-				logo: "tigers.gif",
-				date: {
-					posted: {
-						year: 2017,
-						month: 12,
-						day: 04
-					}
-				},
-				show: true,
-				active: true,
-				isTeam: true
 			},			
 			{
 				company: "Detroit Tigers",
