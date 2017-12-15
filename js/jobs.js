@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [			
 			{
+				company: "Boston Red Sox",
+				title: "David Ortiz Fellowship",
+				location: "Boston, MA",
+				description: "The Boston Red Sox, in partnership with Major League Baseball have created The David Ortiz Fellowship Program, with one of its purposes being to promote and encourage greater racial and gender diversity within baseball front office positions. While the specific job responsibilities may change from one year to the next, each calendar year one new individual will be selected for this Fellowship to work in a Red Sox front office position. In addition, the Fellow will travel to New York two or three times during the course of the year to meet with leaders within Major League Baseball and work on projects for the Commissioner’s Office. The goal of this work will be to broaden their exposure to the baseball profession and give them the skills they need for future positions in the field.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-boston-red-sox-david-ortiz-fellowship/",
+				logo: "redsox.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 12,
+						day: 14
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
 				company: "Cleveland Indians",
 				title: "Baseball Operations Intern",
 				location: "Cleveland, OH",
@@ -721,7 +739,7 @@
 						day: 28
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
