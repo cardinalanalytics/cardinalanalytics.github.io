@@ -59,7 +59,25 @@
 				show: true,
 				active: true,
 				isTeam: true
-			},		
+			},	
+			{
+				company: "Wasserman Media Group",
+				title: "Manager, Data Analytics",
+				location: "Los Angeles, CA",
+				description: "Wasserman is looking for a motivated individual to bring a robust data and analytics skillset to the Research & Insights (R&I) team within its corporate and property consulting division - Wasserman Marketing. The R&I team takes a leadership role within Wasserman around topics and client needs that live at the intersection of research, analytics, strategy and data. The team leads Wasserman’s efforts around sponsorship measurement, custom research, analytics, and insight-driven strategies. In addition, R&I leads capability-building efforts required to maintain our market leadership position. If interested, please email tbrown@teamwass.com.",
+				link: "postings/wasserman.pdf",
+				logo: "wasserman.png",
+				date: {
+					posted: {
+						year: 2017,
+						month: 12,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: false
+			},							
 			{
 				company: "Boston Red Sox",
 				title: "David Ortiz Fellowship",
