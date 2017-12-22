@@ -7,6 +7,60 @@
 		navbarTitle: "Job Postings",
 		jobs: [			
 			{
+				company: "Oakland Athletics",
+				title: "Junior Software Developer",
+				location: "Oakland, CA",
+				description: "The Oakland Athletics are seeking a Junior Software Developer; responsible for developing and maintaining software used by all Baseball Operations personnel. The Software Developer will work on full-stack development, from front-end web interfaces to back-end databases, along with mobile application development. They will work with end-users across the department, so communication and collaboration skills are imperative.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-oakland-athletics-junior-software-developer/",
+				logo: "athletics.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 12,
+						day: 21
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
+				company: "Miami Marlins",
+				title: "Baseball Operations Analyst",
+				location: "Miami, FL",
+				description: "The Miami Marlins are looking for an analyst to assist with Baseball Operations decision-making through the analysis and research of baseball information. The specific day-to-day responsibilities of this position will vary depending on the baseball calendar, but will revolve around using data analysis to answer baseball-related questions. A competitive candidate will possess an established foundation of statistical, programming and database skills.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-miami-marlins-baseball-operations-analyst/",
+				logo: "marlins.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 12,
+						day: 21
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
+				company: "Kansas City Royals",
+				title: "Baseball Operations Senior Analyst",
+				location: "Kansas City, MO",
+				description: "The Kansas City Royals Baseball Club is seeking a highly motivated and creative analyst to develop models and methodologies for use in decision-making by the Baseball Operations department. The ideal applicant will have expert knowledge in machine learning and other modern analysis techniques for use in leveraging baseball data to provide a competitive edge and innovative solutions to the Kansas City Royals.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-kansas-city-royals-baseball-operations-senior-analyst-quantitative-analysis/",
+				logo: "royals.gif",
+				date: {
+					posted: {
+						year: 2017,
+						month: 12,
+						day: 20
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
 				company: "Boston Red Sox",
 				title: "David Ortiz Fellowship",
 				location: "Boston, MA",
@@ -434,8 +488,8 @@
 						day: 21
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -757,7 +811,7 @@
 						day: 18
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -959,7 +1013,7 @@
 						day: 20
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
