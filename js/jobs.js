@@ -5,7 +5,79 @@
 		header: "Job Postings",
 		description: "Opportunities to work in sports analytics",
 		navbarTitle: "Job Postings",
-		jobs: [			
+		jobs: [	
+			{
+				company: "Indiana Pacers",
+				title: "Summer Basketball Analytics Internship",
+				location: "Indianapolis, IN",
+				description: "The Indiana Pacers are looking for a Basketball Analytics Intern who will work directly with the Indiana Pacers analytics team in support of the front office, performance staff, and coaching staff. The overall focus will be on helping develop internal software tools and maintaining current analytics infrastructure.",
+				link: "https://www.teamworkonline.com/basketball-jobs/pacers/pacers/summer-basketball-analytics-internship-1929177",
+				logo: "pacers.gif",
+				date: {
+					posted: {
+						year: 2018,
+						month: 1,
+						day: 3
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
+				company: "New York Yankees",
+				title: "Senior Analyst, Quantitative Analysis",
+				location: "Bronx, NY",
+				description: "The New York Yankees are seeking a Senior Data Analyst to join the Quantitative Analysis group of the Baseball Operations department. Quantitative Analysis plays a large role in all decisions within the organization.  In a Senior Analyst, we are looking for a highly motivated individual that can help make use of the large amount of baseball data available to influence the long-term direction of the organization.  We are seeking someone who enthusiastically tackles big challenges and wants to see their work-product make a meaningful impact on the field.",
+				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/new-york-yankees/senior-analyst-quantitative-analysis-1902819",
+				logo: "yankees.gif",
+				date: {
+					posted: {
+						year: 2018,
+						month: 1,
+						day: 3
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
+				company: "Houston Astros",
+				title: "Baseball Research & Development Analyst",
+				location: "Houston, TX",
+				description: "The Houston Astros are seeking an Analyst for the team's Baseball Research and Development group.  The Analyst will work closely with the Director of R&D and the analytics team to conduct research and develop methods that encourage the effective understanding and application of information throughout Baseball Operations.",
+				link: "https://www.teamworkonline.com/employment_opportunities/1930485",
+				logo: "astros.gif",
+				date: {
+					posted: {
+						year: 2018,
+						month: 1,
+						day: 3
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},				
+			{
+				company: "Washington Nationals",
+				title: "2018 Research & Development Internship",
+				location: "Washington DC",
+				description: "Contribute to the Washington Nationals Baseball Operations for the 2018 season as one of its highly valued interns. The Research & Development internship includes an emphasis on computer programming and data analysis. The intern’s main responsibility will be to assist the R&D department with input, cleaning and processing of baseball data into proprietary databases. There will also be assignments that require statistical analysis on large volumes of baseball-related data. Candidates must have significant experience with R and SQL, as well as an interest in publicly available sabermetrics research and data science.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-washington-nationals-2018-research-development-internship/",
+				logo: "nationals.gif",
+				date: {
+					posted: {
+						year: 2018,
+						month: 1,
+						day: 3
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},				
 			{
 				company: "Oakland Athletics",
 				title: "Junior Software Developer",
@@ -290,8 +362,8 @@
 						day: 18
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -398,8 +470,8 @@
 						day: 13
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -488,8 +560,8 @@
 						day: 21
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -918,7 +990,7 @@
 						day: 20
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
