@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [	
 			{
+				company: "Boston Red Sox",
+				title: "Baseball Reserach and Development Analyst",
+				location: "Boston, MA",
+				description: "The Boston Red Sox are seeking an Analyst for the team’s Baseball Research & Development department. The role will support all areas of Baseball Operations while working closely with the VP, Baseball Research & Development, and the analysts on the R&D team.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-red-sox-baseball-research-and-development-analyst/",
+				logo: "redsox.gif",
+				date: {
+					posted: {
+						year: 2018,
+						month: 1,
+						day: 23
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
 				company: "Indiana Pacers",
 				title: "Summer Basketball Analytics Internship",
 				location: "Indianapolis, IN",
@@ -164,8 +182,8 @@
 						day: 14
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},			
 			{
