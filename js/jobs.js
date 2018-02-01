@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [	
 			{
+				company: "Seattle Mariners",
+				title: "Baseball Operations Intern",
+				location: "Seattle, WA",
+				description: "The Seattle Mariners are working to build a winning team with exceptionally talented people. If you are passionate about baseball and eager to make an impact using your skills, learn more about this exciting opportunity to join our Baseball Operations team. This individual will provide support to our scouting operations while working closely with various members of our Baseball Operations team.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-mariners-baseball-operations-intern/",
+				logo: "mariners.gif",
+				date: {
+					posted: {
+						year: 2018,
+						month: 2,
+						day: 01
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
 				company: "Boston Red Sox",
 				title: "Baseball Reserach and Development Analyst",
 				location: "Boston, MA",
@@ -290,8 +308,8 @@
 						day: 07
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},		
 			{
