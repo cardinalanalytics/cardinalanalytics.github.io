@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [	
 			{
+				company: "New York Mets",
+				title: "Analytics Intern",
+				location: "New York",
+				description: "The New York Mets are seeking an intern to work with the club’s Research and Development team. The employee will analyze baseball data and use their findings to support different areas within Baseball Operations. These may include player development, amateur and international scouting, and Major League advance scouting.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-mets-analytics-intern/",
+				logo: "mets.gif",
+				date: {
+					posted: {
+						year: 2018,
+						month: 2,
+						day: 20
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
 				company: "Seattle Mariners",
 				title: "Baseball Operations Intern",
 				location: "Seattle, WA",
