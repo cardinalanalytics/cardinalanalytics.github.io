@@ -273,7 +273,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -327,7 +327,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -363,7 +363,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -380,8 +380,8 @@
 						day: 28
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -399,7 +399,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -417,7 +417,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -453,7 +453,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -471,7 +471,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -489,7 +489,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -506,8 +506,8 @@
 						day: 16
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -561,7 +561,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -579,7 +579,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -710,7 +710,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
