@@ -5,7 +5,25 @@
 		header: "Job Postings",
 		description: "Opportunities to work in sports analytics",
 		navbarTitle: "Job Postings",
-		jobs: [	
+		jobs: [
+			{
+				company: "Los Angeles Lakers",
+				title: "Basketball Analytics Fellow",
+				location: "El Segundo, CA",
+				description: "The Basketball Analytics Fellow will be a critical member of the Basketball Analytics team.  Supporting the Basketball Analytics team, he or she will take on a variety of statistical and reporting responsibilities, including modeling, analytical team strategy, and streamlining existing or new processes. Note: this is a one-year fellowship, beginning summer 2018.",
+				link: "https://www.teamworkonline.com/basketball-jobs/nbateamjobs/los-angeles-lakers/basketball-analytics-fellow-1933766",
+				logo: "lakers.png",
+				date: {
+					posted: {
+						year: 2018,
+						month: 2,
+						day: 25
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
 			{
 				company: "New York Mets",
 				title: "Analytics Intern",
