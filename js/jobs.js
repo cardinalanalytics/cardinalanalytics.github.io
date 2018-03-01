@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Chicago Cubs",
+				title: "Baseball Systems Software Engineer",
+				location: "Chicago, IL",
+				description: "The Chicago CUbs are looking for a full-time software engineer that will primarily focus on the development and maintenance of the Cubs internal baseball information system, including creating web interfaces and web tools for the user interface; building ETL processes; maintaining back-end databases; and troubleshooting data sources issues as needed.",
+				link: "https://recruiting2.ultipro.com/RIC1003CUBS/JobBoard/b839f5fa-ba5f-4561-824b-31e8d3d2d9ed/OpportunityDetail?opportunityId=e87662da-5710-4acb-bd92-c12c35fba89d",
+				logo: "cubs.gif",
+				date: {
+					posted: {
+						year: 2018,
+						month: 3,
+						day: 1
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
 				company: "Los Angeles Lakers",
 				title: "Basketball Analytics Fellow",
 				location: "El Segundo, CA",
@@ -793,7 +811,7 @@
 						day: 21
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
