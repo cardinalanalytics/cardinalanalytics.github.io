@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Minnesota Twins",
+				title: "Baseball Systems Developer",
+				location: "Minneapolis, MN",
+				description: "The Minnesota Twins are seeking a Full Stack Software Developer to join the Baseball Research and Development group. This position offers wide-ranging exposure to current programming methods and frameworks in a fast-paced agile environment. With creativity and passion, this candidate will collaborate with the Baseball Operations staff to develop, deliver, and maintain data driven solutions for player evaluation, player development, and leading-edge baseball research. This position requires strong full stack web development skills and experience as well as a demonstrated ability for independent curiosity and a commitment to excellence while working within a team framework.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-minnesota-twins-baseball-systems-developer/",
+				logo: "twins.gif",
+				date: {
+					posted: {
+						year: 2018,
+						month: 3,
+						day: 1
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
 				company: "Chicago Cubs",
 				title: "Baseball Systems Software Engineer",
 				location: "Chicago, IL",
@@ -434,7 +452,7 @@
 						day: 25
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},		
