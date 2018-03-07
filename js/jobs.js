@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Arizona Diamondbacks",
+				title: "Baseball Systems Developer",
+				location: "Phoenix, AZ",
+				description: "The Arizona Diamondbacks are looking for a Baseball Systems Developer to assist with the design, development, and maintenance of new and existing functionality for the Baseball Information Systems. They will work closely with Baseball Operations staff to create user-friendly tools to solve baseball needs and streamline processes.",
+				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/arizona-diamondbacks/baseball-systems-developer-1935791?utm_source=dlvr.it&utm_medium=twitter",
+				logo: "dbacks.png",
+				date: {
+					posted: {
+						year: 2018,
+						month: 3,
+						day: 6
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
 				company: "Minnesota Twins",
 				title: "Baseball Systems Developer",
 				location: "Minneapolis, MN",
@@ -524,7 +542,7 @@
 						day: 18
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
