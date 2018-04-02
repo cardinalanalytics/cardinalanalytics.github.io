@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Washington Nationals",
+				title: "Baseball R&D Web Developer",
+				location: "Washington DC",
+				description: "The Washington Nationals are seeking a web developer to join the organization’s Baseball Research and Development team. The role will focus on building new web application features for decision-support systems and tools used throughout the organization. The developer will design UI components to visualize and facilitate in-house baseball datasets from R&D analysts as well as external data accessed via APIs.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-nationals-baseball-rd-web-developer/",
+				logo: "nationals.gif",
+				date: {
+					posted: {
+						year: 2018,
+						month: 4,
+						day: 2
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
 				company: "Arizona Diamondbacks",
 				title: "Baseball Systems Developer",
 				location: "Phoenix, AZ",
@@ -21,7 +39,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -39,7 +57,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -57,7 +75,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -93,7 +111,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -111,7 +129,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -129,7 +147,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -165,7 +183,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -183,7 +201,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},				
 			{
@@ -200,8 +218,8 @@
 						day: 3
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},				
 			{
@@ -219,7 +237,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -237,7 +255,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -255,7 +273,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},	
 			{
@@ -309,7 +327,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -345,7 +363,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},					
 			{
@@ -363,7 +381,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
