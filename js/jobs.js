@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Philadelphia 76ers",
+				title: "Technical Scout",
+				location: "Camden, NJ",
+				description: "The Technical Scout will assist the Philadelphia 76ers front office by supporting basketball decision-making primarily in the areas of player personnel, scouting and strategy. The 76ers Analytics and Strategy team is responsible for leveraging multiple large and complex data sets and a vast amount of video. The Technical Scout will possess a strong technical foundation in programming - Engineering or Computer Science backgrounds are favored.",
+				link: "https://www.teamworkonline.com/basketball-jobs/nbateamjobs/nba-league-office/player-operations/technical-scout-1937386",
+				logo: "76ers.png",
+				date: {
+					posted: {
+						year: 2018,
+						month: 4,
+						day: 10
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
 				company: "Washington Nationals",
 				title: "Baseball R&D Web Developer",
 				location: "Washington DC",
