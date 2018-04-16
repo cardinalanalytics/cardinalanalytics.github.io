@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Arizona Diamondbacks",
+				title: "Baseball Systems Developer",
+				location: "Phoenix, AZ",
+				description: "The Arizona Diamondbacks are looking for a Baseball Systems Developer to to play a significant role in designing and developing new functionality and maintaining existing applications within the Baseball Information Systems umbrella. They will work closely with Baseball Operations staff to create user-friendly tools to solve baseball needs and streamline processes.",
+				link: "https://www.fangraphs.com/blogs/instagraphs/job-posting-diamondbacks-baseball-systems-developer/",
+				logo: "dbacks.png",
+				date: {
+					posted: {
+						year: 2018,
+						month: 4,
+						day: 12
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
 				company: "Philadelphia 76ers",
 				title: "Technical Scout",
 				location: "Camden, NJ",
@@ -56,7 +74,7 @@
 						day: 6
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},		
