@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "ESPN",
+				title: "Stats & Information Internship - Fall 2018",
+				location: "Bristol, CT",
+				description: "ESPN is looking for a Stats & Information Intern for Fall 2018. You may work in one or a combination of the 3 primary areas within their Group: SIG Content, Stats & Analysis, and Sports Analytics.",
+				link: "https://jobs.espncareers.com/job/bristol/stats-and-information-internship-espn-fall-2018/5216/8175970",
+				logo: "espn.svg",
+				date: {
+					posted: {
+						year: 2018,
+						month: 6,
+						day: 16
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: false
+			},			
+			{
 				company: "Arizona Diamondbacks",
 				title: "Baseball Systems Developer",
 				location: "Phoenix, AZ",
