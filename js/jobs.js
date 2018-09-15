@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "San Francisco 49ers",
+				title: "Business Intelligence Intern",
+				location: "Santa Clara, CA",
+				description: "The San Francisco 49ers are looking for a current undergraduate or graduate student to join the Business Strategy & Analytics team as a Business Intelligence Intern. This paid internship is uniquely positioned to play a critical role in their use and understanding of data across various 49ers technology efforts and strategy development. The role requires end-to-end analysis work, including querying databases, designing reporting dashboards, building predictive models, and communicating results to management. The individual in this role will have the opportunity to interact with almost every department in the company and gain experience in all facets of the business operations of a professional sports team.",
+				link: "https://www.teamworkonline.com/football-jobs/49ers/san-francisco-49ers/internship/business-intelligence-intern-1944458",
+				logo: "49ers.gif",
+				date: {
+					posted: {
+						year: 2018,
+						month: 9,
+						day: 12
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: false
+			},		
+			{
 				company: "ESPN",
 				title: "Stats & Information Internship - Fall 2018",
 				location: "Bristol, CT",
@@ -21,7 +39,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: false
 			},			
 			{
@@ -39,7 +57,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -57,7 +75,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -75,7 +93,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -147,7 +165,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -179,7 +197,7 @@
 					posted: {
 						year: 2018,
 						month: 2,
-						day: 01
+						day: 1
 					}
 				},
 				show: true,
