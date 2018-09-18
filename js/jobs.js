@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Washington Nationals",
+				title: "Major League Operations Intern",
+				location: "Washington, DC",
+				description: "The Washington Nationals are looking for a Baseball Operations intern who can contribute to its front office by specializing in work related to Major League Operations. The internship includes assisting the Baseball Operations Department with day-to-day assignments, along with long term projects centered on roster management, salary arbitration, transactions, and the economics of baseball. This internship is for the 2019 season and typically spans from Opening Day to November 1st.",
+				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/washington-nationals/internship/2019-internship-major-league-operations-1944404",
+				logo: "nationals.gif",
+				date: {
+					posted: {
+						year: 2018,
+						month: 9,
+						day: 17
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: false
+			},			
+			{
 				company: "San Francisco 49ers",
 				title: "Business Intelligence Intern",
 				location: "Santa Clara, CA",
@@ -92,7 +110,7 @@
 						day: 2
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},		
