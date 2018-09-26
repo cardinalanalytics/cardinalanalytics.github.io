@@ -7,6 +7,42 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Philadelphia Eagles",
+				title: "Analyst - Football Operations",
+				location: "Philadelphia, PA",
+				description: "The Analyst position will help apply analytics within football operations. A successful candidate will be equipped to work with football data to draw insights and improve decision-making. Candidates should have the quantitative skills to analyze complex problems and the technical ability to implement their ideas effectively. Candidates will be exposed to all parts of the modern NFL front office, including player evaluation, game preparation, resource allocation, sports science, and player development.",
+				link: "./docs/eagles_analyst_football_ops_10_1_18.pdf",
+				logo: "eagles.png",
+				date: {
+					posted: {
+						year: 2018,
+						month: 9,
+						day: 26
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Philadelphia Eagles",
+				title: "Analytics Intern - Football Operations",
+				location: "Philadelphia, PA",
+				description: "The Analytics Intern will work with the football operations staff on a wide range of analytical projects. Candidates will primarily assist in managing and analyzing data. Successful candidates will have strong quantitative skills and the technical ability to implement ideas. The internship will expose candidates to the day-to-day work of a modern NFL front office.",
+				link: "./docs/eagles_intern_football_ops_10_1_18.pdf",
+				logo: "eagles.png",
+				date: {
+					posted: {
+						year: 2018,
+						month: 9,
+						day: 26
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Washington Nationals",
 				title: "Major League Operations Intern",
 				location: "Washington, DC",
@@ -22,7 +58,7 @@
 				},
 				show: true,
 				active: true,
-				isTeam: false
+				isTeam: true
 			},			
 			{
 				company: "San Francisco 49ers",
@@ -40,7 +76,7 @@
 				},
 				show: true,
 				active: true,
-				isTeam: false
+				isTeam: true
 			},		
 			{
 				company: "ESPN",
@@ -895,7 +931,7 @@
 				link: "http://footballjobs.teamworkonline.com/teamwork/r.cfm?i=115220",
 				logo: "eagles.png",
 				date: {},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -907,7 +943,7 @@
 				link: "http://footballjobs.teamworkonline.com/teamwork/r.cfm?i=102137",
 				logo: "eagles.png",
 				date: {},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
