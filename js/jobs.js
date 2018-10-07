@@ -12,7 +12,7 @@
 				location: "New York, NY",
 				description: "This position is a rigorous 12-month program geared to prepare entry level candidates for a career within the Baseball Operations industry. Responsibilities include: assisting in research and analysis of various baseball topics; designing, testing, and implementing predictive models using advanced statistical techniques; Preparing, managing, and visualizing large-scale data sets; developing processes for monitoring and ensuring data quality across multiple data sources.",
 				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/new-york-yankees/associate-quantitative-analysis-1944125",
-				logo: "angels.gif",
+				logo: "yankees.gif",
 				date: {
 					posted: {
 						year: 2018,
@@ -30,7 +30,7 @@
 				location: "Anaheim, CA",
 				description: "The Los Angeles Angels are seeking Baseball Operations interns for the 2019 season. They have internships available in both Anaheim and Arizona. As a Baseball Operations Intern, you will be fully immersed in our department, and given the opportunity/resources to learn, grow, and develop over the course of the season. Our goal is to find people with the necessary skills and traits to become long-term members of the department.",
 				link: "https://angel.co/los-angeles-angels-baseball/jobs/437798-baseball-operations-intern",
-				logo: "yankees.gif",
+				logo: "angels.gif",
 				date: {
 					posted: {
 						year: 2018,
