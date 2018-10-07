@@ -30,7 +30,7 @@
 				location: "Anaheim, CA",
 				description: "The Los Angeles Angels are seeking Baseball Operations interns for the 2019 season. They have internships available in both Anaheim and Arizona. As a Baseball Operations Intern, you will be fully immersed in our department, and given the opportunity/resources to learn, grow, and develop over the course of the season. Our goal is to find people with the necessary skills and traits to become long-term members of the department.",
 				link: "https://angel.co/los-angeles-angels-baseball/jobs/437798-baseball-operations-intern",
-				logo: "angels.gif",
+				logo: "yankees.gif",
 				date: {
 					posted: {
 						year: 2018,
