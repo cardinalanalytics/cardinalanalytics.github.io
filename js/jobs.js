@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Los Angeles Dodgers",
+				title: "Quantitative Analyst, Baseball Analytics",
+				location: "Los Angeles, CA",
+				description: "The Los Angeles Dodgers seek an entry-level analyst for the team's Baseball Analytics group. Responsibilities include statistical modeling and quantitative analysis to support research projects focused on player evaluation/development and strategic decision-making; developing, automating, and implementing mathematical, statistical, and/or machine                      learning models; and preparing reports and presentations to disseminate model results to front office, coaching staff, player development, scouting, and medical/performance staff.",
+				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/los-angeles-dodgers/quantitative-analyst-baseball-analytics-1945955",
+				logo: "dodgers.gif",
+				date: {
+					posted: {
+						year: 2018,
+						month: 10,
+						day: 9
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
 				company: "New York Yankees",
 				title: "Associate, Quantitative Analysis",
 				location: "New York, NY",
@@ -955,7 +973,7 @@
 				link: "http://baseballjobs.teamworkonline.com/teamwork/r.cfm?i=116288",
 				logo: "dodgers.gif",
 				date: {},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
