@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "SimpleBet",
+				title: "Data Scientist/Software Engineer, Machine Learning Systems",
+				location: "New York City, NY",
+				description: "SimpleBet is looking to hire several intern AND full-time Data Scientists/Systems Engineers to join the team. You will help build and design statistical machine learning algorithms that ensure maximum profit through pricing sports markets efficiently and improving customer metrics. To do well in this role, you need first-rate problem solving skills, an interest in the sports or betting markets, as well as experience with statistics, machine learning, data structures and algorithms, and computer science fundamentals.",
+				link: "https://app.joinhandshake.com/jobs/2001949?ref=web-app-job-search&search_id=4075d989-a142-45d0-bc2f-c4569c7b29b2",
+				logo: "",
+				date: {
+					posted: {
+						year: 2018,
+						month: 10,
+						day: 19
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: false
+			},			
+			{
 				company: "Los Angeles Dodgers",
 				title: "Quantitative Analyst, Baseball Analytics",
 				location: "Los Angeles, CA",
