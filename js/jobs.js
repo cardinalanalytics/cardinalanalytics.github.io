@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Detroit Pistons",
+				title: "Basketball Research Fellowship",
+				location: "Auburn Hills, MI",
+				description: "In the Basketball Research Fellowship, you will support the efforts of the Pistons Basketball Operations team by using data to help them improve team performance. You will help with driving and improving our evidence-based decision-making by writing robust data pipelines, visualizing data to identify causal relationships, building predictive models and forecasts, and developing internal tooling to integrate it all. Your assignment will be for the duration of the 2018-2019 Basketball Season.  This position would ideally be located in Auburn Hills, Michigan but candidates who are located elsewhere and could work remotely will also be considered.",
+				link: "https://www.teamworkonline.com/basketball-jobs/palacenet/detroit-pistons-jobs-/basketball-research-fellowship-1947805",
+				logo: "pistons.png",
+				date: {
+					posted: {
+						year: 2018,
+						month: 12,
+						day: 1
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},			
+			{
 				company: "SimpleBet",
 				title: "Data Scientist/Software Engineer, Machine Learning Systems",
 				location: "New York City, NY",
@@ -39,7 +57,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -75,7 +93,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -147,7 +165,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
