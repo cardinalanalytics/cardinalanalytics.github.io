@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "San Francisco Giants",
+				title: "Baseball Operations Intern",
+				location: "San Francisco, CA",
+				description: "The San Francisco Giants are seeking an intern to join the Baseball Operations department. This individual will assist the Baseball Operations department and provide comprehensive administrative support to all functions including minor league and major league operations, player development administration and amateur and pro scouting administration.",
+				link: "./docs/giants_baseball_operations_01_15_19.pdf",
+				logo: "giants.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 1,
+						day: 15
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},		
+			{
 				company: "Detroit Pistons",
 				title: "Basketball Research Fellowship",
 				location: "Auburn Hills, MI",
