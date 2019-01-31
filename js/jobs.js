@@ -8,6 +8,60 @@
 		jobs: [
 			{
 				company: "San Francisco Giants",
+				title: "Sports Science Analyst",
+				location: "San Francisco, CA",
+				description: "The San Francisco Giants are seeking a Sports Science Analyst to join the Baseball Operations department. This individual will be part of the R&D team and provide research and analysis to support the medical, training, and player development staffs. This position will also work closely with the application development team to design and develop statistical models and tools using advanced data sources within new and existing applications. The ideal candidate will possess a strong foundation with advanced training in performance science disciplines, strong analytical skills, the ability to communicate effectively to non-technical people, and both passion and intellectual curiosity for the game of baseball.",
+				link: "./docs/SFG - Sports Science Analyst 01_30_19.pdf",
+				logo: "giants.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 1,
+						day: 30
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},	
+			{
+				company: "San Francisco Giants",
+				title: "Data Scientist",
+				location: "San Francisco, CA",
+				description: "The San Francisco Giants are seeking a Data Scientist to join the Baseball Operations department. This individual will be part of the R&D team and develop advanced predictive models to support front office and in-game decision making. This position will also work closely with the application development team to integrate these decision-support tools into new and existing applications. The ideal candidate will possess advanced data modeling skills, the ability to communicate effectively to non-technical people, and both passion and intellectual curiosity for the game of baseball.",
+				link: "./docs/SFG - Data Scientist 01_30_19.pdf",
+				logo: "giants.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 1,
+						day: 30
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},	
+			{
+				company: "San Francisco Giants",
+				title: "Baseball Operations Analyst",
+				location: "Scottsdale, AZ",
+				description: "The San Francisco Giants are seeking an Analyst to join the Baseball Operations department. This individual will be part of the R&D team and provide research and analysis to support the front office and player development staff. This position will also work closely with the application development team to design and develop statistical models and tools using advanced data sources within new and existing applications. The ideal candidate will possess strong analytical skills, the ability to communicate effectively to non-technical people, and both passion and intellectual curiosity for the game of baseball.",
+				link: "./docs/SFG - Baseball Operations Analyst 01_30_19.pdf",
+				logo: "giants.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 1,
+						day: 30
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},					
+			{
+				company: "San Francisco Giants",
 				title: "Baseball Operations Intern",
 				location: "San Francisco, CA",
 				description: "The San Francisco Giants are seeking an intern to join the Baseball Operations department. This individual will assist the Baseball Operations department and provide comprehensive administrative support to all functions including minor league and major league operations, player development administration and amateur and pro scouting administration.",
