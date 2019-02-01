@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Los Angeles Dodgers",
+				title: "Associate Quantitative Analyst",
+				location: "Los Angeles, CA",
+				description: "The Los Angeles Dodgers are seeking an Associate Quantitative Analyst for the team’s Research & Development group within Baseball Operations. This position will run for 12 weeks during the 2019 MLB season. Responsibilities include developing statistical/machine learning models to support player evaluation, development, and strategic decision-making and preparing reports and presentations to track progress and disseminate model/analysis results.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-dodgers-associate-quantitative-analyst/",
+				logo: "dodgers.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 1,
+						day: 31
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},				
+			{
 				company: "San Francisco Giants",
 				title: "Sports Science Analyst",
 				location: "San Francisco, CA",
@@ -128,7 +146,7 @@
 						day: 9
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},			
