@@ -7,6 +7,42 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Chicago White Sox",
+				title: "Baseball Operations Software Engineer",
+				location: "Chicago, IL",
+				description: "The Chicago White Sox seek an experienced Software Engineer to join their baseball operations group. The engineer will be responsible for building and maintaining data driven systems with a focus on Baseball Analytics, however there will be additional exposure to all facets of baseball operations.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-white-sox-baseball-operations-software-engineer-and-analyst/",
+				logo: "whitesox.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 8,
+						day: 25
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Chicago White Sox",
+				title: "Baseball Analyst",
+				location: "Chicago, IL",
+				description: "The Chicago White Sox seek a passionate, knowledgeable, and dedicated individual with a desire to work in Baseball Operations. The position will focus primarily on the numerical methods that drive Baseball Analytics, however there will be additional exposure to all facets of baseball operations.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-white-sox-baseball-operations-software-engineer-and-analyst/",
+				logo: "whitesox.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 8,
+						day: 25
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Los Angeles Dodgers",
 				title: "Associate Quantitative Analyst",
 				location: "Los Angeles, CA",
