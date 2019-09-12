@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Miami Marlins",
+				title: "Baseball Operations Data Engineer",
+				location: "Jupiter, FL",
+				description: "The Miami Marlins are seeking a full-time Data Engineer for the Baseball Operations department. The position will be responsible for developing and maintaining ETL processes that ingest, clean, validate, and organize baseball data. The Data Engineer will support the information requirements of our analysts, coaches, and scouts. Strong applicants will have experience with ETL processes and database management, with extensive knowledge of both SQL and object oriented programming.",
+				link: "https://www.teamworkonline.com/baseball-jobs/miamibaseball/miami-marlins/data-engineer-1962874",
+				logo: "marlins.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 11
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Chicago White Sox",
 				title: "Baseball Operations Software Engineer",
 				location: "Chicago, IL",
