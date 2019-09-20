@@ -7,6 +7,44 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Atlanta Braves",
+				title: "R&D Analyst Trainee",
+				location: "Atlanta, GA",
+				description: "The R&D Analyst Trainee will assist Baseball Operations decision-making through the analysis and research of baseball information. The day-to-day responsibilities of this position will revolve around using data analysis to provide insight into player evaluation, performance projection, roster construction, and all other facets of baseball operations decision making, with emphasis on different sub-departments depending on the baseball calendar and needs of the department. The position will report to Assistant General Manager, Research and Development.",
+				note: "Applicants for full-season R&D Analyst Trainee (Jan-Nov), and summer R&D Analyst Intern (May-Aug) positions will be considered.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-braves-rd-trainee-positions/",
+				logo: "braves.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 16
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Atlanta Braves",
+				title: "R&D Developer Trainee",
+				location: "Atlanta, GA",
+				description: "The R&D Developer Trainee position emphasizes software and web development as it relates to the Baseball Operations department. The trainee’s main responsibilities will be to assist the R&D department with building proprietary applications for displaying baseball information and visualizations, maintaining existing information management systems, and developing additional productivity tools to aid in Baseball Operations decision making. Candidates must have proven experience with application and/or web development, with interest in baseball and sports analytics research as a strong plus. The position will report to Assistant General Manager, Research and Development.",
+				note: "Applicants for full-season R&D Developer Trainee positions (Jan-Nov), and summer R&D Developer Intern positions (May-Aug) will be considered.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-braves-rd-trainee-positions/",
+				logo: "braves.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 16
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Miami Marlins",
 				title: "Baseball Operations Data Engineer",
 				location: "Jupiter, FL",
@@ -2434,6 +2472,9 @@
 		// add the description and link
 		result += '<div class="col-sm-7 col-xs-12">';
 		result += '<p>' + job.description + '</p>';
+		if (job.note) {
+			result += '<p> <strong> Note: </strong>' + job.note + '</p>';
+		}
 		result += '<a href="' + job.link + '" target="_new">Link to the ' + job.title + ' job with ' + (job.isTeam ? 'the ' : '') + job.company + '</a>';
 		if (!active) {
 			result += '<p class="job-closed-text">Please note that this job is now closed.</p>';
