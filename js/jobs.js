@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Major League Baseball",
+				title: "MLB Diversity Fellowship Program",
+				location: "Various Locations",
+				description: "This latest venture in Baseball’s efforts to competitively recruit the most talented individuals and brightest young minds entering the workforce will provide the opportunity for young, diverse professionals to experience front office positions that have been traditionally influential in baseball operations decisions. Fellows will have the opportunity to work in baseball operations and see the inner workings of a front office. Areas of baseball operations include player development, scouting, research and development, and beyond. The MLB Diversity Fellowship Program will allow MLB to stay true to the ideals of equal opportunity while solidifying Major League Baseball as an organization of choice for all recent graduates, including people of color and women.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-mlb-diversity-fellowship-program/",
+				logo: "mlb.svg",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: false
+			},
+			{
 				company: "Philadelphia Phillies",
 				title: "Quantitative Analyst, Baseball R&D",
 				location: "Philadelphia, PA",
