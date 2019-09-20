@@ -7,6 +7,52 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Philadelphia Phillies",
+				title: "Baseball Operations Associate",
+				location: "Philadelphia, PA",
+				description: "The Phillies are seeking passionate and knowledgeable applicants for an entry-level baseball operations associate. This role will provide analytical and administrative support to their baseball operations group and will consist of opportunities to contribute throughout the many facets of the department, including close collaboration with their Research & Development team.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-phillies-baseball-operations-associate-and-intern-roles/",
+				logo: "phillies.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					},
+					due: {
+						year: 2019,
+						month: 10,
+						day: 13
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Philadelphia Phillies",
+				title: "Organizational Intern, Baseball Operations Analyst",
+				location: "Philadelphia, PA",
+				description: "The Phillies are seeking passionate and knowledgeable applicants for an entry-level baseball operations internship. This role will provide analytical and administrative support to their baseball operations group and will consist of opportunities to contribute throughout the many facets of the department, including close collaboration with their Research & Development team.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-phillies-baseball-operations-associate-and-intern-roles/",
+				logo: "phillies.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					},
+					due: {
+						year: 2019,
+						month: 10,
+						day: 13
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Minnesota Timberwolves & Lynx",
 				title: "Basketball Operations Analyst",
 				location: "Minneapolis, MN",
