@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Minnesota Timberwolves & Lynx",
+				title: "Basketball Operations Analyst",
+				location: "Minneapolis, MN",
+				description: "In this role you will work on a variety of projects on subjects including but not limited to: Player evaluation, player projection, front office strategy, gameplay strategy, sports science, and/or player development. We are looking for self-motivated, ambitious and passionate individuals to join our dynamic team.",
+				link: "https://www.teamworkonline.com/basketball-jobs/minnesota-timberwolves-jobs/minnesota-timberwolves/basketball-operations-analyst-1963506",
+				logo: "twolves.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Philadelphia Eagles",
 				title: "Quantitative Analyst – Football Operations",
 				location: "Philadelphia, PA",
