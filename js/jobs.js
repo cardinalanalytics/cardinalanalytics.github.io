@@ -7,6 +7,42 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Minnesota Twins",
+				title: "R&D Intern, Baseball Operations",
+				location: "Minneapolis, MN",
+				description: "You will support the Research and Development Department by delivering tools and research that improve decision-making processes for the breadth of Baseball Operations personnel. You will evaluate and build statistically rigorous models to aid and inform in a variety of areas of baseball operations, including: amateur scouting, advance scouting, player development, and player acquisition. You will also provide administrative support as expected.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-twins-baseball-operations-and-technology-internships/",
+				logo: "twins.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Minnesota Twins",
+				title: "Intern, Baseball Operations",
+				location: "Minneapolis, MN",
+				description: "You will support the Baseball Department in all areas, including Draft meeting preparation and support during Draft days, post-Draft player pick-up, data entry, filing, and other assigned projects. Administrative support is expected throughout the internship, however, there is ample opportunity for areas of personal interest/development through self-determined projects and access to Baseball Operations personnel, information, and systems. You will also complete other administrative projects, as assigned.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-twins-baseball-operations-and-technology-internships/",
+				logo: "twins.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Major League Baseball",
 				title: "MLB Diversity Fellowship Program",
 				location: "Various Locations",
