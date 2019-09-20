@@ -7,6 +7,60 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Philadelphia Eagles",
+				title: "Quantitative Analyst – Football Operations",
+				location: "Philadelphia, PA",
+				description: "The Quantitative Analyst will be a member of the analytics team within Football Operations. This position will expose candidates to all parts of the modern NFL front office, including player evaluation, game preparation, resource allocation, sports science, and player development. A good candidate will be able to work with football data to draw insights and improve decision-making. Applicants should have the quantitative skills to analyze complex problems and the technical ability to implement their ideas effectively. We expect applicants to have a solid foundation in statistical modeling.",
+				link: "./docs/analyst_football_ops_8_6_19.pdf",
+				logo: "eagles.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Philadelphia Eagles",
+				title: "Senior Quantitative Analyst – Football Operations",
+				location: "Philadelphia, PA",
+				description: "The Senior Quantitative Analyst will join the analytics team within Football Operations. The position will expose candidates to all parts of the modern NFL front office, including player evaluation, game preparation, resource allocation, sports science, and player development. The job involves working with a wide variety of football data to draw insights and improve decision-making. A strong candidate for this role will have relevant work experience and/or graduate-level training in a quantitative discipline. Applicants should have a deep understanding of modern statistical techniques, with proven ability to execute on their ideas. We expect candidates to be well-versed in sports analytics research and methods.",
+				link: "./docs/senior_analyst_football_ops_8_6_19.pdf",
+				logo: "eagles.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Philadelphia Eagles",
+				title: "Director of Analytics – Football Operations",
+				location: "Philadelphia, PA",
+				description: "This position will work closely with the VP of Football Operations and Strategy to shape analytics within Football Operations. The Director of Analytics will use data to address key issues in the modern NFL front office including player evaluation, game preparation, resource allocation, sports science, and player development. A strong candidate will have significant work experience, an advanced degree in a quantitative discipline, and a demonstrated ability to interact with a diverse set of stakeholders. We will prioritize applicants with deep knowledge of modern statistical techniques and the creativity to identify novel analytical directions. The position requires strong organization, communication, and leadership skills, along with the ability to work on widely varying projects with distinct audiences. Candidates must have the ability and statistical range to draw insights from many different forms of football data and a passion for improving football decision-making.",
+				link: "./docs/director_analytics_football_ops_8_6_19.pdf",
+				logo: "eagles.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Atlanta Braves",
 				title: "R&D Analyst Trainee",
 				location: "Atlanta, GA",
