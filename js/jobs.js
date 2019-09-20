@@ -8,6 +8,98 @@
 		jobs: [
 			{
 				company: "Philadelphia Phillies",
+				title: "Quantitative Analyst, Baseball R&D",
+				location: "Philadelphia, PA",
+				description: "As a Quantitative Analyst (QA), you help shape The Phillies Baseball Operations strategies by processing, analyzing, and interpreting large and complex data. You do more than just crunch the numbers; you carefully plan the design of your own studies by asking and answering the right questions, while also working collaboratively with other analysts and software engineers on larger projects. Using analytical rigor, you work with your team as you mine through data and see opportunities for The Phillies to improve. After communicating the results of your studies and experiments to the GM and executive staff, you collaborate with front office executives, scouts, coaches, and trainers to incorporate your findings into Phillies practices. Identifying the challenge is only half the job; you also work to figure out and implement the solution.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-phillies-baseball-research-development-quantitative-analyst-roles/",
+				logo: "phillies.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					},
+					due: {
+						year: 2019,
+						month: 10,
+						day: 13
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Philadelphia Phillies",
+				title: "Quantitative Analyst Associate, Baseball R&D",
+				location: "Philadelphia, PA",
+				description: "As a Quantitative Analyst (QA) Associate, you help shape The Phillies Baseball Operations strategies by processing, analyzing, and interpreting large and complex data. You do more than just crunch the numbers; you carefully plan the design of your own studies by asking and answering the right questions, while also working collaboratively with other analysts and software engineers on larger projects. Using analytical rigor, you work with your team as you mine through data and see opportunities for The Phillies to improve. After communicating the results of your studies and experiments to the GM and executive staff, you collaborate with front office executives, scouts, coaches, and trainers to incorporate your findings into Phillies practices. Identifying the challenge is only half the job; you also work to figure out and implement the solution.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-phillies-baseball-research-development-quantitative-analyst-roles/",
+				logo: "phillies.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					},
+					due: {
+						year: 2019,
+						month: 10,
+						day: 13
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Philadelphia Phillies",
+				title: "Software Engineer, Baseball R&D",
+				location: "Philadelphia, PA",
+				description: "The work of a Software Engineer (SWE) at The Phillies extends well beyond merely coding. As a SWE you contribute fresh ideas in a variety of areas, including information retrieval, networking and data storage, security, machine learning, natural language processing, UI design and mobile to shape the evolution of The Phillies baseball analytics systems. The Phillies ideal engineers will have a versatile skill set, be enthusiastic to handle new challenges and demonstrate leadership qualities. You will work closely with end-users across Scouting, Player Development and the Major League Coaching Staff while building software tools from the ground up. By identifying appropriate design specifications through collaboration with those end-users, you will build applications that conform to user needs. Specific areas of focus may include, but are not limited to, the draft, free-agency, player valuation, player development, in-game strategy, and injury prevention. As a SWE you will have the opportunity to use your technical expertise to create software solutions that impact decision making at The Phillies.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-phillies-baseball-research-development-software-engineers/",
+				logo: "phillies.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					},
+					due: {
+						year: 2019,
+						month: 10,
+						day: 13
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Philadelphia Phillies",
+				title: "Software Engineer Associate, Baseball R&D",
+				location: "Philadelphia, PA",
+				description: "The work of a Software Engineer (SWE) at The Phillies extends well beyond merely coding. As a SWE you contribute fresh ideas in a variety of areas, including information retrieval, networking and data storage, security, machine learning, natural language processing, UI design and mobile to shape the evolution of The Phillies baseball analytics systems. The Phillies ideal engineers will have a versatile skill set, be enthusiastic to handle new challenges and demonstrate leadership qualities. You will work closely with end-users across Scouting, Player Development and the Major League Coaching Staff while building software tools from the ground up. By identifying appropriate design specifications through collaboration with those end-users, you will build applications that conform to user needs. Specific areas of focus may include, but are not limited to, the draft, free-agency, player valuation, player development, in-game strategy, and injury prevention. As a SWE you will have the opportunity to use your technical expertise to create software solutions that impact decision making at The Phillies.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-phillies-baseball-research-development-software-engineers/",
+				logo: "phillies.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					},
+					due: {
+						year: 2019,
+						month: 10,
+						day: 13
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Philadelphia Phillies",
 				title: "Baseball Operations Associate",
 				location: "Philadelphia, PA",
 				description: "The Phillies are seeking passionate and knowledgeable applicants for an entry-level baseball operations associate. This role will provide analytical and administrative support to their baseball operations group and will consist of opportunities to contribute throughout the many facets of the department, including close collaboration with their Research & Development team.",
