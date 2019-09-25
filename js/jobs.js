@@ -7,6 +7,150 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Oklahoma City Thunder",
+				title: "Front End Software Engineer",
+				location: "Oklahoma City, OK",
+				description: "As a Front End Software Engineer, your work is critical to uncovering valuable insights that help shape the organization’s future – influencing performance, strategic planning, and decision-making to create the optimal conditions for talent to thrive. Working with colleagues and stakeholders you will develop tools and applications to support areas crucial to team performance, such as basketball analytics, player evaluation, and physical performance research.",
+				link: "docs/Front End Software Developer Job Posting September 2019",
+				logo: "thunder.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 25
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Oklahoma City Thunder",
+				title: "Software Engineer Intern, Data Science & Solutions",
+				location: "Oklahoma City, OK",
+				description: "As a Software Engineer Intern in Data Science & Solutions, your work is critical to uncovering valuable insights that help shape the organization’s future — influencing strategic planning, decision-making, and performance to create the optimal conditions for talent to thrive. You will work with colleagues, external suppliers, and internal and external data sources to develop tools and analyze data to support basketball analytics, player evaluation, and physical research, areas crucial to the performance of the team.",
+				link: "docs/Software Engineer Intern - DSS Job Posting.pdf",
+				logo: "thunder.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 25
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Oklahoma City Thunder",
+				title: "Analyst Intern, Data Science & Solutions",
+				location: "Oklahoma City, OK",
+				description: "As an Analyst Intern in Data Science & Solutions, your work is critical to uncovering valuable insights that help shape the organization’s future — influencing strategic planning, decision-making, and performance to create the optimal conditions for talent to thrive. You will work on every aspect of the data pipeline — from the building and maintaining information systems to research, analysis, and presentation. You will leverage data to impact the organization’s most significant decisions.",
+				link: "docs/Analyst Intern - DSS Job Posting.pdf",
+				logo: "thunder.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 25
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "San Francisco Giants",
+				title: "Baseball Operations Analyst",
+				location: "Scottsdale, AZ",
+				description: "The San Francisco Giants are seeking an Analyst to join the Baseball Operations department. This individual will be part of the R&D team and provide research and analysis to support the front office and player development staff. This position will also work closely with the application development team to design and develop statistical models and tools using advanced data sources within new and existing applications. The ideal candidate will possess strong analytical skills, the ability to communicate effectively to non-technical people, and both passion and intellectual curiosity for the game of baseball.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-giants-baseball-operations-analyst/",
+				logo: "giants.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 24
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "New York Mets",
+				title: "Player Development Intern",
+				location: "St. Lucie, FL",
+				description: "You will: assist players and coaching staff with accessing video, statistical and analytical information; setup and operate baseball technology/teaching tools and assist players and staff in the comprehension of the data; will travel with the team on all road trips; work on projects assigned by player development staff; film and chart each home game and pregame activities; assist in Player Development administrative needs such as team travel, hotel reservation and obtaining documents for international players; operate TrackMan Radar system in order to collect valuable player development data.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-mets-player-development-intern/",
+				logo: "mets.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 23
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "New York Mets",
+				title: "Baseball R&D Associate",
+				location: "Flushing, NY",
+				description: "The Mets are seeking an individual with a background in data analysis to work with the club’s Research and Development team. This is an entry-level, seasonal 8-12 month position in which he/she will analyze baseball data and use their findings to provide insight within the different areas of Baseball Operations. These may include player development, amateur and international scouting, major league advance scouting and more. Applicants should be available to start in January, although the Mets may be flexible.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-mets-baseball-systems-and-rd-associate-positions/",
+				logo: "mets.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 23
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "New York Mets",
+				title: "Baseball Systems Associate",
+				location: "Flushing, NY",
+				description: "The Mets are seeking an individual with a background in database management and software development to work with the club’s Baseball Systems team. The position will be responsible for assisting in the management and development of processes collecting, cleaning, and organizing large baseball data sets. One should have demonstrated experience building web applications in Python, Java, PHP, Javascript, etc. Applicants should be available to start in January, although the Mets may be flexible.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-mets-baseball-systems-and-rd-associate-positions/",
+				logo: "mets.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 23
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Seattle Mariners",
+				title: "R&D Analytics Positions",
+				location: "Seattle, WA",
+				description: "The Mariners are seeking individuals with a background in statistical analysis and a passion for baseball for both full-time and internship roles. The positions will work directly alongside the analytics team on a wide range of projects and provide ample opportunity to directly impact front office decision-making. Start and end dates are flexible; applicants only available for summer 2020 will be considered, but their preference is for candidates that can start by Feb 1, 2020.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-seattle-mariners-rd-analytics-positions/",
+				logo: "mariners.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 19
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Minnesota Twins",
 				title: "R&D Intern, Baseball Operations",
 				location: "Minneapolis, MN",
