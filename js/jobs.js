@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "USA Baseball",
+				title: "Baseball Analytics Intern",
+				location: "Durham, NC",
+				description: "USA Baseball’s National Training Complex in Cary, N.C. is equipped with TrackMan radar and data collection capabilities. The Trackman radar allows USA Baseball to enhance its evaluation and selection processes as well as assist in player development and training by adding in individual pitch and hit tracking data. This internship position will touch all programs and events that hold programming at the USA Baseball National Training Complex in 2020 including, but not limited to, NCAA Division II Baseball Championship, 14U National Team Development Program, 15U National Team, 16U National Team Development Program, Collegiate National Team, and National Team Identification Series.",
+				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/usa-baseball/baseball-analytics-intern-1963325",
+				logo: "usabaseball.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 26
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: false
+			},
+			{
 				company: "Oklahoma City Thunder",
 				title: "Front End Software Engineer",
 				location: "Oklahoma City, OK",
