@@ -25,6 +25,24 @@
 				isTeam: false
 			},
 			{
+				company: "Detroit Tigers",
+				title: "Baseball Operations Analyst",
+				location: "Detroit, MI",
+				description: "The Detroit Tigers are currently seeking a full-time Analyst in the Baseball Operations Department. This role will be responsible for managing analytics and research within Baseball Operations. This position will report to the Director, Baseball Analytics.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-tigers-baseball-operations-analyst/",
+				logo: "tigers.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 26
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Oklahoma City Thunder",
 				title: "Front End Software Engineer",
 				location: "Oklahoma City, OK",
