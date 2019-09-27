@@ -6,22 +6,22 @@
 			{
 				image: "bar-chart",
 				title: "What We Do",
-				content: "Stanford Sports Analytics Club is devoted to fostering a community of serious quanitative research into sports. If you are interested in joining, please add yourself to our mailing list below."
+				content: "Stanford Sports Analytics Club is devoted to fostering a community of serious quantitative research into sports. If you are interested in joining, please add yourself to our mailing list below."
 			},
 			{
 				image: "calendar",
 				title: "Upcoming Meetings",
-				content: "Our meetings in autumn quarter of the 2017-2018 school year will be weekly on Sundays at 8pm in Old Union 200."
+				content: "Our meetings for the 2019-2020 school year will be weekly on Wednesdays at 7:30 pm in Old Union 215."
 			},
 			{
 				image: "comments",
 				title: "Announcements",
-				content: "We're excited for a new school year of Stanford Sports Analytics Club, the fourth year on campus. The best way to get involved is to come to meetings!"
+				content: "We're excited for a new school year of Stanford Sports Analytics Club, the sixth year on campus. The best way to get involved is to come to meetings!"
 			},
 			{
 				image: "shield",
 				title: "Officers",
-				content: '<ul class="officers-list"><li>Eli Shayer</li><li>Travis Chen</li><li>Alexander Stroud</li><li>Ryan Chen</li><li>Jerold Yu</li></ul>'
+				content: '<ul class="officers-list"><li>Silas Morsink</li><li>Matt Colon</li><li>Julia Thompson</li><li>Alexander Stroud</li></ul>'
 			}
 		]
 	};
