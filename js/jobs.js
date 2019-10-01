@@ -7,6 +7,96 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "St. Louis Cardinals",
+				title: "Analytics Engineer",
+				location: "St. Louis, MO",
+				description: "The Analytics Engineer will focus on supporting the analytics pipeline that supplies the Baseball Development department with the data tools and processes needed to make actionable insights for daily operations. This position will be responsible for providing analytics team members with the necessary components for their data modeling processes. Candidates for this position should be detail orientated and analytical, with general knowledge & interest in the game of baseball.",
+				link: "https://stlcardinals.aaimtrack.com/jobs/379516.html",
+				logo: "cardinals.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 30
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "St. Louis Cardinals",
+				title: "Data Engineer",
+				location: "St. Louis, MO",
+				description: "This position will primarily focus on supporting the data pipeline infrastructure that supplies the Baseball Development department with the data needed to make actionable decisions in day-to-day operations. The Data Engineer will be responsible for maintaining the current data infrastructure and developing new, innovative methods to deliver data for actionable business outcomes. Candidates for this position should be detail orientated and analytical, with general knowledge & interest in the game of baseball.",
+				link: "https://stlcardinals.aaimtrack.com/jobs/379549.html",
+				logo: "cardinals.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 30
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "St. Louis Cardinals",
+				title: "Data Quality Engineer",
+				location: "St. Louis, MO",
+				description: "This position is responsible for ensuring that data management (ETL) processes for the Cardinals' testing and quality standards are met across existing and new data sources within the organization. This position will work closely with other members of the Baseball Development department to understand their data needs, and incorporate them into the data management (ETL) processes. Candidates for this position should be detail-oriented and analytical, with the ability to work independently.",
+				link: "https://stlcardinals.aaimtrack.com/jobs/379554.html",
+				logo: "cardinals.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 30
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "New York Yankees",
+				title: "Associate, Quantitative Analysis",
+				location: "Bronx, NY",
+				description: "This position will give students hands-on experience with quantitative projects related to player evaluation, player development, and/or in-game strategy. For this role, we are looking for students with strong quantitative reasoning, familiarity with statistical programming, and a passion for baseball.",
+				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/new-york-yankees/associate-quantitative-analysis-1962944",
+				logo: "yankees.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 27
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "New York Yankees",
+				title: "Associate, Baseball Operations",
+				location: "Bronx, NY",
+				description: "This position will give students hands-on experience with various important baseball operations tasks, including advance scouting, data collection and entry, and video charting. For this role, we are looking for candidates who are highly detail-oriented and have solid working knowledge of current baseball players, rules, and strategies.",
+				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/new-york-yankees/associate-baseball-operations-1962929",
+				logo: "yankees.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 9,
+						day: 27
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "USA Baseball",
 				title: "Baseball Analytics Intern",
 				location: "Durham, NC",
