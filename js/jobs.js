@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Swish Analytics",
+				title: "Sports Trading Analyst",
+				location: "San Francisco, CA",
+				description: "Swish Analytics is looking for our next Trading Analyst. A deep passion for sports, betting, and stats is what helps our trading team succeed - we hope you share the same!",
+				link: "https://angel.co/company/swish-analytics/jobs/634479-sports-trading-analyst-entry-level",
+				logo: "swish-analytics.jpg",
+				date: {
+					posted: {
+						year: 2019,
+						month: 10,
+						day: 9
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: false
+			},
+			{
 				company: "St. Louis Cardinals",
 				title: "Analytics Engineer",
 				location: "St. Louis, MO",
