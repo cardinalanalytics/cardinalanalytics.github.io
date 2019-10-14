@@ -7,6 +7,42 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Los Angeles Dodgers",
+				title: "Quantitative Analysis Intern, Baseball R&D",
+				location: "Los Angeles, CA",
+				description: "The Baseball Analytics team of the Los Angeles Dodgers is responsible for developing novel statistical methodology to support decision-making throughout Dodgers baseball operations. They are seeking to hire a summer intern to join the team. The primary goal of our internship program is to identify and develop talented individuals who may be interested in joining the team full-time in the future.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-postings-dodgers-quantitative-analyst-and-quantitative-analysis-intern/",
+				logo: "dodgers.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 10,
+						day: 14
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Los Angeles Dodgers",
+				title: "Quantitative Analyst, Baseball R&D",
+				location: "Los Angeles, CA",
+				description: "The Baseball Analytics team of the Los Angeles Dodgers is responsible for developing novel statistical methodology to support decision-making throughout Dodgers baseball operations. They are seeking to hire a Quantitative Analyst to join the team. As a member of the team, you will collaborate with experts (from statistics, computer science, biomechanics and other disciplines) who will challenge you to bring scientific rigor to your research. This position offers the opportunity to solve challenging problems in data science and ultimately see the impact of your work on the field.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-postings-dodgers-quantitative-analyst-and-quantitative-analysis-intern/",
+				logo: "dodgers.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 10,
+						day: 14
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Swish Analytics",
 				title: "Sports Trading Analyst",
 				location: "San Francisco, CA",
