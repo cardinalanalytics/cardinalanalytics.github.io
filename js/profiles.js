@@ -29,7 +29,7 @@
 				position: 'Vice President',
 				joined: 2017,
 				image: 'images/profiles/matt-colon.jpg',
-				description: 'Matt is a junior studying Mathematical and Computational Science with a minor in Economics. Despite growing up in New Jersey, Matt is a huge Tampa Bay Buccaneers fan. Matt also loves to play basketball, as well as root on his favorite basketball player, Kyrie Irving, who Matt consistently insists hit <a href="https://www.wsj.com/articles/the-biggest-shot-in-nba-history-1482235610">the statistically most clutch shot of all time</a> to help the Cavs secure the 2016 NBA Finals.',
+				description: 'Matt is a junior studying Mathematical and Computational Science with a minor in Economics. Despite growing up in New Jersey, he is a huge Tampa Bay Buccaneers fan. He also loves to play basketball, as well as root on his favorite basketball player, Kyrie Irving, who he consistently insists hit <a href="https://www.wsj.com/articles/the-biggest-shot-in-nba-history-1482235610">the statistically most clutch shot of all time</a> to help the Cavs secure the 2016 NBA Finals.',
 				id: "matt",
 			},
 			{
