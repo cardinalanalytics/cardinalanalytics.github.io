@@ -3,45 +3,49 @@
 	// data specifically for the members page
 	var membersData = {
 		header: "Member Profiles",
-		description: "Get to know the contributors",
+		description: "Get to know our club members",
 		navbarTitle: "Profiles",
 		overview: [
-			"These are some of our most active members, who have given a presentation to the club on their own sports analytics research. Many of them have also written up their work in a blog post. You can peruse those blog posts in the links below.",
-			"If you want to work on a project, each of these members is a great resource to help get you started! They have the experience and the knowledge to give you a head start. And once you present, you can appear here too!"
+			"These are some of our most active members, who have given a presentation to the club on their own sports analytics research or contributed to a club project. Some of them have written up their work in posts on our club blog, which you can access via the links below.",
+			"If you want to work on a project, each of these members is a great resource to help get you started! They have the experience and the knowledge to give you a head start."
 		],
 		members: [
 			{
-				name: 'Eli Shayer',
-				position: 'Co-President',
-				joined: 2014,
-				image: 'images/profiles/eli-shayer-2017.jpg',
-				description: "Eli is a senior from Anchorage, Alaska majoring in mathematical and computational science, minoring in history, and pursuing a master's in statistics. He joined SSAC his freshman year in its first year on campus after seeing their table at the activities fair. He is currently a co-president of the club, following stints as the president and tech officer of the club in previous years. He works in the sports analytics world for the research and development team of the Chicago Cubs and for AZ Alkmaar.",
+				name: 'Silas Morsink',
+				position: 'President',
+				joined: 2017,
+				image: 'images/profiles/silas.png',
+				description: "Silas is a junior from Bethesda, Maryland studying economics and statistics. He is currently the president of the club, and has been involved with the club’s projects with Stanford Baseball, Women’s Volleyball, and Football. He has also done projects in baseball, soccer, and tennis analytics. In his free time not spent on sports, he enjoys running, playing the piano, and backpacking.",
 				posts: [
 					{
-						title: 'The Frictional Cost of a Call to the Bullpen',
-						link: 'https://stanfordsportsanalytics.wordpress.com/2015/03/24/the-frictional-cost-of-a-call-to-the-bullpen/'
-					},
-					{
-						title: 'A Fresh Take on Batting the Pitcher Eighth',
-						link: 'https://stanfordsportsanalytics.wordpress.com/2015/05/06/a-fresh-take-on-batting-the-pitcher-eighth/'
+						title: "Economists Think MLB Pitchers are Weird (Probably)",
+						link: 'https://stanfordsportsanalytics.wordpress.com/2019/09/26/economists-think-mlb-pitchers-are-weird-probably/',
 					}
 				],
-				id: "eli",
+				id: "silas",
 			},
 			{
-				name: 'Travis Chen',
-				position: 'Co-President',
-				joined: 2015,
-				image: 'images/profiles/travis-chen.jpg',
-				description: "Travis is a senior (class of 2018) studying Computer Science. His favorite sports are basketball and football, and he roots for the Spurs, the Raiders, and the Seahawks. In his free time he plays the cello, basketball, ultimate frisbee, and occasionally forays into the realm sports betting.",
-				id: "travis",
+				name: 'Matt Colon',
+				position: 'Vice President',
+				joined: 2017,
+				image: 'images/profiles/matt-colon.jpg',
+				description: 'Matt is a junior studying Mathematical and Computational Science with a minor in Economics. Despite growing up in New Jersey, Matt is a huge Tampa Bay Buccaneers fan. Matt also loves to play basketball, as well as root on his favorite basketball player, Kyrie Irving, who Matt consistently insists hit <a href="https://www.wsj.com/articles/the-biggest-shot-in-nba-history-1482235610">the statistically most clutch shot of all time</a> to help the Cavs secure the 2016 NBA Finals.',
+				id: "matt",
+			},
+			{
+				name: 'Julia Thompson',
+				position: 'Financial Officer',
+				joined: 2017,
+				image: 'images/profiles/julia-thompson.jpg',
+				description: "Julia Thompson is a junior at Stanford majoring in aeronautics and astronautics. She loves gymnastics and baseball and is thrilled to be celebrating the Nationals’ first trip to the World Series.  She is also involved in the Stanford Student Space Initiative, where she’s co-leading a project to launch a rocket off a balloon. In her free time, she stays engaged in politics, writing, guitar, and ice skating.",
+				id: 'julia',
 			},
 			{
 				name: 'Alexander Stroud',
-				position: 'Vice President',
+				position: 'VP/Tech Officer',
 				joined: 2016,
 				image: 'images/profiles/alexander-stroud.jpg',
-				description: "Zander is a junior studying Math and Computational Science. His favorite sports are basketball and baseball, and he is interested in analytical problems like predicting the future performance of teams and individual players. Having grown up in the Bay Area, you'll often find him cheering on the Giants, Sharks, Warriors, Earthquakes, or any Stanford team!",
+				description: "Zander majored in Mathematical and Computational Science, and is currently coterming in Statistics. In summer 2018, he interned for the Tampa Bay Rays, and he has done extensive work in baseball analytics for Stanford Baseball and startups like Pando Pooling. Beyond baseball, he is excited by and will eagerly converse about the growing analytics movements in basketball, football, soccer, and any other sport!",
 				posts: [
 					{
 						title: "In Search of a Winning Strategy: Comparing FiveThirtyEight.com's CARM-ELO Predictions to Las Vegas Point Spreads",
@@ -49,18 +53,18 @@
 					}
 				],
 				id: "zander",
-			},										
+			},
+		],
+		members_hide: [
 			{
-				name: 'Ryan Chen',
-				position: 'Financial Officer',
+				name: 'Travis Chen',
 				joined: 2015,
-				image: 'images/profiles/ryan-chen.png',
-				description: "Ryan is a 3rd-year doctoral student in Management Science & Engineering and holds bachelor's degrees in Industrial & Operations Engineering and Music Performance from the University of Michigan. He has been part of three prize-winning SSAC competition teams (2017 NBA Hackathon, 2016 UNC Basketball Analytics Summit Case Competition, 2015 Graphicacy Major League Data Challenge) and is a contributor for the NBA blog 16 Wins A Ring. In 2018, Ryan will be taking leave from Stanford to pursue graduate degrees in music performance.",
-				id: "ryan",
-			},	
+				image: 'images/profiles/travis-chen.jpg',
+				description: "Travis is a senior (class of 2018) studying Computer Science. His favorite sports are basketball and football, and he roots for the Spurs, the Raiders, and the Seahawks. In his free time he plays the cello, basketball, ultimate frisbee, and occasionally forays into the realm sports betting.",
+				id: "travis",
+			},			
 			{
 				name: 'Jerold Yu',
-				position: 'Technology Officer',
 				joined: 2016,
 				image: 'images/profiles/jerold-yu.jpg',
 				description: "Jerold is a third-year undergraduate studying Mathematical and Computational Science. Raised in San Francisco, he grew up rooting for the Giants and Warriors, and hopes to one day contribute to a franchise's success through sports analytics. In his free time, Jerold likes to rock climb, run, do yoga, bake/cook, and try new things.",
@@ -110,45 +114,46 @@
 				id: "sandy",
 			},
 			{
-				name: 'David Cameron',
-				joined: 2015,
-				image: 'images/profiles/david-cameron.jpg',
-				description: 'Dave is a post-doctoral scholar in the Energy Resources Engineering Department, whose research involves optimizing monitoring networks for carbon storage operations. Originally from Australia, he developed a taste for ice-hockey after marrying a Canadian. Eh? Dave is real excited about his stat, which applies the Chess-rating system to provide real-time unbiased NHL player ratings. Check out his website at <a href="http://www.hockeystatsrevolution.com">www.hockeystatsrevolution.com</a>',
-				id: "david",
-			},
-			{
-				name: 'Konstantinos Balafas',
-				joined: 2014,
-				image: 'images/profiles/konstantinos-balafas.jpg',
-				description: "Kostas grew up in Athens, Greece and just finished his PhD in civil engineering where he detected earthquake damage in buildings from acceleration measurements. He loves soccer and AC Milan, trusts in Arsene, yet misses not being at the office for Champions’ League games. That last part made basketball (Rock Chalk!) his go-to sport for watching and bringing up at SSAC meetings/presentations. Right now, he’s looking to “take his talents” to data science and will never say no to a pickup game of soccer of basketball.",
-				posts: [
-					{
-						title: 'The Importance of Having a High NBA Draft Pick',
-						link: 'https://stanfordsportsanalytics.wordpress.com/2014/11/30/the-importance-of-having-a-high-nba-draft-pick/'
-					}
-				],
-				id: "konstantinos",
-			},
-			{
-				name: 'Glenn Baxter',
-				joined: 2015,
-				image: 'images/profiles/glenn-baxter.jpg',
-				description: "Glenn is a third-year undergraduate majoring in Economics and minoring in Computer Science. In the classroom, he loves statistics and learning about the global economy, but outside, in his free time, Glenn enjoys everything Sports. You can find him playing pickup basketball or soccer, tossing the pigskin, and (as his fraternity's Athletic Chair) immersing himself in Stanford's intramural sports. A Bay Area native, Glenn passionately roots for the Giants, Niners, Sharks, and Warriors. ",
-				id: "glenn",
-			},
-			{
 				name: 'Peter Lee',
 				joined: 2015,
 				image: 'images/profiles/peter-lee.jpg',
 				description: "Peter is a MS student in Statistics, and a graduate analytics assistant with Stanford's women's basketball team. His favorite sport is basketball, and favorite basketball writer Zach Lowe. Peter also has an economics degree from Vassar, where he was also captain of the Quidditch team, and played well enough to make it on to Team USA. Originally from LA, he's a huge fan of the Lakers, Dodgers, and is especially excited for the Rams to come back to LA!",
 				id: "peter",
+			}
+		],
+		alumoverview: [
+			"Many of our alumni are still active in the sports analytics world. See what they've been up to since leaving Stanford!"
+		],
+		alumni: [
+			{
+				name: 'Ryan Chen',
+				image: 'images/profiles/ryan-chen-alumni.jpg',
+				description: "Ryan is entering his 3rd season as a basketball data scientist with the Orlando Magic. While with SSAC, he contributed to club efforts in winning the 2017 NBA Hackathon and the 2016 UNC Basketball Analytics Summit Case Competition as well as writing for the (now-defunct) basketball blog 16 Wins A Ring.",
+				links: [
+					{
+						title: 'Personal Site',
+						link: 'http://www.ryandchen.net/',
+					},
+					{
+						title: 'LinkedIn',
+						link: 'https://www.linkedin.com/in/ryandchen/',
+					}
+				],
+				id: "ryan",
+				show: true,
 			},
 			{
-				name: 'Alec Powell',
-				joined: 2014,
-				image: 'images/profiles/alec-powell.jpg',
-				description: "Alec is a senior majoring in Computer Science. Throughout his Stanford career, he has been involved with athletics, whether through KZSU Sports radio, Club Baseball, or several CS projects involving sports analytics - the most successful of which was for the winning team at the 2015 SABR Diamond Dollars Case Competition. A baseball fanatic hailing from Oakton, VA, Alec is a lifelong Baltimore Orioles fan.",
-				id: "alec",
+				name: 'Nick Canova',
+				image: 'images/profiles/nick-canova-alumni.jpg',
+				description: "Nick got a Masters In Data Science in 2017 and is currently working on CBB Analytics, his college basketball startup. He was a VP of the club for a year. In addition to the startup, he has worked part-time at two other sports startups doing statistics and data science work.",
+				links: [
+					{
+						title: 'CBB Analytics',
+						link: 'https://cbbanalytics.com/',
+					}
+				],
+				id: "nick",
+				show: true,
 			}
 		]
 	};
@@ -174,7 +179,43 @@
 							'{{#if joined}} <h4>Member since {{ joined }}</h4> {{/if}}',
 						'</div>',
 						'<div class="col-xs-6 col-md-3">',
-							'{{#if image}} <img alt={{ name }} src="{{ image }}" height="120px"> {{/if}}',
+							'{{#if image}} <img alt={{ name }} src="{{ image }}" height="120px"> {{else}} <img alt={{ name }} src="images/profiles/tree.png" height="120px"> {{/if}}',
+						'</div>',
+						'<div class="col-xs-12 col-md-6">',
+							'<p>{{{ description }}}</p>',
+							'{{#if posts}}',
+								'<h4>Blog posts:</h4>',
+									'<ul class="post-list">',
+									'{{#each posts}}',
+										'<li><a href="{{ link }}">{{ title }}</a></li>',
+									'{{/each}}',
+								'</ul>',
+							'{{/if}}',
+						'</div>',
+					'</div>',
+					'<hr>',
+				'{{/each}}',
+				'<div class="row" id="alumoverview">',
+					'<div class="col-xs-12">',
+						'<h2 class="profiles-alumni">Alumni</h2>',
+						'{{#each alumoverview}}',
+						'<p>{{{this}}}</p>',
+						'{{/each}}',
+						'<hr/>',
+					'</div>',
+				'</div>',
+				'{{#each alumni}}',
+					'<div class="row ssac-profile" id="{{ id }}">',
+						'<div class="col-xs-6 col-md-3">',
+							'<h3 class="profile-name"><b>{{ name }}</b></h3>',
+							'{{#if joined}} <h4>Member since {{ joined }}</h4> {{/if}}',
+							'{{#if grad}} <h4>Graduated {{ grad }}</h4> {{/if}}',
+							'{{#each links}}',
+								'<a href="{{ link }}">{{ title }}</a><br>',
+							'{{/each}}',
+						'</div>',
+						'<div class="col-xs-6 col-md-3">',
+							'{{#if image}} <img alt={{ name }} src="{{ image }}" height="120px"> {{else}} <img alt={{ name }} src="images/profiles/tree.png" height="120px"> {{/if}}',
 						'</div>',
 						'<div class="col-xs-12 col-md-6">',
 							'<p>{{{ description }}}</p>',
@@ -193,8 +234,12 @@
 			'</div>',
 			'<div class="col-xs-3">',
 				'<ul class="members-list">',
-					'<li id="overview-li"><a href="#overview">Overview</a></li>',
+					'<li id="overview-li"><a href="#overview"><strong>Overview</strong></a></li>',
 					'{{#each members}}',
+						'<li id="{{ id }}-li"><a href="#{{ id }}">{{ name }}</a></li>',
+					'{{/each}}',
+					'<li id="alumoverview-li"><a href="#alumoverview"><strong>Alumni</strong></a></li>',
+					'{{#each alumni}}',
 						'<li id="{{ id }}-li"><a href="#{{ id }}">{{ name }}</a></li>',
 					'{{/each}}',
 				'</ul>',
