@@ -145,7 +145,7 @@
 			{
 				name: 'Nick Canova',
 				image: 'images/profiles/nick-canova-alumni.jpg',
-				description: "Nick got a Masters In Data Science in 2017 and is currently working on CBB Analytics, his college basketball startup. He was a VP of the club for a year. In addition to the startup, he has worked part-time at two other sports startups doing statistics and data science work.",
+				description: "Nick got a Masters in Data Science in 2017 and is currently working on CBB Analytics, his college basketball startup. He was a VP of the club for a year. In addition to the startup, he has worked part-time at two other sports startups doing statistics and data science work.",
 				links: [
 					{
 						title: 'CBB Analytics',
@@ -153,6 +153,13 @@
 					}
 				],
 				id: "nick",
+				show: true,
+			},
+			{
+				name: 'Chris Pickard',
+				image: 'images/profiles/chris-pickard-alumni.png',
+				description: "Chris Pickard is currently an analyst with the Sacramento Kings. In his role, Chris splits time principally supporting management with tools and analysis to guide team strategy, personnel decisions and roster evaluations and leading complex technical projects to further improve data driven processes within the organization. While in school, Chris finished 2nd in the inaugural NBA Hackathon and spent the 2016-2017 season as an analyst with the Los Angeles Clippers supporting their basketball analytics and research team. In addition to his time with SSAC, Chris spent four years as a member of the Men’s Varsity Swimming team earning All-American, Academic All-American and team captain honors while earning both his B.S. (2015) and M.S. (2017), both in Civil Engineering. ",
+				id: "chris",
 				show: true,
 			}
 		]
