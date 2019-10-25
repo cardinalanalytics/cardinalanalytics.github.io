@@ -54,6 +54,13 @@
 				],
 				id: "zander",
 			},
+			{
+				name: 'Yasi Khan',
+				joined: 2018,
+				image: 'images/profiles/yasi-khan.png',
+				description: "Yasi Khan is a sophomore from San Francisco majoring in Symbolic Systems on the Neurosciences track. She is currently involved in the club's baseball project - baseball was her first love and has always been her favorite sport. She is also involved in the Stanford Undergraduate Neuroscience Society, where she sees fascinating parallels between predictive models of the brain and predictive sports models. Outside of academics, she loves reading and writing poetry, woodworking, and spending time with friends.",
+				id: "yasi",
+			}
 		],
 		members_hide: [
 			{
