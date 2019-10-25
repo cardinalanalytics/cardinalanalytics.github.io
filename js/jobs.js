@@ -7,6 +7,42 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Cleveland Indians",
+				title: "Data Scientist, Baseball R&D",
+				location: "Cleveland, OH",
+				description: "The Cleveland Indians are seeking a data scientist to join the team’s Baseball Research and Development group. The data scientist will use their machine learning expertise and the Indians proprietary data to develop statistical and machine learning models that support baseball operations decisions across all facets of the organization. This position will work closely with other members of the R&D department as well as key stakeholders across the organization to design and build cutting edge models and tools that help the Indians stay ahead of the competition. The ideal candidate will possess experience working with large data sets and advanced machine-learning models. Strong applicants will demonstrate curiosity, creativity, and the ability to learn new concepts.",
+				link: "https://boards.greenhouse.io/clevelandindiansbops/jobs/4490505002",
+				logo: "indians.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 10,
+						day: 25
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Cleveland Indians",
+				title: "Sports Science Analyst, Baseball R&D",
+				location: "Cleveland, OH",
+				description: "The Cleveland Indians are seeking an analyst to join the team’s Baseball Research and Development group with a focus on answering questions specific to sports science. The position will use data and statistics to provide research and analysis to support the Indians’ player development, medical, S&C, and sports science staff in helping Indians players perform at optimal levels. This individual will work closely with other analysts in the R&D department as well as sports science, player development, medical, strength & conditioning, and other staff members across the organization. The ideal candidate will possess a strong foundation in statistics and/or data science, the ability to effectively communicate findings to colleagues in non-technical roles, and a passion for learning more about baseball. Strong applicants will demonstrate curiosity, creativity, and the ability to learn new concepts.",
+				link: "https://boards.greenhouse.io/clevelandindiansbops/jobs/4490489002",
+				logo: "indians.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 10,
+						day: 25
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Los Angeles Dodgers",
 				title: "Quantitative Analysis Intern, Baseball R&D",
 				location: "Los Angeles, CA",
