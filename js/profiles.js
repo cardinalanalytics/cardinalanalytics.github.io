@@ -92,7 +92,7 @@
 						link: 'https://stanfordsportsanalytics.wordpress.com/2015/05/06/a-fresh-take-on-batting-the-pitcher-eighth/'
 					}
 				],
-				id: "scott",
+				id: "scott_hide",
 			},
 			{
 				name: 'Vihan Lakshman',
@@ -168,6 +168,23 @@
 				description: "Chris Pickard is currently an analyst with the Sacramento Kings. In his role, Chris splits time principally supporting management with tools and analysis to guide team strategy, personnel decisions and roster evaluations and leading complex technical projects to further improve data driven processes within the organization. While in school, Chris finished 2nd in the inaugural NBA Hackathon and spent the 2016-2017 season as an analyst with the Los Angeles Clippers supporting their basketball analytics and research team. In addition to his time with SSAC, Chris spent four years as a member of the Men’s Varsity Swimming team earning All-American, Academic All-American and team captain honors while earning both his B.S. (2015) and M.S. (2017), both in Civil Engineering. ",
 				id: "chris",
 				show: true,
+			},
+			{
+				name: 'Scott Powers',
+				image: 'images/profiles/scott-powers-alumni.jpg',
+				description: "Scott defended his PhD thesis under Rob Tibshirani in 2017 and then joined the LA Dodgers as a senior analyst in R&D. He was promoted to Director of Quantitative Analysis in 2018. At Stanford, Scott played catcher on the club baseball team and setter on the club volleyball team.",
+				id: "scott",
+				posts: [
+					{
+						title: 'The Frictional Cost of a Call to the Bullpen',
+						link: 'https://stanfordsportsanalytics.wordpress.com/2015/03/24/the-frictional-cost-of-a-call-to-the-bullpen/'
+					},
+					{
+						title: 'A Fresh Take on Batting the Pitcher Eighth',
+						link: 'https://stanfordsportsanalytics.wordpress.com/2015/05/06/a-fresh-take-on-batting-the-pitcher-eighth/'
+					}
+				],
+				show: true,
 			}
 		]
 	};
@@ -198,7 +215,7 @@
 						'<div class="col-xs-12 col-md-6">',
 							'<p>{{{ description }}}</p>',
 							'{{#if posts}}',
-								'<h4>Blog posts:</h4>',
+								'<h4>SSAC Blog posts:</h4>',
 									'<ul class="post-list">',
 									'{{#each posts}}',
 										'<li><a href="{{ link }}">{{ title }}</a></li>',
@@ -234,7 +251,7 @@
 						'<div class="col-xs-12 col-md-6">',
 							'<p>{{{ description }}}</p>',
 							'{{#if posts}}',
-								'<h4>Blog posts:</h4>',
+								'<h4>SSAC Blog posts:</h4>',
 									'<ul class="post-list">',
 									'{{#each posts}}',
 										'<li><a href="{{ link }}">{{ title }}</a></li>',
