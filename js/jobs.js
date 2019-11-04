@@ -7,6 +7,96 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Basic Template",
+				title: "",
+				location: "",
+				description: "",
+				link: "",
+				logo: "",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 3
+					}
+				},
+				show: false,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Tampa Bay Rays",
+				title: "Research and Development Intern",
+				location: "St. Petersburg, FL",
+				description: "The Tampa Bay Rays are in search of their next Research and Development Intern. The Rays’ R&D group helps shape Baseball Operations’ decision-making processes through the analysis and interpretation of data. They are seeking those with a passion for baseball and a desire to contribute through mathematics, data analysis, and computation. Their next intern will be an intellectual contributor that can work both individually and collaboratively, coming up with interesting research questions to explore, find ways to answer those questions with the data at their disposal, communicate the results of their research, and work to apply their research outcomes to improve how the Rays organization operates. The Rays want to work with people who care about being good teammate, want to make a positive impact on their organization, have an innovative spirit, and will explore new ways to make them better. Does this describe you?",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-tampa-bay-rays-research-and-development-intern/",
+				logo: "rays.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 3
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Cincinnati Reds",
+				title: "Data Scientist",
+				location: "Cincinnati, OH",
+				description: "Work with the Manager of Baseball Analytics to implement the department’s research and development efforts within new and existing applications. The Reds envision the person in this position to play a major role in the creation of new baseball analytics concepts with the ultimate goal of enhancing player evaluation and on-field performance.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-cincinnati-reds-baseball-analytics-roles/",
+				logo: "reds.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 3
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Cincinnati Reds",
+				title: "Baseball Research Analyst",
+				location: "Cincinnati, OH",
+				description: "Work with the Baseball Analytics, Baseball Operations, Scouting and Player Development staffs to develop and support analysis and research requests. The Reds envision the person in this position to play a major role in the creation of new baseball analytics/development concepts, supporting player evaluation, development and acquisitions and on-field strategies.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-cincinnati-reds-baseball-analytics-roles/",
+				logo: "reds.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 3
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Cincinnati Reds",
+				title: "DevOps Engineer",
+				location: "Cincinnati, OH",
+				description: "Work with Baseball Analytics group to manage departmental infrastructure, build out analytic workflows, and support optimal development processes within the group. The Reds envision the person in this position to play a major role in the creating and maintaining stable production environments, allowing stakeholders to easily access information.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-cincinnati-reds-baseball-analytics-roles/",
+				logo: "reds.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 3
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Cleveland Indians",
 				title: "Data Scientist, Baseball R&D",
 				location: "Cleveland, OH",
@@ -440,7 +530,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -463,7 +553,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -486,7 +576,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -509,7 +599,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -532,7 +622,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -555,7 +645,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
