@@ -25,6 +25,24 @@
 				isTeam: true
 			},
 			{
+				company: "Chicago Cubs",
+				title: "Amateur Scouting Analyst, R&D",
+				location: "Chicago, IL",
+				description: "The Chicago Cubs are seeking an amateur scouting analyst to join the Research and Development group in Baseball Operations. This role will focus on providing data-driven support to the Chicago Cubs’ amateur scouting department in preparation for the Rule 4 draft, in addition to providing analytical evaluation of amateur prospects. The analyst will work closely with the entirety of the R&D department to develop methods to improve the effective understanding and application of data, and disseminate analytic insights throughout the organization.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-cubs-amateur-scouting-analyst-research-development/",
+				logo: "cubs.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 10
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Texas Rangers",
 				title: "Apprentice, Baseball Analytics",
 				location: "Arlington, TX",
