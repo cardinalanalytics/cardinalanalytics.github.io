@@ -25,6 +25,24 @@
 				isTeam: true
 			},
 			{
+				company: "Texas Rangers",
+				title: "Apprentice, Baseball Analytics",
+				location: "Arlington, TX",
+				description: "In this role, you will query and report on data, build and maintain analytical tools, metrics, & models, create compelling data visualizations and stories, research game changing ideas and concepts, and present information to organizational stakeholders and executives.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-texas-rangers-baseball-analytics-apprentice/",
+				logo: "rangers.gif",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 10
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Tampa Bay Rays",
 				title: "Research and Development Intern",
 				location: "St. Petersburg, FL",
