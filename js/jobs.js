@@ -25,6 +25,42 @@
 				isTeam: true
 			},
 			{
+				company: "San Diego Padres",
+				title: "Analyst, Baseball R&D",
+				location: "San Diego, CA or Remote",
+				description: "The Padres are looking to grow their Research and Development team and bring in individuals with a passion for baseball and winning through data-driven decision making. Through both collaborative and individual work, members of their team will impact every part of the R&D process: idea and question generation, data exploration and analysis, development of decision making tools utilizing analyses, and communication of results to decision-makers and other staff. Ideal candidates are those that are excited to challenge the status quo, improve how the Padres organization makes decisions, and contribute to the continual development of the department.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-padres-baseball-research-development-analyst/",
+				logo: "padres.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 10
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "San Diego Padres",
+				title: "Developer, Baseball Systems",
+				location: "San Diego, CA",
+				description: "The Developer, Baseball Systems is primarily responsible for designing and developing user interfaces for different personnel in the Baseball Operations Department. This position requires substantial experience with various software programs, in addition to a strong understanding of statistical baseball terminology.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-san-diego-padres-baseball-systems-developer-2/",
+				logo: "padres.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 10
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Chicago Cubs",
 				title: "Amateur Scouting Analyst, R&D",
 				location: "Chicago, IL",
