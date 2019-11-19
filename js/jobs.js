@@ -25,6 +25,96 @@
 				isTeam: true
 			},
 			{
+				company: "Miami Marlins",
+				title: "Intern, Baseball Analytics",
+				location: "Jupiter, FL",
+				description: "The Analytics Intern will assist Baseball Operations decision-making through the analysis and facilitation of baseball information. The specific day-to-day responsibilities of this position will vary depending on the baseball calendar, but will revolve around analyzing and troubleshooting baseball data. A competitive candidate will be an excellent communicator and possess an established foundation of analytical skills. The position will report to the Director of Analytics.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-marlins-baseball-analytics-intern-full-season/",
+				logo: "marlins.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Cleveland Indians",
+				title: "Baseball Operations Fellow",
+				location: "Cleveland, OH",
+				description: "The Cleveland Indians are seeking multiple Fellows to join their Baseball Operations department. Each Fellow will work full-time with one of the Indians’ minor league affiliates and report to both the Player Development and Baseball Operations departments. Fellows will operate as an extension of the front office staff and be a resource for both players and coaches. Fellows will be expected to manage the collection of multiple data streams. Fellows will gain exposure across multiple departments and have access to and be encouraged to use a suite of internal, proprietary resources.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-cleveland-indians-fellowships/",
+				logo: "indians.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Cleveland Indians",
+				title: "Amateur Scouting Fellow",
+				location: "Cleveland, OH",
+				description: "The Cleveland Indians are seeking two Fellows to join their Amateur Scouting department. Each Fellow will work collaboratively with the amateur scouting staff. Fellows will operate as an extension of the front office staff and be a resource for scouts and Baseball Operations. Fellows will be expected to manage the collection of multiple data streams on amateur players to prepare the organization for acquisition opportunities.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-cleveland-indians-fellowships/",
+				logo: "indians.png",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Second Spectrum",
+				title: "Software Engineering Intern",
+				location: "Los Angeles, CA",
+				description: "Second Spectrum is building the next way of seeing sports. We deliver unique and innovative solutions through unparalleled capabilities in machine understanding of sports. We are constantly innovating. We believe that technology will revolutionize the way that sports are played, coached, and experienced, and that the work to make this happen has just begun. We try to match each intern with the best group based on personal and professional interest. Our groups include Applications Development, Computer Vision, AI/Machine Learning, and Infrastructure (DevOps, SysOps, IT, Systems, Hardware).",
+				link: "https://www.linkedin.com/jobs/view/software-engineering-intern-at-second-spectrum-inc-1545062386/",
+				logo: "second-spectrum.jpg",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: false
+			},
+			{
+				company: "Inside Edge",
+				title: "Baseball Operations Intern",
+				location: "Bloomington, MN",
+				description: "Inside Edge Scouting Services specializes in data capture and analytics down to the finest details of every Major League game. Major League clubs, media, and other clients subscribe to their real-time pitch-by-pitch data, custom-tailored reports, and advanced analytic tools to gain an edge on their competition. They provide a fun, fast-paced work environment and an opportunity to get started on a career in baseball and differentiate yourself from other job seekers. Past interns have gone on to positions with both Major League clubs and media organizations.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-inside-edge-baseball-operations-intern-5/",
+				logo: "inside-edge.jpg",
+				date: {
+					posted: {
+						year: 2019,
+						month: 11,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: false
+			},
+			{
 				company: "San Diego Padres",
 				title: "Analyst, Baseball R&D",
 				location: "San Diego, CA or Remote",
