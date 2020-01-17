@@ -60,7 +60,14 @@
 				image: 'images/profiles/yasi-khan.png',
 				description: "Yasi Khan is a sophomore from San Francisco majoring in Symbolic Systems on the Neurosciences track. She is currently involved in the club's baseball project - baseball was her first love and has always been her favorite sport. She is also involved in the Stanford Undergraduate Neuroscience Society, where she sees fascinating parallels between predictive models of the brain and predictive sports models. Outside of academics, she loves reading and writing poetry, woodworking, and spending time with friends.",
 				id: "yasi",
-			}
+			},
+			{
+				name: 'Mac Bagwell',
+				joined: 2019,
+				image: 'images/profiles/mac-bagwell.jpg',
+				description: "Mac is a junior majoring in Mathematical and Computational Science. He is a lifelong baseball fan; his favorite team is the Chicago Cubs, even though he was born and raised in Wisconsin. He was most recently involved in the club's baseball project, but he enjoys watching or analyzing any sport.",
+				id: 'mac',
+			},
 		],
 		members_hide: [
 			{
