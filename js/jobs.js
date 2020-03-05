@@ -25,6 +25,24 @@
 				isTeam: true
 			},
 			{
+				company: "Los Angeles Lakers",
+				title: "Basketball Analytics Summer Intern",
+				location: "El Segundo, CA",
+				description: "The Summer Intern, Basketball Analytics is a paid hourly position that will support the Basketball Analytics team by taking on a variety of responsibilities, including modeling basketball situations, researching team strategy, and streamlining existing or new processes. The Intern will engage in multiple individually-owned projects to be delivered to stakeholders at the conclusion of their term. ",
+				link: "https://www.teamworkonline.com/basketball-jobs/los-angeles-lakers/los-angeles-lakers-jobs/basketball-analytics-summer-intern-1970877",
+				logo: "lakers.png",
+				date: {
+					posted: {
+						year: 2020,
+						month: 3,
+						day: 4
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Miami Marlins",
 				title: "Intern, Baseball Analytics",
 				location: "Jupiter, FL",
