@@ -25,6 +25,24 @@
 				isTeam: true
 			},
 			{
+				company: "Colorado Rockies",
+				title: "Quantitative Analyst - Entry Level, Baseball Research and Development",
+				location: "Denver, CO",
+				description: "The Colorado Rockies are currently seeking a full-time entry level Quantitative Analyst within the Baseball Research and Development Department. This individual will assist in the development and maintenance of player information and projection systems, statistical analysis projects and on field strategy. This position requires strong statistical development skills, ability to program in a scripting language such as Python and/or R, as well as a demonstrated ability for independent curiosity and a commitment to excellence while working within a team.",
+				link: "https://www.mlb.com/rockies/team/jobs",
+				logo: "rockies.gif",
+				date: {
+					posted: {
+						year: 2020,
+						month: 3,
+						day: 10
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Los Angeles Lakers",
 				title: "Basketball Analytics Summer Intern",
 				location: "El Segundo, CA",
