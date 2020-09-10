@@ -25,6 +25,42 @@
 				isTeam: true
 			},
 			{
+				company: "Oklahoma City Thunder",
+				title: "Software Engineer Intern, Data Science & Solutions",
+				location: "Oklahoma City, OK",
+				description: "As a Software Engineer Intern in Data Science & Solutions, your work is critical to uncovering valuable insights that help shape the organization’s future — influencing strategic planning, decision-making, and performance to create the optimal conditions for talent to thrive. You will work with colleagues, external suppliers, and internal and external data sources to develop tools and analyze data to support basketball analytics, player evaluation, and physical research, areas crucial to the performance of the team.",
+				link: "https://www.teamworkonline.com/basketball-jobs/oklahoma-city-thunder-jobs/oklahoma-city-thunder/software-engineer-intern-data-science-solutions-1975725",
+				logo: "thunder.gif",
+				date: {
+					posted: {
+						year: 2020,
+						month: 9,
+						day: 10
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Oklahoma City Thunder",
+				title: "Analyst Intern, Data Science & Solutions",
+				location: "Oklahoma City, OK",
+				description: "As an Analyst Intern in Data Science & Solutions, your work is critical to uncovering valuable insights that help shape the organization’s future — influencing strategic planning, decision-making, and performance to create the optimal conditions for talent to thrive. You will work on every aspect of the data pipeline — from the building and maintaining information systems to research, analysis, and presentation. You will leverage data to impact the organization’s most significant decisions.",
+				link: "https://www.teamworkonline.com/basketball-jobs/oklahoma-city-thunder-jobs/oklahoma-city-thunder/analyst-intern-data-science-solutions-1975726",
+				logo: "thunder.gif",
+				date: {
+					posted: {
+						year: 2020,
+						month: 9,
+						day: 10
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Colorado Rockies",
 				title: "Quantitative Analyst - Entry Level, Baseball Research and Development",
 				location: "Denver, CO",
@@ -516,42 +552,6 @@
 				location: "Oklahoma City, OK",
 				description: "As a Front End Software Engineer, your work is critical to uncovering valuable insights that help shape the organization’s future – influencing performance, strategic planning, and decision-making to create the optimal conditions for talent to thrive. Working with colleagues and stakeholders you will develop tools and applications to support areas crucial to team performance, such as basketball analytics, player evaluation, and physical performance research.",
 				link: "docs/Front End Software Developer Job Posting September 2019",
-				logo: "thunder.gif",
-				date: {
-					posted: {
-						year: 2019,
-						month: 9,
-						day: 25
-					}
-				},
-				show: true,
-				active: false,
-				isTeam: true
-			},
-			{
-				company: "Oklahoma City Thunder",
-				title: "Software Engineer Intern, Data Science & Solutions",
-				location: "Oklahoma City, OK",
-				description: "As a Software Engineer Intern in Data Science & Solutions, your work is critical to uncovering valuable insights that help shape the organization’s future — influencing strategic planning, decision-making, and performance to create the optimal conditions for talent to thrive. You will work with colleagues, external suppliers, and internal and external data sources to develop tools and analyze data to support basketball analytics, player evaluation, and physical research, areas crucial to the performance of the team.",
-				link: "docs/Software Engineer Intern - DSS Job Posting.pdf",
-				logo: "thunder.gif",
-				date: {
-					posted: {
-						year: 2019,
-						month: 9,
-						day: 25
-					}
-				},
-				show: true,
-				active: false,
-				isTeam: true
-			},
-			{
-				company: "Oklahoma City Thunder",
-				title: "Analyst Intern, Data Science & Solutions",
-				location: "Oklahoma City, OK",
-				description: "As an Analyst Intern in Data Science & Solutions, your work is critical to uncovering valuable insights that help shape the organization’s future — influencing strategic planning, decision-making, and performance to create the optimal conditions for talent to thrive. You will work on every aspect of the data pipeline — from the building and maintaining information systems to research, analysis, and presentation. You will leverage data to impact the organization’s most significant decisions.",
-				link: "docs/Analyst Intern - DSS Job Posting.pdf",
 				logo: "thunder.gif",
 				date: {
 					posted: {
