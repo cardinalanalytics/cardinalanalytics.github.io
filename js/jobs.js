@@ -39,7 +39,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -57,7 +57,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -75,7 +75,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -93,7 +93,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -111,7 +111,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -129,7 +129,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: false
 			},
 			{
@@ -147,7 +147,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: false
 			},
 			{
@@ -165,7 +165,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -183,7 +183,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -201,7 +201,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -219,7 +219,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -237,7 +237,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -255,7 +255,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -273,7 +273,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -291,7 +291,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -309,7 +309,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -327,7 +327,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -345,7 +345,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -363,7 +363,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -381,7 +381,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: false
 			},
 			{
@@ -399,7 +399,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -417,7 +417,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -435,7 +435,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -453,7 +453,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -471,7 +471,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -489,7 +489,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: false
 			},
 			{
@@ -507,7 +507,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -525,7 +525,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -543,7 +543,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -561,7 +561,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -579,7 +579,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -597,7 +597,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -615,7 +615,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -633,7 +633,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -651,7 +651,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -669,7 +669,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -687,7 +687,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -705,7 +705,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: false
 			},
 			{
@@ -861,7 +861,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -879,7 +879,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -897,7 +897,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -915,7 +915,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -934,7 +934,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -953,7 +953,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -971,7 +971,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -989,7 +989,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -1007,7 +1007,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -1025,7 +1025,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},				
 			{
@@ -1043,7 +1043,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},	
 			{
@@ -1061,7 +1061,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},	
 			{
@@ -1079,7 +1079,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},					
 			{
@@ -1097,7 +1097,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -1114,8 +1114,8 @@
 						day: 1
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -1132,8 +1132,8 @@
 						day: 19
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: false
 			},			
 			{
@@ -1168,8 +1168,8 @@
 						day: 6
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -1186,7 +1186,7 @@
 						day: 6
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1204,8 +1204,8 @@
 						day: 26
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -1222,8 +1222,8 @@
 						day: 26
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -1240,8 +1240,8 @@
 						day: 17
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},			
 			{
@@ -1258,7 +1258,7 @@
 						day: 12
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},		
@@ -1276,7 +1276,7 @@
 						day: 16
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: false
 			},			
@@ -1294,7 +1294,7 @@
 						day: 12
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},			
@@ -1312,7 +1312,7 @@
 						day: 10
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},		
@@ -1366,7 +1366,7 @@
 						day: 1
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},		
@@ -1384,7 +1384,7 @@
 						day: 1
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},		
@@ -1402,7 +1402,7 @@
 						day: 25
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1420,7 +1420,7 @@
 						day: 20
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},			
@@ -1438,7 +1438,7 @@
 						day: 1
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},		
@@ -1456,7 +1456,7 @@
 						day: 23
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},			
@@ -1474,8 +1474,8 @@
 						day: 3
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},		
 			{
@@ -1510,7 +1510,7 @@
 						day: 3
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},				
@@ -1546,7 +1546,7 @@
 						day: 21
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},			
@@ -1564,7 +1564,7 @@
 						day: 21
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},			
@@ -1582,7 +1582,7 @@
 						day: 20
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},	
@@ -1600,8 +1600,8 @@
 						day: 18
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: false
 			},							
 			{
@@ -1636,7 +1636,7 @@
 						day: 05
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},			
@@ -1654,7 +1654,7 @@
 						day: 05
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},			
@@ -1672,7 +1672,7 @@
 						day: 04
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},					
@@ -1690,7 +1690,7 @@
 						day: 27
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},		
@@ -1708,7 +1708,7 @@
 						day: 21
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},			
@@ -1744,7 +1744,7 @@
 						day: 07
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},		
@@ -1780,7 +1780,7 @@
 						day: 25
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},			
@@ -1834,7 +1834,7 @@
 						day: 18
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},		
@@ -1942,7 +1942,7 @@
 						day: 13
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1960,7 +1960,7 @@
 						day: 13
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1996,7 +1996,7 @@
 						day: 22
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -2068,7 +2068,7 @@
 						day: 18
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -2091,7 +2091,7 @@
 						day: 22
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -2193,7 +2193,7 @@
 						day: 25
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -2211,7 +2211,7 @@
 						day: 13
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -2229,8 +2229,8 @@
 						day: 21
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -2265,7 +2265,7 @@
 						day: 2
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -2283,7 +2283,7 @@
 						day: 1
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -2373,7 +2373,7 @@
 						day: 11
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -2611,7 +2611,7 @@
 				link: "http://footballjobs.teamworkonline.com/teamwork/r.cfm?i=100005",
 				logo: "jaguars.gif",
 				date: {},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -2689,8 +2689,8 @@
 						day: 18
 					}
 				},
-				show: true,
-				active: true,
+				show: false,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -2895,6 +2895,7 @@
 						day: 3
 					}
 				},
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -3061,6 +3062,7 @@
 						day: 13
 					}
 				},
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -3101,6 +3103,7 @@
 						day: 13
 					}
 				},
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -3136,6 +3139,7 @@
 						day: 20
 					}
 				},
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -3241,7 +3245,7 @@
 						day: 25
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: false
 			},
@@ -3253,7 +3257,7 @@
 				link: "http://www.secondspectrum.com/careers-ml",
 				logo: "second-spectrum.jpg",
 				date: {},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: false
 			},
@@ -3265,7 +3269,8 @@
 				link: "http://www.secondspectrum.com/careers-full-stack",
 				logo: "second-spectrum.jpg",
 				date: {},
-				active: true,
+				show: false,
+				active: false,
 				isTeam: false
 			},
 			{
@@ -3282,6 +3287,7 @@
 						day: 14
 					}
 				},
+				show: false,
 				active: false,
 				isTeam: false
 			},
@@ -3353,6 +3359,7 @@
 						day: 14
 					}
 				},
+				show: false,
 				active: false,
 				isTeam: true
 			},
