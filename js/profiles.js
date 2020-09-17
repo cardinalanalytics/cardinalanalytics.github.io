@@ -25,21 +25,38 @@
 				id: "silas",
 			},
 			{
-				name: 'Matt Colon',
+				name: 'Yasi Khan',
 				position: 'Vice President',
+				joined: 2018,
+				image: 'images/profiles/yasi-khan-2.jpeg',
+				description: "Yasi is a junior studying Symbolic Systems, on the Human-Centered Artificial Intelligence (HAI) track, with a minor in Creative Writing. Born and raised in San Francisco, the Giants are by far her favorite team: she believes Buster Posey is still criminally underrated. Outside of SSAC, Yasi is co-president of the Stanford Undergraduate Neuroscience Society (SUNS) and Co-VP of Operations for Stanford Women in Finance (SWiF).",
+				id: "yasi",
+			},
+			{
+				name: 'Jacob Neidig',
+				position: 'Vice President',
+				joined: 2019,
+				image: 'images/profiles/jacob-neidig.jpg',
+				description: "Jacob is a sophomore from Elgin, Texas studying Political Science and Sociology. He currently splits his college loyalties between Stanford and UT Austin while his pro teams are centered around Boston (Celtics, Pats, Red Sox, etc.). Jacob is a huge football fan and can be found most weekends during fall in front of a TV. Outside of SSAC, he enjoys being in the outdoors, playing card games, and spending time with friends.",
+				id: "jacob",
+			},
+			{
+				name: 'Matt Colon',
+				position: 'Senior Respresentative, Former Co-President',
 				joined: 2017,
 				image: 'images/profiles/matt-colon.jpg',
 				description: 'Matt is a junior studying Mathematical and Computational Science with a minor in Economics. Despite growing up in New Jersey, he is a huge Tampa Bay Buccaneers fan. He also loves to play basketball, as well as root on his favorite basketball player, Kyrie Irving, who he consistently insists hit <a href="https://www.wsj.com/articles/the-biggest-shot-in-nba-history-1482235610">the statistically most clutch shot of all time</a> to help the Cavs secure the 2016 NBA Finals.',
 				id: "matt",
 			},
 			{
-				name: 'Julia Thompson',
-				position: 'Financial Officer',
-				joined: 2017,
-				image: 'images/profiles/julia-thompson.jpg',
-				description: "Julia Thompson is a junior at Stanford majoring in aeronautics and astronautics. She loves gymnastics and baseball and is thrilled to be celebrating the Nationals’ first trip to the World Series.  She is also involved in the Stanford Student Space Initiative, where she’s co-leading a project to launch a rocket off a balloon. In her free time, she stays engaged in politics, writing, guitar, and ice skating.",
-				id: 'julia',
+				name: 'Mac Bagwell',
+				joined: 2019,
+				image: 'images/profiles/mac-bagwell.jpg',
+				description: "Mac is a junior majoring in Mathematical and Computational Science. He is a lifelong baseball fan; his favorite team is the Chicago Cubs, even though he was born and raised in Wisconsin. He was most recently involved in the club's baseball project, but he enjoys watching or analyzing any sport.",
+				id: 'mac',
 			},
+		],
+		members_hide: [
 			{
 				name: 'Alexander Stroud',
 				position: 'VP/Tech Officer',
@@ -55,21 +72,13 @@
 				id: "zander",
 			},
 			{
-				name: 'Yasi Khan',
-				joined: 2018,
-				image: 'images/profiles/yasi-khan.png',
-				description: "Yasi Khan is a sophomore from San Francisco majoring in Symbolic Systems on the Neurosciences track. She is currently involved in the club's baseball project - baseball was her first love and has always been her favorite sport. She is also involved in the Stanford Undergraduate Neuroscience Society, where she sees fascinating parallels between predictive models of the brain and predictive sports models. Outside of academics, she loves reading and writing poetry, woodworking, and spending time with friends.",
-				id: "yasi",
+				name: 'Julia Thompson',
+				position: 'Financial Officer',
+				joined: 2017,
+				image: 'images/profiles/julia-thompson.jpg',
+				description: "Julia Thompson is a junior at Stanford majoring in aeronautics and astronautics. She loves gymnastics and baseball and is thrilled to be celebrating the Nationals’ first trip to the World Series.  She is also involved in the Stanford Student Space Initiative, where she’s co-leading a project to launch a rocket off a balloon. In her free time, she stays engaged in politics, writing, guitar, and ice skating.",
+				id: 'julia',
 			},
-			{
-				name: 'Mac Bagwell',
-				joined: 2019,
-				image: 'images/profiles/mac-bagwell.jpg',
-				description: "Mac is a junior majoring in Mathematical and Computational Science. He is a lifelong baseball fan; his favorite team is the Chicago Cubs, even though he was born and raised in Wisconsin. He was most recently involved in the club's baseball project, but he enjoys watching or analyzing any sport.",
-				id: 'mac',
-			},
-		],
-		members_hide: [
 			{
 				name: 'Travis Chen',
 				joined: 2015,
@@ -139,6 +148,19 @@
 			"Many of our alumni are still active in the sports analytics world. See what they've been up to since leaving Stanford!"
 		],
 		alumni: [
+			{
+				name: 'Alexander Stroud',
+				image: 'images/profiles/alexander-stroud.jpg',
+				description: "Zander majored in Mathematical and Computational Science, and is cotermed in Statistics at Stanford. While a member of the club, Zander did extensive work on analytics projects for Stanford Baseball. In summer 2018, he interned for the Tampa Bay Rays, and currently, he works as a Data Scientist for Pando Pooling.",
+				posts: [
+					{
+						title: "In Search of a Winning Strategy: Comparing FiveThirtyEight.com's CARM-ELO Predictions to Las Vegas Point Spreads",
+						link: 'https://stanfordsportsanalytics.wordpress.com/2017/06/18/in-search-of-a-winning-strategy-comparing-fivethirtyeight-coms-carm-elo-predictions-to-las-vegas-point-spreads/'
+					}
+				],
+				id: "zander",
+				show = true,
+			},
 			{
 				name: 'Ryan Chen',
 				image: 'images/profiles/ryan-chen-alumni.jpg',
