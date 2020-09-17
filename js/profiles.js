@@ -15,7 +15,7 @@
 				position: 'President',
 				joined: 2017,
 				image: 'images/profiles/silas.png',
-				description: "Silas is a junior from Bethesda, Maryland studying economics and statistics. He is currently the president of the club, and has been involved with the club’s projects with Stanford Baseball, Women’s Volleyball, and Football. He has also done projects in baseball, soccer, and tennis analytics. In his free time not spent on sports, he enjoys running, playing the piano, and backpacking.",
+				description: "Silas is a senior from Bethesda, Maryland studying economics and statistics. He is currently the president of the club, and has been involved with the club’s projects with Stanford Baseball, Women’s Volleyball, and Football. He has also done projects in baseball, soccer, and tennis analytics. In his free time not spent on sports, he enjoys running, playing the piano, and backpacking.",
 				posts: [
 					{
 						title: "Economists Think MLB Pitchers are Weird (Probably)",
@@ -42,17 +42,17 @@
 			},
 			{
 				name: 'Matt Colon',
-				position: 'Senior Respresentative, Former Co-President',
+				position: 'Senior Rep/Tech Officer, Former Co-President',
 				joined: 2017,
 				image: 'images/profiles/matt-colon.jpg',
-				description: 'Matt is a junior studying Mathematical and Computational Science with a minor in Economics. Despite growing up in New Jersey, he is a huge Tampa Bay Buccaneers fan. He also loves to play basketball, as well as root on his favorite basketball player, Kyrie Irving, who he consistently insists hit <a href="https://www.wsj.com/articles/the-biggest-shot-in-nba-history-1482235610">the statistically most clutch shot of all time</a> to help the Cavs secure the 2016 NBA Finals.',
+				description: 'Matt is a senior studying Mathematical and Computational Science with minors in Economics and Spanish. Despite growing up in New Jersey, he is a huge Tampa Bay Buccaneers fan. He also loves to play basketball, as well as root on his favorite basketball player, Kyrie Irving, who he consistently insists hit <a href="https://www.wsj.com/articles/the-biggest-shot-in-nba-history-1482235610">the statistically most clutch shot of all time</a> to help the Cavs secure the 2016 NBA Finals.',
 				id: "matt",
 			},
 			{
 				name: 'Mac Bagwell',
 				joined: 2019,
 				image: 'images/profiles/mac-bagwell.jpg',
-				description: "Mac is a junior majoring in Mathematical and Computational Science. He is a lifelong baseball fan; his favorite team is the Chicago Cubs, even though he was born and raised in Wisconsin. He was most recently involved in the club's baseball project, but he enjoys watching or analyzing any sport.",
+				description: "Mac is a senior majoring in Mathematical and Computational Science. He is a lifelong baseball fan; his favorite team is the Chicago Cubs, even though he was born and raised in Wisconsin. He was most recently involved in the club's baseball project, but he enjoys watching or analyzing any sport.",
 				id: 'mac',
 			},
 		],
