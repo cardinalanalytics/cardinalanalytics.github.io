@@ -159,7 +159,7 @@
 					}
 				],
 				id: "zander",
-				show = true,
+				show: true,
 			},
 			{
 				name: 'Ryan Chen',
