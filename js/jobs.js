@@ -25,6 +25,24 @@
 				isTeam: true
 			},
 			{
+				company: "USA Olympic & Paralympic Committee",
+				title: "Data Analytics Fellow",
+				location: "Colorado Springs, CO",
+				description: "Team USA is looking for a resourceful and trusted problem solver with exceptional attention to detail who effectively communicates analytical insights with accuracy and clarity.  The Data Analytics Fellow will be working on a wide range of impactful analytics projects at the USOPC to help Team USA bring home the gold.  The Fellowship is a temporary position with an expected duration between 12 and 24 months.",
+				link: "https://www.teamworkonline.com/multiple-properties/united-states-olympic-committee/usoc-jobs/data-analytics-fellow-full-time-temporary-eligible-for-benefits-1975873",
+				logo: "us-olympics.png",
+				date: {
+					posted: {
+						year: 2020,
+						month: 9,
+						day: 17
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: false
+			},
+			{
 				company: "Oklahoma City Thunder",
 				title: "Software Engineer Intern, Data Science & Solutions",
 				location: "Oklahoma City, OK",
