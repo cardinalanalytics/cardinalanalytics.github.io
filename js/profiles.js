@@ -46,7 +46,21 @@
 				joined: 2017,
 				image: 'images/profiles/matt-colon.jpg',
 				description: 'Matt is a senior studying Mathematical and Computational Science with minors in Economics and Spanish. Despite growing up in New Jersey, he is a huge Tampa Bay Buccaneers fan. He also loves to play basketball, as well as root on his favorite basketball player, Kyrie Irving, who he consistently insists hit <a href="https://www.wsj.com/articles/the-biggest-shot-in-nba-history-1482235610">the statistically most clutch shot of all time</a> to help the Cavs secure the 2016 NBA Finals.',
+				posts: [
+					{
+						title: "What Your Team Should Do in Round 2 of the 2020 NFL Draft",
+						link: 'https://stanfordsportsanalytics.wordpress.com/2020/04/24/what-your-team-should-do-in-round-2-of-the-2020-nfl-draft/',
+					}
+				],
 				id: "matt",
+			},
+			{
+				name: 'Justin Dea-Mattson',
+				position: 'Financial Officer',
+				joined: 2018,
+				image: 'images/profiles/justin-dea-mattson.jpg',
+				description: 'Justin is a junior studying Computer Science. Born and raised primarily in the Bay Area, Justin is largely a Bay Area sports fan rooting for the Warriors, 49ers, and Giants and his favorite sports are basketball and soccer. Justin has worked on projects for Stanford Volleyball and Stanford Football. In his free time Justin also loves to play recreational sports of all kinds to stay active.',
+				id: "justin",
 			},
 			{
 				name: 'Mac Bagwell',
