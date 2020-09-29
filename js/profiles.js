@@ -193,6 +193,19 @@
 				show: true,
 			},
 			{
+				name: 'Eli Shayer',
+				image: 'images/profiles/eli-shayer-2.jpg',
+				description: "Eli graduated in 2018 with a bachelor's in Mathematical and Computational Science, a master's in Statistics, and a minor in History. He has worked for the Chicago Cubs since 2016 as an intern, a developer, and currently is an analyst. In his four years as a member of SSAC he served terms as tech officer, president, and co-president.",
+				posts: [
+					{
+						title: 'A Fresh Take on Batting the Pitcher Eighth',
+						link: 'https://stanfordsportsanalytics.wordpress.com/2015/05/06/a-fresh-take-on-batting-the-pitcher-eighth/'
+					}
+				],
+				id: "eli",
+				show: true,
+			},
+			{
 				name: 'Nick Canova',
 				image: 'images/profiles/nick-canova-alumni.jpg',
 				description: "Nick got a Masters in Data Science in 2017 and is currently working on CBB Analytics, his college basketball startup. He was a VP of the club for a year. In addition to the startup, he has worked part-time at two other sports startups doing statistics and data science work.",
