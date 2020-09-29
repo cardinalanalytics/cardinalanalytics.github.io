@@ -25,6 +25,42 @@
 				isTeam: true
 			},
 			{
+				company: "Seattle Mariners",
+				title: "Baseball Operations R&D Analyst",
+				location: "Seattle, WA",
+				description: "The Mariners are seeking individuals with a background in statistical analysis for a full-time role on the Research and Development team. This position will work alongside other baseball analysts on a variety of projects, with the ability to impact scouting, player development, and front office decision-making.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-mariners-baseball-operations-rd-analyst/#more-347772",
+				logo: "mariners.gif",
+				date: {
+					posted: {
+						year: 2020,
+						month: 9,
+						day: 25
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Philadelphia 76ers",
+				title: "Sport and Data Scientist",
+				location: "Camden, NJ",
+				description: "The Sport and Data Scientist will work in the Philadelphia 76ers Performance Department. A successful applicant will have a strong technical foundation and be passionate about better understanding the game of basketball.",
+				link: "https://www.teamworkonline.com/multiple-properties/harris-blitzer-sports-entertainment-jobs/philadelphia-76ers-jobs/sport-and-data-scientist-1975009",
+				logo: "76ers.png",
+				date: {
+					posted: {
+						year: 2020,
+						month: 9,
+						day: 25
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "USA Olympic & Paralympic Committee",
 				title: "Data Analytics Fellow",
 				location: "Colorado Springs, CO",
