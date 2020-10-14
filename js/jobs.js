@@ -25,6 +25,42 @@
 				isTeam: true
 			},
 			{
+				company: "Minnesota Twins",
+				title: "Baseball Research Fellow",
+				location: "Minneapolis, MN",
+				description: "The Twins are looking for data scientists with a passion for baseball and baseball analysis. New research fellows will work with a variety of data sources to generate insight and have the ability to impact front office decision making, player development, and domestic and international scouting. This position is paid.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-minnesota-twins-baseball-research-fellow/#more-348743",
+				logo: "twins.gif",
+				date: {
+					posted: {
+						year: 2020,
+						month: 10,
+						day: 12
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Texas Rangers",
+				title: "Player Development Data Apprentice",
+				location: "Arlington, TX",
+				description: "The Texas Rangers are seeking multiple apprentices in Player Development. Each Apprentice will work full-time with one of the Rangers’ minor league affiliates and report to the Systems Integration Coordinator. Apprentices will operate as an extension of the coaching staff and be a resource for both players and coaches. Apprentices are expected to manage the collection and application of data and technology at their respective affiliate. Apprentices will gain experience across multiple areas of Baseball Operations.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-texas-rangers-player-development-data-apprentice/#more-348583",
+				logo: "rangers.gif",
+				date: {
+					posted: {
+						year: 2020,
+						month: 10,
+						day: 8
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Seattle Mariners",
 				title: "Baseball Operations R&D Analyst",
 				location: "Seattle, WA",
