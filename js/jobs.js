@@ -25,6 +25,60 @@
 				isTeam: true
 			},
 			{
+				company: "Los Angeles Dodgers",
+				title: "Junior Quantitative Analyst",
+				location: "Los Angeles, CA",
+				description: "The Quantitative Analysis team of the Los Angeles Dodgers is responsible for researching and developing data-driven metrics and tools that enhance decision-making throughout baseball operations. We are seeking to hire a Junior Quantitative Analyst to join the team. As a member of the team, you will work with and learn from experts in statistics, computer science, biomechanics and other disciplines. This position offers growth potential and the opportunity to see the impact of your work on the field.",
+				link: "https://www.linkedin.com/jobs/view/2268886520/?refId=yupqxB6rQW6ltnrch%2BZ0vA%3D%3D",
+				logo: "dodgers.gif",
+				date: {
+					posted: {
+						year: 2020,
+						month: 11,
+						day: 11
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Detroit Tigers",
+				title: "Baseball Operations Analyst",
+				location: "Detroit, MI",
+				description: "The Detroit Tigers are currently seeking a full-time Analyst in the Baseball Operations Department. This role will be responsible for performing analyses and conducting research within Baseball Operations. This position will report to the Director, Baseball Analytics.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-detroit-tigers-baseball-operations-analyst/",
+				logo: "tigers.gif",
+				date: {
+					posted: {
+						year: 2020,
+						month: 11,
+						day: 11
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Boston Red Sox",
+				title: "Analyst",
+				location: "Boston, MA",
+				description: "The Boston Red Sox are seeking an Analyst for the team’s Baseball Analytics department. The role will support all areas of Baseball Operations while working closely with the EVP/Assistant GM, Director of Baseball Analytics, and the Red Sox’s team of analysts.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-boston-red-sox-analyst-2/",
+				logo: "redsox.gif",
+				date: {
+					posted: {
+						year: 2020,
+						month: 2,
+						day: 11
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Minnesota Twins",
 				title: "Baseball Research Fellow",
 				location: "Minneapolis, MN",
