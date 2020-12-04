@@ -7,20 +7,38 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
-				company: "Basic Template",
-				title: "",
-				location: "",
-				description: "",
-				link: "",
-				logo: "",
+				company: "Cleveland Indians",
+				title: "Data Scientist",
+				location: "Cleveland, OH",
+				description: "The Cleveland Indians Baseball Research & Development group is seeking to hire an experienced data scientist to use advanced machine learning techniques to enhance our ability to quantify the game of baseball. In this role, you will work with complex high-dimensional, spatiotemporal data such as video, player tracking, and biomechanics data. You will use these data sources to help the team acquire the best possible players (i.e. trades, free agency, draft) and develop them into members of a championship-caliber team. As a machine-learning expert within the research team, you will be responsible for model conception, design, and implementation. We are open to a remote role for the right candidate, but relocation to Cleveland, OH is preferred.",
+				link: "https://boards.greenhouse.io/clevelandindiansbops/jobs/4966494002",
+				logo: "indians.png",
 				date: {
 					posted: {
-						year: 2019,
-						month: 11,
+						year: 2020,
+						month: 12,
 						day: 3
 					}
 				},
-				show: false,
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Cleveland Indians",
+				title: "Analyst",
+				location: "Cleveland, OH",
+				description: "The Cleveland Indians are seeking an analyst to join the team’s Baseball Research and Development group. The position will use the team’s proprietary data to build tools and resources that help the team across all facets of baseball operations. The ideal candidate will possess a strong foundation in statistics and/or data science, the ability to effectively communicate findings to colleagues in non-technical roles, and a passion for learning more about baseball. Strong applicants will demonstrate curiosity, creativity, and a drive to learn new concepts. We are open to a remote role for the right candidate, but relocation to Cleveland, OH is preferred.",
+				link: "https://boards.greenhouse.io/clevelandindiansbops/jobs/4966509002",
+				logo: "indians.png",
+				date: {
+					posted: {
+						year: 2020,
+						month: 12,
+						day: 3
+					}
+				},
+				show: true,
 				active: true,
 				isTeam: true
 			},
