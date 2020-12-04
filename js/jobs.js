@@ -7,6 +7,24 @@
 		navbarTitle: "Job Postings",
 		jobs: [
 			{
+				company: "Template",
+				title: "",
+				location: "",
+				description: "",
+				link: "",
+				logo: "",
+				date: {
+					posted: {
+						year: 2020,
+						month: 12,
+						day: 3
+					}
+				},
+				show: false,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Cleveland Indians",
 				title: "Data Scientist",
 				location: "Cleveland, OH",
