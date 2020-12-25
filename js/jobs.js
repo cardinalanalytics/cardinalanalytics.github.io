@@ -115,24 +115,6 @@
 				isTeam: true
 			},
 			{
-				company: "Texas Rangers",
-				title: "Data Apprentice",
-				location: "Arlington, TX",
-				description: "The Texas Rangers are seeking multiple apprentices to join their Player Development team. Each Apprentice will work full-time at one of the Rangers minor league affiliates and report to the Player Development department. Apprentices will operate as an extension of the front office staff and be a resource for both players and coaches. Apprentices will be expected to manage the collection of multiple data streams. Apprentices will gain exposure across multiple departments and have access to and be encouraged to use a suite of internal, proprietary resources.",
-				link: "https://www.teamworkonline.com/baseball-jobs/texasbaseball/texas-rangers/data-apprentice-1976232",
-				logo: "rangers.gif",
-				date: {
-					posted: {
-						year: 2020,
-						month: 12,
-						day: 3
-					}
-				},
-				show: true,
-				active: true,
-				isTeam: true
-			},
-			{
 				company: "Tampa Bay Rays",
 				title: "Research and Development Intern",
 				location: "St. Petersburg, FL",
@@ -144,24 +126,6 @@
 						year: 2020,
 						month: 11,
 						day: 20
-					}
-				},
-				show: true,
-				active: true,
-				isTeam: true
-			},
-			{
-				company: "Seattle Mariners",
-				title: "Baseball Projects Intern",
-				location: "Seattle, WA",
-				description: "The Baseball Projects team sits at the intersection of baseball analytics and broader baseball operations, organizing information and processes across player development, player acquisition, in-game strategy, and more.",
-				link: "https://blogs.fangraphs.com/instagraphs/job-posting-seattle-mariners-baseball-internships/",
-				logo: "mariners.gif",
-				date: {
-					posted: {
-						year: 2020,
-						month: 11,
-						day: 17
 					}
 				},
 				show: true,
@@ -219,7 +183,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -327,7 +291,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -345,7 +309,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: false
 			},
 			{
@@ -363,7 +327,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -381,7 +345,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
