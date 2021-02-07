@@ -7,12 +7,24 @@
 		navbarTitle: "Collaborations",
 		collaborations: [
 			{
-				partner: "Stanford Men's Basketball",
-				image: "images/collaborations/stanford-men-basketball.jpg"
-			},
-			{
 				partner: "San Jose Sharks",
 				image: "images/collaborations/san-jose-sharks.png"
+			},
+			{
+				partner: "Stanford Women's Volleyball",
+				image: "images/collaborations/stanford_womens_vball.jpg"
+			},
+			{
+				partner: "Stanford Football",
+				image: "images/collaborations/stanford_football.jpg"
+			},
+			{
+				partner: "Stanford Baseball",
+				image: "images/collaborations/stanford_bball.jpg"
+			},
+			{
+				partner: "Stanford Men's Basketball",
+				image: "images/collaborations/stanford-men-basketball.jpg"
 			}
 		]
 	};
