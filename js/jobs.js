@@ -25,40 +25,22 @@
 				isTeam: true
 			},
 			{
-				company: "Los Angeles Angels of Anaheim",
-				title: "Baseball Operations Analyst",
-				location: "Anaheim, CA",
-				description: "The Baseball Operations Analyst will support the Baseball Operations group’s efforts to analyze and provide data, statistics and other baseball-related information. The ideal candidate combines a strong background of technical skills with an understanding of baseball research concepts and modern gameplay strategies.",
-				link: "https://www.teamworkonline.com/baseball-jobs/los-angeles-angels-jobs/los-angeles-angels/angels-baseball-full-time-baseball-operations-analyst-1977632",
-				logo: "angels.gif",
+				company: "Pando",
+				title: "Data Science Intern",
+				location: "San Francisco, CA",
+				description: "We are seeking to hire a Data Science intern for this upcoming summer. This individual will work alongside Pando’s co-founders and data science team to enhance the Baseball team’s proprietary algorithm, utilizing hundreds of variables to predict individual players’ future earnings distributions. They will also help the Business team streamline their sales process by identifying candidates with a high likelihood of joining a pool.",
+				link: "https://www.pandopooling.com/job-application-data-science-intern",
+				logo: "pando.png",
 				date: {
 					posted: {
-						year: 2020,
-						month: 12,
-						day: 24
+						year: 2021,
+						month: 2,
+						day: 6
 					}
 				},
 				show: true,
 				active: true,
-				isTeam: true
-			},
-			{
-				company: "USA Baseball",
-				title: "Baseball Analytics Intern",
-				location: "Cary, NC (Remote)",
-				description: "USA Baseball’s National Training Complex in Cary, N.C. is equipped with TrackMan radar and data collection capabilities. The Trackman radar allows USA Baseball to enhance its evaluation and selection processes as well as assist in player development and training by adding in individual pitch and hit tracking data. This internship position will touch all programs and events that hold programming at the USA Baseball National Training Complex in 2021 including, but not limited to, NCAA Division II Baseball Championship, 14U National Team Development Program, 15U National Team, 16U National Team Development Program, Collegiate National Team, National Team Identification Series, and other opportunities on a to be determined basis.",
-				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/usa-baseball/baseball-analytics-intern-1977615",
-				logo: "usabaseball.png",
-				date: {
-					posted: {
-						year: 2020,
-						month: 12,
-						day: 24
-					}
-				},
-				show: true,
-				active: true,
-				isTeam: true
+				isTeam: false
 			},
 			{
 				company: "Toronto Blue Jays",
@@ -97,24 +79,6 @@
 				isTeam: true
 			},
 			{
-				company: "San Francisco Giants",
-				title: "Baseball Operations Analyst",
-				location: "Scottsdale, AZ",
-				description: "The San Francisco Giants are seeking an Analyst to join the Baseball Operations department.  This individual will be part of the R&D team with the primary focus to provide dedicated research and analysis to support the Player Development staff.  They will also interact with the Major League staff and Front Office to implement organizational initiatives.  The ideal candidate will possess strong analytical skills, the ability to communicate effectively to non-technical people, and both passion and intellectual curiosity for the game of baseball.",
-				link: "https://boards.greenhouse.io/sfgiants/jobs/4996236002",
-				logo: "giants.png",
-				date: {
-					posted: {
-						year: 2020,
-						month: 12,
-						day: 17
-					}
-				},
-				show: true,
-				active: true,
-				isTeam: true
-			},
-			{
 				company: "Tampa Bay Rays",
 				title: "Research and Development Intern",
 				location: "St. Petersburg, FL",
@@ -133,6 +97,96 @@
 				isTeam: true
 			},
 			{
+				company: "Boston Red Sox",
+				title: "Analyst",
+				location: "Boston, MA",
+				description: "The Boston Red Sox are seeking an Analyst for the team’s Baseball Analytics department. The role will support all areas of Baseball Operations while working closely with the EVP/Assistant GM, Director of Baseball Analytics, and the Red Sox’s team of analysts.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-boston-red-sox-analyst-2/",
+				logo: "redsox.gif",
+				date: {
+					posted: {
+						year: 2020,
+						month: 11,
+						day: 2
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Texas Rangers",
+				title: "Player Development Data Apprentice",
+				location: "Arlington, TX",
+				description: "The Texas Rangers are seeking multiple apprentices in Player Development. Each Apprentice will work full-time with one of the Rangers’ minor league affiliates and report to the Systems Integration Coordinator. Apprentices will operate as an extension of the coaching staff and be a resource for both players and coaches. Apprentices are expected to manage the collection and application of data and technology at their respective affiliate. Apprentices will gain experience across multiple areas of Baseball Operations.",
+				link: "https://blogs.fangraphs.com/instagraphs/job-posting-texas-rangers-player-development-data-apprentice/#more-348583",
+				logo: "rangers.gif",
+				date: {
+					posted: {
+						year: 2020,
+						month: 10,
+						day: 8
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "Los Angeles Angels of Anaheim",
+				title: "Baseball Operations Analyst",
+				location: "Anaheim, CA",
+				description: "The Baseball Operations Analyst will support the Baseball Operations group’s efforts to analyze and provide data, statistics and other baseball-related information. The ideal candidate combines a strong background of technical skills with an understanding of baseball research concepts and modern gameplay strategies.",
+				link: "https://www.teamworkonline.com/baseball-jobs/los-angeles-angels-jobs/los-angeles-angels/angels-baseball-full-time-baseball-operations-analyst-1977632",
+				logo: "angels.gif",
+				date: {
+					posted: {
+						year: 2020,
+						month: 12,
+						day: 24
+					}
+				},
+				show: true,
+				active: false,
+				isTeam: true
+			},
+			{
+				company: "USA Baseball",
+				title: "Baseball Analytics Intern",
+				location: "Cary, NC (Remote)",
+				description: "USA Baseball’s National Training Complex in Cary, N.C. is equipped with TrackMan radar and data collection capabilities. The Trackman radar allows USA Baseball to enhance its evaluation and selection processes as well as assist in player development and training by adding in individual pitch and hit tracking data. This internship position will touch all programs and events that hold programming at the USA Baseball National Training Complex in 2021 including, but not limited to, NCAA Division II Baseball Championship, 14U National Team Development Program, 15U National Team, 16U National Team Development Program, Collegiate National Team, National Team Identification Series, and other opportunities on a to be determined basis.",
+				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/usa-baseball/baseball-analytics-intern-1977615",
+				logo: "usabaseball.png",
+				date: {
+					posted: {
+						year: 2020,
+						month: 12,
+						day: 24
+					}
+				},
+				show: true,
+				active: false,
+				isTeam: true
+			},
+			{
+				company: "San Francisco Giants",
+				title: "Baseball Operations Analyst",
+				location: "Scottsdale, AZ",
+				description: "The San Francisco Giants are seeking an Analyst to join the Baseball Operations department.  This individual will be part of the R&D team with the primary focus to provide dedicated research and analysis to support the Player Development staff.  They will also interact with the Major League staff and Front Office to implement organizational initiatives.  The ideal candidate will possess strong analytical skills, the ability to communicate effectively to non-technical people, and both passion and intellectual curiosity for the game of baseball.",
+				link: "https://boards.greenhouse.io/sfgiants/jobs/4996236002",
+				logo: "giants.png",
+				date: {
+					posted: {
+						year: 2020,
+						month: 12,
+						day: 17
+					}
+				},
+				show: true,
+				active: false,
+				isTeam: true
+			},
+			{
 				company: "Cleveland Indians",
 				title: "Data Scientist",
 				location: "Cleveland, OH",
@@ -147,7 +201,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -165,7 +219,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -201,25 +255,7 @@
 					}
 				},
 				show: true,
-				active: true,
-				isTeam: true
-			},
-			{
-				company: "Boston Red Sox",
-				title: "Analyst",
-				location: "Boston, MA",
-				description: "The Boston Red Sox are seeking an Analyst for the team’s Baseball Analytics department. The role will support all areas of Baseball Operations while working closely with the EVP/Assistant GM, Director of Baseball Analytics, and the Red Sox’s team of analysts.",
-				link: "https://blogs.fangraphs.com/instagraphs/job-posting-boston-red-sox-analyst-2/",
-				logo: "redsox.gif",
-				date: {
-					posted: {
-						year: 2020,
-						month: 2,
-						day: 11
-					}
-				},
-				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -237,25 +273,7 @@
 					}
 				},
 				show: true,
-				active: true,
-				isTeam: true
-			},
-			{
-				company: "Texas Rangers",
-				title: "Player Development Data Apprentice",
-				location: "Arlington, TX",
-				description: "The Texas Rangers are seeking multiple apprentices in Player Development. Each Apprentice will work full-time with one of the Rangers’ minor league affiliates and report to the Systems Integration Coordinator. Apprentices will operate as an extension of the coaching staff and be a resource for both players and coaches. Apprentices are expected to manage the collection and application of data and technology at their respective affiliate. Apprentices will gain experience across multiple areas of Baseball Operations.",
-				link: "https://blogs.fangraphs.com/instagraphs/job-posting-texas-rangers-player-development-data-apprentice/#more-348583",
-				logo: "rangers.gif",
-				date: {
-					posted: {
-						year: 2020,
-						month: 10,
-						day: 8
-					}
-				},
-				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -273,7 +291,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
