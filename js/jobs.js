@@ -25,6 +25,60 @@
 				isTeam: true
 			},
 			{
+				company: "New York Mets",
+				title: "Senior Analyst, Baseball Analytics",
+				location: "Queens, New York",
+				description: "The New York Mets are seeking a Senior Analyst in Baseball Analytics. The Senior Analyst will build, test, and present statistical models that inform decision-making in all facets of Baseball Operations. This position requires strong background in complex statistics and data analytics, as well as the ability to communicate statistical model details and findings to both a technical and non-technical audience. Prior experience in or knowledge of baseball is not required.",
+				link: "https://sterlingmets.wd5.myworkdayjobs.com/en-US/Mets/job/Citi-Field--Queens-New-York/Senior-Analyst--Baseball-Analytics_R397-1",
+				logo: "mets.gif",
+				date: {
+					posted: {
+						year: 2021,
+						month: 2,
+						day: 24
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "New York Mets",
+				title: "Analyst, Baseball Analytics",
+				location: "Queens, New York",
+				description: "The New York Mets are seeking an Analyst in Baseball Analytics. The Analyst will build, test, and present statistical models that inform decision-making in all facets of Baseball Operations. This position requires strong background in complex statistics and data analytics, as well as the ability to communicate statistical model details and findings to both a technical and non-technical audience. Prior experience in or knowledge of baseball is a plus, but is not required.",
+				link: "https://sterlingmets.wd5.myworkdayjobs.com/en-US/Mets/job/Citi-Field--Queens-New-York/Analyst--Baseball-Analytics_R399",
+				logo: "mets.gif",
+				date: {
+					posted: {
+						year: 2021,
+						month: 2,
+						day: 23
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
+				company: "New York Mets",
+				title: "Biomechanical Analyst, Baseball Analytics",
+				location: "Queens, New York",
+				description: "The New York Mets are seeking a Biomechanical Analyst in Baseball Analytics. The Biomechanical Analyst will work in conjunction with the Sports Science department to answer a variety of questions relating to biomechanics and baseball. The analyst will be the primary bridge between Baseball Analytics and Sports Science, and will need a strong statistical background. Prior biomechanics experience is not required, but the expectation is that the Biomechanical Analyst will learn from the Sports Science group and become the expert for and advocate of their work within the Baseball Analytics department and to the wider Baseball Operations group.",
+				link: "https://sterlingmets.wd5.myworkdayjobs.com/en-US/Mets/job/Citi-Field--Queens-New-York/Biomechanical-Analyst--Baseball-Analytics_R398",
+				logo: "mets.gif",
+				date: {
+					posted: {
+						year: 2021,
+						month: 2,
+						day: 23
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "Pando",
 				title: "Data Science Intern",
 				location: "San Francisco, CA",
