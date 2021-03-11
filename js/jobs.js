@@ -25,6 +25,24 @@
 				isTeam: true
 			},
 			{
+				company: "Atlanta Hawks",
+				title: "Intern, Basketball Analyst, Basketball Strategy and Analytics",
+				location: "Remote",
+				description: "The Basketball Analyst Intern will work directly with the Atlanta Hawks Basketball Strategy & Analytics staff in support of the entire data pipeline including statistical analysis, building and automating reporting tools, data visualization, and data warehousing support. This position will work on projects that influence the strategic decision making of the Hawks organization by leveraging big data and advanced statistical/computer programing methods. This is an amazing opportunity to gain insight into the workings of a basketball analytics group for an NBA team.",
+				link: "https://www.linkedin.com/jobs/view/2437194852/?alternateChannel=search&refId=jBBz5bS0JAnZa%2F8IVXYKOg%3D%3D&trackingId=qRhmJLKytwQu6LnfuqZenQ%3D%3D",
+				logo: "hawks.png",
+				date: {
+					posted: {
+						year: 2021,
+						month: 3,
+						day: 11
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+			{
 				company: "New York Mets",
 				title: "Senior Analyst, Baseball Analytics",
 				location: "Queens, New York",
