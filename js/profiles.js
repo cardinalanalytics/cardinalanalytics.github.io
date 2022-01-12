@@ -11,27 +11,47 @@
 		],
 		members: [
 			{
-				name: 'Silas Morsink',
-				position: 'President',
-				joined: 2017,
-				image: 'images/profiles/silas.png',
-				description: "Silas is a senior from Bethesda, Maryland studying economics and statistics. He is currently the president of the club, and has been involved with the club’s projects with Stanford Baseball, Women’s Volleyball, and Football. He has also done projects in baseball, soccer, and tennis analytics. In his free time not spent on sports, he enjoys running, playing the piano, and backpacking.",
-				posts: [
-					{
-						title: "Economists Think MLB Pitchers are Weird (Probably)",
-						link: 'https://stanfordsportsanalytics.wordpress.com/2019/09/26/economists-think-mlb-pitchers-are-weird-probably/',
-					}
-				],
-				id: "silas",
-			},
-			{
 				name: 'Yasi Khan',
-				position: 'Vice President',
+				position: 'Co-President',
 				joined: 2018,
 				image: 'images/profiles/yasi-khan-2.jpeg',
-				description: "Yasi is a junior studying Symbolic Systems, on the Human-Centered Artificial Intelligence (HAI) track, with a minor in Creative Writing. Born and raised in San Francisco, the Giants are by far her favorite team: she believes Buster Posey is still criminally underrated. Outside of SSAC, Yasi is co-president of the Stanford Undergraduate Neuroscience Society (SUNS) and Co-VP of Operations for Stanford Women in Finance (SWiF).",
+				description: "Yasi is a senior from San Francisco, California studying Symbolic Systems on the Human-Centered Artificial Intelligence (HAI) track, while also minoring in creative writing (poetry). She is the current co-president of the club, and has formerly been the vice president as well as the lead of the club's baseball project. The San Francisco Giants are by far her favorite team. Outside of SSAC, Yasi enjoys reading, writing, and playing tennis.",
 				id: "yasi",
 			},
+			{
+				name: 'Max Pike',
+				position: 'Co-President',
+				joined: 2019,
+				image: 'images/profiles/max-pike.jpg',
+				description: "Max is a senior from Cleveland, Ohio studying Computer Science and Economics with a keen interest in Deep Learning and Computer Vision.  His number one sport is football and is a huge fan of all Cleveland sports teams.  He spends a lot of time diving into baseball analytics among others and researching new ways of applying technology to sports.  When he isn’t deep in consuming sports, he loves to play them in either intramural sports or club rugby!",
+				id: "max",
+			},
+			{
+				name: 'Kayla Ryan',
+				position: 'Vice President',
+				joined: '',
+				image: null,
+				description: '',
+				id: "kayla",
+			},
+			{
+				name: 'Justin Dea-Mattson',
+				position: 'Financial Officer',
+				joined: 2018,
+				image: 'images/profiles/justin-dea-mattson.jpg',
+				description: 'Justin is a senior studying Computer Science. Born and raised primarily in the Bay Area, Justin is largely a Bay Area sports fan rooting for the Warriors, 49ers, and Giants and his favorite sports are basketball and soccer. Justin has worked on projects for Stanford Volleyball and Stanford Football. In his free time Justin also loves to play recreational sports of all kinds to stay active.',
+				id: "justin",
+			},
+			{
+				name: 'Matias Shundi',
+				position: 'Technology Officer',
+				joined: 2020,
+				image: 'images/profiles/matias-shundi.png',
+				description: 'Matias is a sophomore from Chapel Hill, North Carolina studying math and computer science. His favorite sports are basketball and football. He has worked with the Stanford Men\'s Basketball Team, and is currently doing sports analytics research with Professor George Foster. In his free time he loves playing basketball as well as competitive chess and Scrabble.',
+				id: "matias",
+			},
+		],
+		members_hide: [
 			{
 				name: 'Jacob Neidig',
 				position: 'Vice President',
@@ -55,22 +75,26 @@
 				id: "matt",
 			},
 			{
-				name: 'Justin Dea-Mattson',
-				position: 'Financial Officer',
-				joined: 2018,
-				image: 'images/profiles/justin-dea-mattson.jpg',
-				description: 'Justin is a junior studying Computer Science. Born and raised primarily in the Bay Area, Justin is largely a Bay Area sports fan rooting for the Warriors, 49ers, and Giants and his favorite sports are basketball and soccer. Justin has worked on projects for Stanford Volleyball and Stanford Football. In his free time Justin also loves to play recreational sports of all kinds to stay active.',
-				id: "justin",
-			},
-			{
 				name: 'Mac Bagwell',
 				joined: 2019,
 				image: 'images/profiles/mac-bagwell.jpg',
 				description: "Mac is a senior majoring in Mathematical and Computational Science. He is a lifelong baseball fan; his favorite team is the Chicago Cubs, even though he was born and raised in Wisconsin. He was most recently involved in the club's baseball project, but he enjoys watching or analyzing any sport.",
 				id: 'mac',
 			},
-		],
-		members_hide: [
+			{
+				name: 'Silas Morsink',
+				position: 'President',
+				joined: 2017,
+				image: 'images/profiles/silas.png',
+				description: "Silas is a senior from Bethesda, Maryland studying economics and statistics. He is currently the president of the club, and has been involved with the club’s projects with Stanford Baseball, Women’s Volleyball, and Football. He has also done projects in baseball, soccer, and tennis analytics. In his free time not spent on sports, he enjoys running, playing the piano, and backpacking.",
+				posts: [
+					{
+						title: "Economists Think MLB Pitchers are Weird (Probably)",
+						link: 'https://stanfordsportsanalytics.wordpress.com/2019/09/26/economists-think-mlb-pitchers-are-weird-probably/',
+					}
+				],
+				id: "silas",
+			},
 			{
 				name: 'Alexander Stroud',
 				position: 'VP/Tech Officer',
