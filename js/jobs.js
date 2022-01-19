@@ -15,15 +15,263 @@
 				logo: "",
 				date: {
 					posted: {
-						year: 2020,
-						month: 12,
-						day: 3
+						year: 2022,
+						month: 1,
+						day: 18
 					}
 				},
 				show: false,
 				active: true,
 				isTeam: true
 			},
+
+			{
+				company: "Tampa Bay Rays",
+				title: "Analyst, Baseball Research & Development",
+				location: "St. Petersburg, Florida or Remote",
+				description: "Our R&D group helps shape the Baseball Operations decision-making processes through the analysis and interpretation of data. We are seeking those with a passion for baseball and a desire to contribute through mathematics, data analysis, and computation. The next members of our R&D team will be intellectual contributors that can work both individually and collaboratively, come up with interesting research questions to explore, find ways to answer those questions through the available data, develop, test and validate quantitative tools, communicate the results of their research, and work to apply their research outcomes to improve how our organization operates. The new hire will want to work with people who care about being a good teammate, want to make a positive impact on the organization, have an innovative spirit, and will explore new ways to improve. Does this describe you?",
+				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/tampa-bay-rays/analyst-baseball-research-development-1985376",
+				logo: "rays.gif",
+				date: {
+					posted: {
+						year: 2022,
+						month: 1,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+
+			{
+				company: "Tampa Bay Rays",
+				title: "Research and Development Intern",
+				location: "St. Petersburg, Florida",
+				description: "The Tampa Bay Rays are in search of our next Research and Development Intern. Our R&D group helps shape our Baseball Operations decision-making processes through the analysis and interpretation of data. We are seeking those with a passion for baseball and a desire to contribute through mathematics, data analysis and computation. Our next intern will be an intellectual contributor that can work both individually and collaboratively, coming up with interesting research questions to explore, find ways to answer those questions with the data at their disposal, communicate the results of their research, and work to apply their research outcomes to improve how our organization operates. We want to work with people who care about being good teammate, want to make a positive impact on our organization, have an innovative spirit, and will explore new ways to make us better. Does this describe you?",
+				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/tampa-bay-rays/research-and-development-intern-1993763",
+				logo: "rays.gif",
+				date: {
+					posted: {
+						year: 2022,
+						month: 1,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+
+			{
+				company: "Houston Astros",
+				title: "Full-Stack Developer, Research & Development",
+				location: "Houston, Texas",
+				description: "The Houston Astros Baseball Club is accepting applications for a talented full-stack developer to join our Research & Development team within Baseball Operations. The developer will join a growing development team responsible for building and maintaining software applications used by Astros players, coaches, and personnel to make better in-game decisions, acquire and develop the best talent, and win championships.  This position will help plan, design, and build new tools, visualizations, and APIs for the next generation of Astros web apps to support all facets of Baseball Operations (scouting, player development, player acquisition, video, and more).",
+				link: "https://www.teamworkonline.com/baseball-jobs/houstonbaseball/houston-astros/full-stack-developer-research-development-1987073",
+				logo: "astros.gif",
+				date: {
+					posted: {
+						year: 2022,
+						month: 1,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+
+			{
+				company: "Kansas City Royals",
+				title: "Sr Researcher-Baseball Research & Development",
+				location: "Kansas City, Montana",
+				description: "The Kansas City Royals Baseball Club is seeking a highly motivated and creative Senior Researcher to develop models and methodologies for use in decision-making by members of baseball operations. The ideal applicant will possess knowledge of data-driven techniques for use in leveraging baseball data to provide a competitive edge and innovative solutions to the Kansas City Royals.",
+				link: "https://www.teamworkonline.com/baseball-jobs/kansas-city-royals-jobs/kansas-city-royals/sr-researcher-baseball-research-development-1994080",
+				logo: "royals.gif",
+				date: {
+					posted: {
+						year: 2022,
+						month: 1,
+						day: 18
+					}
+				},
+				show: false,
+				active: true,
+				isTeam: true
+			},
+
+			{
+				company: "Washington Nationals",
+				title: "Intern, Baseball Research & Development",
+				location: "Washington, DC",
+				description: "The Washington Nationals are seeking two or three interns to join our Baseball Research & Development team for the 2022 season. As an intern, you’ll work on developing your skills at applying data science to baseball, researching baseball questions under the close mentorship of a team member of Baseball R&D. You’ll likely work on one project at a time, with plenty of time for model exploration and personal skill development. You’ll have the opportunity to work in a small baseball front office daily at the stadium, watching baseball and engaging regularly with more senior members of our baseball operations group.",
+				link: "https://www.teamworkonline.com/baseball-jobs/washington-nationals/washington-nationals/intern-baseball-research-development-r-d-2022-1996351",
+				logo: "nationals.gif",
+				date: {
+					posted: {
+						year: 2022,
+						month: 1,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+
+			{
+				company: "Pittsburgh Pirates",
+				title: "Fellow/Intern, Research & Development, Baseball Informatics",
+				location: "Pittsburgh, Pennsylvania",
+				description: "We are seeking individuals who are excited about the opportunity to be part of a collaborative and passionate environment, and to use their quantitative skills to work on projects that make an impact on the field and in the front office. In this role, you will utilize your problem-solving and analytical skills to design, code, and implement focused solutions that enable Baseball Operations personnel to make great decisions in the acquisition, development, and deployment of players.",
+				link: "https://www.teamworkonline.com/baseball-jobs/pittsburghpirates/pittsburgh-pirates-jobs/fellow-intern-research-development-baseball-informatics-1999490",
+				logo: "pirates.gif",
+				date: {
+					posted: {
+						year: 2022,
+						month: 1,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+
+			{
+				company: "Sports Info Solutions",
+				title: "Football Research Associate",
+				location: "Coplay, Pennsylvania or Remote",
+				description: "Perform modeling and research using SIS’s internal football database as well as other notable data sets (NextGen, etc). Write articles and research pieces to be featured in SIS Research and Analysis, Sharp Football Analysis, and Stat of the Week, among other sports outlets. Design and develop dashboards and various analytical tools to directly support front office and field personnel. Prepare cutting-edge research for presentation in a professional setting, including sales presentations and conferences. Collaborate with colleagues to help illuminate the value of SIS’s analytical products to prospective clients. Other duties as assigned.",
+				link: "https://www.teamworkonline.com/multiple-properties/sports-info-solutions-jobs/sports-info-solutions/football-research-associate-2000667",
+				logo: "sports-info-solutions.png",
+				date: {
+					posted: {
+						year: 2022,
+						month: 1,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+
+			{
+				company: "Philadelphia Flyers",
+				title: "Quantitative Analyst, Research & Development",
+				location: "Voorhees, New Jersey or Remote",
+				description: "As a quantitative analyst you will use your knowledge of hockey systems, tactics, and situations to develop a rigorous research approach with the stated goal of optimizing and improving outcomes for all facets of hockey operations such as: contract and cap modeling, in game tactics, player development, and general roster building. To accomplish this goal you will be tasked with mining, analyzing, and using statistical methods to distill actionable insights from the full player and puck tracking dataset, event data, and other historical internal and external datasets. The ideal candidate will possess technical coding and modeling skills as well as a consultative approach to communicating, presenting, and preparing visualizations that are easily digestible by the General Manager, coaching staff, scouts, and other key personnel.",
+				link: "https://www.teamworkonline.com/arenas-facilities-jobs/comcast-spectacor/philadelphia-flyers-jobs/quantitative-analyst-research-development-1996888",
+				logo: "flyers.png",
+				date: {
+					posted: {
+						year: 2022,
+						month: 1,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+
+			{
+				company: "Baltimore Orioles",
+				title: "Analyst, Baseball Analytics",
+				location: "Baltimore, Maryland",
+				description: "This position is responsible for creating and analyzing baseball datasets through the use of advanced statistical techniques, with the goal of building and maintaining interpretable predictive models and player valuation frameworks to aid in the decision-making of Baseball Operations executives. ",
+				link: "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/analyst-baseball-analytics-1992747",
+				logo: "orioles.png",
+				date: {
+					posted: {
+						year: 2022,
+						month: 1,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+
+			{
+				company: "Philadelphia Flyers",
+				title: "Analytics Engineer, Hockey Research & Development",
+				location: "Voorhees, New Jersey",
+				description: "The Philadelphia Flyers Hockey Analytics department supports decision making & strategy across all facets of the Hockey Operations department. The Analytics Engineer will be responsible for collaboratively planning, developing, and maintaining the databases, ETL processes, and internal tooling that underpins the work done by colleagues within the Flyers Hockey Analytics department. This role will also present the opportunity analyze data and share new insights with other members of the Analytics department, as well as the broader Hockey Operations department. This position will report to the Director of Hockey Analytics.",
+				link: "https://www.teamworkonline.com/arenas-facilities-jobs/comcast-spectacor/philadelphia-flyers-jobs/analytics-engineer-hockey-research-development-1996884",
+				logo: "flyers.png",
+				date: {
+					posted: {
+						year: 2022,
+						month: 1,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+
+			{
+				company: "Austin FC",
+				title: "Data & Analytics Manager",
+				location: "Austin, Texas",
+				description: "Austin FC is actively seeking a highly analytical and innovative Data & Analytics Manager who will be responsible for developing a centralized data warehouse and robust data collection process in order to support all three core stakeholder groups within soccer operations: High Performance, Recruitment and Coaching Staff.  This position will need to understand the collaborative nature of a high performance department and will manage and maintain all incoming data, and the technologies utilized to collect this data.  The Data & Analytics Manager will help maintain and continue to develop automated reporting and data visualization process for all stakeholders.  This position will work closely with the High Performance Director to make Austin FC into one of the most technologically advanced organizations in MLS.",
+				link: "https://www.teamworkonline.com/soccer-jobs/austin-fc/austin-fc-jobs/data-analytics-manager-2001147",
+				logo: "austin.jpg",
+				date: {
+					posted: {
+						year: 2022,
+						month: 1,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+
+			{
+				company: "USA Baseball",
+				title: "Intern, Data Quality and Reporting - Prospect Development Pipeline",
+				location: "Durham, NC (Remote)",
+				description: "This Data Quality and Reporting Intern position will support the day-to-day operation of USA Baseball and Major League Baseball’s Prospect Development Pipeline (PDP). The PDP is a collaborative effort between USA Baseball and the Commissioner’s Office that establishes an official identification and player development pathway for amateur baseball players in the United States. Athletes participating in the PDP undergo unique baseball and athletic assessments using state of the art technology as a part of the most comprehensive evaluative experience in any sport. This position will be responsible for organizing aggregate data from PDP evaluations and unifying various digital resources and assets to create personalized Player Reports sent to all participating athletes. The position will report to the Director, Sport Performance and Senior Director, Technology and will be supported by additional staff who will assist in the growth and facilitation of the program. In light of COVID-19, this position will feature a mix of remote and on-site work with a large volume of the work taking place remotely.",
+				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/usa-baseball/intern-data-quality-and-reporting-prospect-development-pipeline-1997362",
+				logo: "usabaseball.png",
+				date: {
+					posted: {
+						year: 2022,
+						month: 1,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+
+			{
+				company: "USA Baseball",
+				title: "Intern, Baseball Systems and Analytics",
+				location: "Durham, NC (Remote)",
+				description: "This Baseball Systems & Analytics position will support a range of USA Baseball player identification and development programs and initiatives. USA Baseball’s National Training Complex in Cary, N.C. is equipped with the latest Trackman V3 radar and data collection capabilities. The Trackman radar system allows USA Baseball to enhance its evaluation and selection processes as well as assist in player development and training by adding in individual pitch and hit tracking data. In addition to TrackMan, USA Baseball utilizes a range of technologies to measure players’ athletic performance, bullpen and batting practice metrics, and cognitive speed of processing. This internship position will work with both large and small datasets to identify trends, support player identification and selection processes, and develop tools to enhance USA Baseball’s use and understanding of athlete performance data.",
+				link: "https://www.teamworkonline.com/baseball-jobs/baseballjobs/usa-baseball/intern-baseball-systems-and-analytics-2001251",
+				logo: "usabaseball.png",
+				date: {
+					posted: {
+						year: 2022,
+						month: 1,
+						day: 18
+					}
+				},
+				show: true,
+				active: true,
+				isTeam: true
+			},
+
 			{
 				company: "Atlanta Hawks",
 				title: "Intern, Basketball Analyst, Basketball Strategy and Analytics",
@@ -39,7 +287,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -57,7 +305,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -75,7 +323,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -93,7 +341,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -111,7 +359,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: false
 			},
 			{
@@ -129,7 +377,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -147,7 +395,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -165,7 +413,7 @@
 					}
 				},
 				show: true,
-				active: true,
+				active: false,
 				isTeam: true
 			},
 			{
@@ -488,7 +736,7 @@
 						day: 18
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -506,7 +754,7 @@
 						day: 18
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -524,7 +772,7 @@
 						day: 18
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -542,7 +790,7 @@
 						day: 18
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: false
 			},
@@ -560,7 +808,7 @@
 						day: 18
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: false
 			},
@@ -578,7 +826,7 @@
 						day: 10
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -596,7 +844,7 @@
 						day: 10
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -614,7 +862,7 @@
 						day: 10
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -632,7 +880,7 @@
 						day: 10
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -650,7 +898,7 @@
 						day: 3
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -668,7 +916,7 @@
 						day: 3
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -686,7 +934,7 @@
 						day: 3
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -704,7 +952,7 @@
 						day: 3
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -722,7 +970,7 @@
 						day: 25
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -740,7 +988,7 @@
 						day: 25
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -758,7 +1006,7 @@
 						day: 14
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -776,7 +1024,7 @@
 						day: 14
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -794,7 +1042,7 @@
 						day: 9
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: false
 			},
@@ -812,7 +1060,7 @@
 						day: 30
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -830,7 +1078,7 @@
 						day: 30
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -848,7 +1096,7 @@
 						day: 30
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -866,7 +1114,7 @@
 						day: 27
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -884,7 +1132,7 @@
 						day: 27
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -902,7 +1150,7 @@
 						day: 26
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: false
 			},
@@ -920,7 +1168,7 @@
 						day: 26
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -938,7 +1186,7 @@
 						day: 25
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -956,7 +1204,7 @@
 						day: 24
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -974,7 +1222,7 @@
 						day: 23
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -992,7 +1240,7 @@
 						day: 23
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1010,7 +1258,7 @@
 						day: 23
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1028,7 +1276,7 @@
 						day: 19
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1046,7 +1294,7 @@
 						day: 19
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1064,7 +1312,7 @@
 						day: 19
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1082,7 +1330,7 @@
 						day: 19
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: false
 			},
@@ -1105,7 +1353,7 @@
 						day: 13
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1128,7 +1376,7 @@
 						day: 13
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1151,7 +1399,7 @@
 						day: 13
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1174,7 +1422,7 @@
 						day: 13
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1197,7 +1445,7 @@
 						day: 13
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1220,7 +1468,7 @@
 						day: 13
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1238,7 +1486,7 @@
 						day: 19
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1256,7 +1504,7 @@
 						day: 19
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1274,7 +1522,7 @@
 						day: 19
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1292,7 +1540,7 @@
 						day: 19
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1311,7 +1559,7 @@
 						day: 16
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1330,7 +1578,7 @@
 						day: 16
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1348,7 +1596,7 @@
 						day: 11
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1366,7 +1614,7 @@
 						day: 25
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1384,7 +1632,7 @@
 						day: 25
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},
@@ -1402,7 +1650,7 @@
 						day: 31
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},				
@@ -1420,7 +1668,7 @@
 						day: 30
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},	
@@ -1438,7 +1686,7 @@
 						day: 30
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},	
@@ -1456,7 +1704,7 @@
 						day: 30
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},					
@@ -1474,7 +1722,7 @@
 						day: 15
 					}
 				},
-				show: true,
+				show: false,
 				active: false,
 				isTeam: true
 			},		
