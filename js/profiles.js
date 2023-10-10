@@ -34,14 +34,6 @@
 				description: 'Obinna is a junior from Alexandria, Virginia studying Mathematical and Computational Science. He has researched the efficacy of fantasy soccer as a prediction market and volatility of batsmen’s performances in T20 cricket. He enjoys playing and watching many sports, including soccer, cricket, basketball, and rugby.',
 				id: "obinna",
 			},
-			{
-				name: '',
-				position: '',
-				joined: ,
-				image: '',
-				description: '',
-				id: "",
-			},
 		],
 		members_hide: [
 			{	name: 'Yasi Khan',
