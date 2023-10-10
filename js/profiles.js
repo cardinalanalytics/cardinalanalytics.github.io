@@ -1,4 +1,4 @@
-(function(window, document, undefined) {
+k(function(window, document, undefined) {
 
 	// data specifically for the members page
 	var membersData = {
@@ -27,12 +27,12 @@
 				id: "will",
 			},
 			{
-				name: '',
+				name: 'Obinna Ekeagwu',
 				position: '',
 				joined: '',
 				image: null,
 				description: '',
-				id: " ",
+				id: "Obinna",
 			},
 			{
 				name: 'Justin Dea-Mattson',
