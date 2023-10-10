@@ -15,7 +15,7 @@
 				position: 'Co-President',
 				joined: 2021,
 				image: 'images/profiles/Piper-Van-Wagenen.jpg',
-				description: "Piper is a junior from Darien, Connecticut studying Psychology with a concentration in Neuroscience. She is the current co-president, and has formerly served as a class officer. She has experience working as a sports research intern at RocNation Sports and as an investment and athlete relations intern at Patricof Co. She was a diver for 10 years and her favorite sport to analyze is baseball. Outside of SSAC, Piper loves to write, teach coding classes, do neuroscience research and work on social media and marketing teams for startups!",
+				description: "Piper is a junior from Darien, Connecticut studying Psychology with a concentration in Neuroscience. She is the current co-president, and has formerly served as a class officer. She has experience working as a sports research intern at RocNation Sports and as an investment and athlete relations intern at Patricof Co. She was a diver for 10 years and her favorite sport to analyze is baseball. Outside of SSAC, Piper loves to write, teach coding classes, do neuroscience research and work on social media and marketing teams for startups! pipervw@stanford.edu ",
 				id: "piper",
 			},
 			{
@@ -23,7 +23,7 @@
 				position: 'Co-President',
 				joined: 2021,
 				image: 'images/profiles/Will-Furlow.png',
-				description: "Will is a Junior from Chicago, Illinois studying Mathematical and Computational Science with a minor in Classics. He is currently co-president along with Piper. Will is a big St. Louis Cardinals fan and loves to watch and analyze baseball. He has experience doing projects in soccer, basketball, and baseball. In his free time, he enjoys playing recreational sports with his friends, learning more about data analytics, and reading.",
+				description: "Will is a Junior from Chicago, Illinois studying Mathematical and Computational Science with a minor in Classics. He is currently co-president along with Piper. Will is a big St. Louis Cardinals fan and loves to watch and analyze baseball. He has experience doing projects in soccer, basketball, and baseball. In his free time, he enjoys playing recreational sports with his friends, learning more about data analytics, and reading. wfurlow@stanford.edu",
 				id: "will",
 			},
 			{
