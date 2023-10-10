@@ -40,6 +40,7 @@
 				joined: '2022',
 				image: 'images/profiles/jeffrey-xue.jpeg',
 				description: "Jeffrey is a sophomore from Gainesville, Florida studying Electrical Engineering and Computer Science. He has experience doing math modeling and analyzing simulations for college football. He was a soccer player for over 10 years and plays basketball, football, and tennis for fun. Outside of SSAC, Jeffrey is a tutor for math and physics at the CTL and loves to do puzzles and learn random trivia.",
+				id: "jeffrey",
 			},
 		],
 		members_hide: [
