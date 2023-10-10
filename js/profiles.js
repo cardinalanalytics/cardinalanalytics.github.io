@@ -195,9 +195,8 @@
 			{	
 				name: 'Max Pike',
 				position: 'Co-President',
-				joined: 2019,
 				image: 'images/profiles/max-pike.jpg',
-				description: "Max served as Co-President and studied Computer Science and Economics with a keen interest in Deep Learning and Computer Vision.  His number one sport is football and is a huge fan of all Cleveland sports teams.  He currently works as a football data and innovation intern at the New York Giants!",
+				description: "Max served as Co-President in 2022 while studying Computer Science and Economics with a keen interest in Deep Learning and Computer Vision. He currently works as a football data and innovation intern at the New York Giants.",
 				id: "chris",
 				show: true,
 			},
