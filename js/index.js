@@ -21,7 +21,7 @@
 			{
 				image: "shield",
 				title: "Officers",
-				content: '<ul class="officers-list"><li>Piper Van Wagenen</li><li>Will Furlow</li><li>Obinna Ekeagwu</li><li>Alexander Stroud</li></ul>'
+				content: '<ul class="officers-list"><li>Piper Van Wagenen</li><li>Will Furlow</li><li>Obinna Ekeagwu</li><li>Jeffrey Xue</li></ul>'
 			}
 		]
 	};
