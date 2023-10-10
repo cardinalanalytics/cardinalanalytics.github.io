@@ -11,17 +11,17 @@
 			{
 				image: "calendar",
 				title: "Upcoming Meetings",
-				content: "Our meetings for the 2019-2020 school year will be weekly on Wednesdays at 7:30 pm in Old Union 215."
+				content: "Our meetings for the 2023-2024 school year will be weekly on Tuesdays at 7:00 pm in Building 160 Rm B40."
 			},
 			{
 				image: "comments",
 				title: "Announcements",
-				content: "We're excited for a new school year of Stanford Sports Analytics Club, the sixth year on campus. The best way to get involved is to come to meetings!"
+				content: "We're excited for a new school year of Stanford Sports Analytics Club, the ninth year on campus. The best way to get involved is to come to meetings!"
 			},
 			{
 				image: "shield",
 				title: "Officers",
-				content: '<ul class="officers-list"><li>Silas Morsink</li><li>Matt Colon</li><li>Julia Thompson</li><li>Alexander Stroud</li></ul>'
+				content: '<ul class="officers-list"><li>Piper Van Wagenen</li><li>Will Furlow</li><li>Obinna Ekeagwu</li><li>Alexander Stroud</li></ul>'
 			}
 		]
 	};
