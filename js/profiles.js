@@ -22,8 +22,9 @@
 				name: 'Will Furlow',
 				position: 'Co-President',
 				joined: 2021,
-				image: 'null',
-				description: "",
+				image: 'images/profiles/Will-Furlow.png',
+				description: "Will is a Junior from Chicago, Illinois studying Mathematical and Computational Science with a minor in Classics. He is currently co-president along with Piper. Will is a big St. Louis Cardinals fan and loves to watch and analyze baseball. He has experience doing projects in soccer, basketball, and baseball. In his free time, he enjoys playing recreational sports with his friends, learning more about data analytics, and reading. 
+",
 				id: "will",
 			},
 			{
