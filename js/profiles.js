@@ -192,6 +192,15 @@
 			"Many of our alumni are still active in the sports analytics world. See what they've been up to since leaving Stanford!"
 		],
 		alumni: [
+			{	
+				name: 'Max Pike',
+				position: 'Co-President',
+				joined: 2019,
+				image: 'images/profiles/max-pike.jpg',
+				description: "Max served as Co-President and studied Computer Science and Economics with a keen interest in Deep Learning and Computer Vision.  His number one sport is football and is a huge fan of all Cleveland sports teams.  He currently works as a football data and innovation intern at the New York Giants!",
+				id: "chris",
+				show: true,
+			},
 			{
 				name: 'Alexander Stroud',
 				image: 'images/profiles/alexander-stroud.jpg',
