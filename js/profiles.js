@@ -34,6 +34,13 @@
 				description: 'Obinna is a junior from Alexandria, Virginia studying Mathematical and Computational Science. He has researched the efficacy of fantasy soccer as a prediction market and volatility of batsmen’s performances in T20 cricket. He enjoys playing and watching many sports, including soccer, cricket, basketball, and rugby.',
 				id: "obinna",
 			},
+			{	
+				name: 'Jeffrey Xue',
+				position: 'Chief Technology Officer',
+				joined: '2022',
+				image: 'images/profiles/jeffrey-xue.jpeg',
+				description: "Jeffrey is a sophomore from Gainesville, Florida studying Electrical Engineering and Computer Science. He has experience doing math modeling and analyzing simulations for college football. He was a soccer player for over 10 years and plays basketball, football, and tennis for fun. Outside of SSAC, Jeffrey is a tutor for math and physics at the CTL and loves to do puzzles and learn random trivia.",
+			},
 		],
 		members_hide: [
 			{	name: 'Yasi Khan',
