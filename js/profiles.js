@@ -209,9 +209,9 @@
 				show: true,
 			},
 			{
-				name: 'Alexander Stroud',
+				name: 'Zander Stroud',
 				image: 'images/profiles/alexander-stroud.jpg',
-				description: "Zander majored in Mathematical and Computational Science, and is cotermed in Statistics at Stanford. While a member of the club, Zander did extensive work on analytics projects for Stanford Baseball. In summer 2018, he interned for the Tampa Bay Rays, and currently, he works as a Data Scientist for Pando Pooling.",
+				description: "Zander majored in Mathematical and Computational Science, and is cotermed in Statistics at Stanford. While a member of the club, Zander did extensive work on analytics projects for Stanford Baseball. In summer 2018, he interned for the Tampa Bay Rays, and currently, he works as a Data Scientist Manager for Pando Pooling..",
 				posts: [
 					{
 						title: "In Search of a Winning Strategy: Comparing FiveThirtyEight.com's CARM-ELO Predictions to Las Vegas Point Spreads",
@@ -224,7 +224,7 @@
 			{
 				name: 'Ryan Chen',
 				image: 'images/profiles/ryan-chen-alumni.jpg',
-				description: "Ryan is entering his 3rd season as a basketball data scientist with the Orlando Magic. While with SSAC, he contributed to club efforts in winning the 2017 NBA Hackathon and the 2016 UNC Basketball Analytics Summit Case Competition as well as writing for the (now-defunct) basketball blog 16 Wins A Ring.",
+				description: "Ryan is currently a second-year law student at Harvard Law School. Most recently, he spent four seasons in the basketball analytics group of the Orlando Magic. He graduated from Stanford in 201 with his master’s degree in Management Science & Engineering, where he was a recipient of the NSF Graduate Research Fellowship. WHile at Stanford, Ryan was a key member of SSAC, contributing to competition wins at the 2017 NBA Hackathon and the 2016 Basketball Analytics Summit.",
 				links: [
 					{
 						title: 'Personal Site',
@@ -241,7 +241,8 @@
 			{
 				name: 'Eli Shayer',
 				image: 'images/profiles/eli-shayer-2.jpg',
-				description: "Eli graduated in 2018 with a bachelor's in Mathematical and Computational Science, a master's in Statistics, and a minor in History. He has worked for the Chicago Cubs since 2016 as an intern, a developer, and currently is an analyst. In his four years as a member of SSAC he served terms as tech officer, president, and co-president.",
+				description: "Eli graduated in 2018 with a bachelor's in Mathematical and Computational Science, a master's in Statistics, and a minor in History. He has worked for the Chicago Cubs since 2016, and is currently Assistant Director of Baseball Systems. In his four years as a member of SSAC he served terms as tech officer, president, and co-president.
+.",
 				posts: [
 					{
 						title: 'A Fresh Take on Batting the Pitcher Eighth',
@@ -254,7 +255,8 @@
 			{
 				name: 'Nick Canova',
 				image: 'images/profiles/nick-canova-alumni.jpg',
-				description: "Nick got a Masters in Data Science in 2017 and is currently working on CBB Analytics, his college basketball startup. He was a VP of the club for a year. In addition to the startup, he has worked part-time at two other sports startups doing statistics and data science work.",
+				description: "Nick got a Masters in Data Science in 2017 and is the founder of CBB Analytics, the leading stats & analytics platform for college basketball teams. While at Stanford, he was a VP of the SSAC. 
+.",
 				links: [
 					{
 						title: 'CBB Analytics',
@@ -267,14 +269,15 @@
 			{
 				name: 'Chris Pickard',
 				image: 'images/profiles/chris-pickard-alumni.png',
-				description: "Chris Pickard is currently an analyst with the Sacramento Kings. In his role, Chris splits time principally supporting management with tools and analysis to guide team strategy, personnel decisions and roster evaluations and leading complex technical projects to further improve data driven processes within the organization. While in school, Chris finished 2nd in the inaugural NBA Hackathon and spent the 2016-2017 season as an analyst with the Los Angeles Clippers supporting their basketball analytics and research team. In addition to his time with SSAC, Chris spent four years as a member of the Men’s Varsity Swimming team earning All-American, Academic All-American and team captain honors while earning both his B.S. (2015) and M.S. (2017), both in Civil Engineering. ",
+				description: "Chris Pickard worked as an analyst with the Sacramento Kings from 2017-2020. In his role, Chris split time principally supporting management with tools and analysis to guide team strategy, personnel decisions and roster evaluations and leading complex technical projects to further improve data driven processes within the organization. He currently works as a product manager at Zelus Analytics and does strategy and analytics at RedBird FC.While in school, Chris finished 2nd in the inaugural NBA Hackathon and spent the 2016-2017 season as an analyst with the Los Angeles Clippers supporting their basketball analytics and research team. In addition to his time with SSAC, Chris spent four years as a member of the Men’s Varsity Swimming team earning All-American, Academic All-American and team captain honors while earning both his B.S. (2015) and M.S. (2017), both in Civil Engineering.",
+. ",
 				id: "chris",
 				show: true,
 			},
 			{
 				name: 'Scott Powers',
 				image: 'images/profiles/scott-powers-alumni.jpg',
-				description: "Scott defended his PhD thesis under Rob Tibshirani in 2017 and then joined the LA Dodgers as a senior analyst in R&D. He was promoted to Director of Quantitative Analysis in 2018. At Stanford, Scott played catcher on the club baseball team and setter on the club volleyball team.",
+				description: "Scott defended his PhD thesis under Rob Tibshirani in 2017 and then joined the LA Dodgers as a senior analyst in R&D. He was promoted to Director of Quantitative Analysis in 2018. In 2022, Scott joined the Houston Astros as Assistant General Manager. He currently works as a Data Scientist at Zelus Analytics and as Assistant Professor of Sport Analytics at Rice University. At Stanford, Scott played catcher on the club baseball team and setter on the club volleyball team.",
 				id: "scott",
 				posts: [
 					{
