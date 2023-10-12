@@ -241,8 +241,7 @@
 			{
 				name: 'Eli Shayer',
 				image: 'images/profiles/eli-shayer-2.jpg',
-				description: "Eli graduated in 2018 with a bachelor's in Mathematical and Computational Science, a master's in Statistics, and a minor in History. He has worked for the Chicago Cubs since 2016, and is currently Assistant Director of Baseball Systems. In his four years as a member of SSAC he served terms as tech officer, president, and co-president.
-,
+				description: "Eli graduated in 2018 with a bachelor's in Mathematical and Computational Science, a master's in Statistics, and a minor in History. He has worked for the Chicago Cubs since 2016, and is currently Assistant Director of Baseball Systems. In his four years as a member of SSAC he served terms as tech officer, president, and co-president.",
 				posts: [
 					{
 						title: 'A Fresh Take on Batting the Pitcher Eighth',
@@ -255,8 +254,8 @@
 			{
 				name: 'Nick Canova',
 				image: 'images/profiles/nick-canova-alumni.jpg',
-				description: "Nick got a Masters in Data Science in 2017 and is the founder of CBB Analytics, the leading stats & analytics platform for college basketball teams. While at Stanford, he was a VP of the SSAC. 
-,
+				description: "Nick got a Masters in Data Science in 2017 and is the founder of CBB Analytics, the leading stats & analytics platform for college basketball teams. While at Stanford, he was a VP of the SSAC.", 
+
 				links: [
 					{
 						title: 'CBB Analytics',
@@ -270,7 +269,7 @@
 				name: 'Chris Pickard',
 				image: 'images/profiles/chris-pickard-alumni.png',
 				description: "Chris Pickard worked as an analyst with the Sacramento Kings from 2017-2020. In his role, Chris split time principally supporting management with tools and analysis to guide team strategy, personnel decisions and roster evaluations and leading complex technical projects to further improve data driven processes within the organization. He currently works as a product manager at Zelus Analytics and does strategy and analytics at RedBird FC.While in school, Chris finished 2nd in the inaugural NBA Hackathon and spent the 2016-2017 season as an analyst with the Los Angeles Clippers supporting their basketball analytics and research team. In addition to his time with SSAC, Chris spent four years as a member of the Men’s Varsity Swimming team earning All-American, Academic All-American and team captain honors while earning both his B.S. (2015) and M.S. (2017), both in Civil Engineering.",
-,
+
 				id: "chris",
 				show: true,
 			},
