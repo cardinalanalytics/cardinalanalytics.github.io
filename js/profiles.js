@@ -10,6 +10,16 @@
 			"If you want to work on a project, each of these members is a great resource to help get you started! They have the experience and the knowledge to give you a head start."
 		],
 		members: [
+			{	
+				name: 'Jeffrey Xue',
+				position: 'President',
+				joined: '2022',
+				image: 'images/profiles/jeffrey-xue.jpeg',
+				description: "Jeffrey is a senior from Gainesville, Florida studying Electrical Engineering, Computer Science, and Mathematics. He has experience working on club projects for volleyball, basketball, soccer, and beach volleyball. He plays intramural sports, including soccer, basketball, football, volleyball, and softball, as well as sunday league soccer, golf, and tennis for fun. Jeffrey is also a TA for ENGR 40M.",
+				id: "jeffrey",
+			},
+		],
+		members_hide: [
 			{
 				name: 'Piper Van Wagenen',
 				position: 'Co-President',
@@ -34,16 +44,6 @@
 				description: 'Obinna is a junior from Alexandria, Virginia studying Mathematical and Computational Science. He has researched the efficacy of fantasy soccer as a prediction market and volatility of batsmen’s performances in T20 cricket. He enjoys playing and watching many sports, including soccer, cricket, basketball, and rugby.',
 				id: "obinna",
 			},
-			{	
-				name: 'Jeffrey Xue',
-				position: 'Chief Technology Officer',
-				joined: '2022',
-				image: 'images/profiles/jeffrey-xue.jpeg',
-				description: "Jeffrey is a sophomore from Gainesville, Florida studying Electrical Engineering and Computer Science. He has experience doing math modeling and analyzing simulations for college football. He was a soccer player for over 10 years and plays basketball, football, and tennis for fun. Outside of SSAC, Jeffrey is a tutor for math and physics at the CTL and loves to do puzzles and learn random trivia.",
-				id: "jeffrey",
-			},
-		],
-		members_hide: [
 			{	name: 'Yasi Khan',
 				position: 'Co-President',
 				joined: 2018,
@@ -289,7 +289,14 @@
 					}
 				],
 				show: true,
-			}
+			},
+			// {	
+			// 	name: 'Jeffrey Xue',
+			// 	image: 'images/profiles/jeffrey-xue2.jpeg',
+			// 	description: "Jeffrey graduated in 2026 with a bachelor's in Electrical Engineering, a master's in Computer Science, and a minor in Mathematics. He participated in the NBA Future Analytics Stars program, and is currently a quantitative trader at Citadel Securities. In his four years as a member of SSAC he served as CTO, president, and co-president.",
+			// 	id: "jeffrey",
+			// 	show: true,
+			// },
 		]
 	};
 	
